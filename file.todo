@@ -118,23 +118,35 @@
 # ── PHASE 5: Quality Gate ───────────────────────────────────────────
 
 [x] Rust unit tests (cargo test) — 9/9 passing
-[ ] Deno unit tests (deno test)
-    → Write tests for exercise-loader.ts
-    → Write tests for state.ts actions
-[ ] Vitest integration (optional)
+[x] Vitest integration (Standard Tooling Suite)
+[x] Deno unit tests (lib/*.test.ts)
+    [x] Write tests for exercise-loader.ts
+    [x] Write tests for state.ts actions
+    [x] Write tests for validation.ts
+    [x] Write tests for wasm-health-check.ts
 [ ] Stryker mutation testing (optional)
-[ ] Pre-commit hook
-[ ] Generate .bin exercise files from exercise spec
+[x] Pre-push hook (.git/hooks/pre-push)
+[ ] Generate .bin exercise files from exercise spec (Tool pending)
+
+# ── PHASE 6: Life Saver Strategy — Complete ✅ ──────────────────────
+
+[x] Phase 6.1: Frozen Core Shell (desktop/src/main.rs audited, 0 warnings)
+[x] Phase 6.2: Anti-Logic Drift (WASM purity tests, health checks, golden snapshots)
+[x] Phase 6.3: Standard Tooling Suite (Vitest 4.0.18, Playwright 1.58.2, deno fmt/lint/check)
+[x] Phase 6.4: Institutional Memory (copilot-instructions.md, .editorconfig, .gitattributes)
+[x] Phase 6.5: Git Bisect Strategy (deterministic snapshots, bisect-verify script, docs)
+[x] Phase 6.6: Verification Before Push (pre-push hook, GitHub Actions CI)
+[x] Phase 6.7: Migration & Clean Up (refactored islands, extracted lib/, deterministic PRNG)
 
 # ── REMAINING TASKS ─────────────────────────────────────────────────
 
-[ ] Generate 1,814 .bin exercise files (or build a generator script)
-[ ] Test native window mode: deno task start:native (requires FFI permissions)
+[ ] Generate 1,814 .bin exercise files (Phase 7 focus)
+[x] Test native window mode: deno task launch:desktop (Verified in Phase 6)
 [ ] Add keyboard navigation (Arrow keys for topic switching)
 [ ] Add Exercise history / review mode
 [ ] Add mastery verification in middleware (gating binary access)
 [ ] Cross-platform testing (macOS, Linux)
-[ ] Production build: deno task build:all
+[x] Production build: deno task build:all (Verified in CI)
 [ ] Package as distributable (bundle Deno + native lib + WASM + static assets)
 
 

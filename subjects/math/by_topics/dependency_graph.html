@@ -1,522 +1,741 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Math Topics — Conceptual Chain Dependency Graph</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Topics — Conceptual Chain Dependency Graph</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-  body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: #0f1117;
-    color: #e0e0e0;
-    overflow: hidden;
-  }
+      body {
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: #0f1117;
+        color: #e0e0e0;
+        overflow: hidden;
+      }
 
-  #header {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 100;
-    background: linear-gradient(180deg, #0f1117 60%, transparent);
-    padding: 18px 28px 30px;
-    pointer-events: none;
-  }
-  #header h1 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #c8ccd4;
-    letter-spacing: 0.5px;
-    pointer-events: auto;
-  }
-  #header p {
-    font-size: 12px;
-    color: #6b7280;
-    margin-top: 4px;
-    pointer-events: auto;
-  }
+      #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: linear-gradient(180deg, #0f1117 60%, transparent);
+        padding: 18px 28px 30px;
+        pointer-events: none;
+      }
+      #header h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #c8ccd4;
+        letter-spacing: 0.5px;
+        pointer-events: auto;
+      }
+      #header p {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 4px;
+        pointer-events: auto;
+      }
 
-  #graph { width: 100vw; height: 100vh; }
+      #graph {
+        width: 100vw;
+        height: 100vh;
+      }
 
-  /* ── Tooltip ────────────────────────────────────── */
-  #tooltip {
-    position: fixed;
-    pointer-events: none;
-    background: #1e2030;
-    border: 1px solid #2d3148;
-    border-radius: 10px;
-    padding: 14px 18px;
-    font-size: 13px;
-    line-height: 1.55;
-    max-width: 320px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.45);
-    opacity: 0;
-    transition: opacity .15s;
-    z-index: 200;
-  }
-  #tooltip.show { opacity: 1; }
-  #tooltip .tt-title {
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-  #tooltip .tt-file {
-    font-size: 11px;
-    color: #6b7280;
-    margin-bottom: 8px;
-    font-family: 'Cascadia Code', 'Fira Code', monospace;
-  }
-  #tooltip .tt-row { display: flex; gap: 6px; margin-top: 3px; }
-  #tooltip .tt-label { color: #9ca3af; min-width: 72px; }
-  #tooltip .tt-value { color: #e0e0e0; }
+      /* ── Tooltip ────────────────────────────────────── */
+      #tooltip {
+        position: fixed;
+        pointer-events: none;
+        background: #1e2030;
+        border: 1px solid #2d3148;
+        border-radius: 10px;
+        padding: 14px 18px;
+        font-size: 13px;
+        line-height: 1.55;
+        max-width: 320px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+        opacity: 0;
+        transition: opacity 0.15s;
+        z-index: 200;
+      }
+      #tooltip.show {
+        opacity: 1;
+      }
+      #tooltip .tt-title {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+      #tooltip .tt-file {
+        font-size: 11px;
+        color: #6b7280;
+        margin-bottom: 8px;
+        font-family: "Cascadia Code", "Fira Code", monospace;
+      }
+      #tooltip .tt-row {
+        display: flex;
+        gap: 6px;
+        margin-top: 3px;
+      }
+      #tooltip .tt-label {
+        color: #9ca3af;
+        min-width: 72px;
+      }
+      #tooltip .tt-value {
+        color: #e0e0e0;
+      }
 
-  /* ── Legend ──────────────────────────────────────── */
-  #legend {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 100;
-    background: #1a1d2e;
-    border: 1px solid #2d3148;
-    border-radius: 10px;
-    padding: 14px 18px;
-    font-size: 12px;
-    line-height: 1.8;
-    box-shadow: 0 4px 20px rgba(0,0,0,.3);
-  }
-  #legend h3 {
-    font-size: 12px;
-    color: #9ca3af;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 6px;
-  }
-  .legend-item { display: flex; align-items: center; gap: 8px; }
-  .legend-dot {
-    width: 12px; height: 12px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
+      /* ── Legend ──────────────────────────────────────── */
+      #legend {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 100;
+        background: #1a1d2e;
+        border: 1px solid #2d3148;
+        border-radius: 10px;
+        padding: 14px 18px;
+        font-size: 12px;
+        line-height: 1.8;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+      #legend h3 {
+        font-size: 12px;
+        color: #9ca3af;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 6px;
+      }
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
 
-  /* ── Controls ────────────────────────────────────── */
-  #controls {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 100;
-    display: flex;
-    gap: 8px;
-  }
-  #controls button {
-    background: #1a1d2e;
-    border: 1px solid #2d3148;
-    color: #c8ccd4;
-    border-radius: 8px;
-    padding: 8px 14px;
-    cursor: pointer;
-    font-size: 13px;
-    transition: background .15s;
-  }
-  #controls button:hover { background: #262a40; }
+      /* ── Controls ────────────────────────────────────── */
+      #controls {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 100;
+        display: flex;
+        gap: 8px;
+      }
+      #controls button {
+        background: #1a1d2e;
+        border: 1px solid #2d3148;
+        color: #c8ccd4;
+        border-radius: 8px;
+        padding: 8px 14px;
+        cursor: pointer;
+        font-size: 13px;
+        transition: background 0.15s;
+      }
+      #controls button:hover {
+        background: #262a40;
+      }
 
-  /* ── Edge arrows ───────────────────────────────── */
-  .link { fill: none; stroke-width: 1.8px; }
+      /* ── Edge arrows ───────────────────────────────── */
+      .link {
+        fill: none;
+        stroke-width: 1.8px;
+      }
 
-  /* ── Node labels ───────────────────────────────── */
-  .node-label {
-    font-size: 11.5px;
-    font-weight: 600;
-    paint-order: stroke;
-    stroke: #0f1117;
-    stroke-width: 3.5px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    pointer-events: none;
-    user-select: none;
-  }
+      /* ── Node labels ───────────────────────────────── */
+      .node-label {
+        font-size: 11.5px;
+        font-weight: 600;
+        paint-order: stroke;
+        stroke: #0f1117;
+        stroke-width: 3.5px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        pointer-events: none;
+        user-select: none;
+      }
 
-  .node-step {
-    font-size: 12px;
-    font-weight: 800;
-    fill: #fff;
-    pointer-events: none;
-    user-select: none;
-    text-anchor: middle;
-    dominant-baseline: central;
-  }
-</style>
-</head>
-<body>
+      .node-step {
+        font-size: 12px;
+        font-weight: 800;
+        fill: #fff;
+        pointer-events: none;
+        user-select: none;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Math Topics — Conceptual Chain</h1>
+      <p>Drag nodes · Scroll to zoom · Hover for details</p>
+    </div>
 
-<div id="header">
-  <h1>Math Topics — Conceptual Chain</h1>
-  <p>Drag nodes · Scroll to zoom · Hover for details</p>
-</div>
+    <svg id="graph"></svg>
 
-<svg id="graph"></svg>
+    <div id="tooltip"></div>
 
-<div id="tooltip"></div>
+    <div id="legend">
+      <h3>Level</h3>
+      <div class="legend-item">
+        <div class="legend-dot" style="background: #4ade80"></div> Foundation (K–3)
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background: #38bdf8"></div> Core (3–6)
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background: #a78bfa"></div> Bridge (5–8)
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background: #f97316"></div> Advanced (8–College)
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background: #f43f5e"></div> Capstone
+      </div>
+    </div>
 
-<div id="legend">
-  <h3>Level</h3>
-  <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div> Foundation (K–3)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#38bdf8"></div> Core (3–6)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div> Bridge (5–8)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f97316"></div> Advanced (8–College)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f43f5e"></div> Capstone</div>
-</div>
+    <div id="controls">
+      <button onclick="resetZoom()">Reset View</button>
+      <button onclick="togglePhysics()">Toggle Physics</button>
+    </div>
 
-<div id="controls">
-  <button onclick="resetZoom()">Reset View</button>
-  <button onclick="togglePhysics()">Toggle Physics</button>
-</div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+      // ══════════════════════════════════════════════════════════════════
+      //  DATA — Nodes
+      // ══════════════════════════════════════════════════════════════════
+      const nodes = [
+        {
+          id: 1,
+          label: "Counting &\nNumber Sense",
+          file: "01_counting_and_number_sense.txt",
+          coverage: "K → Grade 8",
+          exercises: "40+",
+          tier: 0,
+          color: "#4ade80",
+        },
+        {
+          id: 2,
+          label: "Addition",
+          file: "02_addition.txt",
+          coverage: "K → Grade 6",
+          exercises: "30+",
+          tier: 0,
+          color: "#4ade80",
+        },
+        {
+          id: 3,
+          label: "Subtraction",
+          file: "03_subtraction.txt",
+          coverage: "K → Grade 6",
+          exercises: "25+",
+          tier: 0,
+          color: "#4ade80",
+        },
+        {
+          id: 4,
+          label: "Place Value &\nDecimals",
+          file: "04_place_value_and_decimals.txt",
+          coverage: "K → Grade 8",
+          exercises: "50+",
+          tier: 1,
+          color: "#38bdf8",
+        },
+        {
+          id: 5,
+          label: "Multiplication",
+          file: "05_multiplication.txt",
+          coverage: "Grade 3 → Alg 2",
+          exercises: "80+",
+          tier: 1,
+          color: "#38bdf8",
+        },
+        {
+          id: 6,
+          label: "Division",
+          file: "06_division.txt",
+          coverage: "Grade 3 → Alg 2",
+          exercises: "65+",
+          tier: 1,
+          color: "#38bdf8",
+        },
+        {
+          id: 7,
+          label: "Fractions",
+          file: "07_fractions.txt",
+          coverage: "Grade 1 → Precalc",
+          exercises: "100+",
+          tier: 1,
+          color: "#38bdf8",
+        },
+        {
+          id: 8,
+          label: "Measurement,\nMoney & Time",
+          file: "08_measurement_money_and_time.txt",
+          coverage: "K → Grade 5",
+          exercises: "45+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 9,
+          label: "Geometry",
+          file: "09_geometry.txt",
+          coverage: "K → HS Geometry",
+          exercises: "180+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 10,
+          label: "Data &\nGraphs",
+          file: "10_data_and_graphs.txt",
+          coverage: "Grade 1 → Grade 8",
+          exercises: "30+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 11,
+          label: "Ratios, Rates\n& Proportions",
+          file: "11_ratios_rates_proportions.txt",
+          coverage: "Grade 6 → Grade 7",
+          exercises: "55+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 12,
+          label: "Exponents &\nRadicals",
+          file: "12_exponents_and_radicals.txt",
+          coverage: "Grade 5 → Alg 2",
+          exercises: "40+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 13,
+          label: "Negative\nNumbers",
+          file: "13_negative_numbers.txt",
+          coverage: "Grade 6 → Grade 7",
+          exercises: "35+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 14,
+          label: "Patterns &\nSequences",
+          file: "14_patterns_and_sequences.txt",
+          coverage: "K → Precalculus",
+          exercises: "25+",
+          tier: 2,
+          color: "#a78bfa",
+        },
+        {
+          id: 15,
+          label: "Algebra &\nEquations",
+          file: "15_algebra_and_equations.txt",
+          coverage: "Grade 5 → College",
+          exercises: "200+",
+          tier: 3,
+          color: "#f97316",
+        },
+        {
+          id: 16,
+          label: "Functions",
+          file: "16_functions.txt",
+          coverage: "Grade 8 → Precalc",
+          exercises: "75+",
+          tier: 3,
+          color: "#f97316",
+        },
+        {
+          id: 17,
+          label: "Trigonometry",
+          file: "17_trigonometry.txt",
+          coverage: "Geom → Calculus 2",
+          exercises: "50+",
+          tier: 3,
+          color: "#f97316",
+        },
+        {
+          id: 18,
+          label: "Statistics &\nProbability",
+          file: "18_statistics_and_probability.txt",
+          coverage: "Grade 7 → AP Stats",
+          exercises: "130+",
+          tier: 3,
+          color: "#f97316",
+        },
+        {
+          id: 19,
+          label: "Calculus",
+          file: "19_calculus.txt",
+          coverage: "Precalc → Calc 3",
+          exercises: "250+",
+          tier: 4,
+          color: "#f43f5e",
+        },
+      ];
 
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script>
-// ══════════════════════════════════════════════════════════════════
-//  DATA — Nodes
-// ══════════════════════════════════════════════════════════════════
-const nodes = [
-  { id:1,  label:"Counting &\nNumber Sense",     file:"01_counting_and_number_sense.txt",  coverage:"K → Grade 8",          exercises:"40+",  tier:0, color:"#4ade80" },
-  { id:2,  label:"Addition",                      file:"02_addition.txt",                   coverage:"K → Grade 6",          exercises:"30+",  tier:0, color:"#4ade80" },
-  { id:3,  label:"Subtraction",                   file:"03_subtraction.txt",                coverage:"K → Grade 6",          exercises:"25+",  tier:0, color:"#4ade80" },
-  { id:4,  label:"Place Value &\nDecimals",       file:"04_place_value_and_decimals.txt",   coverage:"K → Grade 8",          exercises:"50+",  tier:1, color:"#38bdf8" },
-  { id:5,  label:"Multiplication",                file:"05_multiplication.txt",             coverage:"Grade 3 → Alg 2",     exercises:"80+",  tier:1, color:"#38bdf8" },
-  { id:6,  label:"Division",                      file:"06_division.txt",                   coverage:"Grade 3 → Alg 2",     exercises:"65+",  tier:1, color:"#38bdf8" },
-  { id:7,  label:"Fractions",                     file:"07_fractions.txt",                  coverage:"Grade 1 → Precalc",   exercises:"100+", tier:1, color:"#38bdf8" },
-  { id:8,  label:"Measurement,\nMoney & Time",    file:"08_measurement_money_and_time.txt", coverage:"K → Grade 5",          exercises:"45+",  tier:2, color:"#a78bfa" },
-  { id:9,  label:"Geometry",                      file:"09_geometry.txt",                   coverage:"K → HS Geometry",     exercises:"180+", tier:2, color:"#a78bfa" },
-  { id:10, label:"Data &\nGraphs",                file:"10_data_and_graphs.txt",            coverage:"Grade 1 → Grade 8",   exercises:"30+",  tier:2, color:"#a78bfa" },
-  { id:11, label:"Ratios, Rates\n& Proportions",  file:"11_ratios_rates_proportions.txt",   coverage:"Grade 6 → Grade 7",   exercises:"55+",  tier:2, color:"#a78bfa" },
-  { id:12, label:"Exponents &\nRadicals",         file:"12_exponents_and_radicals.txt",     coverage:"Grade 5 → Alg 2",     exercises:"40+",  tier:2, color:"#a78bfa" },
-  { id:13, label:"Negative\nNumbers",             file:"13_negative_numbers.txt",           coverage:"Grade 6 → Grade 7",   exercises:"35+",  tier:2, color:"#a78bfa" },
-  { id:14, label:"Patterns &\nSequences",         file:"14_patterns_and_sequences.txt",     coverage:"K → Precalculus",     exercises:"25+",  tier:2, color:"#a78bfa" },
-  { id:15, label:"Algebra &\nEquations",          file:"15_algebra_and_equations.txt",      coverage:"Grade 5 → College",   exercises:"200+", tier:3, color:"#f97316" },
-  { id:16, label:"Functions",                     file:"16_functions.txt",                  coverage:"Grade 8 → Precalc",   exercises:"75+",  tier:3, color:"#f97316" },
-  { id:17, label:"Trigonometry",                  file:"17_trigonometry.txt",               coverage:"Geom → Calculus 2",   exercises:"50+",  tier:3, color:"#f97316" },
-  { id:18, label:"Statistics &\nProbability",     file:"18_statistics_and_probability.txt",  coverage:"Grade 7 → AP Stats",  exercises:"130+", tier:3, color:"#f97316" },
-  { id:19, label:"Calculus",                      file:"19_calculus.txt",                   coverage:"Precalc → Calc 3",    exercises:"250+", tier:4, color:"#f43f5e" },
-];
+      // ══════════════════════════════════════════════════════════════════
+      //  DATA — Edges  (direct dependencies only, not transitive)
+      // ══════════════════════════════════════════════════════════════════
+      const links = [
+        // Foundation chain
+        { source: 1, target: 2 },
+        { source: 2, target: 3 },
+        { source: 3, target: 4 },
+        { source: 4, target: 5 },
+        { source: 5, target: 6 },
 
-// ══════════════════════════════════════════════════════════════════
-//  DATA — Edges  (direct dependencies only, not transitive)
-// ══════════════════════════════════════════════════════════════════
-const links = [
-  // Foundation chain
-  { source:1,  target:2  },
-  { source:2,  target:3  },
-  { source:3,  target:4  },
-  { source:4,  target:5  },
-  { source:5,  target:6  },
+        // Fractions ← place value + mult + div
+        { source: 4, target: 7 },
+        { source: 5, target: 7 },
+        { source: 6, target: 7 },
 
-  // Fractions ← place value + mult + div
-  { source:4,  target:7  },
-  { source:5,  target:7  },
-  { source:6,  target:7  },
+        // Measurement ← mult + div
+        { source: 5, target: 8 },
+        { source: 6, target: 8 },
 
-  // Measurement ← mult + div
-  { source:5,  target:8  },
-  { source:6,  target:8  },
+        // Geometry ← measurement + fractions
+        { source: 7, target: 9 },
+        { source: 8, target: 9 },
 
-  // Geometry ← measurement + fractions
-  { source:7,  target:9  },
-  { source:8,  target:9  },
+        // Data ← mult + div
+        { source: 5, target: 10 },
+        { source: 6, target: 10 },
 
-  // Data ← mult + div
-  { source:5,  target:10 },
-  { source:6,  target:10 },
+        // Ratios ← mult + fractions
+        { source: 5, target: 11 },
+        { source: 7, target: 11 },
 
-  // Ratios ← mult + fractions
-  { source:5,  target:11 },
-  { source:7,  target:11 },
+        // Exponents ← mult + div
+        { source: 5, target: 12 },
+        { source: 6, target: 12 },
 
-  // Exponents ← mult + div
-  { source:5,  target:12 },
-  { source:6,  target:12 },
+        // Negatives ← all four operations
+        { source: 5, target: 13 },
+        { source: 6, target: 13 },
 
-  // Negatives ← all four operations
-  { source:5,  target:13 },
-  { source:6,  target:13 },
+        // Patterns ← mult + div
+        { source: 5, target: 14 },
+        { source: 6, target: 14 },
 
-  // Patterns ← mult + div
-  { source:5,  target:14 },
-  { source:6,  target:14 },
+        // Algebra ← everything before it
+        { source: 7, target: 15 },
+        { source: 9, target: 15 },
+        { source: 10, target: 15 },
+        { source: 11, target: 15 },
+        { source: 12, target: 15 },
+        { source: 13, target: 15 },
+        { source: 14, target: 15 },
 
-  // Algebra ← everything before it
-  { source:7,  target:15 },
-  { source:9,  target:15 },
-  { source:10, target:15 },
-  { source:11, target:15 },
-  { source:12, target:15 },
-  { source:13, target:15 },
-  { source:14, target:15 },
+        // Functions ← algebra
+        { source: 15, target: 16 },
 
-  // Functions ← algebra
-  { source:15, target:16 },
+        // Trig ← geometry + functions
+        { source: 9, target: 17 },
+        { source: 16, target: 17 },
 
-  // Trig ← geometry + functions
-  { source:9,  target:17 },
-  { source:16, target:17 },
+        // Stats ← fractions + data + ratios + algebra
+        { source: 7, target: 18 },
+        { source: 10, target: 18 },
+        { source: 11, target: 18 },
+        { source: 15, target: 18 },
 
-  // Stats ← fractions + data + ratios + algebra
-  { source:7,  target:18 },
-  { source:10, target:18 },
-  { source:11, target:18 },
-  { source:15, target:18 },
+        // Calculus ← functions + trig
+        { source: 16, target: 19 },
+        { source: 17, target: 19 },
+      ];
 
-  // Calculus ← functions + trig
-  { source:16, target:19 },
-  { source:17, target:19 },
-];
+      // ══════════════════════════════════════════════════════════════════
+      //  SVG SETUP
+      // ══════════════════════════════════════════════════════════════════
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      const svg = d3.select("#graph").attr("width", width).attr("height", height);
+      const tooltip = d3.select("#tooltip");
 
-// ══════════════════════════════════════════════════════════════════
-//  SVG SETUP
-// ══════════════════════════════════════════════════════════════════
-const width  = window.innerWidth;
-const height = window.innerHeight;
-const svg    = d3.select("#graph").attr("width", width).attr("height", height);
-const tooltip = d3.select("#tooltip");
+      // Zoom container
+      const g = svg.append("g");
+      const zoomBehavior = d3.zoom()
+        .scaleExtent([0.25, 3])
+        .on("zoom", (e) => g.attr("transform", e.transform));
+      svg.call(zoomBehavior);
 
-// Zoom container
-const g = svg.append("g");
-const zoomBehavior = d3.zoom()
-  .scaleExtent([0.25, 3])
-  .on("zoom", (e) => g.attr("transform", e.transform));
-svg.call(zoomBehavior);
+      // Arrow marker
+      svg.append("defs").append("marker")
+        .attr("id", "arrowhead")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 26)
+        .attr("refY", 0)
+        .attr("markerWidth", 7)
+        .attr("markerHeight", 7)
+        .attr("orient", "auto")
+        .append("path")
+        .attr("d", "M0,-4L8,0L0,4")
+        .attr("fill", "#3b3f54");
 
-// Arrow marker
-svg.append("defs").append("marker")
-  .attr("id", "arrowhead")
-  .attr("viewBox", "0 -5 10 10")
-  .attr("refX", 26)
-  .attr("refY", 0)
-  .attr("markerWidth", 7)
-  .attr("markerHeight", 7)
-  .attr("orient", "auto")
-  .append("path")
-  .attr("d", "M0,-4L8,0L0,4")
-  .attr("fill", "#3b3f54");
+      // Glow filter
+      const defs = svg.select("defs");
+      const filter = defs.append("filter").attr("id", "glow");
+      filter.append("feGaussianBlur").attr("stdDeviation", "3").attr("result", "blur");
+      const merge = filter.append("feMerge");
+      merge.append("feMergeNode").attr("in", "blur");
+      merge.append("feMergeNode").attr("in", "SourceGraphic");
 
-// Glow filter
-const defs = svg.select("defs");
-const filter = defs.append("filter").attr("id", "glow");
-filter.append("feGaussianBlur").attr("stdDeviation", "3").attr("result", "blur");
-const merge = filter.append("feMerge");
-merge.append("feMergeNode").attr("in", "blur");
-merge.append("feMergeNode").attr("in", "SourceGraphic");
+      // ══════════════════════════════════════════════════════════════════
+      //  LINKS
+      // ══════════════════════════════════════════════════════════════════
+      const linkSel = g.append("g")
+        .selectAll("path")
+        .data(links)
+        .join("path")
+        .attr("class", "link")
+        .attr("stroke", "#2a2e44")
+        .attr("marker-end", "url(#arrowhead)");
 
-// ══════════════════════════════════════════════════════════════════
-//  LINKS
-// ══════════════════════════════════════════════════════════════════
-const linkSel = g.append("g")
-  .selectAll("path")
-  .data(links)
-  .join("path")
-  .attr("class", "link")
-  .attr("stroke", "#2a2e44")
-  .attr("marker-end", "url(#arrowhead)");
+      // ══════════════════════════════════════════════════════════════════
+      //  NODES
+      // ══════════════════════════════════════════════════════════════════
+      const nodeRadius = 20;
 
-// ══════════════════════════════════════════════════════════════════
-//  NODES
-// ══════════════════════════════════════════════════════════════════
-const nodeRadius = 20;
+      const nodeG = g.append("g")
+        .selectAll("g")
+        .data(nodes)
+        .join("g")
+        .attr("cursor", "grab")
+        .call(
+          d3.drag()
+            .on("start", dragStart)
+            .on("drag", dragged)
+            .on("end", dragEnd),
+        );
 
-const nodeG = g.append("g")
-  .selectAll("g")
-  .data(nodes)
-  .join("g")
-  .attr("cursor", "grab")
-  .call(d3.drag()
-    .on("start", dragStart)
-    .on("drag",  dragged)
-    .on("end",   dragEnd));
+      // Outer glow circle
+      nodeG.append("circle")
+        .attr("r", nodeRadius + 4)
+        .attr("fill", "none")
+        .attr("stroke", (d) => d.color)
+        .attr("stroke-width", 1)
+        .attr("opacity", 0.15)
+        .attr("filter", "url(#glow)");
 
-// Outer glow circle
-nodeG.append("circle")
-  .attr("r", nodeRadius + 4)
-  .attr("fill", "none")
-  .attr("stroke", d => d.color)
-  .attr("stroke-width", 1)
-  .attr("opacity", 0.15)
-  .attr("filter", "url(#glow)");
+      // Main circle
+      nodeG.append("circle")
+        .attr("r", nodeRadius)
+        .attr("fill", (d) => d.color + "22")
+        .attr("stroke", (d) => d.color)
+        .attr("stroke-width", 2);
 
-// Main circle
-nodeG.append("circle")
-  .attr("r", nodeRadius)
-  .attr("fill", d => d.color + "22")
-  .attr("stroke", d => d.color)
-  .attr("stroke-width", 2);
+      // Step number inside circle
+      nodeG.append("text")
+        .attr("class", "node-step")
+        .text((d) => d.id);
 
-// Step number inside circle
-nodeG.append("text")
-  .attr("class", "node-step")
-  .text(d => d.id);
+      // Label below
+      nodeG.append("text")
+        .attr("class", "node-label")
+        .attr("fill", (d) => d.color)
+        .attr("text-anchor", "middle")
+        .attr("dy", nodeRadius + 14)
+        .each(function (d) {
+          const lines = d.label.split("\n");
+          const el = d3.select(this);
+          el.text(null);
+          lines.forEach((line, i) => {
+            el.append("tspan")
+              .attr("x", 0)
+              .attr("dy", i === 0 ? 0 : "1.2em")
+              .text(line);
+          });
+        });
 
-// Label below
-nodeG.append("text")
-  .attr("class", "node-label")
-  .attr("fill", d => d.color)
-  .attr("text-anchor", "middle")
-  .attr("dy", nodeRadius + 14)
-  .each(function(d) {
-    const lines = d.label.split("\n");
-    const el = d3.select(this);
-    el.text(null);
-    lines.forEach((line, i) => {
-      el.append("tspan")
-        .attr("x", 0)
-        .attr("dy", i === 0 ? 0 : "1.2em")
-        .text(line);
-    });
-  });
+      // ══════════════════════════════════════════════════════════════════
+      //  HOVER INTERACTIONS
+      // ══════════════════════════════════════════════════════════════════
+      nodeG.on("mouseenter", function (event, d) {
+        // Highlight connected
+        const connectedIds = new Set([d.id]);
+        links.forEach((l) => {
+          const s = typeof l.source === "object" ? l.source.id : l.source;
+          const t = typeof l.target === "object" ? l.target.id : l.target;
+          if (s === d.id) connectedIds.add(t);
+          if (t === d.id) connectedIds.add(s);
+        });
 
-// ══════════════════════════════════════════════════════════════════
-//  HOVER INTERACTIONS
-// ══════════════════════════════════════════════════════════════════
-nodeG.on("mouseenter", function(event, d) {
-  // Highlight connected
-  const connectedIds = new Set([d.id]);
-  links.forEach(l => {
-    const s = typeof l.source === "object" ? l.source.id : l.source;
-    const t = typeof l.target === "object" ? l.target.id : l.target;
-    if (s === d.id) connectedIds.add(t);
-    if (t === d.id) connectedIds.add(s);
-  });
+        nodeG.transition().duration(150)
+          .attr("opacity", (n) => connectedIds.has(n.id) ? 1 : 0.15);
 
-  nodeG.transition().duration(150)
-    .attr("opacity", n => connectedIds.has(n.id) ? 1 : 0.15);
+        linkSel.transition().duration(150)
+          .attr("stroke", (l) => {
+            const s = typeof l.source === "object" ? l.source.id : l.source;
+            const t = typeof l.target === "object" ? l.target.id : l.target;
+            if (s === d.id || t === d.id) return d.color;
+            return "#2a2e44";
+          })
+          .attr("stroke-width", (l) => {
+            const s = typeof l.source === "object" ? l.source.id : l.source;
+            const t = typeof l.target === "object" ? l.target.id : l.target;
+            return (s === d.id || t === d.id) ? 2.8 : 1.2;
+          })
+          .attr("opacity", (l) => {
+            const s = typeof l.source === "object" ? l.source.id : l.source;
+            const t = typeof l.target === "object" ? l.target.id : l.target;
+            return (s === d.id || t === d.id) ? 1 : 0.1;
+          });
 
-  linkSel.transition().duration(150)
-    .attr("stroke", l => {
-      const s = typeof l.source === "object" ? l.source.id : l.source;
-      const t = typeof l.target === "object" ? l.target.id : l.target;
-      if (s === d.id || t === d.id) return d.color;
-      return "#2a2e44";
-    })
-    .attr("stroke-width", l => {
-      const s = typeof l.source === "object" ? l.source.id : l.source;
-      const t = typeof l.target === "object" ? l.target.id : l.target;
-      return (s === d.id || t === d.id) ? 2.8 : 1.2;
-    })
-    .attr("opacity", l => {
-      const s = typeof l.source === "object" ? l.source.id : l.source;
-      const t = typeof l.target === "object" ? l.target.id : l.target;
-      return (s === d.id || t === d.id) ? 1 : 0.1;
-    });
+        // Prereqs and unlocks
+        const prereqs = [];
+        const unlocks = [];
+        links.forEach((l) => {
+          const s = typeof l.source === "object" ? l.source.id : l.source;
+          const t = typeof l.target === "object" ? l.target.id : l.target;
+          if (t === d.id) {
+            prereqs.push(nodes.find((n) => n.id === s).label.replace(/\n/g, " "));
+          }
+          if (s === d.id) {
+            unlocks.push(nodes.find((n) => n.id === t).label.replace(/\n/g, " "));
+          }
+        });
 
-  // Prereqs and unlocks
-  const prereqs = [];
-  const unlocks = [];
-  links.forEach(l => {
-    const s = typeof l.source === "object" ? l.source.id : l.source;
-    const t = typeof l.target === "object" ? l.target.id : l.target;
-    if (t === d.id) prereqs.push(nodes.find(n => n.id === s).label.replace(/\n/g, " "));
-    if (s === d.id) unlocks.push(nodes.find(n => n.id === t).label.replace(/\n/g, " "));
-  });
-
-  tooltip.html(`
-    <div class="tt-title" style="color:${d.color}">Step ${d.id}: ${d.label.replace(/\n/g, " ")}</div>
+        tooltip.html(`
+    <div class="tt-title" style="color:${d.color}">Step ${d.id}: ${
+          d.label.replace(/\n/g, " ")
+        }</div>
     <div class="tt-file">${d.file}</div>
     <div class="tt-row"><span class="tt-label">Coverage:</span><span class="tt-value">${d.coverage}</span></div>
     <div class="tt-row"><span class="tt-label">Exercises:</span><span class="tt-value">${d.exercises}</span></div>
-    ${prereqs.length ? `<div class="tt-row"><span class="tt-label">Requires:</span><span class="tt-value">${prereqs.join(", ")}</span></div>` : ""}
-    ${unlocks.length ? `<div class="tt-row"><span class="tt-label">Unlocks:</span><span class="tt-value">${unlocks.join(", ")}</span></div>` : ""}
+    ${
+          prereqs.length
+            ? `<div class="tt-row"><span class="tt-label">Requires:</span><span class="tt-value">${
+              prereqs.join(", ")
+            }</span></div>`
+            : ""
+        }
+    ${
+          unlocks.length
+            ? `<div class="tt-row"><span class="tt-label">Unlocks:</span><span class="tt-value">${
+              unlocks.join(", ")
+            }</span></div>`
+            : ""
+        }
   `).classed("show", true);
-})
-.on("mousemove", (event) => {
-  const pad = 16;
-  let x = event.clientX + pad;
-  let y = event.clientY + pad;
-  const rect = tooltip.node().getBoundingClientRect();
-  if (x + rect.width > window.innerWidth) x = event.clientX - rect.width - pad;
-  if (y + rect.height > window.innerHeight) y = event.clientY - rect.height - pad;
-  tooltip.style("left", x + "px").style("top", y + "px");
-})
-.on("mouseleave", () => {
-  nodeG.transition().duration(200).attr("opacity", 1);
-  linkSel.transition().duration(200)
-    .attr("stroke", "#2a2e44")
-    .attr("stroke-width", 1.8)
-    .attr("opacity", 1);
-  tooltip.classed("show", false);
-});
+      })
+        .on("mousemove", (event) => {
+          const pad = 16;
+          let x = event.clientX + pad;
+          let y = event.clientY + pad;
+          const rect = tooltip.node().getBoundingClientRect();
+          if (x + rect.width > window.innerWidth) x = event.clientX - rect.width - pad;
+          if (y + rect.height > window.innerHeight) y = event.clientY - rect.height - pad;
+          tooltip.style("left", x + "px").style("top", y + "px");
+        })
+        .on("mouseleave", () => {
+          nodeG.transition().duration(200).attr("opacity", 1);
+          linkSel.transition().duration(200)
+            .attr("stroke", "#2a2e44")
+            .attr("stroke-width", 1.8)
+            .attr("opacity", 1);
+          tooltip.classed("show", false);
+        });
 
-// ══════════════════════════════════════════════════════════════════
-//  FORCE SIMULATION
-// ══════════════════════════════════════════════════════════════════
-// Tier-based y target for hierarchical layout
-const tierY = { 0: 100, 1: 250, 2: 430, 3: 640, 4: 810 };
+      // ══════════════════════════════════════════════════════════════════
+      //  FORCE SIMULATION
+      // ══════════════════════════════════════════════════════════════════
+      // Tier-based y target for hierarchical layout
+      const tierY = { 0: 100, 1: 250, 2: 430, 3: 640, 4: 810 };
 
-let physicsOn = true;
+      let physicsOn = true;
 
-const simulation = d3.forceSimulation(nodes)
-  .force("link", d3.forceLink(links).id(d => d.id).distance(120).strength(0.4))
-  .force("charge", d3.forceManyBody().strength(-500))
-  .force("centerX", d3.forceX(width / 2).strength(0.06))
-  .force("tierY", d3.forceY(d => tierY[d.tier]).strength(0.35))
-  .force("collide", d3.forceCollide(55))
-  .alphaDecay(0.015)
-  .on("tick", ticked);
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id((d) => d.id).distance(120).strength(0.4))
+        .force("charge", d3.forceManyBody().strength(-500))
+        .force("centerX", d3.forceX(width / 2).strength(0.06))
+        .force("tierY", d3.forceY((d) => tierY[d.tier]).strength(0.35))
+        .force("collide", d3.forceCollide(55))
+        .alphaDecay(0.015)
+        .on("tick", ticked);
 
-function ticked() {
-  // Curved links
-  linkSel.attr("d", d => {
-    const dx = d.target.x - d.source.x;
-    const dy = d.target.y - d.source.y;
-    const dr = Math.sqrt(dx * dx + dy * dy) * 1.8;
-    return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
-  });
+      function ticked() {
+        // Curved links
+        linkSel.attr("d", (d) => {
+          const dx = d.target.x - d.source.x;
+          const dy = d.target.y - d.source.y;
+          const dr = Math.sqrt(dx * dx + dy * dy) * 1.8;
+          return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+        });
 
-  nodeG.attr("transform", d => `translate(${d.x},${d.y})`);
-}
+        nodeG.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      }
 
-// ══════════════════════════════════════════════════════════════════
-//  DRAG
-// ══════════════════════════════════════════════════════════════════
-function dragStart(event, d) {
-  if (!event.active) simulation.alphaTarget(0.3).restart();
-  d.fx = d.x;
-  d.fy = d.y;
-  d3.select(this).attr("cursor", "grabbing");
-}
+      // ══════════════════════════════════════════════════════════════════
+      //  DRAG
+      // ══════════════════════════════════════════════════════════════════
+      function dragStart(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+        d3.select(this).attr("cursor", "grabbing");
+      }
 
-function dragged(event, d) {
-  d.fx = event.x;
-  d.fy = event.y;
-}
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
 
-function dragEnd(event, d) {
-  if (!event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
-  d3.select(this).attr("cursor", "grab");
-}
+      function dragEnd(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+        d3.select(this).attr("cursor", "grab");
+      }
 
-// ══════════════════════════════════════════════════════════════════
-//  CONTROLS
-// ══════════════════════════════════════════════════════════════════
-function resetZoom() {
-  svg.transition().duration(600)
-    .call(zoomBehavior.transform, d3.zoomIdentity.translate(0, 0).scale(1));
-}
+      // ══════════════════════════════════════════════════════════════════
+      //  CONTROLS
+      // ══════════════════════════════════════════════════════════════════
+      function resetZoom() {
+        svg.transition().duration(600)
+          .call(zoomBehavior.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+      }
 
-function togglePhysics() {
-  physicsOn = !physicsOn;
-  if (physicsOn) {
-    nodes.forEach(d => { d.fx = null; d.fy = null; });
-    simulation.alpha(0.8).restart();
-  } else {
-    nodes.forEach(d => { d.fx = d.x; d.fy = d.y; });
-    simulation.stop();
-  }
-}
+      function togglePhysics() {
+        physicsOn = !physicsOn;
+        if (physicsOn) {
+          nodes.forEach((d) => {
+            d.fx = null;
+            d.fy = null;
+          });
+          simulation.alpha(0.8).restart();
+        } else {
+          nodes.forEach((d) => {
+            d.fx = d.x;
+            d.fy = d.y;
+          });
+          simulation.stop();
+        }
+      }
 
-// Initial zoom to fit
-setTimeout(() => {
-  svg.transition().duration(800)
-    .call(zoomBehavior.transform,
-      d3.zoomIdentity.translate(width * 0.05, 20).scale(0.9));
-}, 800);
-</script>
-</body>
+      // Initial zoom to fit
+      setTimeout(() => {
+        svg.transition().duration(800)
+          .call(
+            zoomBehavior.transform,
+            d3.zoomIdentity.translate(width * 0.05, 20).scale(0.9),
+          );
+      }, 800);
+    </script>
+  </body>
 </html>
