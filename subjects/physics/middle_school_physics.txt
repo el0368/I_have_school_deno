@@ -1,0 +1,160 @@
+================================================================================
+KHAN ACADEMY - MIDDLE SCHOOL PHYSICS
+Complete Learn & Practice Guide
+================================================================================
+
+Course: Middle School Physics
+Level: Middle School (NGSS-aligned)
+Units: 4 (+ Teacher Resources)
+Skills: 21
+Mastery Points: 2,100
+Source: https://www.khanacademy.org/science/ms-physics
+
+================================================================================
+UNIT 1: MOTION AND FORCES
+================================================================================
+
+--- Lesson 1: Motion ---
+1. Introduction to motion
+   LEARN: Video - Introduction to middle school physics
+   LEARN: Video - Describing motion (position, distance, displacement)
+   PRACTICE: Understand: representing motion
+   PRACTICE: Apply: motion
+
+2. Speed and velocity
+   LEARN: Video - Speed and velocity
+   LEARN: Article - What is speed?
+
+--- Lesson 2: Forces ---
+3. Introduction to forces
+   LEARN: Video - Forces
+   LEARN: Video - Balanced and unbalanced forces
+   PRACTICE: Understand: forces and Newton's third law
+   PRACTICE: Apply: forces and Newton's third law
+
+ASSESSMENT: Motion and forces - Quiz 1
+
+--- Lesson 3: Connecting Motion and Forces ---
+4. Newton's first law
+   LEARN: Video - Newton's first law of motion
+   LEARN: Video - Inertia and mass
+   PRACTICE: Understand: connecting motion and forces (forces and acceleration)
+   PRACTICE: Apply: connecting motion and forces (forces and acceleration)
+
+ASSESSMENT: Motion and forces - Quiz 2
+ASSESSMENT: Motion and forces - Unit test
+
+================================================================================
+UNIT 2: NON-CONTACT INTERACTIONS
+================================================================================
+
+--- Lesson 1: Gravitational Force ---
+5. Gravitational force
+   LEARN: Video - Gravitational force
+   LEARN: Video - Mass and weight
+   PRACTICE: Understand: gravitational forces
+   PRACTICE: Apply: gravitational force
+
+ASSESSMENT: Non-contact interactions - Quiz 1
+
+--- Activity ---
+6. How can a skydiver fall safely?
+   LEARN: Article - Activity: How can a skydiver fall safely?
+
+--- Lesson 2: Electric and Magnetic Forces ---
+7. Electric and magnetic forces
+   LEARN: Video - Electric force
+   LEARN: Video - Magnetic force
+   LEARN: Video - Introduction to magnetism
+   PRACTICE: Understand: electric and magnetic forces (magnetic forces)
+   PRACTICE: Apply: electric and magnetic forces (electromagnetism)
+
+--- Activity ---
+8. How do bees pick up pollen in flowers?
+   LEARN: Article - Activity: How do bees pick up pollen in flowers?
+
+ASSESSMENT: Non-contact interactions - Quiz 2
+ASSESSMENT: Non-contact interactions - Unit test
+
+================================================================================
+UNIT 3: ENERGY
+================================================================================
+
+--- Lesson 1: Kinetic Energy ---
+9. Kinetic energy
+   LEARN: Video - Kinetic energy introduction
+   LEARN: Video - Kinetic energy and speed
+   PRACTICE: Understand: kinetic energy
+   PRACTICE: Apply: kinetic energy
+
+--- Lesson 2: Potential Energy ---
+10. Potential energy
+    LEARN: Video - Potential energy introduction
+    LEARN: Video - Gravitational potential energy
+    PRACTICE: Understand: potential energy
+    PRACTICE: Apply: potential energy
+
+ASSESSMENT: Energy - Quiz 1
+
+--- Lesson 3: Conservation of Energy ---
+11. Conservation of energy
+    LEARN: Video - Conservation of energy
+    LEARN: Video - Energy transformation
+    PRACTICE: Understand: conservation of energy (changes in energy)
+    PRACTICE: Apply: conservation of energy (changes in energy)
+
+--- Activity ---
+12. Why doesn't a basketball bounce forever?
+    LEARN: Article - Activity: Why doesn't a basketball bounce forever?
+
+ASSESSMENT: Energy - Quiz 2
+ASSESSMENT: Energy - Unit test
+
+================================================================================
+UNIT 4: WAVES
+================================================================================
+
+--- Lesson 1: Wave Properties ---
+13. Wave properties
+    LEARN: Video - Wave properties (amplitude, wavelength, frequency)
+    LEARN: Video - Transverse and longitudinal waves
+    PRACTICE: Understand: wave properties
+    PRACTICE: Apply: wave properties
+
+--- Lesson 2: Sound Waves ---
+14. Sound waves
+    LEARN: Video - Sound waves
+    LEARN: Video - How sound travels
+    PRACTICE: Understand: sound waves
+
+ASSESSMENT: Waves - Quiz 1
+
+--- Lesson 3: Electromagnetic Waves ---
+15. Electromagnetic waves
+    LEARN: Video - The electromagnetic spectrum
+    LEARN: Video - Light waves and the electromagnetic spectrum
+    PRACTICE: Understand: electromagnetic waves (absorption and reflection)
+    PRACTICE: Apply: electromagnetic waves (absorption and reflection)
+
+--- Activity ---
+16. How can light interactions be used to create art?
+    LEARN: Article - Activity: How can light interactions be used to create art?
+
+ASSESSMENT: Waves - Quiz 2
+ASSESSMENT: Waves - Unit test
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in Middle School Physics
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 4 content units + 1 teacher resource unit
+Total Lessons: ~16 topics
+Total Learn Items: ~30+ videos and articles
+Total Practice Items: 21 skills
+Total Assessments: 8 quizzes + 4 unit tests + 1 course challenge
+================================================================================

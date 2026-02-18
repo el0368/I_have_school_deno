@@ -1,0 +1,231 @@
+KHAN ACADEMY - 3RD GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: INTRO TO MULTIPLICATION
+================================================================================
+
+Exercises:
+----------
+1. Understanding equal groups as multiplication
+2. Multiplication with arrays
+3. Repeated addition and multiplication
+4. Multiplication on the number line
+5. Multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: 1-DIGIT MULTIPLICATION
+================================================================================
+
+Exercises:
+----------
+1. Multiplication facts (0-12)
+2. Multiplying by 0, 1, and 10
+3. Commutative property of multiplication
+4. Associative property of multiplication
+5. Distributive property
+6. Multiplication strategies
+7. 1-digit multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: INTRO TO DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Understanding division
+2. Division with equal groups
+3. Division on the number line
+4. Division word problems
+5. Relating multiplication and division
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: MORE WITH MULTIPLICATION AND DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Properties of multiplication
+2. Multiplying by tens
+3. Division facts
+4. Multiplication and division strategies
+5. Two-step word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: ADDITION, SUBTRACTION, AND ESTIMATION
+================================================================================
+
+Exercises:
+----------
+1. Addition within 1,000
+2. Subtraction within 1,000
+3. Rounding to nearest 10 or 100
+4. Estimating sums and differences
+5. Two-step word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: UNDERSTANDING FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. What fractions mean
+2. Equal parts
+3. Fractions on a number line
+4. Unit fractions
+5. Fractions greater than 1
+6. Comparing fractions with same denominator
+7. Comparing fractions with same numerator
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: EQUIVALENT FRACTIONS AND COMPARING FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Equivalent fractions
+2. Comparing fractions
+3. Ordering fractions
+4. Fraction word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: AREA
+================================================================================
+
+Exercises:
+----------
+1. Counting unit squares to find area
+2. Area formulas
+3. Multiplying to find area
+4. Area of rectangles
+5. Decomposing figures to find area
+6. Area word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: PERIMETER
+================================================================================
+
+Exercises:
+----------
+1. Understanding perimeter
+2. Finding perimeter
+3. Perimeter word problems
+4. Comparing area and perimeter
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: QUADRILATERALS AND PLANE FIGURES
+================================================================================
+
+Exercises:
+----------
+1. Classifying quadrilaterals
+2. Properties of shapes
+3. Identifying quadrilaterals
+4. Analyzing plane figures
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: MEASUREMENT
+================================================================================
+
+Exercises:
+----------
+1. Measuring length
+2. Measuring mass
+3. Measuring volume (liquid)
+4. Telling time
+5. Elapsed time
+6. Measurement word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 12: REPRESENTING AND INTERPRETING DATA
+================================================================================
+
+Exercises:
+----------
+1. Picture graphs
+2. Bar graphs
+3. Line plots
+4. Interpreting data displays
+5. Data word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 13: ARITHMETIC PATTERNS AND PROBLEM SOLVING
+================================================================================
+
+Exercises:
+----------
+1. Number patterns
+2. Shape patterns
+3. Problem-solving strategies
+4. Multi-step word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 13
+TOTAL EXERCISE TOPICS: 70+
+================================================================================

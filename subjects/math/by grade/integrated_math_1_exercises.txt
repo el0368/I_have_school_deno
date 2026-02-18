@@ -1,0 +1,191 @@
+INTEGRATED MATH 1 EXERCISES
+Khan Academy - Integrated Math 1
+18 units, 200 skills, 20,000 possible mastery points
+Source: https://www.khanacademy.org/math/math1
+
+Note: The integrated pathway covers the same topics as the traditional pathway (Algebra 1, Geometry, Algebra 2) but interwoven.
+
+UNIT 1: ALGEBRA FOUNDATIONS
+1. LEARN: Video - Overview and history of algebra
+2. LEARN: Video - Introduction to variables
+3. LEARN: Video - Substitution and evaluating expressions
+4. LEARN: Video - Combining like terms
+5. LEARN: Video - Introduction to equivalent expressions
+6. PRACTICE: Combining like terms with rational coefficients
+7. PRACTICE: Equivalent expressions
+ASSESSMENT: Quiz 2
+8. LEARN: Video - Division by zero
+ASSESSMENT: Unit test
+
+UNIT 2: SOLVING EQUATIONS & INEQUALITIES
+1. PRACTICE: Equations with variables on both sides
+2. PRACTICE: Equations with variables on both sides: decimals & fractions
+3. LEARN: Video - Equations with parentheses
+ASSESSMENT: Quiz 1
+4. PRACTICE: Number of solutions to equations
+5. PRACTICE: Number of solutions to equations challenge
+6. PRACTICE: Linear equations with unknown coefficients
+ASSESSMENT: Quiz 2
+7. PRACTICE: Multi-step linear inequalities
+8. LEARN: Video - Compound inequalities
+ASSESSMENT: Unit test
+
+UNIT 3: WORKING WITH UNITS
+1. LEARN: Video - Rate conversion
+2. PRACTICE: Rate conversion
+3. LEARN: Video - Appropriate units
+4. PRACTICE: Defining appropriate quantities for modeling
+5. PRACTICE: Formulas and units
+6. LEARN: Video - Word problems with multiple units
+7. PRACTICE: Using units to solve problems
+ASSESSMENT: Unit test
+
+UNIT 4: LINEAR EQUATIONS & GRAPHS
+1. LEARN: Video - Two-variable linear equations intro
+2. LEARN: Video - Slope
+3. LEARN: Video - Horizontal & vertical lines
+4. LEARN: Video - x-intercepts and y-intercepts
+5. LEARN: Video - Applying intercepts and slope
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 5: FORMS OF LINEAR EQUATIONS
+1. LEARN: Video - Slope-intercept form intro
+2. PRACTICE: Slope-intercept equation from graph
+3. PRACTICE: Slope-intercept from two points
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 6: SYSTEMS OF EQUATIONS
+1. PRACTICE: Solutions of systems of equations
+2. LEARN: Video - Solving systems with substitution
+3. LEARN: Video - Solving systems with elimination
+4. PRACTICE: Systems of equations word problems (with zero and infinite solutions)
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 7: INEQUALITIES (SYSTEMS & GRAPHS)
+1. LEARN: Video - Checking solutions of two-variable inequalities
+2. LEARN: Video - Graphing two-variable inequalities
+3. LEARN: Video - Modeling with linear inequalities
+ASSESSMENT: Unit test
+
+UNIT 8: FUNCTIONS
+1. PRACTICE: Evaluate functions
+2. PRACTICE: Evaluate functions from their graph
+3. PRACTICE: Evaluate function expressions
+4. PRACTICE: Function inputs & outputs: equation
+5. PRACTICE: Function inputs & outputs: graph
+ASSESSMENT: Quiz 1
+6. LEARN: Video - Functions and equations
+7. LEARN: Video - Interpreting function notation
+8. LEARN: Video - Introduction to domain and range
+9. PRACTICE: Recognize functions from tables
+ASSESSMENT: Quiz 3
+10. PRACTICE: Relative maxima and minima
+11. PRACTICE: Absolute maxima and minima
+12. LEARN: Video - Intervals where function is positive/negative/increasing/decreasing
+13. LEARN: Video - Inverse functions
+ASSESSMENT: Quiz 5
+ASSESSMENT: Unit test
+
+UNIT 9: SCATTERPLOTS
+1. PRACTICE: Constructing scatter plots
+2. LEARN: Video - Creating and interpreting scatterplots
+3. LEARN: Video - Estimating with trend lines
+ASSESSMENT: Unit test
+
+UNIT 10: DATA DISTRIBUTIONS
+1. PRACTICE: Creating dot plots
+2. PRACTICE: Reading dot plots & frequency tables
+3. LEARN: Video - Displays of distributions
+4. LEARN: Video - Summarizing center of distributions (central tendency)
+ASSESSMENT: Quiz 2
+5. PRACTICE: Creating box plots
+6. PRACTICE: Reading box plots
+7. PRACTICE: Interpreting quartiles
+8. LEARN: Video - Box and whisker plots
+9. PRACTICE: Comparing distributions
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 11: TWO-WAY TABLES
+1. LEARN: Article - Two-way frequency tables
+2. LEARN: Video - Two-way relative frequency tables
+3. PRACTICE: Interpret two-way tables
+ASSESSMENT: Unit test
+
+UNIT 12: SEQUENCES
+1. PRACTICE: Extend arithmetic sequences
+2. LEARN: Video - Arithmetic sequences
+3. LEARN: Video - Constructing arithmetic sequences
+ASSESSMENT: Quiz 1
+4. PRACTICE: Extend geometric sequences
+5. PRACTICE: Extend geometric sequences: negatives & fractions
+6. LEARN: Video - Geometric sequences
+ASSESSMENT: Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 13: EXPONENTS & RADICALS
+1. PRACTICE: Multiply & divide powers (integer exponents)
+2. PRACTICE: Powers of products & quotients (integer exponents)
+3. PRACTICE: Properties of exponents challenge (integer exponents)
+ASSESSMENT: Quiz 1
+4. PRACTICE: Square roots
+5. PRACTICE: Roots of decimals & fractions
+6. PRACTICE: Cube roots
+ASSESSMENT: Quiz 2
+7. LEARN: Video - Simplifying square roots
+ASSESSMENT: Unit test
+
+UNIT 14: EXPONENTIAL GROWTH & DECAY
+1. PRACTICE: Exponential vs. linear growth
+2. PRACTICE: Exponential vs. linear models
+3. LEARN: Video - Exponential expressions
+ASSESSMENT: Quiz 1
+4. PRACTICE: Graphs of exponential growth
+5. PRACTICE: Exponential vs. linear growth over time
+6. LEARN: Video - Exponential growth & decay
+ASSESSMENT: Quiz 2
+7. PRACTICE: Exponential functions from tables & graphs
+8. PRACTICE: Connecting exponential graphs with contexts
+9. PRACTICE: Linear vs. exponential growth: from data
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 15: PERFORMING TRANSFORMATIONS
+1. PRACTICE: Identify transformations
+2. PRACTICE: Translate points
+3. PRACTICE: Determine translations
+4. PRACTICE: Translate shapes
+ASSESSMENT: Quiz 1
+5. LEARN: Video - Rotations
+6. LEARN: Video - Reflections
+ASSESSMENT: Quiz 2, Quiz 3
+7. PRACTICE: Dilations: center
+8. PRACTICE: Dilate triangles
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 16: TRANSFORMATION PROPERTIES AND PROOFS
+1. PRACTICE: Find measures using rigid transformations
+2. PRACTICE: Rigid transformations: preserved properties
+3. PRACTICE: Mapping shapes
+4. LEARN: Video - Dilation preserved properties
+5. LEARN: Video - Properties & definitions of transformations
+6. LEARN: Video - Symmetry
+7. LEARN: Video - Proofs with transformations
+ASSESSMENT: Unit test
+
+UNIT 17: CONGRUENCE
+1. PRACTICE: Congruence & transformations
+2. PRACTICE: Justify triangle congruence
+3. PRACTICE: Determine congruent triangles
+ASSESSMENT: Unit test
+
+UNIT 18: ANALYTIC GEOMETRY
+1. LEARN: Video - Distance and midpoints
+2. LEARN: Video - Dividing line segments
+3. LEARN: Video - Parallel & perpendicular lines on the coordinate plane
+4. PRACTICE: Equations of parallel & perpendicular lines
+ASSESSMENT: Unit test

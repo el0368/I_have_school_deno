@@ -1,0 +1,109 @@
+NEGATIVE NUMBERS AND INTEGER OPERATIONS
+========================================
+Complete Topic Progression: Grade 6 → Grade 7
+Source: Khan Academy (exercises from by_grade files)
+
+This file covers the introduction and mastery of negative numbers.
+After Grade 7, negative numbers are used everywhere in algebra.
+For absolute value equations, see 15_algebra_and_equations.txt.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 5: Negative Numbers
+
+1. PRACTICE: Introduction to negative numbers
+2. PRACTICE: Ordering negative numbers
+3. PRACTICE: Negative numbers on the number line
+4. PRACTICE: Comparing negative numbers
+5. PRACTICE: Absolute value
+6. PRACTICE: Comparing absolute values
+7. PRACTICE: Negative number word problems
+8. PRACTICE: The coordinate plane with negative numbers
+9. PRACTICE: Plotting points in all four quadrants
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Units 3, 4, 5
+
+Unit 3: Adding and Subtracting Negative Numbers
+1. PRACTICE: Adding negative numbers on a number line
+2. PRACTICE: Adding negative numbers
+3. PRACTICE: Subtracting negative numbers
+4. PRACTICE: Adding and subtracting negative numbers
+5. PRACTICE: Addition and subtraction word problems with negatives
+6. PRACTICE: Absolute value to find distance
+7. PRACTICE: Interpreting negative number addition and subtraction
+
+Unit 4: Multiplying and Dividing Negative Numbers
+8. PRACTICE: Multiplying positive and negative numbers
+9. PRACTICE: Dividing positive and negative numbers
+10. PRACTICE: Multiplying and dividing negative numbers
+11. PRACTICE: Multiplication and division word problems with negatives
+12. PRACTICE: Understanding multiplication and division of negatives
+13. PRACTICE: Order of operations with negative numbers
+14. PRACTICE: Properties of multiplication (with negatives)
+
+Unit 5: Negative Numbers: Multiplication, Division, and Beyond
+15. PRACTICE: Multiplying negative numbers review
+16. PRACTICE: Dividing negative numbers review
+17. PRACTICE: Negative number word problems (mixed operations)
+18. PRACTICE: Order of operations (including negatives and exponents)
+19. PRACTICE: Substitution with negatives
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+PRE-ALGEBRA (supplemental)
+Source: pre_algebra_exercises.txt → Units 1, 2, 3 (partial content)
+
+Unit 1: Negative Numbers Basics
+1. PRACTICE: Negative numbers on the number line
+2. PRACTICE: Ordering negative numbers
+3. PRACTICE: Comparing negative numbers
+4. PRACTICE: Absolute value
+
+Unit 2: Adding & Subtracting Negative Numbers
+5. PRACTICE: Adding negatives
+6. PRACTICE: Subtracting negatives
+7. PRACTICE: Adding and subtracting negative fractions
+8. PRACTICE: Addition and subtraction word problems with negative numbers
+
+Unit 3: Multiplying & Dividing Negative Numbers
+9. PRACTICE: Multiplying negative numbers
+10. PRACTICE: Dividing negative numbers
+11. PRACTICE: Order of operations with negative numbers
+
+ASSESSMENT: Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental)
+Source: arithmetic_exercises.txt → Units 18, 19
+
+Unit 18: Negative Numbers
+1. PRACTICE: Intro to negative numbers
+2. PRACTICE: Number opposites
+3. PRACTICE: Comparing positive and negative numbers
+4. PRACTICE: Ordering negative numbers
+5. PRACTICE: Negative numbers on the number line
+6. PRACTICE: Negative number word problems
+
+Unit 19: Adding & Subtracting Negatives
+7. PRACTICE: Adding negative numbers
+8. PRACTICE: Subtracting negative numbers
+9. PRACTICE: Adding and subtracting negatives
+10. PRACTICE: Negative number addition and subtraction word problems
+
+ASSESSMENT: Quiz, Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 15_algebra_and_equations.txt (variables with negatives)
+→ 12_exponents_and_radicals.txt (negative exponents)
+→ 09_geometry.txt (coordinate plane, all quadrants)

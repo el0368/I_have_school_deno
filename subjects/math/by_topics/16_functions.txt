@@ -1,0 +1,165 @@
+FUNCTIONS
+=========
+Complete Topic Progression: Grade 8 → Precalculus
+Source: Khan Academy (exercises from by_grade files)
+
+Functions build on algebra (see 15_algebra_and_equations.txt).
+Exponential, logarithmic, polynomial, and rational functions
+are covered here. Trigonometric functions are in 17_trigonometry.txt.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Unit 3 (partial)
+
+1. PRACTICE: Introduction to functions
+2. PRACTICE: Recognizing functions from tables, graphs
+3. PRACTICE: Linear vs. nonlinear functions
+4. PRACTICE: Interpreting function graphs
+5. PRACTICE: Comparing functions
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1 (Function concepts)
+Source: algebra_1_exercises.txt → Unit 8
+
+1. PRACTICE: Evaluating functions
+2. PRACTICE: Inputs and outputs of a function
+3. PRACTICE: Function notation
+4. PRACTICE: Interpreting function notation
+5. PRACTICE: Introduction to domain and range
+6. PRACTICE: Recognizing functions
+7. PRACTICE: Maximum and minimum points
+8. PRACTICE: Intervals where a function is positive, negative, increasing, or decreasing
+9. PRACTICE: Interpreting features of graphs
+10. PRACTICE: Average rate of change
+11. PRACTICE: Average rate of change word problems
+12. PRACTICE: Intro to inverse functions
+
+Unit 10: Absolute Value and Piecewise Functions
+13. PRACTICE: Piecewise functions
+14. PRACTICE: Graphs of absolute value functions
+15. PRACTICE: Absolute value graphs and transformations
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2 (Advanced Functions)
+Source: algebra_2_exercises.txt → Units 5, 7, 9, 10
+
+Unit 5: Polynomial Graphs
+1. PRACTICE: Zeros of polynomials
+2. PRACTICE: End behavior of polynomials
+3. PRACTICE: Graphing polynomials
+4. PRACTICE: Positive and negative intervals
+
+Unit 7: Transformations
+5. PRACTICE: Shifting functions
+6. PRACTICE: Reflecting functions
+7. PRACTICE: Symmetry of functions (even/odd)
+8. PRACTICE: Scaling functions
+
+Unit 9: Rational Functions
+9. PRACTICE: Cancelling common factors
+10. PRACTICE: End behavior of rational functions
+11. PRACTICE: Discontinuities of rational functions
+12. PRACTICE: Graphs of rational functions
+13. PRACTICE: Modeling with rational functions
+14. PRACTICE: Multiplying and dividing rational expressions
+15. PRACTICE: Adding and subtracting rational expressions
+
+Unit 10: Logarithms
+16. PRACTICE: Introduction to logarithms
+17. PRACTICE: The constant e and the natural logarithm
+18. PRACTICE: Properties of logarithms
+19. PRACTICE: Change of base formula
+20. PRACTICE: Solving exponential equations with logarithms
+21. PRACTICE: Solving exponential models
+22. PRACTICE: Logarithmic equations
+23. PRACTICE: Graphs of exponential and logarithmic functions
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS
+Source: precalculus_exercises.txt → Units 1, 3-8
+
+Unit 1: Composite and Inverse Functions
+1. PRACTICE: Composing functions
+2. PRACTICE: Modeling with composite functions
+3. PRACTICE: Invertible functions
+4. PRACTICE: Inverse functions in graphs and tables
+5. PRACTICE: Verifying inverse functions by composition
+
+Unit 3: Polynomial and Rational Functions (advanced)
+6. PRACTICE: Dividing polynomials
+7. PRACTICE: Remainder theorem
+8. PRACTICE: Zeros of polynomials
+9. PRACTICE: End behavior and graphs
+10. PRACTICE: Solving polynomial equations
+11. PRACTICE: Rational equations and graphs
+
+Unit 4: Exponential and Logarithmic Functions
+12. PRACTICE: Exponential growth and decay transformations
+13. PRACTICE: Graphs of exponential functions
+14. PRACTICE: Logarithmic functions and properties
+15. PRACTICE: Solving exponential and log equations
+16. PRACTICE: Modeling with exponential and logarithmic functions
+
+Unit 5: Conic Sections (function perspective)
+17. PRACTICE: Parabolas
+18. PRACTICE: Ellipses
+19. PRACTICE: Hyperbolas
+20. PRACTICE: Foci of conic sections
+
+Unit 6: Vectors (coordinate approach)
+21. PRACTICE: Vectors introduction
+22. PRACTICE: Vector components
+23. PRACTICE: Magnitude of vectors
+24. PRACTICE: Adding and subtracting vectors
+25. PRACTICE: Scalar multiplication
+26. PRACTICE: Vector direction
+27. PRACTICE: Vector applications and word problems
+
+Unit 7: Matrices
+28. PRACTICE: Introduction to matrices
+29. PRACTICE: Matrix operations (addition, subtraction, scalar multiplication)
+30. PRACTICE: Matrix multiplication
+31. PRACTICE: Matrix equations
+32. PRACTICE: Determinants
+33. PRACTICE: Inverse matrices
+34. PRACTICE: Solving systems with matrices
+
+Unit 8: Probability and Combinatorics
+35. PRACTICE: Counting principle and factorials
+36. PRACTICE: Permutations
+37. PRACTICE: Combinations
+38. PRACTICE: Probability using combinatorics
+39. PRACTICE: Binomial probability
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+COLLEGE ALGEBRA (supplemental)
+Source: college_algebra_exercises.txt
+
+Function-related units:
+1. PRACTICE: Evaluating functions
+2. PRACTICE: Domain and range
+3. PRACTICE: Composing functions
+4. PRACTICE: Inverse functions
+5. PRACTICE: Transformations of functions
+6. PRACTICE: Piecewise functions
+7. PRACTICE: Even and odd functions
+
+ASSESSMENT: Quizzes and Unit Tests
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 17_trigonometry.txt (trig functions)
+→ 19_calculus.txt (limits, derivatives, integrals of functions)
+→ 18_statistics_and_probability.txt (probability functions)

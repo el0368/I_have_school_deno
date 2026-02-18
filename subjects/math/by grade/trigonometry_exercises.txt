@@ -1,0 +1,186 @@
+================================================================================
+KHAN ACADEMY - TRIGONOMETRY
+Complete Learn & Practice Guide
+================================================================================
+
+Course: Trigonometry
+Level: High School / College Prep
+Units: 4
+Skills: 36
+Mastery Points: 3,600
+Source: https://www.khanacademy.org/math/trigonometry
+
+================================================================================
+UNIT 1: RIGHT TRIANGLES & TRIGONOMETRY
+================================================================================
+
+1. Ratios in right triangles
+   LEARN: Article - Getting ready for right triangles and trigonometry
+   PRACTICE: Use ratios in right triangles
+
+2. Introduction to the trigonometric ratios
+   LEARN: Video - Similarity to define sine, cosine, and tangent
+   PRACTICE: Trigonometric ratios in right triangles
+
+ASSESSMENT: Right triangles & trigonometry - Quiz 1
+
+3. Solving for a side in a right triangle using the trigonometric ratios
+   LEARN: Video - Using trig to solve sides and angles
+   PRACTICE: Solve for a side in right triangles
+
+4. Solving for an angle in a right triangle using the trigonometric ratios
+   LEARN: Article - Inverse trig functions intro
+   PRACTICE: Solve for an angle in right triangles
+
+5. Sine and cosine of complementary angles
+   LEARN: Video - Sine and cosine of complementary angles
+   PRACTICE: Relate ratios in right triangles
+
+6. Modeling with right triangles
+   LEARN: Video - Right triangle word problems
+   PRACTICE: Right triangle trigonometry word problems
+
+ASSESSMENT: Right triangles & trigonometry - Quiz 2
+
+7. The reciprocal trigonometric ratios
+   LEARN: Video - Reciprocal trig ratios
+   PRACTICE: Reciprocal trig ratios
+
+ASSESSMENT: Right triangles & trigonometry - Unit test
+
+================================================================================
+UNIT 2: TRIGONOMETRIC FUNCTIONS
+================================================================================
+
+8. Unit circle introduction
+   LEARN: Video - Unit circle definition of trig functions
+   PRACTICE: Unit circle
+
+9. Radians
+   LEARN: Video - Introduction to radians
+   PRACTICE: Radians & degrees
+   PRACTICE: Unit circle (with radians)
+
+10. The Pythagorean identity
+    LEARN: Video - Pythagorean trig identity from unit circle
+    PRACTICE: Use the Pythagorean identity
+
+11. Special trigonometric values in the first quadrant
+    LEARN: Video - Cosine, sine, and tangent of π/6 and π/3
+    PRACTICE: Trig values of π/6, π/4, and π/3
+
+12. Trigonometric values on the unit circle
+    LEARN: Video - Trig unit circle symmetry
+    PRACTICE: Trig identities from reflections and rotations
+    PRACTICE: Trig values of special angles
+
+ASSESSMENT: Trigonometric functions - Quiz 1
+
+13. Graphs of sin(x), cos(x), and tan(x) — Amplitude, midline, and period
+    LEARN: Video - Amplitude, midline, period
+    PRACTICE: Midline of sinusoidal functions from graph
+    PRACTICE: Amplitude of sinusoidal functions from graph
+    PRACTICE: Period of sinusoidal functions from graph
+
+14. Transforming sinusoidal graphs
+    LEARN: Video - Transforming sinusoidal graphs
+    PRACTICE: Amplitude of sinusoidal functions from equation
+    PRACTICE: Midline of sinusoidal functions from equation
+    PRACTICE: Period of sinusoidal functions from equation
+
+ASSESSMENT: Trigonometric functions - Quiz 2
+
+15. Graphing sinusoidal functions
+    LEARN: Video - Graphing sinusoidal functions
+    PRACTICE: Graph sinusoidal functions
+    PRACTICE: Construct sinusoidal functions
+    PRACTICE: Graph sinusoidal functions: phase shift
+
+16. Sinusoidal models
+    LEARN: Video - Interpreting trigonometric graphs in context
+    PRACTICE: Interpret trigonometric graphs in context
+    PRACTICE: Model with sinusoidal functions
+    PRACTICE: Modeling with sinusoidal functions: phase shift
+
+17. Long live Tau
+    LEARN: Video - Tau vs. Pi
+
+ASSESSMENT: Trigonometric functions - Quiz 3
+ASSESSMENT: Trigonometric functions - Unit test
+
+================================================================================
+UNIT 3: NON-RIGHT TRIANGLES & TRIGONOMETRY
+================================================================================
+
+18. Law of sines
+    LEARN: Video - Law of sines
+    PRACTICE: Solve triangles using the law of sines
+
+19. Law of cosines
+    LEARN: Video - Law of cosines example
+    PRACTICE: Solve triangles using the law of cosines
+
+20. Solving general triangles
+    LEARN: Video - Law of cosines word problem
+    PRACTICE: General triangle word problems
+
+ASSESSMENT: Non-right triangles & trigonometry - Unit test
+
+================================================================================
+UNIT 4: TRIGONOMETRIC EQUATIONS AND IDENTITIES
+================================================================================
+
+21. Inverse trigonometric functions
+    LEARN: Video - Inverse trig functions
+    PRACTICE: Evaluate inverse trig functions
+
+22. Sinusoidal equations
+    LEARN: Video - Sine equation solutions
+    PRACTICE: Solve sinusoidal equations (basic)
+    PRACTICE: Solve sinusoidal equations
+
+23. Sinusoidal models
+    LEARN: Video - Interpreting solutions in context
+    PRACTICE: Interpret solutions of trigonometric equations in context
+    PRACTICE: Sinusoidal models word problems
+
+ASSESSMENT: Trigonometric equations and identities - Quiz 1
+
+24. Angle addition identities
+    LEARN: Video - Trig identity review
+    PRACTICE: Use the trig angle addition identities
+
+25. Using trigonometric identities
+    LEARN: Video - Sine angle addition extended
+    PRACTICE: Find trig values using angle addition identities
+
+ASSESSMENT: Trigonometric equations and identities - Quiz 2
+
+26. Challenging trigonometry problems
+    LEARN: Video - Challenge problems
+
+ASSESSMENT: Trigonometric equations and identities - Unit test
+
+================================================================================
+REVIEW ARTICLES
+================================================================================
+- Trig unit circle review
+- Laws of sines and cosines review
+- Pythagorean identity review
+- Midline, amplitude, and period review
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in Trigonometry
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 4
+Total Lessons: ~26 topics
+Total Learn Items: ~26 videos and articles
+Total Practice Items: 36 skills
+Total Assessments: ~5 quizzes + 4 unit tests + 1 course challenge
+================================================================================

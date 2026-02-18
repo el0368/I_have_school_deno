@@ -1,0 +1,216 @@
+KHAN ACADEMY - 6TH GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: RATIOS
+================================================================================
+
+Exercises:
+----------
+1. Intro to ratios
+2. Visualizing ratios
+3. Equivalent ratios
+4. Ratio tables
+5. Solving ratio problems
+6. Ratio word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: ARITHMETIC WITH RATIONAL NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. Adding decimals
+2. Subtracting decimals
+3. Multiplying decimals
+4. Dividing decimals
+5. Adding fractions with unlike denominators
+6. Subtracting fractions with unlike denominators
+7. Multiplying fractions
+8. Dividing fractions
+9. Mixed operations with rational numbers
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: RATES AND PERCENTAGES
+================================================================================
+
+Exercises:
+----------
+1. Understanding rates
+2. Unit rates
+3. Rate word problems
+4. Understanding percentages
+5. Percent of a whole number
+6. Percent word problems
+7. Converting between fractions, decimals, and percentages
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: EXPONENTS AND ORDER OF OPERATIONS
+================================================================================
+
+Exercises:
+----------
+1. Meaning of exponents
+2. Evaluating exponents
+3. Exponent properties intro
+4. Order of operations
+5. Order of operations with exponents
+6. Exponent word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: NEGATIVE NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. Intro to negative numbers
+2. Negative numbers on the number line
+3. Comparing negative numbers
+4. Ordering negative numbers
+5. Absolute value
+6. Negative number word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: VARIABLES & EXPRESSIONS
+================================================================================
+
+Exercises:
+----------
+1. Parts of algebraic expressions
+2. Evaluating expressions with one variable
+3. Evaluating expressions with two variables
+4. Writing expressions
+5. Equivalent expressions
+6. Expression word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: EQUATIONS & INEQUALITIES
+================================================================================
+
+Exercises:
+----------
+1. Testing solutions to equations
+2. One-step addition and subtraction equations
+3. One-step multiplication and division equations
+4. Equation word problems
+5. Understanding inequalities
+6. Graphing inequalities on a number line
+7. Inequality word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: PLANE FIGURES
+================================================================================
+
+Exercises:
+----------
+1. Area of parallelograms
+2. Area of triangles
+3. Area of trapezoids
+4. Area of composite shapes
+5. Polygons on the coordinate plane
+6. Area word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: COORDINATE PLANE
+================================================================================
+
+Exercises:
+----------
+1. Points on the coordinate plane
+2. Quadrants
+3. Distance on the coordinate plane
+4. Graphing polygons on the coordinate plane
+5. Coordinate plane word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: 3D FIGURES
+================================================================================
+
+Exercises:
+----------
+1. Identifying 3D shapes
+2. Nets of 3D shapes
+3. Volume with unit cubes
+4. Volume of rectangular prisms
+5. Surface area
+6. Volume and surface area word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: DATA AND STATISTICS
+================================================================================
+
+Exercises:
+----------
+1. Statistical questions
+2. Frequency tables
+3. Dot plots
+4. Histograms
+5. Mean (average)
+6. Median
+7. Mode
+8. Range
+9. Interquartile range (IQR)
+10. Mean absolute deviation (MAD)
+11. Box plots
+12. Data analysis word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 11
+TOTAL EXERCISE TOPICS: 80+
+================================================================================

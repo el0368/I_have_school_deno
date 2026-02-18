@@ -1,0 +1,193 @@
+MATH LEARNING ORDER - CONCEPTUAL CHAIN
+========================================
+Which course to study first? Follow this numbered path.
+Khan Academy courses organized by prerequisite order.
+
+Note: You do NOT need to do every single course listed here.
+      Pick either the TRADITIONAL pathway OR the INTEGRATED pathway
+      for high school (see below). They cover the same material
+      in different order.
+
+================================================================================
+RECOMMENDED LEARNING ORDER
+================================================================================
+
+STEP  COURSE                              FILE                                    AGES/GRADES
+----  ------                              ----                                    -----------
+ 1    Kindergarten                        kindergarten_exercises.txt               Age 5-6
+ 2    Grade 1                             grade_1_exercises.txt                    Age 6-7
+ 3    Grade 2                             grade_2_exercises.txt                    Age 7-8
+ 4    Grade 3                             grade_3_exercises.txt                    Age 8-9
+ 5    Arithmetic (supplemental)           arithmetic_exercises.txt                 Age 8-10
+ 6    Grade 4                             grade_4_exercises.txt                    Age 9-10
+ 7    Basic Geometry & Measurement        basic_geometry_exercises.txt             Age 9-11
+ 8    Grade 5                             grade_5_exercises.txt                    Age 10-11
+ 9    Grade 6                             grade_6_exercises.txt                    Age 11-12
+10    Grade 7                             grade_7_exercises.txt                    Age 12-13
+11    Pre-Algebra                         pre_algebra_exercises.txt                Age 12-14
+12    Grade 8                             grade_8_exercises.txt                    Age 13-14
+
+      *** CHOOSE ONE PATHWAY BELOW FOR HIGH SCHOOL ***
+
+--- TRADITIONAL PATHWAY (most common in US schools) ---
+
+13a   Algebra 1                           algebra_1_exercises.txt                  Age 14-15
+14a   Geometry                            geometry_exercises.txt                   Age 15-16
+15a   Algebra 2                           algebra_2_exercises.txt                  Age 16-17
+
+--- INTEGRATED PATHWAY (same topics, different order) ---
+
+13b   Integrated Math 1                   integrated_math_1_exercises.txt          Age 14-15
+14b   Integrated Math 2                   integrated_math_2_exercises.txt          Age 15-16
+15b   Integrated Math 3                   integrated_math_3_exercises.txt          Age 16-17
+
+      *** PATHWAYS MERGE HERE ***
+
+--- UPPER HIGH SCHOOL / EARLY COLLEGE ---
+
+16    Trigonometry                         trigonometry_exercises.txt               Age 16-17
+17    Precalculus                          precalculus_exercises.txt                Age 16-18
+18    Statistics                           statistics_exercises.txt                 Age 16-18
+
+--- AP COURSES (optional, college-level) ---
+
+19    AP Calculus AB                       ap_calculus_ab_exercises.txt             Age 17-18
+20    AP Calculus BC                       ap_calculus_bc_exercises.txt             Age 17-18
+21    AP Statistics                        ap_statistics_exercises.txt              Age 17-18
+
+--- COLLEGE-LEVEL COURSES ---
+
+22    College Algebra                      college_algebra_exercises.txt            College
+23    Calculus 1                           calculus_1_exercises.txt                 College
+24    Calculus 2                           calculus_2_exercises.txt                 College
+25    Calculus 3 / Multivariable Calculus  calculus_3_exercises.txt                 College
+                                          multivariable_calculus_exercises.txt
+26    Linear Algebra                       linear_algebra_exercises.txt             College
+27    Differential Equations               differential_equations_exercises.txt     College
+
+
+================================================================================
+VISUAL PROGRESSION MAP
+================================================================================
+
+Kindergarten
+    |
+ Grade 1
+    |
+ Grade 2
+    |
+ Grade 3 ----------> Arithmetic (extra practice, optional)
+    |
+ Grade 4 ----------> Basic Geometry & Measurement (extra practice, optional)
+    |
+ Grade 5
+    |
+ Grade 6
+    |
+ Grade 7
+    |
+ Pre-Algebra
+    |
+ Grade 8
+    |
+    +---------------------------+
+    |                           |
+    v                           v
+ TRADITIONAL PATH          INTEGRATED PATH
+    |                           |
+ Algebra 1              Integrated Math 1
+    |                           |
+ Geometry               Integrated Math 2
+    |                           |
+ Algebra 2              Integrated Math 3
+    |                           |
+    +---------------------------+
+                |
+          Trigonometry
+                |
+          Precalculus ---------> Statistics
+                |                    |
+         +------+------+            v
+         |             |       AP Statistics
+         v             v
+   AP Calculus AB  AP Calculus BC
+         |             |
+         +------+------+
+                |
+         College Algebra (if needed)
+                |
+           Calculus 1
+                |
+           Calculus 2
+                |
+    +-----------+-----------+
+    |                       |
+ Calculus 3             Linear Algebra
+ (Multivariable)            |
+    |                  Differential
+    +------- + --------Equations
+             |
+        (Advanced Math)
+
+
+================================================================================
+WHAT EACH LEVEL TEACHES (CONCEPT CHAIN)
+================================================================================
+
+LEVEL 1-4: FOUNDATIONS (K - Grade 3)
+  Counting -> Addition -> Subtraction -> Place Value -> Basic Shapes
+  -> Multiplication -> Division -> Fractions Intro
+
+LEVEL 5-8: BUILDING BLOCKS (Grade 4 - Grade 5 + supplements)
+  Multi-digit Operations -> Fraction Operations -> Decimals
+  -> Area, Perimeter, Volume -> Coordinate Plane Intro
+
+LEVEL 9-10: BRIDGE TO ALGEBRA (Grade 6 - Grade 7)
+  Ratios & Proportions -> Percentages -> Negative Numbers
+  -> Expressions & Equations Intro -> Basic Statistics
+
+LEVEL 11-12: PRE-ALGEBRA & GRADE 8
+  Variables -> One/Two-Step Equations -> Linear Relationships
+  -> Exponents & Roots -> Systems of Equations Intro
+  -> Pythagorean Theorem -> Functions Intro
+
+LEVEL 13-15: HIGH SCHOOL CORE
+  Traditional: Algebra deep dive -> Geometric proofs -> Advanced Algebra
+  Integrated: Algebra+Geometry+Stats mixed each year, building complexity
+
+LEVEL 16-17: ADVANCED HIGH SCHOOL
+  Trig Ratios -> Unit Circle -> Trig Functions
+  -> Limits Intro -> Complex Numbers -> Sequences & Series
+
+LEVEL 18-21: AP / COLLEGE PREP
+  Derivatives -> Integrals -> Series -> Statistical Inference
+
+LEVEL 22-27: COLLEGE MATHEMATICS
+  Formal Calculus sequence -> Vectors & Matrices -> Diff Equations
+
+
+================================================================================
+NOTES
+================================================================================
+
+1. "Arithmetic" and "Basic Geometry & Measurement" are supplemental courses.
+   They cover the SAME topics as Grades 3-8 but organized by topic instead
+   of grade. Use them for extra practice if you need it.
+
+2. You do NOT need both AP Calculus AB and BC. BC includes all of AB plus
+   extra topics. Pick one:
+   - AB = first semester college calculus
+   - BC = first + second semester college calculus
+
+3. "College Algebra" overlaps heavily with Algebra 2 and Precalculus.
+   It's meant for college students who need a refresher. Skip if you
+   already completed Algebra 2 + Precalculus.
+
+4. Statistics and AP Statistics can be taken at any point after Algebra 1.
+   They don't require Calculus.
+
+5. Linear Algebra and Differential Equations can be taken in either order
+   after Calculus 2. Some programs teach them simultaneously.
+
+6. Calculus 3 (Multivariable) and the separate Multivariable Calculus file
+   cover the same material. Use whichever has more detail.

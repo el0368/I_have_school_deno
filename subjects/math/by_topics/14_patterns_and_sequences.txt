@@ -1,0 +1,85 @@
+PATTERNS AND SEQUENCES
+======================
+Complete Topic Progression: Kindergarten → Precalculus
+Source: Khan Academy (exercises from by_grade files)
+
+Patterns grow from simple shape/number patterns in K-3 to
+arithmetic and geometric sequences in Algebra and Precalculus.
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 1 (partial)
+
+1. LEARN: Video - Recognizing patterns
+   PRACTICE: What comes next?
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 13 (partial)
+
+1. PRACTICE: Identifying arithmetic patterns
+2. PRACTICE: Patterns in arithmetic tables
+3. PRACTICE: Number patterns
+
+ASSESSMENT: (within unit assessment)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 6 (partial)
+
+1. PRACTICE: Number and shape patterns
+2. PRACTICE: Pattern rules
+3. PRACTICE: Identifying patterns and relationships
+4. PRACTICE: Input/output tables
+
+ASSESSMENT: (within unit assessment)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 13 (partial)
+
+1. PRACTICE: Number patterns
+2. PRACTICE: Numerical patterns and relationships
+3. PRACTICE: Graphing patterns on the coordinate plane
+4. PRACTICE: Relating two patterns
+
+ASSESSMENT: (within unit assessment)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1
+Source: algebra_1_exercises.txt → Unit 9: Sequences
+
+1. PRACTICE: Introduction to arithmetic sequences
+2. PRACTICE: Extending arithmetic sequences
+3. PRACTICE: Using arithmetic sequence formulas
+4. PRACTICE: Introduction to geometric sequences
+5. PRACTICE: Extending geometric sequences
+6. PRACTICE: Using geometric sequence formulas
+7. PRACTICE: Modeling with sequences
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS
+Source: precalculus_exercises.txt → Unit 9: Series
+
+1. PRACTICE: Arithmetic series
+2. PRACTICE: Geometric series
+3. PRACTICE: Finite geometric series
+4. PRACTICE: Infinite geometric series
+5. PRACTICE: Convergent and divergent series
+6. PRACTICE: Sigma notation
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 16_functions.txt (sequences as functions)
+→ 19_calculus.txt (series and convergence tests)

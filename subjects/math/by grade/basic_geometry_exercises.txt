@@ -1,0 +1,203 @@
+BASIC GEOMETRY AND MEASUREMENT EXERCISES
+Khan Academy - Basic Geometry and Measurement
+14 units, 127 skills, 12,700 possible mastery points
+Source: https://www.khanacademy.org/math/basic-geo
+
+UNIT 1: INTRO TO AREA AND PERIMETER
+1. PRACTICE: Understand area
+2. PRACTICE: Find area by counting unit squares
+3. PRACTICE: Compare area with unit squares
+4. PRACTICE: Create rectangles with a given area
+ASSESSMENT: Quiz 1
+5. PRACTICE: Transition from unit squares to area formula
+6. PRACTICE: Area of rectangles
+7. PRACTICE: Find a missing side length when given area
+8. PRACTICE: Represent area with the distributive property
+9. PRACTICE: Solve area with the distributive property
+10. PRACTICE: Decompose figures to find area
+ASSESSMENT: Quiz 2
+11. PRACTICE: Find perimeter by counting units
+12. PRACTICE: Find perimeter when given side lengths
+13. PRACTICE: Find a missing side length when given perimeter
+14. PRACTICE: Perimeter word problems
+ASSESSMENT: Quiz 3
+15. PRACTICE: Area and perimeter situations
+16. PRACTICE: Compare area and perimeter
+17. PRACTICE: Area and perimeter word problems
+18. PRACTICE: Represent rectangle measurements
+19. PRACTICE: Area & perimeter of rectangles word problems
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 2: INTRO TO MASS AND VOLUME
+1. PRACTICE: Estimate mass (grams and kilograms)
+2. PRACTICE: Word problems with mass
+3. PRACTICE: Estimate volume (milliliters and liters)
+4. PRACTICE: Word problems with volume
+ASSESSMENT: Unit test
+
+UNIT 3: MEASURING ANGLES
+1. PRACTICE: Identify points, lines, line segments, rays, and angles
+2. PRACTICE: Name angles
+3. PRACTICE: Angle basics
+4. PRACTICE: Angle types
+5. PRACTICE: Recognize angles in figures
+ASSESSMENT: Quiz 1
+6. PRACTICE: Angles in circles
+7. PRACTICE: Measure angles
+8. PRACTICE: Draw angles
+9. PRACTICE: Estimate angle measures
+10. PRACTICE: Decompose angles
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 4: PLANE FIGURES
+1. PRACTICE: Analyze quadrilaterals
+2. PRACTICE: Classify quadrilaterals
+ASSESSMENT: Quiz 1
+3. PRACTICE: Classify triangles by angles
+4. PRACTICE: Classify triangles by both sides and angles
+5. PRACTICE: Identify parallel and perpendicular lines
+6. PRACTICE: Classify shapes by line and angle types
+7. PRACTICE: Identify line symmetry
+ASSESSMENT: Quiz 2
+8. PRACTICE: Quadrilateral types
+9. PRACTICE: Properties of shapes
+10. PRACTICE: Classifying shapes
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 5: UNITS OF MEASUREMENT
+1. PRACTICE: Estimating length (mm, cm, m, km)
+2. PRACTICE: Convert to smaller units (g and kg)
+3. PRACTICE: Convert to smaller units (mL and L)
+4. PRACTICE: Convert to smaller units (mm, cm, m, & km)
+5. PRACTICE: Metric conversions word problems
+ASSESSMENT: Quiz 1
+6. PRACTICE: Convert units (metrics)
+7. PRACTICE: Convert units word problems (metrics)
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 6: VOLUME
+1. PRACTICE: Volume with unit cubes
+2. PRACTICE: Volume of rectangular prisms with unit cubes
+3. PRACTICE: Volume as area of base times height
+4. PRACTICE: Volume of rectangular prisms
+ASSESSMENT: Quiz 1
+5. PRACTICE: Understanding decomposing figures to find volume
+6. PRACTICE: Decompose figures to find volume
+7. PRACTICE: Volume word problems
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 7: COORDINATE PLANE
+1. PRACTICE: Graph points
+2. PRACTICE: Identify points
+3. PRACTICE: Distance between points in first quadrant
+4. PRACTICE: Coordinate plane word problems (quadrant 1)
+ASSESSMENT: Quiz 1
+5. PRACTICE: Points on the coordinate plane
+6. PRACTICE: Distance between points: vertical or horizontal
+7. PRACTICE: Coordinate plane problems in all four quadrants
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 8: DECOMPOSING TO FIND AREA
+1. PRACTICE: Area of parallelograms
+2. PRACTICE: Find base and height on a triangle
+3. PRACTICE: Area of triangles
+4. PRACTICE: Drawing polygons with coordinates
+5. PRACTICE: Area and perimeter on the coordinate plane
+ASSESSMENT: Quiz 1
+6. PRACTICE: Decompose area with triangles
+7. PRACTICE: Area of composite shapes
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 9: 3D FIGURES
+1. PRACTICE: Volume by multiplying area of base times height
+2. PRACTICE: Volume with fractions
+3. PRACTICE: Volume word problems: fractions & decimals
+ASSESSMENT: Quiz 1
+4. PRACTICE: Nets of polyhedra
+5. PRACTICE: Surface area using nets
+6. PRACTICE: Surface area
+7. PRACTICE: Surface area word problems
+ASSESSMENT: Quiz 2
+8. PRACTICE: Cross sections of 3D objects (basic)
+9. PRACTICE: Volume and surface area word problems
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 10: CIRCLES, CYLINDERS, CONES, AND SPHERES
+1. PRACTICE: Radius and diameter
+2. PRACTICE: Circumference of a circle
+3. PRACTICE: Area of a circle
+4. PRACTICE: Circumference of parts of circles
+5. PRACTICE: Area of parts of circles
+ASSESSMENT: Quiz 1
+6. PRACTICE: Volume of cylinders
+7. PRACTICE: Volume of spheres
+8. PRACTICE: Volume of cones
+9. PRACTICE: Volume of cylinders, spheres, and cones word problems
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 11: ANGLE RELATIONSHIPS
+1. PRACTICE: Identifying supplementary, complementary, and vertical angles
+2. PRACTICE: Complementary and supplementary angles (visual)
+3. PRACTICE: Vertical angles
+ASSESSMENT: Quiz 1
+4. PRACTICE: Finding missing angles
+5. PRACTICE: Finding angle measures between intersecting lines
+6. PRACTICE: Create equations to solve for missing angles
+ASSESSMENT: Quiz 2
+7. PRACTICE: Angle relationships with parallel lines
+8. PRACTICE: Find angles in triangles
+9. PRACTICE: Find angles in isosceles triangles
+10. PRACTICE: Finding angle measures using triangles
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 12: SCALE
+1. PRACTICE: Corresponding sides and points
+2. PRACTICE: Identify scale copies
+3. PRACTICE: Identify scale factor in scale drawings
+4. PRACTICE: Scale copies
+5. PRACTICE: Construct scale drawings
+ASSESSMENT: Unit test
+
+UNIT 13: TRIANGLE SIDE LENGTHS
+1. PRACTICE: Triangle side length rules
+2. PRACTICE: Use Pythagorean theorem to find right triangle side lengths
+3. PRACTICE: Use Pythagorean theorem to find isosceles triangle side lengths
+4. PRACTICE: Right triangle side lengths
+ASSESSMENT: Quiz 1
+5. PRACTICE: Use Pythagorean theorem to find perimeter
+6. PRACTICE: Use Pythagorean theorem to find area
+7. PRACTICE: Pythagorean theorem word problems
+8. PRACTICE: Pythagorean theorem in 3D
+9. PRACTICE: Distance between two points
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 14: GEOMETRIC TRANSFORMATIONS
+1. PRACTICE: Identify transformations
+2. PRACTICE: Translate shapes
+3. PRACTICE: Determine translations
+4. PRACTICE: Rotate points (basic)
+5. PRACTICE: Determine rotations (basic)
+ASSESSMENT: Quiz 1
+6. PRACTICE: Reflect shapes
+7. PRACTICE: Determine reflections
+8. PRACTICE: Find measures using rigid transformations
+9. PRACTICE: Rigid transformations: preserved properties
+10. PRACTICE: Mapping shapes
+ASSESSMENT: Quiz 2
+11. PRACTICE: Dilations: scale factor
+12. PRACTICE: Dilate triangles
+13. PRACTICE: Congruence & transformations
+14. PRACTICE: Similarity & transformations
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test

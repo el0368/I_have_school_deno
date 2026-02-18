@@ -1,0 +1,324 @@
+================================================================================
+KHAN ACADEMY - AP/COLLEGE PHYSICS 1
+Complete Learn & Practice Guide
+================================================================================
+
+Course: AP/College Physics 1
+Level: AP / College (Algebra-based Classical Mechanics)
+Units: 8 (+ AP Review)
+Skills: 57
+Mastery Points: 5,700
+Prerequisite: High School Physics recommended
+Source: https://www.khanacademy.org/science/ap-college-physics-1
+
+================================================================================
+UNIT 1: KINEMATICS
+================================================================================
+
+--- Lesson 1: Scalars and Vectors in 1D ---
+1. Scalars and vectors
+   LEARN: Article - Scalars and vectors
+   LEARN: Video - Introduction to vectors and scalars
+   PRACTICE: Scalars and vectors
+
+--- Lesson 2: Visual Models of Motion ---
+2. Motion diagrams and graphs
+   LEARN: Article - Motion diagrams
+   LEARN: Video - Position-time graphs
+   LEARN: Video - Velocity-time graphs
+   PRACTICE: Visual representations of motion
+   PRACTICE: Finding displacement from velocity graphs
+   PRACTICE: Connecting velocity and acceleration graphs
+
+ASSESSMENT: Kinematics - Quiz 1
+
+--- Lesson 3: Mathematical Models of Motion ---
+3. Kinematic equations and data analysis
+   LEARN: Video - Developing kinematic equations from data
+   LEARN: Video - Kinematic equations overview
+   LEARN: Video - Free fall motion
+   PRACTICE: Linearization and proportional reasoning
+   PRACTICE: 1D motion calculations
+   PRACTICE: Interpreting motion data
+   PRACTICE: Free fall
+   PRACTICE: Free fall calculations
+
+--- Lesson 4: Motion in 2D ---
+4. Projectile motion and 2D vectors
+   LEARN: Video - 2D vectors and components
+   LEARN: Video - Projectile motion introduction
+   LEARN: Video - Projectile at an angle
+   PRACTICE: Vectors in 2D
+   PRACTICE: Projectile motion
+   PRACTICE: Projectile motion quantities
+   PRACTICE: Projectile motion graphs
+   PRACTICE: Projectile motion calculations
+
+ASSESSMENT: Kinematics - Quiz 2
+ASSESSMENT: Kinematics - Unit test
+
+================================================================================
+UNIT 2: FORCE AND TRANSLATIONAL DYNAMICS
+================================================================================
+
+--- Lesson 1: Forces and Systems ---
+5. Forces and free-body diagrams
+   LEARN: Video - Forces and free-body diagrams
+   LEARN: Video - Newton's third law and systems
+   PRACTICE: Forces and free-body diagrams
+   PRACTICE: Systems and Newton's third law
+
+--- Lesson 2: Forces and Acceleration ---
+6. Newton's second law applications
+   LEARN: Article - What is Newton's second law?
+   LEARN: Video - Applying Newton's laws
+   LEARN: Video - Forces at angles and inclined planes
+   PRACTICE: Newton's second law
+   PRACTICE: Applying Newton's laws
+   PRACTICE: Forces at an angle
+   PRACTICE: Analyzing systems
+
+ASSESSMENT: Force and translational dynamics - Quiz 1
+
+--- Lesson 3: Gravitational Force ---
+7. Gravitational force and fields
+   LEARN: Video - Gravitational forces and fields
+   LEARN: Video - Gravitational field strength
+   PRACTICE: Gravitational force
+   PRACTICE: Gravitational fields
+   PRACTICE: Inertial and gravitational mass
+
+--- Lesson 4: Friction Force ---
+8. Friction
+   LEARN: Video - Static and kinetic friction
+   LEARN: Video - Friction force calculations
+   PRACTICE: Friction
+
+ASSESSMENT: Force and translational dynamics - Quiz 2
+
+--- Lesson 5: Spring Force ---
+9. Hooke's law and spring force
+   LEARN: Video - Hooke's law
+   LEARN: Video - Spring force applications
+   PRACTICE: Spring force and Hooke's law
+
+--- Lesson 6: Circular Motion ---
+10. Uniform circular motion
+    LEARN: Video - Centripetal acceleration
+    LEARN: Video - Centripetal force
+    LEARN: Video - Circular orbits and gravitation
+    PRACTICE: Circular motion
+    PRACTICE: Applications of circular motion
+    PRACTICE: Circular orbits
+
+ASSESSMENT: Force and translational dynamics - Quiz 3
+ASSESSMENT: Force and translational dynamics - Unit test
+
+================================================================================
+UNIT 3: WORK, ENERGY, AND POWER
+================================================================================
+
+--- Lesson 1: Translational Kinetic Energy and Work ---
+11. Work-energy theorem
+    LEARN: Article - What is kinetic energy?
+    LEARN: Video - Work and the work-energy theorem
+    LEARN: Video - Force vs. displacement graphs and work
+    PRACTICE: Translational kinetic energy and work
+    PRACTICE: Force vs. displacement graphs
+
+--- Lesson 2: Potential Energy ---
+12. Gravitational and elastic potential energy
+    LEARN: Video - Potential energy (gravitational and elastic)
+    LEARN: Video - Conservative and non-conservative forces
+    PRACTICE: Potential energy
+
+ASSESSMENT: Work, energy, and power - Quiz 1
+
+--- Lesson 3: Conservation of Energy ---
+13. Conservation of energy
+    LEARN: Video - Conservation of energy (Part 1)
+    LEARN: Video - Conservation of energy (Part 2)
+    LEARN: Video - Energy bar charts
+    PRACTICE: Conservation of energy
+    PRACTICE: Energy and systems
+    PRACTICE: Energy bar charts
+
+--- Lesson 4: Power ---
+14. Power
+    LEARN: Video - Power
+    LEARN: Video - Calculating power
+    PRACTICE: Power
+
+ASSESSMENT: Work, energy, and power - Quiz 2
+ASSESSMENT: Work, energy, and power - Unit test
+
+================================================================================
+UNIT 4: LINEAR MOMENTUM
+================================================================================
+
+--- Lesson 1: Linear Momentum and Impulse ---
+15. Momentum and impulse
+    LEARN: Video - Introduction to momentum
+    LEARN: Video - Impulse and momentum
+    LEARN: Video - Force vs. time graphs
+    PRACTICE: Momentum and impulse
+    PRACTICE: Force vs. time graphs
+
+ASSESSMENT: Linear momentum - Quiz 1
+
+--- Lesson 2: Conservation of Linear Momentum ---
+16. Conservation of momentum and collisions
+    LEARN: Video - Conservation of linear momentum
+    LEARN: Video - Elastic and inelastic collisions
+    LEARN: Video - 2D collision problems
+    PRACTICE: Conservation of linear momentum
+    PRACTICE: Elastic and inelastic collisions
+    PRACTICE: Conservation of momentum calculations
+
+--- Lesson 3: Center of Mass ---
+17. Center of mass
+    LEARN: Article - What is center of mass?
+    LEARN: Video - Center of mass calculations
+    PRACTICE: Systems and center of mass
+
+ASSESSMENT: Linear momentum - Quiz 2
+ASSESSMENT: Linear momentum - Unit test
+
+================================================================================
+UNIT 5: TORQUE AND ROTATIONAL DYNAMICS
+================================================================================
+
+--- Lesson 1: Rotational Kinematics ---
+18. Rotational motion
+    LEARN: Article - Rotational kinematics
+    LEARN: Video - Angular velocity and angular acceleration
+    LEARN: Video - Connecting linear and rotational motion
+    PRACTICE: Rotational kinematics
+    PRACTICE: Connecting linear and rotational motion
+
+--- Lesson 2: Torque ---
+19. Torque
+    LEARN: Video - Torque basics
+    LEARN: Video - Torque calculations and equilibrium
+    PRACTICE: Torque
+    PRACTICE: Force diagrams and rotation
+
+ASSESSMENT: Torque and rotational dynamics - Quiz 1
+
+--- Lesson 3: Newton's Second Law in Rotational Form ---
+20. Rotational inertia and Newton's second law for rotation
+    LEARN: Video - Rotational version of Newton's second law
+    LEARN: Video - Rotational inertia (moment of inertia)
+    PRACTICE: Rotational inertia
+    PRACTICE: Rotational version of Newton's second law
+
+ASSESSMENT: Torque and rotational dynamics - Quiz 2
+ASSESSMENT: Torque and rotational dynamics - Unit test
+
+================================================================================
+UNIT 6: ENERGY AND MOMENTUM OF ROTATING SYSTEMS
+================================================================================
+
+--- Lesson 1: Rotational Kinetic Energy ---
+21. Rotational kinetic energy
+    LEARN: Video - Rotational kinetic energy of rigid systems
+    LEARN: Video - Rolling without slipping
+    PRACTICE: Rotational kinetic energy
+
+--- Lesson 2: Angular Momentum and Angular Impulse ---
+22. Angular momentum
+    LEARN: Video - Angular momentum of rigid systems
+    LEARN: Video - Angular impulse and torque
+    PRACTICE: Angular momentum
+    PRACTICE: Angular momentum and angular impulse
+
+--- Lesson 3: Conservation of Angular Momentum ---
+23. Conservation of angular momentum
+    LEARN: Video - Conservation of angular momentum
+    LEARN: Video - Applications of angular momentum conservation
+    PRACTICE: Conservation of angular momentum
+
+ASSESSMENT: Energy and momentum of rotating systems - Quiz 1
+ASSESSMENT: Energy and momentum of rotating systems - Unit test
+
+================================================================================
+UNIT 7: OSCILLATIONS
+================================================================================
+
+--- Lesson 1: Simple Harmonic Oscillators ---
+24. Simple harmonic motion
+    LEARN: Video - Intuition about simple harmonic oscillators
+    LEARN: Video - SHM graphs and equations
+    PRACTICE: Simple harmonic motion: Finding frequency and period from graphs
+
+--- Lesson 2: Period of Simple Harmonic Oscillators ---
+25. Period of oscillation
+    LEARN: Video - Period dependence for mass on spring
+    LEARN: Video - Period of a pendulum
+    PRACTICE: Period of simple harmonic oscillators
+
+--- Lesson 3: Energy of Simple Harmonic Oscillators ---
+26. Energy in SHM
+    LEARN: Video - Energy graphs for simple harmonic motion
+    LEARN: Video - Energy conservation in oscillating systems
+    PRACTICE: Energy of a simple harmonic oscillator
+
+ASSESSMENT: Oscillations - Quiz 1
+ASSESSMENT: Oscillations - Unit test
+
+================================================================================
+UNIT 8: FLUIDS
+================================================================================
+
+--- Lesson 1: Density and Pressure ---
+27. Density and pressure
+    LEARN: Video - Fluids and density
+    LEARN: Video - Pressure and Pascal's principle
+    PRACTICE: Density and pressure
+
+--- Lesson 2: Buoyant Force ---
+28. Buoyancy
+    LEARN: Video - Buoyant force and Archimedes' principle
+    LEARN: Video - Buoyancy calculations
+    PRACTICE: Buoyant force
+
+--- Lesson 3: Fluid Flow ---
+29. Fluid dynamics
+    LEARN: Video - Fluid flow and continuity equation
+    LEARN: Video - Bernoulli's equation
+    PRACTICE: Fluid flow
+
+ASSESSMENT: Fluids - Quiz 1
+ASSESSMENT: Fluids - Unit test
+
+================================================================================
+UNIT 9: AP PHYSICS 1 REVIEW
+================================================================================
+
+30. AP Physics 1 concept review
+    LEARN: Video - AP Physics 1 review of 1D motion
+    LEARN: Video - AP Physics 1 review of forces
+    LEARN: Video - AP Physics 1 review of energy
+    LEARN: Video - AP Physics 1 review of momentum
+    LEARN: Video - AP Physics 1 review of rotation
+    LEARN: Video - AP Physics 1 review of oscillations
+    LEARN: Video - AP Physics 1 review of fluids
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in AP/College Physics 1
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 8 content units + 1 review unit
+Total Lessons: ~30 topics
+Total Learn Items: ~60+ videos and articles
+Total Practice Items: 57 skills
+Total Assessments: 13 quizzes + 8 unit tests + 1 course challenge
+
+AP® is a registered trademark of the College Board, which has not reviewed
+this resource.
+================================================================================

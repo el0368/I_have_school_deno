@@ -1,0 +1,168 @@
+KHAN ACADEMY - 8TH GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: NUMBERS AND OPERATIONS
+================================================================================
+
+Exercises:
+----------
+1. Classifying rational and irrational numbers
+2. Converting repeating decimals to fractions
+3. Comparing irrational numbers
+4. Approximating square roots
+5. Cube roots
+6. Exponents with integer bases
+7. Exponents with fractional bases
+8. Exponents with decimal bases
+9. Variable expressions with exponents
+10. Properties of exponents
+11. Scientific notation intro
+12. Operations with scientific notation
+13. Order of operations
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: SOLVING EQUATIONS WITH ONE UNKNOWN
+================================================================================
+
+Exercises:
+----------
+1. Testing solutions to equations
+2. One-step equations
+3. Two-step equations
+4. Multi-step equations
+5. Equations with variables on both sides
+6. Equations with parentheses
+7. Equation word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: LINEAR EQUATIONS AND FUNCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Proportional relationships
+2. Identifying proportional relationships from graphs
+3. Identifying proportional relationships from equations
+4. Identifying proportional relationships from tables
+5. Interpreting constants of proportionality
+6. Slope from graph
+7. Slope from two points
+8. Slope from equation
+9. x-intercepts and y-intercepts
+10. Slope-intercept form
+11. Graphing from slope-intercept form
+12. Evaluating functions
+13. Understanding function rules
+14. Recognizing functions from tables
+15. Linear relationship word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: SYSTEMS OF EQUATIONS
+================================================================================
+
+Exercises:
+----------
+1. Solutions to systems of equations
+2. Solving systems graphically
+3. Solving systems by substitution
+4. Solving systems by elimination
+5. Number of solutions to systems
+6. Systems of equations word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: GEOMETRY
+================================================================================
+
+Exercises:
+----------
+1. Reflections
+2. Rotations
+3. Translations
+4. Dilations
+5. Congruence
+6. Similarity
+7. Angle relationships
+8. Pythagorean theorem
+9. Pythagorean theorem word problems
+10. Pythagorean theorem in 3D
+11. Distance between points
+12. Volume of cylinders
+13. Volume of cones
+14. Volume of spheres
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: GEOMETRIC TRANSFORMATIONS
+================================================================================
+
+Exercises:
+----------
+1. Performing reflections
+2. Performing rotations
+3. Performing translations
+4. Performing dilations
+5. Properties of transformations
+6. Sequences of transformations
+7. Congruence and transformations
+8. Similarity and transformations
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: DATA AND MODELING
+================================================================================
+
+Exercises:
+----------
+1. Constructing scatter plots
+2. Interpreting scatter plots
+3. Identifying associations in scatter plots
+4. Describing trends in scatter plots
+5. Eyeballing lines of best fit
+6. Estimating slope of line of best fit
+7. Estimating equation of line of best fit
+8. Using lines of best fit for predictions
+9. Two-way frequency tables
+10. Two-way relative frequency tables
+11. Reading two-way tables
+12. Creating two-way tables
+13. Analyzing two-way tables
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 7
+TOTAL EXERCISE TOPICS: 80+
+================================================================================

@@ -1,0 +1,1836 @@
+================================================================================
+  THE ANTI-LOGIC DRIFT PLAYBOOK
+  A Philosophy for Building Software That Cannot Silently Break
+================================================================================
+
+  Logic drift is the #1 silent killer in software.
+  It's when your code STILL COMPILES, STILL PASSES TESTS,
+  but no longer does what it was supposed to do.
+
+  This playbook contains 34 engineering disciplines to prevent it.
+  Every one is language-agnostic and project-portable.
+
+
+================================================================================
+  PART I — WHAT IS LOGIC DRIFT?
+================================================================================
+
+  Logic drift happens when:
+    • A refactor subtly changes behavior nobody notices
+    • A new feature introduces a side effect in an unrelated module
+    • A "quick fix" silently breaks an invariant
+    • AI-generated code looks correct but violates an assumption
+    • Two developers independently change the same contract
+    • A dependency update changes semantics under the same API
+
+  The terrifying part: everything LOOKS fine.
+  Tests pass. CI is green. The bug ships to production.
+  You discover it weeks later through a customer complaint.
+
+  Anti-logic drift is the discipline of making drift IMPOSSIBLE
+  to occur silently. If drift happens, the system SCREAMS.
+
+
+================================================================================
+  PART II — THE 7 PHILOSOPHICAL PILLARS
+================================================================================
+
+  Every technique in this playbook serves one of these pillars:
+
+
+  PILLAR 1: LAWS OVER OPINIONS
+  ─────────────────────────────
+  Philosophy: Human memory is unreliable. Tribal knowledge evaporates.
+  Code conventions are suggestions. But LAWS are enforceable.
+
+  Write your architectural decisions as machine-readable rules.
+  Don't put "please don't use eval()" in a README. Put it in a
+  validator that BLOCKS THE BUILD when someone uses eval().
+
+  When an AI or a new developer joins, they don't need to "know"
+  anything. The laws enforce themselves.
+
+  Principle: If a rule isn't automatically enforced, it doesn't exist.
+
+
+  PILLAR 2: SAME INPUT → SAME OUTPUT (Determinism)
+  ─────────────────────────────────────────────────
+  Philosophy: A compiler, a serializer, a transformer — any function
+  that converts A to B — must be a PURE FUNCTION. If you give it the
+  same input twice, you must get bit-identical output.
+
+  If your system ever produces different output for the same input,
+  you have hidden state. Hidden state is the root of all drift.
+
+  Principle: Hash your outputs. Run them twice. Compare the hashes.
+  If they differ, your system is non-deterministic and therefore
+  UNTRUSTWORTHY.
+
+
+  PILLAR 3: TRUST NOTHING, VERIFY EVERYTHING (Zero Trust)
+  ────────────────────────────────────────────────────────
+  Philosophy: Don't trust your code. Don't trust your tests. Don't
+  trust your dependencies. Don't trust AI-generated code. Don't trust
+  yourself.
+
+  Instead, build multiple independent verification layers. Each
+  layer catches what the others miss. No single layer is sufficient.
+
+  Principle: Defense in depth. If one layer fails, another catches it.
+
+
+  PILLAR 4: MAKE DRIFT VISIBLE (Observability)
+  ─────────────────────────────────────────────
+  Philosophy: You cannot fix what you cannot see. Every critical
+  operation must emit a signal. Every signal must be collected.
+  Every collection must be analyzed.
+
+  When drift occurs, the system should DETECT it, DIAGNOSE it,
+  EXPLAIN it, and SUGGEST how to fix it — automatically.
+
+  Principle: Silent failures are worse than loud crashes.
+
+
+  PILLAR 5: RISK IS A NUMBER, NOT A FEELING (Quantified Risk)
+  ────────────────────────────────────────────────────────────
+  Philosophy: "This feels risky" is useless. "This has RPN 240
+  because Severity=10, Occurrence=4, Detection=6" is actionable.
+
+  Assign numbers to risk. Use thresholds. Automate decisions.
+  High risk → block. Medium risk → warn. Low risk → monitor.
+
+  Principle: Quantify everything. Feelings don't scale.
+
+
+  PILLAR 6: PROTECT WHAT MATTERS MOST (Tiered Criticality)
+  ────────────────────────────────────────────────────────
+  Philosophy: Not all code is equally important. Your core algorithm
+  matters more than your logging utility. Apply proportional rigor.
+
+  The most critical modules get the strictest protection. Casual
+  changes are forbidden. Formal review is required. Every edit
+  leaves an auditable paper trail.
+
+  Principle: Classify your code by blast radius. Guard accordingly.
+
+
+  PILLAR 7: RECOVERY IS NOT OPTIONAL
+  ───────────────────────────────────
+  Philosophy: Prevention is ideal. But prevention will eventually fail.
+  When it does, you need a guaranteed recovery path — not hope.
+
+  Every system must be able to roll back to a known-good state.
+  Recovery must be TESTED, not theoretical. If your recovery plan
+  has never been exercised, it's not a plan — it's a wish.
+
+  Principle: Test your recovery path as rigorously as your happy path.
+
+
+================================================================================
+  PART III — THE 34 TECHNIQUES
+================================================================================
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY A: RISK ANALYSIS — "Know what can kill you"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [1] FMEA — Failure Mode and Effects Analysis
+  ─────────────────────────────────────────────
+  Purpose: Before something breaks, PREDICT how it could break,
+           how bad it would be, and how likely you are to catch it.
+
+  Philosophy: Every component has failure modes. If you haven't
+  enumerated them, you're gambling. FMEA forces you to think
+  about failure BEFORE it happens, not after.
+
+  How to apply:
+    For every critical module, ask three questions:
+      1. SEVERITY:   If this fails, how bad is it? (1-10)
+      2. OCCURRENCE:  How likely is this failure? (1-10)
+      3. DETECTION:   Can our tests catch it? (1-10, INVERSE: 10 = undetectable)
+    Multiply them: RPN = S × O × D
+    Set thresholds: RPN > 125 = BLOCKED. RPN 50-125 = NEEDS TESTS.
+
+
+  [2] DESIGN FMEA (DFMEA)
+  ────────────────────────
+  Purpose: Classify your entire project by RISK LEVEL at the
+           architectural level, not the line-of-code level.
+
+  Philosophy: A bug in your core algorithm is catastrophic. A bug
+  in your admin dashboard is annoying. Treat them differently.
+
+  How to apply:
+    Assign a Design Assurance Level to each subsystem:
+      DAL-A: Catastrophic if it fails → highest rigor, 0 known bugs
+      DAL-B: Serious but recoverable  → high rigor, documented exceptions only
+      DAL-C: Inconvenient             → standard testing, known limitations OK
+    This determines test requirements, review requirements, and
+    change control strictness for each part of the system.
+
+
+  [3] PROCESS FMEA (PFMEA) — Dynamic Risk Scoring
+  ─────────────────────────────────────────────────
+  Purpose: Static risk scores become stale. Adjust risk based on
+           what's ACTUALLY happening in production.
+
+  Philosophy: A failure mode you rated as "unlikely" might happen
+  50 times a day. Your risk score should update automatically from
+  real telemetry data, not remain frozen at design-time estimates.
+
+  How to apply:
+    Track how often each failure mode actually occurs at runtime.
+    Adjust the Occurrence score dynamically. If a "rare" event
+    becomes frequent, the RPN should automatically exceed the
+    block threshold and alert the team.
+
+
+  [4] STPA — System-Theoretic Process Analysis
+  ─────────────────────────────────────────────
+  Purpose: Model your system as CONTROL LOOPS. Identify what
+           happens when a control action is wrong, missing,
+           too early, or too late.
+
+  Philosophy: Traditional FMEA focuses on components. STPA focuses
+  on INTERACTIONS. Most catastrophic failures aren't from a single
+  component failing — they're from components interacting in
+  unexpected ways.
+
+  How to apply:
+    1. Identify your control loops (e.g., compiler → runtime,
+       server → client, user → system)
+    2. For each loop, define SAFETY CONSTRAINTS that must always hold
+    3. Classify violations as: not_provided, provided_incorrectly,
+       wrong_timing, stopped_too_soon
+    4. Monitor constraint health continuously
+
+
+  [5] CVE PATTERN SCANNING
+  ────────────────────────
+  Purpose: Detect known vulnerability patterns in your code
+           BEFORE they reach production.
+
+  Philosophy: Most security vulnerabilities follow known patterns.
+  eval(), SQL injection, path traversal — they're well-documented.
+  Don't rely on humans to spot them. Scan automatically.
+
+  How to apply:
+    Build or use a scanner that matches your code's AST against
+    known dangerous patterns. Assign risk scores. Block commits
+    when high-risk patterns are found.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY B: VERIFICATION — "Prove it works"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [6] SEMANTIC PARITY TESTING
+  ───────────────────────────
+  Purpose: If your system transforms code/data from Format A to
+           Format B, prove they mean the SAME THING.
+
+  Philosophy: Translation is lossy by nature. The only defense is
+  exhaustive comparison. For every operation in the source language,
+  the target must produce identical results.
+
+  How to apply:
+    Write parity test cases for every operation.
+    Run the same input through both systems.
+    Compare outputs bit-for-bit.
+    Aim for hundreds of cases, not dozens.
+
+
+  [7] DIFFERENTIAL TESTING
+  ────────────────────────
+  Purpose: If you have TWO implementations of the same logic,
+           feed them identical inputs and compare outputs.
+
+  Philosophy: Two independent implementations are unlikely to have
+  the exact same bug. If their outputs diverge, one of them drifted.
+
+  How to apply:
+    Generate random inputs. Feed to both implementations.
+    Compare outputs. Any difference = investigate immediately.
+    Works beautifully for: compilers, serializers, parsers,
+    encoders, mathematical libraries.
+
+
+  [8] DETERMINISM CERTIFICATION
+  ─────────────────────────────
+  Purpose: Prove that your system is a PURE FUNCTION — same input
+           always produces the exact same output.
+
+  Philosophy: Non-determinism is the enemy of reproducibility.
+  If a build is non-deterministic, you can never be sure a "fix"
+  actually fixed anything — it might just be a different random
+  outcome.
+
+  How to apply:
+    Run your transformation N times with the same input.
+    Hash each output. If ANY hash differs, your system has
+    hidden state (timestamps, random seeds, hash map ordering,
+    process dictionary, etc.). Find and eliminate it.
+
+
+  [9] PROPERTY-BASED TESTING
+  ──────────────────────────
+  Purpose: Instead of testing with specific examples, define
+           PROPERTIES that must hold for ALL possible inputs.
+
+  Philosophy: Human-written test cases reflect human assumptions.
+  You test what you THINK might break, not what WILL break.
+  Property-based testing generates hundreds of inputs automatically,
+  including adversarial edge cases you'd never think of.
+
+  How to apply:
+    For each function, define its INVARIANTS:
+      "For all integers a,b: add(a,b) == add(b,a)" (commutativity)
+      "For all lists l: length(reverse(l)) == length(l)" (preserves length)
+      "For all x: decode(encode(x)) == x" (round-trip)
+    Use a generator library (QuickCheck, Hypothesis, fast-check, StreamData)
+    to generate random inputs and verify properties hold.
+
+
+  [10] CHAOS TESTING
+  ──────────────────
+  Purpose: Deliberately introduce failure conditions to verify
+           your system handles them gracefully.
+
+  Philosophy: If you only test the happy path, you only know the
+  happy path works. Real systems face: network partitions, disk
+  full, OOM, slow I/O, concurrent writes, clock skew. Test for
+  THOSE.
+
+  How to apply:
+    Kill processes. Exhaust memory. Inject latency. Drop packets.
+    Corrupt data. Run under CPU pressure. If the system crashes
+    ungracefully, your recovery path has gaps.
+
+
+  [11] FAULT INJECTION
+  ────────────────────
+  Purpose: Prove that each FMEA mitigation actually works by
+           injecting the exact failure it's supposed to handle.
+
+  Philosophy: You wrote "handles OOM gracefully" in your FMEA.
+  Have you ACTUALLY tested what happens under OOM? Fault injection
+  forces the failure and verifies the response.
+
+  How to apply:
+    For each FMEA failure mode:
+      1. Inject the exact fault (memory pressure, CPU throttle,
+         type confusion, corrupted data, etc.)
+      2. Verify the system responds correctly
+      3. Score: pass/fail/partial
+    All injections must be BOUNDED and ISOLATED — never risk
+    crashing the real system.
+
+
+  [12] FUZZING
+  ────────────
+  Purpose: Feed your system GARBAGE and verify it doesn't crash.
+
+  Philosophy: Users will eventually send you every possible
+  invalid input. Attackers will do it deliberately. If your parser,
+  compiler, or API crashes on unexpected input, that's a bug AND
+  a security vulnerability.
+
+  How to apply:
+    Generate random, malformed, boundary-condition inputs:
+      • Empty strings, nil values, extremely long strings
+      • Wrong types, missing fields, extra fields
+      • Unicode edge cases (emoji, right-to-left, null bytes)
+      • Deeply nested structures
+      • Integer overflow/underflow
+    Feed them to your system. Expected outcome: graceful error.
+    Unacceptable outcome: crash, hang, or corrupted state.
+
+
+  [13] MUTATION TESTING
+  ─────────────────────
+  Purpose: Verify that your tests ACTUALLY test your logic.
+
+  Philosophy: Code coverage is misleading. A test can "cover"
+  a line without actually checking its result. Mutation testing
+  proves your test suite would CATCH a real bug.
+
+  How to apply:
+    Take your source code. Make a small change:
+      + → -    or    > → >=    or    true → false
+    Run your tests. If they STILL PASS, your tests are blind
+    to that logic — you have a testing gap.
+    Mutation score = killed_mutants / total_mutants × 100%
+    Target: ≥ 95%
+
+
+  [14] ROUND-TRIP TESTING
+  ───────────────────────
+  Purpose: If you encode and decode data, encoding then decoding
+           must return the EXACT original.
+
+  Philosophy: Serialization drift is invisible. You encode a
+  message, send it, decode it — and one field is silently
+  truncated. Round-trip testing catches this.
+
+  How to apply:
+    For all supported data types:
+      assert decode(encode(x)) === x
+    Test with: empty values, maximum values, Unicode, nested
+    structures, special floats (NaN, Infinity, -0).
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY C: ENFORCEMENT — "Make breaking the rules impossible"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [15] COMPILE-TIME LAW ENFORCEMENT
+  ─────────────────────────────────
+  Purpose: Catch violations BEFORE the code runs. If it shouldn't
+           exist, it shouldn't compile.
+
+  Philosophy: Runtime errors mean the damage is already done.
+  Compile-time enforcement means bad code never becomes a binary.
+  The earliest you catch a bug, the cheapest it is to fix.
+
+  How to apply:
+    Write custom compiler plugins/linters that check your rules:
+      • "No module exceeds 500 lines"
+      • "No forbidden imports"
+      • "All public functions have type specs"
+      • "Critical modules reference their governing law"
+    Run them as part of compilation. Block on failure.
+
+
+  [16] RUNTIME MONITORING (The Police)
+  ────────────────────────────────────
+  Purpose: Catch violations that can only be detected during
+           execution — resource budgets, cycle detection, timing.
+
+  Philosophy: Some invariants can't be checked at compile time.
+  "This loop must yield within 4000 iterations" requires runtime
+  counting. The Police layer monitors LIVE behavior.
+
+  How to apply:
+    Instrument critical paths with counters, budgets, and timeouts:
+      • Execution budget: yield after N operations
+      • Memory budget: alert after N bytes allocated
+      • Cycle detection: topological sort on dependency graphs
+      • Timing: alert if operation exceeds N milliseconds
+
+
+  [17] RECOVERY SYSTEM (The Judge)
+  ────────────────────────────────
+  Purpose: When prevention and detection both fail,
+           RECOVER to a known-good state automatically.
+
+  Philosophy: Every violation has a prescribed recovery action.
+  Don't leave recovery to human improvisation. Codify it.
+  "If memory leak → force GC." "If infinite loop → kill process."
+  "If corrupted state → rollback to last certified snapshot."
+
+  How to apply:
+    For each category of violation, define:
+      1. What "recovery" means (rollback? restart? degrade?)
+      2. How to execute it (automated, not manual)
+      3. What to log (forensic trail for post-mortem)
+    TEST your recovery paths. An untested recovery is a wish.
+
+
+  [18] GUARDIAN GATES (Mandatory Audit Checklists)
+  ────────────────────────────────────────────────
+  Purpose: Before ANY change is accepted, it must pass through
+           a series of mandatory quality gates. No exceptions.
+
+  Philosophy: Humans forget steps. Checklists don't. Aviation has
+  known this for 100 years. Every code change goes through gates:
+
+  The 6 Gates:
+    Gate 1: SEMANTIC PARITY — Does the output still match the spec?
+    Gate 2: RESOURCE INTEGRITY — Are all allocations tracked and freed?
+    Gate 3: EXECUTION FAIRNESS — Does the code yield? No infinite loops?
+    Gate 4: LIFECYCLE TOTALITY — Does every create have a destroy?
+    Gate 5: BOUNDARY SECURITY — No unsafe patterns? No eval?
+    Gate 6: VALIDATION — Is input validated before processing?
+
+
+  [19] CONSTITUTIONAL CONSTRAINTS
+  ───────────────────────────────
+  Purpose: Define the ARCHITECTURAL SHAPE of your project.
+           These are the things that NEVER change.
+
+  Philosophy: Some decisions are foundational. "We use Deno, not
+  Node." "No module over 500 lines." "One schema, one source of
+  truth." These aren't preferences — they're constitutional laws.
+  Violating them is a structural failure, not a code bug.
+
+  How to apply:
+    Write down your non-negotiable architectural constraints.
+    Make them machine-checkable. Block the build when violated.
+
+
+  [20] AI CODE VALIDATION (Neuro-Symbolic Gate)
+  ─────────────────────────────────────────────
+  Purpose: AI generates code. Logic validates it. Never trust
+           AI output without deterministic verification.
+
+  Philosophy: AI is a powerful generator but an unreliable guarantor.
+  It can write code that LOOKS perfect but violates invisible
+  constraints. The NeSy principle: "AI generates, Logic validates."
+
+  How to apply:
+    Every AI-generated code change MUST pass through:
+      1. Syntax validation (does it parse?)
+      2. Forbidden pattern scan (no eval, no unsafe ops)
+      3. Frozen module check (is it touching protected code?)
+      4. Size limits (not bloating the codebase)
+    Only accept what passes ALL gates.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY D: PROTECTION — "Guard what matters most"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [21] FROZEN CORE (Tiered Module Protection)
+  ───────────────────────────────────────────
+  Purpose: Your most critical code should be the HARDEST to change.
+
+  Philosophy: A casual, unreviewed change to your payment processor
+  could bankrupt the company. A casual change to your logging
+  utility is probably fine. Apply protection proportional to risk.
+
+  How to apply:
+    Tier 1 (ABSOLUTE ZERO): Cannot be changed without full formal review.
+            These are your crown jewels. Core algorithms. Security.
+    Tier 2 (HARDENED): Can be changed with pre-check, tests, post-certification.
+            Important modules that change infrequently.
+    Tier 3 (CERTIFIED): Can be changed with a simple description and test pass.
+            Stable modules with good test coverage.
+
+    When a module has been stable for 2+ weeks with zero failures
+    and > 80% test coverage, promote it to the next tier.
+
+
+  [22] CRYPTOGRAPHIC AUDIT TRAIL (Hash-Chain Ledger)
+  ──────────────────────────────────────────────────
+  Purpose: Create an UNFORGEABLE record of every certified change.
+
+  Philosophy: Git logs can be rewritten. Comments can be deleted.
+  But a hash chain is mathematically tamper-evident. Each entry
+  contains the hash of the previous entry, forming a blockchain-like
+  structure. Any tampering breaks the chain.
+
+  How to apply:
+    When a module passes certification:
+      1. SHA-256 hash the file contents
+      2. Record: file, hash, previous_hash, timestamp, risk data
+      3. Append to ledger
+    To verify: recalculate all hashes. If any mismatch → drift.
+
+
+  [23] PRE-EDIT VALIDATION (Handshake Protocol)
+  ─────────────────────────────────────────────
+  Purpose: BEFORE you touch a file, verify the system is already
+           in a known-good state. Don't build on top of drift.
+
+  Philosophy: If the foundation is cracked, anything you build on
+  it is suspect. The Handshake checks: Is this file certified?
+  Does its hash match the ledger? Are there pre-existing violations?
+  Only proceed when the starting state is clean.
+
+
+  [24] POST-EDIT CERTIFICATION (Handoff Protocol)
+  ───────────────────────────────────────────────
+  Purpose: AFTER you change a file, formally certify the change.
+
+  Philosophy: "I'm done" is not certification. Certification means:
+  tests pass, gates pass, the hash is recorded, the ledger is
+  updated, and the FMEA risk data is attached. This creates a
+  forensic trail that connects every change to its verification.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY E: OBSERVABILITY — "See everything"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [25] TELEMETRY → RISK BRIDGE
+  ────────────────────────────
+  Purpose: Connect runtime events directly to your risk model.
+
+  Philosophy: Most teams collect metrics but never connect them
+  to risk decisions. A memory spike is a metric. "Memory spike
+  maps to FMEA failure mode 'memory_exhaustion' with RPN 240"
+  is a RISK EVENT that triggers action.
+
+  How to apply:
+    Map your telemetry events to FMEA failure modes:
+      OOM event → memory_exhaustion
+      Timeout → preemption_starvation
+      Crash → runtime_trap
+    When event frequency crosses a threshold, auto-escalate
+    the risk score.
+
+
+  [26] FORENSIC LOGGING
+  ─────────────────────
+  Purpose: Record enough context to reconstruct what happened
+           AFTER a failure, without drowning in noise.
+
+  Philosophy: Regular logs say "error occurred." Forensic logs
+  say "error occurred at this state, with this input, in this
+  context, and here's the system state at the time." Forensic
+  logs enable ROOT CAUSE ANALYSIS, not just incident response.
+
+  How to apply:
+    On every significant event, record:
+      • Timestamp (millisecond precision)
+      • Event type and severity
+      • Context (what was the system doing?)
+      • System state (versions, resource levels)
+    Format: Append-only JSONL (one JSON object per line).
+    Retention: Long enough for pattern detection.
+
+
+  [27] VIOLATION DIAGNOSIS (Counsel System)
+  ─────────────────────────────────────────
+  Purpose: When something fails, don't just say "FAILED." Say
+           WHY it failed and HOW to fix it.
+
+  Philosophy: A red test with no explanation wastes developer
+  time. An error that says "Semantic parity violated: JS emitter
+  produced X but Elixir produces Y. Fix: check operator emission
+  in the arithmetic module" saves hours.
+
+  How to apply:
+    For each category of violation:
+      1. Parse the error to extract structured data
+      2. Map to the relevant law/rule
+      3. Generate a human-readable explanation
+      4. Suggest specific fix actions
+      5. Show related rules that might also be affected
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY F: SUPPLY CHAIN — "Trust nothing external"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [28] DEPENDENCY VULNERABILITY AUDIT
+  ───────────────────────────────────
+  Purpose: Your dependencies have bugs and CVEs. Know them.
+
+  Philosophy: You are responsible for EVERYTHING in your binary,
+  including code you didn't write. Audit automatically. Block on
+  critical vulnerabilities.
+
+
+  [29] LICENSE COMPLIANCE
+  ──────────────────────
+  Purpose: Ensure all dependencies use licenses compatible with
+           your project.
+
+  Philosophy: A GPL dependency in your proprietary codebase is a
+  legal timebomb. Scan automatically. Maintain an allowlist.
+  Flag unknowns for manual review.
+
+
+  [30] SBOM — Software Bill of Materials
+  ──────────────────────────────────────
+  Purpose: Know EXACTLY what's in your final artifact.
+
+  Philosophy: If someone asks "do you use library X version Y?"
+  you should have an instant, machine-generated answer — not a
+  grep session. SBOM is your ingredient list.
+
+  Drift Detection: If dependencies change and SBOM isn't
+  regenerated, flag it. Your ingredient list must match reality.
+
+
+  [31] DEPENDENCY PINNING & INTEGRITY
+  ───────────────────────────────────
+  Purpose: Lock every dependency to an exact version with
+           a cryptographic hash. No surprises from upstream.
+
+  Philosophy: "latest" is not a version. It's a prayer.
+  Pin everything. Hash everything. Verify on every build.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY G: ARCHITECTURE — "Design to prevent drift"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [32] SINGLE SOURCE OF TRUTH (Structural SSOT)
+  ─────────────────────────────────────────────
+  Purpose: Every piece of knowledge should exist in exactly
+           ONE place. Everything else derives from it.
+
+  Philosophy: If your data schema is defined in 3 places, those 3
+  definitions WILL drift. Define it once. Generate the rest.
+  Schema → validators, encoders, decoders, documentation.
+  This is the most powerful anti-drift technique that exists.
+
+
+  [33] DEFENSE IN DEPTH (Trinity Sync)
+  ────────────────────────────────────
+  Purpose: Three independent enforcement layers. Any one can fail.
+           All three failing simultaneously is near-impossible.
+
+  Philosophy:
+    Layer 1 (COMPILE TIME): Catch errors before the code runs.
+    Layer 2 (RUNTIME): Catch errors during execution.
+    Layer 3 (RECOVERY): Catch errors and restore when all else fails.
+
+  Each layer reads from the same law definitions but enforces
+  independently. This is why it's called "Trinity Sync" — three
+  enforcers, one truth.
+
+
+  [34] SURGICAL REACTIVITY (No Unnecessary Abstraction)
+  ─────────────────────────────────────────────────────
+  Purpose: Eliminate entire CATEGORIES of bugs by choosing
+           architectures that make them structurally impossible.
+
+  Philosophy: The best defense against reconciliation bugs is
+  to not have a reconciliation step. The best defense against
+  cache invalidation bugs is to not have a cache. Choose
+  architectures where the bug category CANNOT EXIST, rather
+  than building elaborate detection for it.
+
+
+================================================================================
+  PART IV — HOW TO ADOPT (Step-by-Step)
+================================================================================
+
+  You don't need all 34 techniques on day one.
+  Start with the highest-impact ones:
+
+  WEEK 1: Foundation
+    □ Write your architectural rules as machine-checkable laws [15, 19]
+    □ Add a compile-time linter that enforces them
+    □ Block the build on violation
+
+  WEEK 2: Risk Awareness
+    □ List your critical modules [2, 21]
+    □ For each one, do a quick FMEA: S×O×D [1]
+    □ Any RPN > 125? Write a test for that failure mode.
+
+  WEEK 3: Verification
+    □ Add property-based tests for your core logic [9]
+    □ Add round-trip tests for your serialization [14]
+    □ Add determinism tests if you have any transformation [8]
+
+  WEEK 4: Protection
+    □ Mark your critical modules as "frozen" [21]
+    □ Add a hash-chain ledger for certified files [22]
+    □ Implement handshake/handoff protocol [23, 24]
+
+  MONTH 2: Adversarial
+    □ Add fuzzing for your input parsers [12]
+    □ Add mutation testing to verify your test suite [13]
+    □ Add chaos testing for your failure handling [10]
+
+  MONTH 3: Supply Chain
+    □ Generate SBOM [30]
+    □ Audit dependencies [28, 29]
+    □ Pin and hash everything [31]
+
+  ONGOING:
+    □ Connect telemetry to risk scoring [25, 3]
+    □ Add forensic logging [26]
+    □ Build violation diagnosis [27]
+
+
+================================================================================
+  PART V — THE CORE INSIGHT
+================================================================================
+
+  Every technique in this playbook answers ONE question:
+
+    "If something went wrong RIGHT NOW, would we know?"
+
+  If the answer is "no" for any part of your system,
+  that's where drift will hide.
+
+  Logic drift doesn't happen because developers are careless.
+  It happens because systems ALLOW silent failure.
+
+  Make silence impossible.
+
+  That's the entire philosophy.
+
+
+================================================================================
+  METHODOLOGY INVENTORY (For Reference)
+================================================================================
+
+  #   Technique                     Pillar          Effort    Impact
+  ──  ────────────────────────────  ──────────────  ────────  ──────
+   1  FMEA Risk Scoring             Quantified Risk Low       HIGH
+   2  Design FMEA (DAL Levels)      Tiered Crit.   Low       HIGH
+   3  Process FMEA (Dynamic RPN)    Observability   Medium    HIGH
+   4  STPA Control Loop Analysis    Zero Trust      High      HIGH
+   5  CVE Pattern Scanning          Zero Trust      Medium    HIGH
+   6  Semantic Parity Testing       Determinism     Medium    CRITICAL
+   7  Differential Testing          Determinism     Medium    HIGH
+   8  Determinism Certification     Determinism     Low       HIGH
+   9  Property-Based Testing        Zero Trust      Medium    CRITICAL
+  10  Chaos Testing                 Recovery        Medium    HIGH
+  11  Fault Injection               Recovery        High      HIGH
+  12  Fuzzing                       Zero Trust      Low       HIGH
+  13  Mutation Testing              Zero Trust      Low       HIGH
+  14  Round-Trip Testing            Determinism     Low       MEDIUM
+  15  Compile-Time Enforcement      Laws            Low       CRITICAL
+  16  Runtime Monitoring            Observability   Medium    HIGH
+  17  Recovery System               Recovery        High      CRITICAL
+  18  Guardian Gates                Laws            Medium    CRITICAL
+  19  Constitutional Constraints    Laws            Low       HIGH
+  20  AI Code Validation            Zero Trust      Medium    HIGH
+  21  Frozen Core Protection        Tiered Crit.   Low       HIGH
+  22  Hash-Chain Ledger             Laws            Medium    HIGH
+  23  Pre-Edit Validation           Laws            Low       MEDIUM
+  24  Post-Edit Certification       Laws            Low       HIGH
+  25  Telemetry → Risk Bridge       Observability   Medium    HIGH
+  26  Forensic Logging              Observability   Low       MEDIUM
+  27  Violation Diagnosis           Observability   Medium    MEDIUM
+  28  Dependency Audit              Zero Trust      Low       HIGH
+  29  License Compliance            Zero Trust      Low       MEDIUM
+  30  SBOM Generation               Zero Trust      Low       MEDIUM
+  31  Dependency Pinning            Zero Trust      Low       HIGH
+  32  Single Source of Truth         Determinism     Medium    CRITICAL
+  33  Defense in Depth (Trinity)     Recovery        High      CRITICAL
+  34  Surgical Architecture         Determinism     High      CRITICAL
+
+  Effort: How hard to implement from scratch.
+  Impact: How much drift it prevents if implemented well.
+
+
+================================================================================
+  PART VI — THE MISSING 16: LIFE-SAVING ADDITIONS
+================================================================================
+
+  These are techniques that go BEYOND code verification.
+  They protect against organizational drift, deployment disasters,
+  knowledge loss, and the hardest bug of all: human nature.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY H: PRODUCTION SAFETY — "Don't learn in production"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [35] CANARY DEPLOYMENT
+  ──────────────────────
+  Purpose: Test new code on 1% of real traffic before rolling
+           it out to everyone.
+
+  Philosophy: Your staging environment is a LIE. It doesn't have
+  real user behavior, real data volume, or real network conditions.
+  The only way to know if code works in production is to run it
+  in production — but for a tiny fraction of users first.
+
+  How to apply:
+    Deploy to 1% of servers/users. Monitor for 30 minutes.
+    If error rate, latency, or resource usage spikes → auto-rollback.
+    If stable → gradually increase to 10%, 50%, 100%.
+    The key: AUTOMATED rollback criteria. Not human judgment.
+
+  Life-saver moment: That "minor refactor" that passes all tests
+  but doubles memory usage under real load? Canary catches it
+  before 100% of users experience it.
+
+
+  [36] CIRCUIT BREAKER
+  ────────────────────
+  Purpose: When a dependency is failing, STOP calling it instead
+           of cascading the failure through your entire system.
+
+  Philosophy: Systems fail in cascades. Service A calls Service B.
+  B is slow. A waits. A's queue fills up. Now A is slow. Everything
+  behind A backs up. One slow service takes down the whole system.
+
+  A circuit breaker says: "B has failed 5 times in the last 10
+  seconds. STOP calling B. Return a fallback immediately. Try
+  again in 30 seconds."
+
+  How to apply:
+    Wrap every external call in a circuit breaker.
+    Three states:
+      CLOSED:    Normal operation, requests flow through
+      OPEN:      Failures exceeded threshold, return fallback immediately
+      HALF-OPEN: Try one request to see if dependency recovered
+    This is the difference between "one service is down" and
+    "the entire company is down."
+
+
+  [37] FEATURE FLAGS WITH KILL SWITCHES
+  ─────────────────────────────────────
+  Purpose: Instantly disable any feature in production without
+           deploying new code.
+
+  Philosophy: Deployment is slow. Rolling back is slower.
+  But flipping a feature flag is INSTANT. If a feature is causing
+  problems, kill it in seconds — not in the 20 minutes it takes
+  to deploy a hotfix.
+
+  How to apply:
+    Every significant feature should be behind a flag.
+    The flag system must be:
+      • Independent of deployment (config service, not code)
+      • Instant (< 1 second propagation)
+      • Auditable (who turned what off when)
+      • Testable (test with flag on AND off)
+
+
+  [38] ROLLBACK-FIRST DEPLOYMENT
+  ──────────────────────────────
+  Purpose: Every deployment MUST have a proven, tested rollback
+           path before it goes live.
+
+  Philosophy: "We can't rollback" means "if this breaks, we're
+  stuck with it." That's unacceptable. If you can't undo it
+  safely, you shouldn't do it.
+
+  How to apply:
+    Before deploying:
+      1. Can we rollback to the previous version? (code)
+      2. Can we rollback the database migration? (schema)
+      3. Can we rollback the config change? (infrastructure)
+      4. Have we TESTED the rollback? (verification)
+    If any answer is "no," the deployment needs redesign.
+
+  Life-saver moment: The migration that drops a column.
+  You can't rollback that. So you DON'T drop the column —
+  you stop reading it first, deploy, verify, THEN drop it
+  in a separate, forward-only migration.
+
+
+  [39] INVARIANT ASSERTIONS IN PRODUCTION
+  ───────────────────────────────────────
+  Purpose: Keep critical assertions running in production,
+           not just in tests.
+
+  Philosophy: Tests verify code at build time. Production reveals
+  reality. Some invariants are so important they should be checked
+  on EVERY real request — not just during testing.
+
+  How to apply:
+    For critical invariants:
+      "account balance must never be negative"
+      "user cannot have more permissions than their role allows"
+      "response time must be < 500ms"
+    Check them in production. On violation:
+      Log a forensic event. Alert the team. BUT DON'T CRASH.
+    Production assertions are SENSORS, not bombs.
+
+
+  [40] IDEMPOTENCY GUARANTEES
+  ───────────────────────────
+  Purpose: Make every operation safe to retry.
+
+  Philosophy: Networks are unreliable. Requests get duplicated.
+  Users double-click. Cron jobs overlap. If your operation isn't
+  idempotent, retrying it causes DOUBLE the damage.
+
+  How to apply:
+    Every mutating operation should be safe to call twice:
+      • Payment: Use idempotency keys. Same key = same result.
+      • Database: UPSERT instead of INSERT where possible.
+      • Messages: Deduplicate by message ID.
+      • APIs: GET is naturally idempotent. POST should use
+              idempotency headers.
+
+  Life-saver moment: The webhook that fires twice. Without
+  idempotency, the customer gets charged twice. With it,
+  the second call returns the same result as the first.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY I: HUMAN PROCESS — "Protect against yourself"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [41] TWO-PERSON INTEGRITY
+  ─────────────────────────
+  Purpose: Critical changes require TWO independent brains.
+
+  Philosophy: Nuclear missiles require two keys. Bank vaults
+  require two signatures. Your production database schema should
+  too. Not because people are malicious — because everyone has
+  blind spots. A second pair of eyes catches what you missed.
+
+  How to apply:
+    Classify changes by blast radius:
+      LOW BLAST:  Self-merge OK (typos, docs, logging)
+      MEDIUM:     One reviewer required (features, non-critical fixes)
+      HIGH:       Two reviewers required (security, data models, APIs)
+      CRITICAL:   Two reviewers + explicit sign-off from system owner
+                  (auth, payments, core algorithms, infrastructure)
+
+
+  [42] PRE-MORTEM ANALYSIS
+  ────────────────────────
+  Purpose: Before starting a project, IMAGINE it has already
+           failed. Then work backward to find out why.
+
+  Philosophy: Post-mortems are valuable but reactive. Pre-mortems
+  are proactive. "It's 6 months from now and this project is a
+  disaster. What went wrong?" This reveals risks that optimism
+  blinds you to.
+
+  How to apply:
+    Before starting any significant work:
+      1. Gather the team
+      2. Say: "It's [future date]. This project has failed. Why?"
+      3. Everyone writes down 3 reasons independently
+      4. Share and discuss
+      5. For the top risks: what can we do NOW to prevent them?
+
+  Life-saver moment: "We didn't account for the legacy system's
+  API rate limits" — discovered in a pre-mortem, not 3 months
+  into development.
+
+
+  [43] BLAMELESS POST-MORTEM
+  ──────────────────────────
+  Purpose: When drift DOES cause an incident, learn from it
+           without punishing people.
+
+  Philosophy: If people are punished for mistakes, they HIDE
+  mistakes. Hidden mistakes compound. Blameless culture means
+  people REPORT drift early, when it's cheap to fix.
+
+  How to apply:
+    After every incident:
+      1. What happened? (timeline)
+      2. Why did it happen? (root causes, plural)
+      3. Why didn't we catch it sooner? (detection gap)
+      4. What will we change? (specific actions with owners)
+      5. NEVER: "Who did this?" (irrelevant and toxic)
+    Publish the post-mortem internally. Make it searchable.
+    Future teams learn from past failures.
+
+
+  [44] TIME-BOXED TECHNICAL DEBT
+  ──────────────────────────────
+  Purpose: Every known shortcut MUST have an expiration date.
+
+  Philosophy: "We'll fix it later" is the most dangerous sentence
+  in software. Later never comes. Technical debt with no deadline
+  is permanent technical debt.
+
+  How to apply:
+    When you accept a shortcut:
+      1. Document WHAT the shortcut is
+      2. Document WHY you took it (valid reason required)
+      3. Set an EXPIRATION DATE (max 2 sprints / 1 month)
+      4. Set an OWNER (a specific person, not "the team")
+      5. If the date passes → the debt becomes a blocker
+    Track debt like you track bugs. Review weekly.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY J: KNOWLEDGE PRESERVATION — "Survive team turnover"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [45] ARCHITECTURE DECISION RECORDS (ADRs)
+  ─────────────────────────────────────────
+  Purpose: Document WHY decisions were made, not just WHAT
+           was decided.
+
+  Philosophy: The most dangerous drift happens when a new developer
+  changes something without understanding WHY it was built that
+  way. "This looks overcomplicated, let me simplify it" →
+  catastrophic regression.
+
+  ADRs prevent this by recording the CONTEXT, ALTERNATIVES
+  CONSIDERED, and CONSEQUENCES of each architectural choice.
+
+  How to apply:
+    For every significant decision:
+      Title:       Short description
+      Status:      Proposed / Accepted / Deprecated / Superseded
+      Context:     What problem were we solving?
+      Decision:    What did we decide?
+      Alternatives: What else did we consider and WHY did we reject it?
+      Consequences: What are the trade-offs? What becomes harder?
+
+  Life-saver moment: "Why don't we just use React?"
+  ADR-003 explains: because reconciliation bugs, because VDOM
+  overhead, because we need surgical reactivity. The 30-minute
+  argument that already happened is documented. Case closed.
+
+
+  [46] GOLDEN FILE TESTING (Snapshot Testing)
+  ───────────────────────────────────────────
+  Purpose: Capture the CORRECT output once. Detect any future
+           deviation automatically.
+
+  Philosophy: Some outputs are too complex to assert field by field.
+  Instead: generate the output once, verify it manually, save it
+  as the "golden file." From now on, any change to the output
+  must be INTENTIONAL and reviewed.
+
+  How to apply:
+    1. Run your system, capture its output
+    2. Review the output carefully — is it correct?
+    3. Save it as a reference file
+    4. On every test run, compare current output to golden file
+    5. If different → test fails → developer must review the diff
+       and either fix the code or UPDATE the golden file explicitly
+
+  Works beautifully for: compiler output, API responses, report
+  generation, migration scripts, configuration generation.
+
+
+  [47] RUNBOOKS (Not Wikis — EXECUTABLE Procedures)
+  ─────────────────────────────────────────────────
+  Purpose: When something breaks at 3 AM, the on-call person
+           should follow STEPS, not improvise.
+
+  Philosophy: Under stress, humans make terrible decisions.
+  Runbooks remove decision-making. Step 1: Check X. Step 2: If Y,
+  do Z. Step 3: If not resolved, escalate to [person].
+
+  How to apply:
+    For every alert that can fire:
+      1. What does this alert mean? (one sentence)
+      2. How urgent is it? (act now vs. can wait until morning)
+      3. What are the diagnostic steps? (numbered, specific)
+      4. What are the remediation steps? (numbered, specific)
+      5. When to escalate? (clear criteria)
+    Keep runbooks next to the alert definitions.
+    Review after every incident: "Did the runbook work?"
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY K: OPERATIONAL RESILIENCE — "Survive the real world"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [48] GRACEFUL DEGRADATION
+  ─────────────────────────
+  Purpose: When something fails, keep working with reduced
+           capability instead of crashing entirely.
+
+  Philosophy: An airplane with one failed engine doesn't fall out
+  of the sky — it flies on the remaining engines. Your system
+  should work the same way.
+
+  How to apply:
+    For each dependency/feature, define the degraded state:
+      • Search is down     → show cached results, not an error page
+      • Payment API slow  → queue the transaction, confirm later
+      • AI service offline → fall back to rule-based logic
+      • Database read-only → serve reads, queue writes
+    Users should NOTICE degradation, not experience OUTAGE.
+
+
+  [49] DEPENDENCY FRESHNESS MONITORING
+  ────────────────────────────────────
+  Purpose: Stale dependencies drift further from security patches.
+
+  Philosophy: A dependency you haven't updated in 2 years is a
+  liability. It has known vulnerabilities. Its maintainers may have
+  abandoned it. Its API may diverge from documentation.
+
+  How to apply:
+    Track the age of every dependency:
+      GREEN:  Updated within 6 months
+      YELLOW: 6-12 months old
+      RED:    > 12 months old
+    Review monthly. Update proactively, not reactively.
+    When a dependency goes RED, evaluate: update or replace?
+
+
+  [50] SEMANTIC VERSIONING AS CONTRACT
+  ────────────────────────────────────
+  Purpose: Make breaking changes EXPLICIT, never hidden.
+
+  Philosophy: When you change an API, there are only two honest
+  options: backward-compatible (minor version) or breaking
+  (major version). Hiding a breaking change in a patch release
+  is the supply-chain equivalent of logic drift.
+
+  How to apply:
+    MAJOR (X.0.0): I changed something that will break your code
+    MINOR (0.X.0): I added something new, your code still works
+    PATCH (0.0.X): I fixed a bug, nothing else changed
+
+    For internal modules: treat function signatures as contracts.
+    If you change a return type, that's a major version bump,
+    even if it's an internal module.
+
+
+================================================================================
+  PART VII — THE 8TH PILLAR (Added)
+================================================================================
+
+
+  PILLAR 8: INSTITUTIONAL MEMORY
+  ──────────────────────────────
+  Philosophy: Teams change. People leave. Knowledge evaporates.
+  The architecture decisions, the "why we did it this way," the
+  hard-won lessons from past incidents — they all live in
+  people's heads.
+
+  When those people leave, the knowledge leaves with them.
+  The next team looks at the code and says "why is this so
+  complicated?" and simplifies it — reintroducing the bug that
+  the original design was specifically built to prevent.
+
+  THIS is the most insidious form of logic drift. Not code
+  changing, but CONTEXT disappearing.
+
+  The defense: write down the WHY, not just the WHAT. ADRs,
+  post-mortems, runbooks, golden files — these are your
+  institutional memory. They survive team turnover.
+
+  If your project would be in serious trouble when a specific
+  person quits, you have an institutional memory problem.
+
+  Principle: Knowledge that exists only in someone's head
+  is not knowledge — it's a liability with a resignation date.
+
+
+================================================================================
+  UPDATED METHODOLOGY INVENTORY
+================================================================================
+
+  #   Technique                     Pillar            Effort    Impact
+  ──  ────────────────────────────  ────────────────  ────────  ──────
+   1  FMEA Risk Scoring             Quantified Risk   Low       HIGH
+   2  Design FMEA (DAL Levels)      Tiered Crit.     Low       HIGH
+   3  Process FMEA (Dynamic RPN)    Observability     Medium    HIGH
+   4  STPA Control Loop Analysis    Zero Trust        High      HIGH
+   5  CVE Pattern Scanning          Zero Trust        Medium    HIGH
+   6  Semantic Parity Testing       Determinism       Medium    CRITICAL
+   7  Differential Testing          Determinism       Medium    HIGH
+   8  Determinism Certification     Determinism       Low       HIGH
+   9  Property-Based Testing        Zero Trust        Medium    CRITICAL
+  10  Chaos Testing                 Recovery          Medium    HIGH
+  11  Fault Injection               Recovery          High      HIGH
+  12  Fuzzing                       Zero Trust        Low       HIGH
+  13  Mutation Testing              Zero Trust        Low       HIGH
+  14  Round-Trip Testing            Determinism       Low       MEDIUM
+  15  Compile-Time Enforcement      Laws              Low       CRITICAL
+  16  Runtime Monitoring            Observability     Medium    HIGH
+  17  Recovery System               Recovery          High      CRITICAL
+  18  Guardian Gates                Laws              Medium    CRITICAL
+  19  Constitutional Constraints    Laws              Low       HIGH
+  20  AI Code Validation            Zero Trust        Medium    HIGH
+  21  Frozen Core Protection        Tiered Crit.     Low       HIGH
+  22  Hash-Chain Ledger             Laws              Medium    HIGH
+  23  Pre-Edit Validation           Laws              Low       MEDIUM
+  24  Post-Edit Certification       Laws              Low       HIGH
+  25  Telemetry → Risk Bridge       Observability     Medium    HIGH
+  26  Forensic Logging              Observability     Low       MEDIUM
+  27  Violation Diagnosis           Observability     Medium    MEDIUM
+  28  Dependency Audit              Zero Trust        Low       HIGH
+  29  License Compliance            Zero Trust        Low       MEDIUM
+  30  SBOM Generation               Zero Trust        Low       MEDIUM
+  31  Dependency Pinning            Zero Trust        Low       HIGH
+  32  Single Source of Truth         Determinism       Medium    CRITICAL
+  33  Defense in Depth (Trinity)     Recovery          High      CRITICAL
+  34  Surgical Architecture         Determinism       High      CRITICAL
+  ──  ──────────────── NEW ─────── ─────────────────  ────────  ──────
+  35  Canary Deployment             Recovery          Medium    CRITICAL
+  36  Circuit Breaker               Recovery          Low       CRITICAL
+  37  Feature Flags / Kill Switch   Recovery          Medium    CRITICAL
+  38  Rollback-First Deployment     Recovery          Medium    CRITICAL
+  39  Production Invariants         Zero Trust        Low       HIGH
+  40  Idempotency Guarantees        Determinism       Medium    CRITICAL
+  41  Two-Person Integrity          Laws              Low       HIGH
+  42  Pre-Mortem Analysis           Inst. Memory      Low       HIGH
+  43  Blameless Post-Mortem         Inst. Memory      Low       HIGH
+  44  Time-Boxed Tech Debt          Laws              Low       HIGH
+  45  Architecture Decision Records Inst. Memory      Low       CRITICAL
+  46  Golden File / Snapshot Test   Determinism       Low       HIGH
+  47  Runbooks                      Inst. Memory      Medium    CRITICAL
+  48  Graceful Degradation          Recovery          Medium    CRITICAL
+  49  Dependency Freshness          Zero Trust        Low       MEDIUM
+  50  Semantic Versioning Contract  Determinism       Low       HIGH
+  ──  ────────── WORKFLOW ──────── ─────────────────  ────────  ──────
+  51  Pre-Commit Hook Baseline     Laws              Low       CRITICAL
+  52  Git Tag Baseline Strategy    Inst. Memory      Low       HIGH
+  53  Branch Protection Rules      Laws              Low       CRITICAL
+  54  CI Pipeline Gates            Laws              Medium    CRITICAL
+  55  AI Instruction Files         Inst. Memory      Low       CRITICAL
+  56  .editorconfig / Formatting   Determinism       Low       MEDIUM
+  57  Mono-Repo Boundary Rules     Laws              Medium    HIGH
+  ──  ────────── CULTURE ────────  ─────────────────  ────────  ──────
+  58  Dogfooding (Eat Your Own)    Zero Trust        Low       CRITICAL
+
+  TOTAL: 58 techniques across 8 pillars.
+
+
+================================================================================
+  PART VIII — THE GITHUB WORKFLOW LAYER
+================================================================================
+
+  These techniques live in your Git repo and CI pipeline.
+  They're the LAST LINE OF DEFENSE before code reaches production.
+  Every one is set-and-forget — configure once, protects forever.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY L: GIT & CI — "The gates between you and production"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [51] PRE-COMMIT HOOK BASELINE
+  ─────────────────────────────
+  Purpose: Block bad code from even entering version control.
+           If it shouldn't be committed, don't let it be committed.
+
+  Philosophy: The cheapest place to catch a bug is BEFORE it's
+  committed. Once it's in Git, it's in the history forever.
+  Pre-commit hooks are automatic, invisible, and effortless for
+  the developer once configured.
+
+  The Baseline (what EVERY project should check):
+
+    TIER 1 — SYNTAX (blocks garbage)
+      • Does the code parse? (syntax check / compile check)
+      • No debug statements left in? (console.log, IO.inspect, debugger)
+      • No merge conflict markers? (<<<<<<, ======, >>>>>>)
+      • No secrets or API keys? (scan for patterns like AWS keys,
+        passwords in strings, .env files)
+
+    TIER 2 — STYLE (prevents noise)
+      • Formatting correct? (prettier, mix format, gofmt)
+      • Linting passes? (eslint, credo, clippy)
+      • No trailing whitespace? No mixed tabs/spaces?
+      • File not too large? (>500 lines = warning, >1000 = block)
+
+    TIER 3 — SAFETY (prevents drift)
+      • Forbidden patterns absent? (eval, unsafe imports, etc.)
+      • Frozen files untouched? (critical modules protected)
+      • Tests pass? (optional: only changed-file tests for speed)
+      • Type check passes? (TypeScript, dialyzer, mypy)
+
+    TIER 4 — COMPLIANCE (prevents process violations)
+      • Commit message follows convention?
+        (e.g., "feat:", "fix:", "docs:", "BREAKING:")
+      • Branch name matches pattern? (feature/, fix/, hotfix/)
+      • SBOM up to date? (if deps changed, SBOM must regenerate)
+
+  Tools to use:
+    • Husky (JS/TS) — manages Git hooks from package.json
+    • pre-commit (Python) — language-agnostic hook framework
+    • Lefthook (Go) — fast, parallel hook runner
+    • Custom .git/hooks/pre-commit script — always works
+
+  Life-saver moment: The junior developer who commits an .env
+  file with production database credentials. Pre-commit blocks
+  it. Credential never enters Git history. Disaster averted.
+
+
+  [52] GIT TAG BASELINE STRATEGY
+  ──────────────────────────────
+  Purpose: Create immutable reference points in your codebase.
+           "This exact state was verified and approved."
+
+  Philosophy: Commits are a stream. Tags are LANDMARKS. Without
+  tags, you can't say "roll back to the last known-good state"
+  because you don't know which commit that was.
+
+  Tag Types (implement ALL of these):
+
+    RELEASE TAGS — "This went to production"
+      Format:   v1.2.3 (semantic version)
+      When:     Every production deployment
+      Contains: Changelog, deploy timestamp, deployer
+      Rule:     NEVER delete or move a release tag
+
+    BASELINE TAGS — "This passed all gates"
+      Format:   baseline/YYYY-MM-DD or baseline/sprint-N
+      When:     After full verification suite passes
+      Contains: Test results, law compliance status
+      Rule:     Only created by CI, never by hand
+
+    CERTIFICATION TAGS — "This was formally reviewed"
+      Format:   certified/module-name/vN
+      When:     After formal review + handoff protocol
+      Contains: Reviewer names, FMEA scores, DAL level
+      Rule:     Requires two-person sign-off
+
+    ROLLBACK TAGS — "If things break, go HERE"
+      Format:   rollback/YYYY-MM-DD
+      When:     Before any risky deployment
+      Contains: Instructions for reverting
+      Rule:     Every deploy must have a rollback tag
+
+  How to apply:
+    1. Automate release tags in your deploy pipeline
+    2. Create baseline tags after every green CI run on main
+    3. Use certification tags for critical modules (frozen core)
+    4. ALWAYS tag before risky deployments
+    5. Document your tag conventions in CONTRIBUTING.md
+
+  Life-saver moment: Production is broken. "What was the last
+  good state?" → `git checkout rollback/2026-02-13` → deployed
+  → production recovered in 3 minutes instead of 30.
+
+
+  [53] BRANCH PROTECTION RULES
+  ────────────────────────────
+  Purpose: Make it PHYSICALLY IMPOSSIBLE to push bad code
+           to your main branch.
+
+  Philosophy: Team discipline is unreliable. Branch protection
+  is mechanical. If the rule says "2 reviewers required," then
+  even the CEO can't merge with 1.
+
+  The Baseline Rules (for main/production branches):
+
+    REQUIRED:
+      ✓ Require pull request before merge (no direct push)
+      ✓ Require at least 1 approval (2 for critical repos)
+      ✓ Dismiss stale approvals on new push
+        (approval on old code doesn't count for new code)
+      ✓ Require status checks to pass (CI must be green)
+      ✓ Require branch to be up-to-date before merge
+      ✓ Require signed commits (proves who wrote it)
+
+    RECOMMENDED:
+      ✓ Require conversation resolution before merge
+      ✓ Require linear history (no merge commits, rebase only)
+      ✓ Restrict who can push to matching branches
+      ✓ Lock branch (archive old release branches)
+
+    FOR CRITICAL REPOS:
+      ✓ Require CODEOWNERS review (specific people for specific files)
+      ✓ Block force pushes (no rewriting history)
+      ✓ Require deployment environments review
+      ✓ Enable secret scanning
+
+  CODEOWNERS file — the most underused GitHub feature:
+    It lets you say: "Any change to /src/auth/ MUST be reviewed
+    by @security-team." "Any change to /database/ MUST be reviewed
+    by @dba-team." Changes to those paths cannot merge without
+    the designated owner's approval.
+
+  Philosophy behind CODEOWNERS:
+    Not all reviewers are equal. The person who wrote the payment
+    module should review changes to the payment module — not a
+    frontend developer who happens to be available.
+
+
+  [54] CI PIPELINE GATES (GitHub Actions / CI)
+  ────────────────────────────────────────────
+  Purpose: Automated quality gates that run on EVERY pull request.
+           The developer doesn't need to remember — the pipeline
+           remembers for them.
+
+  Philosophy: Pre-commit hooks protect the individual developer.
+  CI gates protect the TEAM. A developer can skip pre-commit hooks
+  (git commit --no-verify). They CANNOT skip CI gates.
+
+  The Pipeline Layers (in order):
+
+    LAYER 1 — FAST FEEDBACK (< 2 minutes)
+      • Compile / build check
+      • Lint / format check
+      • Type check
+      • Forbidden pattern scan
+      • Commit message validation
+      Purpose: Fast failure. Developer knows in 2 minutes.
+
+    LAYER 2 — CORRECTNESS (< 10 minutes)
+      • Unit tests
+      • Property-based tests (subset)
+      • Golden file / snapshot tests
+      • Integration tests (critical paths only)
+      Purpose: Prove the code works.
+
+    LAYER 3 — SAFETY (< 30 minutes)
+      • Full test suite
+      • Mutation testing (on changed files only)
+      • Dependency vulnerability scan
+      • SBOM drift check
+      • License compliance check
+      Purpose: Prove nothing is broken or vulnerable.
+
+    LAYER 4 — CERTIFICATION (on merge to main only)
+      • Full chaos suite
+      • Performance benchmarks (compare to baseline)
+      • Determinism certification
+      • FMEA risk score calculation
+      • Baseline tag creation
+      Purpose: This code is now CERTIFIED for production.
+
+  CI Anti-Patterns to Avoid:
+    ✗ "Tests flaky, re-run and hope" → Fix flaky tests. Period.
+    ✗ "CI takes 45 minutes" → Parallelize. Layer by priority.
+    ✗ "Skip CI for docs changes" → Docs changes can break builds.
+    ✗ "Admin override to merge" → If CI fails, FIX IT, don't skip.
+
+  Life-saver moment: A dependency update silently changes a
+  function's return type. Unit tests pass (they mock the dep).
+  But Layer 3's integration test catches the real behavior.
+  Blocked before merge.
+
+
+  [55] AI INSTRUCTION FILES (Copilot Instructions)
+  ────────────────────────────────────────────────
+  Purpose: Tell your AI coding assistant your project's rules
+           BEFORE it generates code. Prevention, not correction.
+
+  Philosophy: AI assistants (GitHub Copilot, Claude, Gemini,
+  Cursor, etc.) generate code based on context. If they don't
+  know your rules, they'll write code that VIOLATES your rules.
+  Then you spend time fixing what AI broke.
+
+  Instead: write your rules in a file the AI reads automatically.
+  Now every AI-generated suggestion already follows your standards.
+
+  File Locations (most tools check these paths):
+
+    .github/copilot-instructions.md   — GitHub Copilot
+    .cursorrules                      — Cursor
+    GEMINI.md                         — Google Gemini
+    CLAUDE.md                         — Claude / Anthropic
+    .windsurfrules                    — Windsurf
+    .github/instructions.md           — General (many tools)
+    .ai/instructions.md               — Emerging convention
+
+  What to Include:
+
+    SECTION 1 — PROJECT IDENTITY
+      "This is a [type] project using [language/framework]."
+      "We use [X] for [Y], not [Z]."
+      "Our target runtime is [Deno/Node/Browser/WASM]."
+
+    SECTION 2 — HARD RULES (Non-Negotiable)
+      "NEVER use eval() or new Function()."
+      "NEVER import from 'node:' — we use Deno."
+      "NEVER edit files in /core/ — they are frozen."
+      "All modules MUST be under 500 lines."
+      "All public functions MUST have type annotations."
+
+    SECTION 3 — ARCHITECTURE
+      "We use [pattern] for [X]."
+      "Data flows from [A] → [B] → [C]."
+      "State management uses [approach]."
+      "We do NOT use [VDOM/ORM/etc] because [reason]."
+
+    SECTION 4 — CONVENTIONS
+      "File naming: kebab-case for files, PascalCase for modules."
+      "Error handling: always return Result types, never throw."
+      "Testing: every new function needs a property-based test."
+      "Commits: follow conventional commits (feat:, fix:, etc)."
+
+    SECTION 5 — FORBIDDEN PATTERNS (with explanations)
+      "Do NOT use any() type — always be specific."
+      "Do NOT catch-all exceptions — always specify the error."
+      "Do NOT use mutable global state."
+      And for each one, explain WHY. AI learns better with reasons.
+
+    SECTION 6 — EXAMPLES
+      "Here is a CORRECT implementation of [pattern]:"
+      [show example]
+      "Here is an INCORRECT implementation (do NOT do this):"
+      [show anti-pattern]
+
+  Life-saver moment: Without instructions, Copilot suggests
+  `require('fs')` in your Deno project. With instructions,
+  it suggests `Deno.readTextFile()`. The instruction file
+  prevented a constitutional violation BEFORE it was typed.
+
+  Maintenance Rule:
+    Update your AI instruction file whenever you:
+      • Add a new architectural rule
+      • Discover a new anti-pattern
+      • Change your tech stack
+      • Learn from a post-mortem
+    Treat it like a living document, not a one-time setup.
+
+
+  [56] .editorconfig AND FORMATTING RULES
+  ───────────────────────────────────────
+  Purpose: Eliminate formatting drift across different editors,
+           operating systems, and developers.
+
+  Philosophy: Tabs vs. spaces. LF vs. CRLF. Trailing whitespace.
+  UTF-8 vs. UTF-16. These are not "preferences" — they're sources
+  of PHANTOM DIFFS that pollute your Git history and hide real
+  changes.
+
+  If developer A uses tabs and developer B uses spaces, every file
+  they BOTH touch shows hundreds of "changes" that are just
+  whitespace. The real logic change is buried in noise.
+
+  How to apply:
+
+    .editorconfig (works with EVERY editor):
+      root = true
+      [*]
+      indent_style = space
+      indent_size = 2
+      end_of_line = lf
+      charset = utf-8
+      trim_trailing_whitespace = true
+      insert_final_newline = true
+
+    Auto-formatter (pick ONE per language, enforce it):
+      Elixir:      mix format (built-in)
+      TypeScript:  Prettier or deno fmt
+      Python:      Black or Ruff
+      Go:          gofmt (built-in)
+      Rust:        rustfmt (built-in)
+
+    Enforcement:
+      Pre-commit hook checks formatting (TIER 2 of [51])
+      CI pipeline checks formatting (LAYER 1 of [54])
+      If code isn't formatted → blocked. No exceptions.
+
+  Philosophy: Formatting should NEVER be a code review comment.
+  The machine does it. Humans review LOGIC, not whitespace.
+
+
+  [57] MONO-REPO BOUNDARY RULES
+  ─────────────────────────────
+  Purpose: In a mono-repo (or umbrella project), prevent modules
+           from reaching into each other's internals.
+
+  Philosophy: A mono-repo without boundaries is just a monolith
+  with extra directories. The whole POINT of separate modules
+  is isolation. If Module A imports Module B's internal helpers,
+  you can never change B's internals without breaking A.
+
+  How to apply:
+
+    Define EXPLICIT public APIs for each module/app:
+      "nitro_core exports: AST.Schema, Types, Runtime"
+      "nitro_compiler exports: compile/1, analyze/1"
+      "nitro_compiler does NOT export: internal parse helpers"
+
+    Enforce at the tool level:
+      • Elixir: Boundary library (boundary hex package)
+      • TypeScript: eslint-plugin-import with restricted paths
+      • Go: internal/ directories (language-enforced)
+      • Java: module-info.java (language-enforced)
+      • Rust: pub(crate) vs pub visibility
+
+    In CI:
+      • Dependency graph check: no circular deps between modules
+      • Import audit: no internal imports across module boundaries
+      • Build order validation: each module builds independently
+
+  Life-saver moment: Developer adds `import { helperX }` from
+  another module's internal folder. Without boundaries, it works.
+  6 months later, someone refactors helperX. The import breaks.
+  Nobody knows why because the dependency was invisible.
+  With boundary rules: the import was BLOCKED on day one.
+
+
+  ═══════════════════════════════════════════════════════════════════════
+  CATEGORY M: CULTURE — "The discipline that no tool can replace"
+  ═══════════════════════════════════════════════════════════════════════
+
+
+  [58] DOGFOODING (Eat Your Own Cooking)
+  ──────────────────────────────────────
+  Purpose: Use your own product, tools, and APIs internally —
+           before any customer ever touches them.
+
+  Philosophy: There is a category of bugs that no test suite
+  will ever catch. They're not logic bugs. They're EXPERIENCE
+  bugs. The API that technically works but is confusing. The
+  workflow that's correct but takes 15 steps when it should take 3.
+  The error message that's accurate but unhelpful. The feature
+  that nobody asked for, built on top of the feature everybody
+  needed but nobody built.
+
+  Tests verify CORRECTNESS. Dogfooding verifies USEFULNESS.
+
+  The term comes from Microsoft in the 1980s: "eating your own
+  dog food" meant running pre-release Windows internally so
+  employees would discover pain points before customers did.
+
+  Why it's anti-drift:
+    When you USE your own tool daily, you develop an intuition
+    for when something feels wrong — long before metrics show it.
+    You notice the 200ms delay that tests ignore. You feel the
+    friction of a 5-click workflow. You experience the confusion
+    of your own error messages. This intuition is IMPOSSIBLE to
+    get from test results alone.
+
+    Without dogfooding, your product drifts from what users need
+    — not because the code is wrong, but because the DESIGN is
+    wrong. That's the most expensive kind of drift to fix.
+
+  The 4 Levels of Dogfooding:
+
+    LEVEL 1 — TASTE IT (Minimum)
+      The team uses the product at least weekly.
+      Everyone on the team has a real account.
+      Every new feature is demo'd by the person who built it,
+      using real data, not test fixtures.
+
+    LEVEL 2 — EAT IT DAILY (Recommended)
+      The team uses the product as part of their daily workflow.
+      Internal tools are built ON TOP of the product's APIs.
+      Bug reports from internal users get first-class treatment.
+      Example: If you build a CI tool, your own CI runs on it.
+               If you build a database, your own data lives in it.
+               If you build a compiler, your own codebase compiles with it.
+
+    LEVEL 3 — SELF-HOST (High Confidence)
+      The product runs its own infrastructure.
+      The monitoring dashboard monitors ITSELF.
+      The deployment tool deploys ITSELF.
+      This is the ultimate proof: if it can bootstrap itself,
+      it's probably robust enough for others.
+      Example: Git is managed with Git.
+               Rust's compiler is written in Rust.
+               NitroElixir's Sentinel validates NitroElixir's code.
+
+    LEVEL 4 — INTERNAL-FIRST DEPLOYMENT (Gold Standard)
+      Every release goes to internal users BEFORE external users.
+      Internal teams are the canary. They hit the bugs first.
+      They provide feedback in Slack, not in 1-star reviews.
+      Google does this with Chrome. Microsoft does it with Office.
+      Stripe processes its own payments through its own API.
+
+  How to apply (even for small teams / solo developers):
+
+    Solo developer?
+      • Use your own library in a side project.
+      • Write your own documentation by FOLLOWING it, not reading it.
+        If you can't follow your own docs to set up the project
+        from scratch, your docs are broken.
+      • Build your personal tools using your own framework.
+
+    Small team?
+      • Internal hackathons using your own product.
+      • "New Hire Test": Can a new team member use the product
+        in 30 minutes with only the README? If not, the onboarding
+        experience has drifted from usable.
+      • Rotate who does customer support. The person who built the
+        feature should hear the complaints about the feature.
+
+    Large team?
+      • Internal-first deployment for all releases.
+      • Dedicated internal power users who stress-test new features.
+      • Quarterly "eat your own cooking" days where the ENTIRE team
+        uses the product end-to-end and files bugs.
+
+  The Dogfooding Paradox:
+    The people LEAST likely to dogfood are the people who MOST
+    need to. Leadership, architects, and senior developers often
+    skip the product and go straight to the code. But THEY are
+    the ones with the power to prioritize UX fixes.
+
+    Rule: If the CTO hasn't used the product this week,
+    the CTO doesn't understand the product this week.
+
+  Life-saver moments:
+    • Slack uses Slack. They discovered that message search was
+      painfully slow at scale — and fixed it before customers
+      at the same scale hit the same wall.
+    • Amazon uses AWS internally. Every AWS outage is also an
+      Amazon.com outage. This creates EXTREME motivation to fix
+      reliability issues fast.
+    • NitroElixir's Sentinel validates NitroElixir's own code.
+      If the law system has a bug, the law system catches its
+      own bug. Self-referential integrity.
+
+  The Anti-Pattern: "We don't use our product because we're
+  too busy building our product."
+  Translation: "We're building something we don't understand
+  for people we've never been."
+
+
+================================================================================
+  UPDATED ADOPTION ROADMAP
+================================================================================
+
+  DAY 1 — Immediate (takes minutes, MASSIVE payoff)
+    □ Create .editorconfig in your repo root [56]
+    □ Write an AI instruction file for your project [55]
+    □ Write down your top 5 architectural rules [19]
+    □ Add branch protection: require PR + 1 approval [53]
+    □ Start an ADR file for your next decision [45]
+
+  WEEK 1 — Foundation
+    □ Set up pre-commit hooks (Tier 1 + 2 at minimum) [51]
+    □ Set up CI pipeline (Layer 1 + 2) [54]
+    □ Classify modules by criticality (DAL-A/B/C) [2]
+    □ Add compile-time enforcement for all rules [15, 19]
+    □ Mark critical modules as frozen [21]
+    □ Add golden file tests for complex output [46]
+    □ Create CODEOWNERS file for critical paths [53]
+
+  WEEK 2 — Verification
+    □ Add property-based tests for core logic [9]
+    □ Add round-trip tests for serialization [14]
+    □ Add determinism tests for transformations [8]
+    □ Do a quick FMEA for your top 5 risk areas [1]
+    □ Create your first baseline tag [52]
+
+  WEEK 3 — Production Safety
+    □ Implement circuit breakers on external calls [36]
+    □ Add feature flags to significant features [37]
+    □ Make critical operations idempotent [40]
+    □ Verify every deployment has a rollback tag [38, 52]
+
+  WEEK 4 — Process
+    □ Implement two-person review for critical changes [41]
+    □ Set expiration dates on all known tech debt [44]
+    □ Write runbooks for your top 3 alerts [47]
+    □ Run your first pre-mortem [42]
+    □ Add CI Layer 3 (safety checks) [54]
+
+  MONTH 2 — Adversarial
+    □ Add fuzzing for input parsers [12]
+    □ Add mutation testing [13]
+    □ Add chaos testing for failure paths [10]
+    □ Implement canary deployment [35]
+    □ Add mono-repo boundary rules [57]
+
+  MONTH 3 — Supply Chain + Observability
+    □ Generate SBOM [30], audit dependencies [28]
+    □ Set up telemetry → risk bridge [25]
+    □ Add forensic logging [26]
+    □ Build graceful degradation for critical deps [48]
+    □ Add CI Layer 4 (certification on merge) [54]
+
+  ONGOING (every sprint)
+    □ Review dependency freshness [49]
+    □ Write post-mortems for any incidents [43]
+    □ Update ADRs when decisions change [45]
+    □ Update AI instruction files when rules change [55]
+    □ Review and pay down expiring tech debt [44]
+    □ Monitor dynamic risk scores [3]
+    □ Create release + rollback tags on every deploy [52]
+    □ Use your own product/tools daily [58]
+
+
+================================================================================
+  EPILOGUE — THE ONE SENTENCE VERSION
+================================================================================
+
+  If you remember nothing else from this document:
+
+    "If it can break silently, it WILL break silently —
+     and you'll find out from your angriest customer."
+
+  Every technique here exists to turn silent breaks into loud ones.
+
+  Loud breaks get fixed in minutes.
+  Silent breaks get fixed in months — if ever.
+
+  Choose loud.
+
+
+================================================================================
+  END — 58 Techniques, 8 Pillars, 1 Philosophy
+================================================================================

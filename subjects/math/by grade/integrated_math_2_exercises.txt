@@ -1,0 +1,157 @@
+INTEGRATED MATH 2 EXERCISES
+Khan Academy - Integrated Math 2
+13 units, 134 skills, 13,200 possible mastery points
+Source: https://www.khanacademy.org/math/math2
+
+Note: The integrated pathway covers the same topics as the traditional pathway (Algebra 1, Geometry, Algebra 2) but interwoven.
+
+UNIT 1: ABSOLUTE VALUE & PIECEWISE FUNCTIONS
+1. PRACTICE: Shift absolute value graphs
+2. PRACTICE: Scale & reflect absolute value graphs
+3. PRACTICE: Graph absolute value functions
+ASSESSMENT: Quiz 1
+4. PRACTICE: Evaluate piecewise functions
+5. PRACTICE: Evaluate step functions
+6. PRACTICE: Piecewise functions graphs
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 2: QUADRATICS: MULTIPLYING & FACTORING
+1. PRACTICE: Polynomials intro
+2. PRACTICE: Multiply monomials by polynomials (basic): area model
+3. PRACTICE: Multiply binomials: area model
+4. LEARN: Video - Special products of binomials
+5. PRACTICE: Factoring quadratics intro
+6. PRACTICE: Factoring quadratics with a common factor
+ASSESSMENT: Quiz 1, Quiz 2
+7. LEARN: Video - Factoring strategies
+ASSESSMENT: Unit test
+
+UNIT 3: QUADRATIC FUNCTIONS & EQUATIONS
+1. PRACTICE: Parabolas intro
+2. PRACTICE: Interpret parabolas in context
+3. PRACTICE: Interpret a quadratic graph
+4. PRACTICE: Zero product property
+ASSESSMENT: Quiz 1
+5. LEARN: Video - Solving by taking the square root
+6. LEARN: Video - Vertex form
+7. PRACTICE: Quadratics by factoring (intro)
+8. PRACTICE: Quadratics by factoring
+9. PRACTICE: Solve equations using structure
+10. PRACTICE: Quadratic formula
+11. PRACTICE: Number of solutions of quadratic equations
+ASSESSMENT: Quiz 2, Quiz 3
+12. PRACTICE: Completing the square (intro)
+13. PRACTICE: Completing the square (intermediate)
+14. PRACTICE: Solve equations by completing the square
+15. PRACTICE: Completing the square
+16. PRACTICE: Strategy in solving quadratics
+17. PRACTICE: Features of quadratic functions: strategy
+18. PRACTICE: Features of quadratic functions
+19. PRACTICE: Graph parabolas in all forms
+ASSESSMENT: Quiz 4, Quiz 5
+20. PRACTICE: Shift parabolas
+21. PRACTICE: Scale & reflect parabolas
+ASSESSMENT: Quiz 6
+ASSESSMENT: Unit test
+
+UNIT 4: IRRATIONAL NUMBERS
+1. LEARN: Video - Irrational numbers
+2. LEARN: Video - Sums & products of rational/irrational numbers
+3. LEARN: Video - Proofs concerning irrational numbers
+ASSESSMENT: Unit test
+
+UNIT 5: COMPLEX NUMBERS
+1. PRACTICE: Simplify roots of negative numbers
+2. PRACTICE: Plot numbers on the complex plane
+ASSESSMENT: Quiz 1
+3. PRACTICE: Add & subtract complex numbers
+4. PRACTICE: Multiply complex numbers (basic)
+5. PRACTICE: Multiply complex numbers
+6. PRACTICE: Solve quadratic equations: complex solutions
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 6: RATIONAL EXPONENTS AND RADICALS
+1. PRACTICE: Unit-fraction exponents
+2. PRACTICE: Fractional exponents
+3. PRACTICE: Rational exponents challenge
+4. PRACTICE: Properties of exponents intro (rational exponents)
+5. PRACTICE: Properties of exponents (rational exponents)
+ASSESSMENT: Quiz 1
+6. PRACTICE: Solve exponential equations using exponent properties
+7. PRACTICE: Solve exponential equations using exponent properties (advanced)
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 7: EXPONENTIAL MODELS
+1. PRACTICE: Interpret change in exponential models
+2. PRACTICE: Interpret time in exponential models
+3. PRACTICE: Construct exponential models
+4. PRACTICE: Interpret change in exponential models: with manipulation
+5. PRACTICE: Interpret change in exponential models: changing units
+ASSESSMENT: Unit test
+
+UNIT 8: SIMILARITY
+1. LEARN: Video - Definitions of similarity
+2. LEARN: Video - Introduction to triangle similarity
+3. LEARN: Video - Solving problems with similar & congruent triangles
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 9: RIGHT TRIANGLES & TRIGONOMETRY
+1. LEARN: Video - Pythagorean theorem
+2. LEARN: Video - Pythagorean theorem proofs
+3. LEARN: Video - Special right triangles
+4. LEARN: Video - Ratios in right triangles
+5. LEARN: Video - Introduction to the trigonometric ratios
+6. LEARN: Video - Solving for a side in a right triangle using trig ratios
+7. LEARN: Video - Solving for an angle in a right triangle using trig ratios
+8. LEARN: Video - Modeling with right triangle trig
+ASSESSMENT: Unit test
+
+UNIT 10: SOLID GEOMETRY
+1. PRACTICE: Cross sections of 3D objects (basic)
+2. PRACTICE: Cross sections of 3D objects
+3. PRACTICE: Rotate 2D shapes in 3D
+ASSESSMENT: Quiz 1
+4. LEARN: Video - Cavalieri's principle and dissection methods
+5. PRACTICE: Volume and surface area of cylinders
+6. PRACTICE: Apply volume of solids
+7. PRACTICE: Density word problems
+ASSESSMENT: Quiz 2, Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 11: CIRCLES
+1. PRACTICE: Arc measure
+2. PRACTICE: Arc measure with equations
+3. PRACTICE: Arc length
+ASSESSMENT: Quiz 1
+4. PRACTICE: Radians & degrees
+5. PRACTICE: Radians & arc length
+6. LEARN: Video - Sector area
+7. LEARN: Video - Inscribed angles
+8. LEARN: Video - Inscribed shapes
+9. LEARN: Video - Properties of tangents
+10. LEARN: Video - Constructing tangent lines
+ASSESSMENT: Unit test
+
+UNIT 12: CONIC SECTIONS
+1. PRACTICE: Graph a circle from its features
+2. LEARN: Video - Features of a circle
+3. PRACTICE: Write standard equation of a circle
+ASSESSMENT: Quiz 1
+4. PRACTICE: Features of a circle from its expanded equation
+5. PRACTICE: Graph a circle from its expanded equation
+6. PRACTICE: Equation of a parabola from focus & directrix
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 13: PROBABILITY
+1. PRACTICE: Simple probability
+2. PRACTICE: Experimental probability
+ASSESSMENT: Quiz 1
+3. PRACTICE: Combinations
+4. PRACTICE: Probability with permutations and combinations
+5. LEARN: Video - Expected value
+ASSESSMENT: Unit test

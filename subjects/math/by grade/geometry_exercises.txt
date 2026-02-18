@@ -1,0 +1,195 @@
+KHAN ACADEMY - GEOMETRY (HIGH SCHOOL)
+======================================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: PERFORMING TRANSFORMATIONS
+================================================================================
+
+Exercises:
+----------
+1. Translations
+2. Rotations
+3. Reflections
+4. Dilations
+5. Properties of transformations
+6. Sequences of transformations
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: TRANSFORMATION PROPERTIES AND PROOFS
+================================================================================
+
+Exercises:
+----------
+1. Rigid transformations overview
+2. Dilations and similarity
+3. Symmetry
+4. Proofs with transformations
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: CONGRUENCE
+================================================================================
+
+Exercises:
+----------
+1. Congruent triangles
+2. Triangle congruence from transformations
+3. Congruent triangle proofs
+4. Working with triangles
+5. Theorems concerning triangle properties
+6. Theorems concerning quadrilateral properties
+7. Proofs of general theorems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: SIMILARITY
+================================================================================
+
+Exercises:
+----------
+1. Dilations and similarity in the coordinate plane
+2. Proving slope is constant using similarity
+3. Similar triangles
+4. Angle-angle criterion for similar triangles
+5. Solving similar triangles
+6. Solving modeling problems with similar and congruent triangles
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: RIGHT TRIANGLES & TRIGONOMETRY
+================================================================================
+
+Exercises:
+----------
+1. Pythagorean theorem
+2. Pythagorean theorem proofs
+3. Special right triangles
+4. Introduction to the trigonometric ratios
+5. Solving for a side in a right triangle using the trigonometric ratios
+6. Solving for an angle in a right triangle using the trigonometric ratios
+7. Sine and cosine of complementary angles
+8. Modeling with right triangles
+9. Law of sines
+10. Law of cosines
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: ANALYTIC GEOMETRY
+================================================================================
+
+Exercises:
+----------
+1. Distance and midpoints
+2. Dividing line segments
+3. Problem solving with distance on the coordinate plane
+4. Parallel and perpendicular lines on the coordinate plane
+5. Equations of parallel and perpendicular lines
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: CONIC SECTIONS
+================================================================================
+
+Exercises:
+----------
+1. Introduction to conic sections
+2. Center and radii of circles
+3. Standard equation of a circle
+4. Expanded equation of a circle
+5. Focus and directrix of a parabola
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: CIRCLES
+================================================================================
+
+Exercises:
+----------
+1. Circle basics
+2. Arc measure
+3. Arc length (from degrees)
+4. Introduction to radians
+5. Arc length (from radians)
+6. Sectors
+7. Inscribed angles
+8. Inscribed shapes problem solving
+9. Properties of tangents
+10. Radius and tangent line
+11. Constructing regular polygons inscribed in circles
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: SOLID GEOMETRY
+================================================================================
+
+Exercises:
+----------
+1. 2D vs. 3D objects
+2. Cavalieri's principle and dissection methods
+3. Volume of prisms and cylinders
+4. Volume of pyramids and cones
+5. Volume of spheres
+6. Surface area
+7. Density word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: GEOMETRIC CONSTRUCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Basic constructions
+2. Constructing lines and angles
+3. Constructing bisectors
+4. Constructing polygons
+5. Constructing circumcircles and incircles
+6. Classical construction challenges
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 10
+TOTAL EXERCISE TOPICS: 80+
+================================================================================

@@ -1,0 +1,110 @@
+DATA AND GRAPHS
+===============
+Complete Topic Progression: Grade 1 → Grade 8
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces DATA REPRESENTATION from simple bar graphs through
+scatter plots and two-way tables. For statistical analysis and
+probability, see 18_statistics_and_probability.txt.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 3 (partial)
+
+1. LEARN: Video - Reading and interpreting bar graphs
+   PRACTICE: Answer questions using bar graphs
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Unit 7: Data
+
+1. PRACTICE: Reading and interpreting data
+2. PRACTICE: Creating data displays
+3. PRACTICE: Analyzing data
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 12: Representing and Interpreting Data
+
+1. PRACTICE: Picture graphs
+2. PRACTICE: Bar graphs
+3. PRACTICE: Line plots
+4. PRACTICE: Interpreting data displays
+5. PRACTICE: Data word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 15: Line Plots
+
+1. PRACTICE: Creating line plots
+2. PRACTICE: Interpreting line plots
+3. PRACTICE: Line plots with fractions
+4. PRACTICE: Line plot word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 11: Data and Statistics
+
+1. PRACTICE: Statistical questions
+2. PRACTICE: Frequency tables
+3. PRACTICE: Dot plots
+4. PRACTICE: Histograms
+5. PRACTICE: Mean (average)
+6. PRACTICE: Median
+7. PRACTICE: Mode
+8. PRACTICE: Range
+9. PRACTICE: Interquartile range (IQR)
+10. PRACTICE: Mean absolute deviation (MAD)
+11. PRACTICE: Box plots
+12. PRACTICE: Data analysis word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Unit 7: Statistics and Probability (data portion)
+
+1. PRACTICE: Making inferences from random samples
+2. PRACTICE: Comparing distributions
+3. PRACTICE: Statistical questions
+
+ASSESSMENT: (within Statistics and Probability unit)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Unit 7: Data and Modeling
+
+1. PRACTICE: Constructing scatter plots
+2. PRACTICE: Interpreting scatter plots
+3. PRACTICE: Identifying associations in scatter plots
+4. PRACTICE: Describing trends in scatter plots
+5. PRACTICE: Eyeballing lines of best fit
+6. PRACTICE: Estimating slope of line of best fit
+7. PRACTICE: Estimating equation of line of best fit
+8. PRACTICE: Using lines of best fit for predictions
+9. PRACTICE: Two-way frequency tables
+10. PRACTICE: Two-way relative frequency tables
+11. PRACTICE: Reading two-way tables
+12. PRACTICE: Creating two-way tables
+13. PRACTICE: Analyzing two-way tables
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 18_statistics_and_probability.txt (formal statistics)
+→ 15_algebra_and_equations.txt (linear regression)

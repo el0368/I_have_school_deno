@@ -1,0 +1,398 @@
+CALCULUS
+========
+Complete Topic Progression: Precalculus → Calculus 3
+Source: Khan Academy (exercises from by_grade files)
+
+The culmination of all math topics. Requires mastery of
+algebra (15), functions (16), and trigonometry (17).
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS (Calculus Preview)
+Source: precalculus_exercises.txt → Unit 10: Limits and Continuity
+
+1. PRACTICE: Defining limits and using limit notation
+2. PRACTICE: Estimating limit values from graphs
+3. PRACTICE: Estimating limit values from tables
+4. PRACTICE: Determining limits using algebraic properties
+5. PRACTICE: Determining limits using algebraic manipulation
+6. PRACTICE: Selecting procedures for determining limits
+7. PRACTICE: Squeeze theorem
+8. PRACTICE: Types of discontinuities
+9. PRACTICE: Continuity at a point and over an interval
+10. PRACTICE: Removing discontinuities
+11. PRACTICE: Connecting limits at infinity and horizontal asymptotes
+12. PRACTICE: Intermediate value theorem (IVT)
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+AP CALCULUS AB
+Source: ap_calculus_ab_exercises.txt → All 8 units
+
+Unit 1: Limits and Continuity
+1. PRACTICE: Defining limits and using limit notation
+2. PRACTICE: Estimating limit values from graphs
+3. PRACTICE: Estimating limit values from tables
+4. PRACTICE: Determining limits using algebraic properties of limits
+5. PRACTICE: Determining limits using algebraic manipulation
+6. PRACTICE: Selecting procedures for determining limits
+7. PRACTICE: Determining limits using the squeeze theorem
+8. PRACTICE: Connecting multiple representations of limits
+9. PRACTICE: Exploring types of discontinuities
+10. PRACTICE: Defining continuity at a point
+11. PRACTICE: Confirming continuity over an interval
+12. PRACTICE: Removing discontinuities
+13. PRACTICE: Connecting infinite limits and vertical asymptotes
+14. PRACTICE: Connecting limits at infinity and horizontal asymptotes
+15. PRACTICE: Working with the intermediate value theorem (IVT)
+
+Unit 2: Differentiation — Definition and Basic Derivative Rules
+16. PRACTICE: Defining average and instantaneous rates of change at a point
+17. PRACTICE: Defining the derivative of a function and using derivative notation
+18. PRACTICE: Estimating derivatives of a function at a point
+19. PRACTICE: Connecting differentiability and continuity
+20. PRACTICE: Applying the power rule
+21. PRACTICE: Derivative rules: constant, sum, difference, and constant multiple
+22. PRACTICE: Derivatives of cos(x), sin(x), eˣ, and ln(x)
+23. PRACTICE: The product rule
+24. PRACTICE: The quotient rule
+25. PRACTICE: Finding the derivatives of tangent, cotangent, secant, and/or cosecant functions
+
+Unit 3: Differentiation — Composite, Implicit, and Inverse Functions
+26. PRACTICE: The chain rule
+27. PRACTICE: Implicit differentiation
+28. PRACTICE: Differentiating inverse functions
+29. PRACTICE: Differentiating inverse trigonometric functions
+30. PRACTICE: Selecting procedures for calculating derivatives
+31. PRACTICE: Calculating higher-order derivatives
+
+Unit 4: Contextual Applications of Differentiation
+32. PRACTICE: Interpreting the meaning of the derivative in context
+33. PRACTICE: Straight-line motion: connecting position, velocity, and acceleration
+34. PRACTICE: Rates of change in other applied contexts (non-motion problems)
+35. PRACTICE: Introduction to related rates
+36. PRACTICE: Solving related rates problems
+37. PRACTICE: Approximating values of a function using local linearity and linearization
+38. PRACTICE: Using L'Hôpital's rule for finding limits of indeterminate forms
+
+Unit 5: Analytical Applications of Differentiation
+39. PRACTICE: Using the mean value theorem
+40. PRACTICE: Extreme value theorem, global versus local extrema, and critical points
+41. PRACTICE: Determining intervals on which a function is increasing or decreasing
+42. PRACTICE: Using the first derivative test to determine relative (local) extrema
+43. PRACTICE: Using the candidates test to determine absolute (global) extrema
+44. PRACTICE: Determining concavity of intervals and finding points of inflection
+45. PRACTICE: Using the second derivative test to determine extrema
+46. PRACTICE: Sketching graphs of functions and their derivatives
+47. PRACTICE: Connecting a function, its first derivative, and its second derivative
+48. PRACTICE: Introduction to optimization problems
+49. PRACTICE: Solving optimization problems
+50. PRACTICE: Exploring behaviors of implicit relations
+
+Unit 6: Integration and Accumulation of Change
+51. PRACTICE: Exploring accumulations of change
+52. PRACTICE: Approximating areas with Riemann sums
+53. PRACTICE: Riemann sums, summation notation, and definite integral notation
+54. PRACTICE: The fundamental theorem of calculus and accumulation functions
+55. PRACTICE: Interpreting the behavior of accumulation functions
+56. PRACTICE: Applying properties of definite integrals
+57. PRACTICE: The fundamental theorem of calculus and definite integrals
+58. PRACTICE: Finding antiderivatives and indefinite integrals: basic rules and notation
+59. PRACTICE: Integrating using substitution
+60. PRACTICE: Integrating functions using long division and completing the square
+
+Unit 7: Differential Equations
+61. PRACTICE: Modeling situations with differential equations
+62. PRACTICE: Verifying solutions for differential equations
+63. PRACTICE: Sketching slope fields
+64. PRACTICE: Reasoning using slope fields
+65. PRACTICE: Finding general solutions using separation of variables
+66. PRACTICE: Finding particular solutions using initial conditions and separation of variables
+67. PRACTICE: Exponential models with differential equations
+
+Unit 8: Applications of Integration
+68. PRACTICE: Finding the average value of a function on an interval
+69. PRACTICE: Connecting position, velocity, and acceleration using integrals
+70. PRACTICE: Using accumulation functions and definite integrals in applied contexts
+71. PRACTICE: Finding the area between curves expressed as functions of x
+72. PRACTICE: Finding the area between curves expressed as functions of y
+73. PRACTICE: Finding the area between curves that intersect at more than two points
+74. PRACTICE: Volumes with cross sections: squares and rectangles
+75. PRACTICE: Volumes with cross sections: triangles and semicircles
+76. PRACTICE: Volume with disc method: revolving around x- or y-axis
+77. PRACTICE: Volume with disc method: revolving around other axes
+78. PRACTICE: Volume with washer method: revolving around x- or y-axis
+79. PRACTICE: Volume with washer method: revolving around other axes
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (8 quizzes, 8 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+AP CALCULUS BC (extends AB — additional topics only)
+Source: ap_calculus_bc_exercises.txt
+
+Additional BC topics beyond AB:
+1. PRACTICE: Parametric equations differentiation
+2. PRACTICE: Second derivatives of parametric equations
+3. PRACTICE: Arc lengths of parametric curves
+4. PRACTICE: Polar curves differentiation
+5. PRACTICE: Areas bounded by polar curves
+6. PRACTICE: Arc length of polar curves
+7. PRACTICE: Euler's method
+8. PRACTICE: Logistic models
+9. PRACTICE: Integration by parts
+10. PRACTICE: Partial fraction decomposition
+11. PRACTICE: Improper integrals
+12. PRACTICE: Defining convergent and divergent infinite series
+13. PRACTICE: Working with geometric series
+14. PRACTICE: The nth-term test for divergence
+15. PRACTICE: Integral test for convergence
+16. PRACTICE: Harmonic series and p-series
+17. PRACTICE: Comparison tests for convergence
+18. PRACTICE: Alternating series test for convergence
+19. PRACTICE: Ratio test for convergence
+20. PRACTICE: Determining absolute or conditional convergence
+21. PRACTICE: Alternating series error bound
+22. PRACTICE: Finding Taylor polynomial approximations of functions
+23. PRACTICE: Lagrange error bound
+24. PRACTICE: Finding the radius and interval of convergence of a power series
+25. PRACTICE: Representing functions as power series
+26. PRACTICE: Taylor and Maclaurin series
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (additional BC units), Course Challenge
+
+────────────────────────────────────────────────────────────────────
+
+CALCULUS 1
+Source: calculus_1_exercises.txt → All 8 units
+
+Unit 1: Limits and Continuity
+1. PRACTICE: Limits intro
+2. PRACTICE: Estimating limits from graphs
+3. PRACTICE: Estimating limits from tables
+4. PRACTICE: Properties of limits
+5. PRACTICE: Limits by direct substitution
+6. PRACTICE: Limits using algebraic manipulation
+7. PRACTICE: Strategy in finding limits
+8. PRACTICE: Squeeze theorem
+9. PRACTICE: Types of discontinuities
+10. PRACTICE: Continuity at a point
+11. PRACTICE: Continuity over an interval
+12. PRACTICE: Removing discontinuities
+13. PRACTICE: Limits at infinity (horizontal asymptotes)
+14. PRACTICE: Intermediate value theorem
+
+Unit 2: Derivatives — Definition and Basic Rules
+15. PRACTICE: Average vs. instantaneous rate of change
+16. PRACTICE: Secant lines
+17. PRACTICE: Derivative as a limit
+18. PRACTICE: Derivative as slope of curve
+19. PRACTICE: Derivative as instantaneous rate of change
+20. PRACTICE: Differentiability
+21. PRACTICE: Power rule
+22. PRACTICE: Derivative rules (constant, sum, difference, constant multiple)
+23. PRACTICE: Derivatives of trig functions
+24. PRACTICE: Derivatives of eˣ and ln(x)
+25. PRACTICE: Product rule
+26. PRACTICE: Quotient rule
+
+Unit 3: Derivatives — Chain Rule and Beyond
+27. PRACTICE: Chain rule
+28. PRACTICE: More chain rule
+29. PRACTICE: Implicit differentiation
+30. PRACTICE: Implicit differentiation (advanced)
+31. PRACTICE: Differentiating inverse functions
+32. PRACTICE: Derivatives of inverse trig functions
+33. PRACTICE: Higher-order derivatives
+
+Unit 4: Applications of Derivatives
+34. PRACTICE: Meaning of the derivative in context
+35. PRACTICE: Straight-line motion
+36. PRACTICE: Non-motion applications of derivatives
+37. PRACTICE: Introduction to related rates
+38. PRACTICE: Solving related rates
+39. PRACTICE: Local linearity and linearization
+40. PRACTICE: L'Hôpital's rule
+
+Unit 5: Analyzing Functions
+41. PRACTICE: Mean value theorem
+42. PRACTICE: Extreme value theorem and critical points
+43. PRACTICE: Intervals of increase and decrease
+44. PRACTICE: First derivative test
+45. PRACTICE: Candidates test (absolute extrema)
+46. PRACTICE: Concavity and inflection points
+47. PRACTICE: Second derivative test
+48. PRACTICE: Sketching curves
+49. PRACTICE: Connecting f, f', and f''
+50. PRACTICE: Optimization
+51. PRACTICE: Optimization (continued)
+
+Unit 6: Integrals
+52. PRACTICE: Accumulation of change
+53. PRACTICE: Approximation with Riemann sums
+54. PRACTICE: Summation notation
+55. PRACTICE: Definite integrals
+56. PRACTICE: Fundamental theorem of calculus
+57. PRACTICE: Properties of integrals
+58. PRACTICE: Fundamental theorem (part 2)
+59. PRACTICE: Antiderivatives and indefinite integrals
+60. PRACTICE: U-substitution intro
+61. PRACTICE: U-substitution definite integrals
+62. PRACTICE: Reverse chain rule
+
+Unit 7: Differential Equations
+63. PRACTICE: Differential equations intro
+64. PRACTICE: Verifying solutions
+65. PRACTICE: Slope fields
+66. PRACTICE: Separation of variables
+67. PRACTICE: Particular solutions
+68. PRACTICE: Exponential models
+
+Unit 8: Applications of Integrals
+69. PRACTICE: Average value of a function
+70. PRACTICE: Straight-line motion
+71. PRACTICE: Non-motion applications
+72. PRACTICE: Area between curves
+73. PRACTICE: Volumes with known cross-sections
+74. PRACTICE: Disc method
+75. PRACTICE: Washer method
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (8 quizzes, 8 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+CALCULUS 2
+Source: calculus_2_exercises.txt → All 5 units
+
+Unit 1: Integrals Review
+1. PRACTICE: Accumulation of change
+2. PRACTICE: Riemann sums review
+3. PRACTICE: Fundamental theorem of calculus review
+4. PRACTICE: Indefinite integrals review
+
+Unit 2: Integration Techniques
+5. PRACTICE: Integration by parts
+6. PRACTICE: Integration using trigonometric identities
+7. PRACTICE: Trigonometric substitution
+8. PRACTICE: Integration using long division and partial fractions
+9. PRACTICE: Evaluating improper integrals
+
+Unit 3: Differential Equations
+10. PRACTICE: Differential equations intro (review)
+11. PRACTICE: Slope fields (review)
+12. PRACTICE: Euler's method
+13. PRACTICE: Separation of variables (review)
+14. PRACTICE: Logistic models
+15. PRACTICE: First-order linear differential equations
+
+Unit 4: Applications of Integrals (Advanced)
+16. PRACTICE: Average value (review)
+17. PRACTICE: Area between curves (review)
+18. PRACTICE: Volumes (review)
+19. PRACTICE: Arc length
+20. PRACTICE: Surface area of revolution
+
+Unit 5: Parametric Equations, Polar Coordinates, and Vector-Valued Functions
+21. PRACTICE: Parametric equations intro
+22. PRACTICE: Derivatives of parametric equations
+23. PRACTICE: Second derivatives of parametric equations
+24. PRACTICE: Arc length of parametric curves
+25. PRACTICE: Polar coordinates
+26. PRACTICE: Derivatives of polar functions
+27. PRACTICE: Area bounded by polar curves
+28. PRACTICE: Arc length of polar curves
+29. PRACTICE: Vector-valued function intro
+30. PRACTICE: Differentiation of vector-valued functions
+31. PRACTICE: Integration of vector-valued functions
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (5 quizzes, 5 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+CALCULUS 3 (Multivariable Calculus)
+Source: calculus_3_exercises.txt → All 6 units + multivariable_calculus_exercises.txt
+
+Unit 1: Partial Derivatives
+1. PRACTICE: 3D coordinates
+2. PRACTICE: Graphs and contour maps of multivariable functions
+3. PRACTICE: Partial derivatives
+4. PRACTICE: Gradient
+5. PRACTICE: Directional derivatives
+6. PRACTICE: Local linearity and linearization (multivariable)
+7. PRACTICE: Tangent planes
+8. PRACTICE: Chain rule (multivariable)
+9. PRACTICE: Curvature
+10. PRACTICE: Divergence and curl
+
+Unit 2: Applications of Multivariable Derivatives
+11. PRACTICE: Identifying critical points
+12. PRACTICE: Second partial derivative test
+13. PRACTICE: Saddle points
+14. PRACTICE: Optimizing multivariable functions
+15. PRACTICE: Applied optimization with constraints
+16. PRACTICE: Lagrange multipliers
+17. PRACTICE: Constrained optimization
+
+Unit 3: Double Integrals
+18. PRACTICE: Line integrals for scalar functions
+19. PRACTICE: Line integrals in vector fields
+20. PRACTICE: Double integrals
+21. PRACTICE: Double integrals as volume
+22. PRACTICE: Change of order of integration
+23. PRACTICE: Double integrals in polar coordinates
+
+Unit 4: Triple Integrals
+24. PRACTICE: Triple integrals
+25. PRACTICE: Changing the order of integration (triple)
+26. PRACTICE: Cylindrical coordinates
+27. PRACTICE: Spherical coordinates
+28. PRACTICE: Triple integrals in cylindrical and spherical coordinates
+
+Unit 5: Surface Integrals
+29. PRACTICE: Parametric surfaces
+30. PRACTICE: Surface integrals
+31. PRACTICE: Surface integrals of vector fields (flux)
+32. PRACTICE: Oriented surfaces
+
+Unit 6: Vector Calculus Theorems
+33. PRACTICE: Green's theorem
+34. PRACTICE: 2D divergence theorem
+35. PRACTICE: Stokes' theorem
+36. PRACTICE: 3D divergence theorem
+37. PRACTICE: Putting it all together
+
+Supplemental from multivariable_calculus_exercises.txt:
+38. PRACTICE: Vectors and spaces
+39. PRACTICE: Cross product
+40. PRACTICE: Dot product
+41. PRACTICE: Matrices for solving systems (Cramer's rule, row reduction)
+42. PRACTICE: Jacobian
+43. PRACTICE: Change of variables in multiple integrals
+44. PRACTICE: Path independence and conservative fields
+45. PRACTICE: Potential functions
+
+Supplemental from linear_algebra_exercises.txt (relevant):
+46. PRACTICE: Vectors
+47. PRACTICE: Linear transformations
+48. PRACTICE: Matrix operations
+49. PRACTICE: Determinants
+50. PRACTICE: Eigenvalues and eigenvectors
+
+Supplemental from differential_equations_exercises.txt (relevant):
+51. PRACTICE: Second-order linear ODEs
+52. PRACTICE: Laplace transforms
+53. PRACTICE: Systems of differential equations
+54. PRACTICE: Fourier series (intro)
+
+ASSESSMENT: Unit Quiz and Unit Test per unit, Course Challenge
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+This is the summit of the Khan Academy math curriculum!
+→ Linear Algebra and Differential Equations courses continue
+   beyond Khan Academy's standard math path.
+
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,249 @@
+KHAN ACADEMY - ALL GRADES MATH CURRICULUM
+==========================================
+Complete Learn & Practice Guide (Kindergarten - Algebra 2)
+
+This comprehensive guide shows both LEARN (videos/articles) and PRACTICE 
+(exercises) components for every topic across all grade levels.
+
+================================================================================
+HOW TO USE THIS GUIDE
+================================================================================
+
+Each topic follows this format:
+  Topic Name
+  LEARN: [Video/Article description]
+  PRACTICE: [Exercise description]
+
+LEARN components include:
+  • Instructional videos (5-15 minutes)
+  • Articles with examples and explanations
+  • Visual demonstrations and animations
+
+PRACTICE components include:
+  • Interactive exercises (typically 7 questions for mastery)
+  • Immediate feedback
+  • Hints available
+  • Multiple attempts allowed
+  • Progress tracking
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+
+ELEMENTARY SCHOOL
+-----------------
+  Kindergarten ..................... See kindergarten_exercises.txt
+  Grade 1 .......................... See grade_1_exercises.txt
+  Grade 2 .......................... See grade_2_exercises.txt
+  Grade 3 .......................... See grade_3_exercises.txt
+  Grade 4 .......................... See grade_4_exercises.txt
+  Grade 5 .......................... See grade_5_exercises.txt
+
+MIDDLE SCHOOL
+-------------
+  Grade 6 .......................... See grade_6_exercises.txt
+  Grade 7 .......................... See grade_7_exercises.txt
+  Grade 8 .......................... See grade_8_exercises.txt
+
+HIGH SCHOOL
+-----------
+  Algebra 1 ........................ See algebra_1_exercises.txt
+  Geometry ......................... See geometry_exercises.txt
+  Algebra 2 ........................ See algebra_2_exercises.txt
+
+================================================================================
+GRADE 2: SAMPLE STRUCTURE
+================================================================================
+
+UNIT 1: ADD AND SUBTRACT WITHIN 20
+-----------------------------------
+
+1. Visualizing addition and subtraction
+   LEARN: Video - Using pictures and number lines
+   PRACTICE: Represent addition/subtraction visually
+
+2. Practicing within 20
+   LEARN: Video - Mental math strategies
+   PRACTICE: Fluency exercises for addition/subtraction
+
+3. Using arrays
+   LEARN: Video - Introduction to arrays
+   PRACTICE: Solve problems using array models
+
+4. Word problems
+   LEARN: Video - Problem-solving strategies
+   PRACTICE: Real-world addition/subtraction scenarios
+
+UNIT 2: PLACE VALUE
+-------------------
+
+1. Place value blocks within 1,000
+   LEARN: Video - Hundreds, tens, and ones
+   PRACTICE: Represent numbers with base-10 blocks
+
+2. Value of digits
+   LEARN: Video - Understanding digit position
+   PRACTICE: Identify value of each digit
+
+3. Writing numbers (number form)
+   LEARN: Video - Standard number notation
+   PRACTICE: Write numbers in standard form
+
+4. Writing numbers (word form)
+   LEARN: Video - Number words
+   PRACTICE: Write numbers as words
+
+5. Writing numbers (expanded form)
+   LEARN: Video - Breaking apart numbers
+   PRACTICE: Write numbers in expanded notation
+
+6. Regrouping whole numbers
+   LEARN: Video - Trading tens and ones
+   PRACTICE: Regroup numbers in different ways
+
+7. Comparing 2-digit numbers
+   LEARN: Video - Greater than, less than, equal to
+   PRACTICE: Compare using <, >, =
+
+8. Comparing 3-digit numbers
+   LEARN: Video - Comparing larger numbers
+   PRACTICE: Order and compare 3-digit numbers
+
+9. Even and odd numbers
+   LEARN: Video - Understanding even/odd visually
+   PRACTICE: Identify and classify numbers
+
+10. Skip-counting by 5s, 10s, 100s
+    LEARN: Video - Patterns in counting
+    PRACTICE: Complete skip-counting sequences
+
+[... continues for all units ...]
+
+================================================================================
+GRADE 6: SAMPLE STRUCTURE
+================================================================================
+
+UNIT 1: RATIOS
+--------------
+
+1. Intro to ratios
+   LEARN: Video - What are ratios?
+   PRACTICE: Write ratios in different forms
+
+2. Visualizing ratios
+   LEARN: Video - Using tape diagrams and models
+   PRACTICE: Represent ratios visually
+
+3. Equivalent ratios
+   LEARN: Video - Scaling ratios up and down
+   PRACTICE: Find equivalent ratios
+
+4. Ratio tables
+   LEARN: Video - Organizing ratio relationships
+   PRACTICE: Complete ratio tables
+
+5. Solving ratio problems
+   LEARN: Video - Multi-step ratio reasoning
+   PRACTICE: Complex ratio word problems
+
+6. Ratio word problems
+   LEARN: Video - Real-world applications
+   PRACTICE: Applied ratio scenarios
+
+[... continues for all units ...]
+
+================================================================================
+ALGEBRA 1: SAMPLE STRUCTURE
+================================================================================
+
+UNIT 4: LINEAR EQUATIONS & GRAPHS
+----------------------------------
+
+1. Intro to slope-intercept form
+   LEARN: Video - Understanding y = mx + b
+   PRACTICE: Identify slope and y-intercept
+
+2. Graphing slope-intercept equations
+   LEARN: Video - Plotting lines from equations
+   PRACTICE: Graph lines using slope-intercept form
+
+3. Writing slope-intercept equations
+   LEARN: Video - Creating equations from information
+   PRACTICE: Write equations from graphs and points
+
+4. Slope-intercept from two points
+   LEARN: Video - Finding equations from coordinates
+   PRACTICE: Determine equations given two points
+
+5. x-intercepts and y-intercepts
+   LEARN: Video - Understanding intercepts
+   PRACTICE: Find and interpret intercepts
+
+6. Horizontal and vertical lines
+   LEARN: Video - Special cases of linear equations
+   PRACTICE: Graph and write equations for special lines
+
+7. Slope
+   LEARN: Video - Rate of change and steepness
+   PRACTICE: Calculate slope from graphs and points
+
+8. Graphing linear equations
+   LEARN: Video - Multiple graphing methods
+   PRACTICE: Graph using various techniques
+
+9. Linear equation word problems
+   LEARN: Video - Modeling real-world situations
+   PRACTICE: Applied linear equation scenarios
+
+[... continues for all units ...]
+
+================================================================================
+COMPLETE FILE LIST
+================================================================================
+
+Each individual grade file contains the full Learn & Practice breakdown:
+
+1. kindergarten_exercises.txt - 3 units, 27 lessons
+2. grade_1_exercises.txt - 3 units, 25 lessons
+3. grade_2_exercises.txt - 8 units, 50+ lessons
+4. grade_3_exercises.txt - 13 units, 70+ lessons
+5. grade_4_exercises.txt - 14 units, 90+ lessons
+6. grade_5_exercises.txt - 16 units, 100+ lessons
+7. grade_6_exercises.txt - 11 units, 80+ lessons
+8. grade_7_exercises.txt - 9 units, 70+ lessons
+9. grade_8_exercises.txt - 7 units, 80+ lessons
+10. algebra_1_exercises.txt - 15 units, 120+ lessons
+11. geometry_exercises.txt - 10 units, 80+ lessons
+12. algebra_2_exercises.txt - 13 units, 130+ lessons
+
+================================================================================
+LEARNING PATH
+================================================================================
+
+Typical progression through each lesson:
+1. Watch LEARN video (5-15 min)
+2. Read article if available (optional)
+3. Complete PRACTICE exercises (10-20 min)
+4. Achieve mastery (typically 5/5 or 7/7 correct)
+5. Move to next lesson
+
+Mastery levels:
+- Not started: Haven't attempted
+- Attempted: Started but not mastered
+- Familiar: Some correct answers
+- Proficient: Mostly correct
+- Mastered: Demonstrated full understanding
+
+================================================================================
+TOTAL CURRICULUM OVERVIEW
+================================================================================
+
+Total Grade Levels: 13 (K-12)
+Total Units: ~120
+Total Lessons: ~900+
+Total Videos: ~900+
+Total Practice Sets: ~900+
+Estimated Time to Complete: 1,000+ hours
+
+All content is FREE at www.khanacademy.org
+================================================================================

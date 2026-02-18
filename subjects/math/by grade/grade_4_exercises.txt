@@ -1,0 +1,262 @@
+KHAN ACADEMY - 4TH GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: PLACE VALUE
+================================================================================
+
+Exercises:
+----------
+1. Identifying the value of digits
+2. Writing numbers in expanded form
+3. Writing numbers in written form
+4. Regrouping whole numbers
+5. Comparing multi-digit numbers
+6. Multiplying whole numbers by 10
+7. Dividing whole numbers by 10
+8. Multiplying whole numbers by 100
+9. Dividing whole numbers by 100
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: ADDITION, SUBTRACTION, AND ESTIMATION
+================================================================================
+
+Exercises:
+----------
+1. Addition strategies
+2. Subtraction strategies
+3. Rounding to estimate
+4. Multi-digit addition
+5. Multi-digit subtraction
+6. Addition and subtraction word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: MULTIPLY BY 1-DIGIT NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. Comparing with multiplication
+2. Multiplying by 1-digit numbers
+3. Multiplying by 10, 100, and 1000
+4. Using area models for multiplication
+5. Using distributive property for multiplication
+6. Multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: MULTIPLY BY 2-DIGIT NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. Multiplying with area models
+2. Estimating products
+3. Using partial products to multiply 2-digit numbers
+4. Multiplying 2-digit numbers
+5. 2-digit multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Division with 1-digit divisors
+2. Estimating quotients
+3. Interpreting remainders
+4. Dividing using place value
+5. Dividing using area models
+6. Dividing multi-digit numbers
+7. Division word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: FACTORS, MULTIPLES, AND PATTERNS
+================================================================================
+
+Exercises:
+----------
+1. Identifying factor pairs
+2. Prime and composite numbers
+3. Understanding multiples
+4. Factor and multiple word problems
+5. Using the distributive property
+6. Number patterns
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: EQUIVALENT FRACTIONS AND COMPARING FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Identifying unit fractions
+2. Creating equivalent fractions
+3. Equivalent fractions on number lines
+4. Comparing fractions with like denominators
+5. Comparing fractions with like numerators
+6. Comparing fractions with different denominators
+7. Ordering fractions
+8. Fraction word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: ADD AND SUBTRACT FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Adding fractions with like denominators
+2. Subtracting fractions with like denominators
+3. Adding mixed numbers
+4. Subtracting mixed numbers
+5. Fraction addition and subtraction word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: MULTIPLY FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Multiplying fractions and whole numbers using models
+2. Multiplying fractions and whole numbers using number lines
+3. Multiplying fractions by whole numbers
+4. Fraction multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: UNDERSTAND DECIMALS
+================================================================================
+
+Exercises:
+----------
+1. Writing decimals from grids
+2. Writing fractions from grids
+3. Decimals and fractions on number lines
+4. Relating decimals and fractions in words
+5. Understanding decimal place value
+6. Comparing decimals
+7. Ordering decimals
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: PLANE FIGURES
+================================================================================
+
+Exercises:
+----------
+1. Classifying geometric shapes
+2. Lines, line segments, and rays
+3. Parallel and perpendicular lines
+4. Types of triangles
+5. Types of quadrilaterals
+6. Symmetry
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 12: MEASURING ANGLES
+================================================================================
+
+Exercises:
+----------
+1. Understanding angles
+2. Acute, right, and obtuse angles
+3. Measuring angles with a protractor
+4. Drawing angles
+5. Estimating angle measures
+6. Angle addition
+7. Angle word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 13: AREA AND PERIMETER
+================================================================================
+
+Exercises:
+----------
+1. Finding area of rectangles
+2. Finding perimeter
+3. Area and perimeter word problems
+4. Area of composite figures
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 14: UNITS OF MEASUREMENT
+================================================================================
+
+Exercises:
+----------
+1. Converting length units
+2. Converting mass units
+3. Converting volume units
+4. Converting time units
+5. Telling time
+6. Measurement word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 14
+TOTAL EXERCISE TOPICS: 90+
+================================================================================

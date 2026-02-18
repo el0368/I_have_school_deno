@@ -1,0 +1,144 @@
+DIVISION
+========
+Complete Topic Progression: Grade 3 → Algebra 2
+Source: Khan Academy (exercises from by_grade files)
+
+Division starts as sharing equally and evolves through long division,
+decimal division, fraction division, and polynomial division.
+Requires multiplication (05) as prerequisite.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Units 2, 3, 5
+
+Unit 2: Intro to Division
+1. PRACTICE: Division as equal sharing
+2. PRACTICE: Division as equal groups
+3. PRACTICE: Relating multiplication and division
+4. PRACTICE: Division on the number line
+
+Unit 3: More with Multiplication and Division (div portion)
+5. PRACTICE: Dividing by 1 and by itself
+6. PRACTICE: Dividing by 2, 5, and 10
+7. PRACTICE: Dividing by 3, 4, and 6
+8. PRACTICE: Dividing by 7, 8, and 9
+9. PRACTICE: 1-digit division
+10. PRACTICE: Division word problems
+
+Unit 5: Multiplication and Division Word Problems
+11. PRACTICE: Division word problems within 100
+12. PRACTICE: Multiplication and division word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 4: Division
+
+1. PRACTICE: Remainders
+2. PRACTICE: Dividing multiples of 10, 100, and 1,000
+3. PRACTICE: Division with area models
+4. PRACTICE: Estimating quotients
+5. PRACTICE: Multi-digit division (2-digit by 1-digit)
+6. PRACTICE: Multi-digit division (3-digit by 1-digit)
+7. PRACTICE: Multi-digit division (4-digit by 1-digit)
+8. PRACTICE: Division word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Units 2, 7, 8
+
+Unit 2: Multi-digit Division
+9. PRACTICE: Dividing by 2-digit divisors
+10. PRACTICE: Partial quotients
+11. PRACTICE: Multi-digit division (standard algorithm)
+12. PRACTICE: Multi-digit division word problems
+
+Unit 7: Divide Fractions
+13. PRACTICE: Fractions as division
+14. PRACTICE: Dividing unit fractions by whole numbers
+15. PRACTICE: Dividing whole numbers by unit fractions
+16. PRACTICE: Dividing fractions word problems
+
+Unit 8: Divide Decimals
+17. PRACTICE: Dividing decimals by whole numbers
+18. PRACTICE: Dividing by decimals (tenths)
+19. PRACTICE: Dividing by decimals (hundredths)
+20. PRACTICE: Decimal division word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2 (partial)
+
+1. PRACTICE: Dividing decimals review
+2. PRACTICE: Dividing fractions by fractions
+3. PRACTICE: Dividing mixed numbers
+4. PRACTICE: Division word problems with fractions
+
+ASSESSMENT: (within unit assessment)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Unit 4: Polynomial Division
+
+1. PRACTICE: Dividing polynomials by x
+2. PRACTICE: Dividing quadratics by linear factors
+3. PRACTICE: Dividing polynomials by linear factors
+4. PRACTICE: Polynomial remainder theorem
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental — 34 exercises)
+Source: arithmetic_exercises.txt → Units 6, 7, 10, 11
+
+Unit 6: Division
+1. PRACTICE: Intro to division
+2. PRACTICE: Division as equal groups
+3. PRACTICE: Division as equal sharing
+4. PRACTICE: Relating multiplication and division
+5. PRACTICE: Division facts (1-10)
+6. PRACTICE: Division by 1 and by itself
+7. PRACTICE: Division word problems (basic)
+
+Unit 7: Long Division
+8. PRACTICE: Dividing by 2-digit numbers
+9. PRACTICE: Long division (no remainders)
+10. PRACTICE: Long division with remainders
+11. PRACTICE: Long division (standard algorithm)
+12. PRACTICE: Checking division with multiplication
+13. PRACTICE: Long division word problems
+
+Unit 10: Dividing Fractions
+14. PRACTICE: Dividing fractions by whole numbers
+15. PRACTICE: Dividing whole numbers by fractions
+16. PRACTICE: Dividing fractions by fractions
+17. PRACTICE: Dividing mixed numbers
+18. PRACTICE: Reciprocals
+19. PRACTICE: Fraction division word problems
+
+Unit 11: Dividing Decimals
+20. PRACTICE: Dividing decimals by whole numbers
+21. PRACTICE: Dividing by tenths
+22. PRACTICE: Dividing by hundredths
+23. PRACTICE: Long division with decimals
+24. PRACTICE: Decimal division word problems
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 07_fractions.txt (fractions as division, fraction operations)
+→ 11_ratios_rates_proportions.txt (ratios use division)
+→ 15_algebra_and_equations.txt (polynomial division)

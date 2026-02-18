@@ -1,0 +1,114 @@
+SUBTRACTION
+===========
+Complete Topic Progression: Kindergarten → Grade 5
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces SUBTRACTION from first differences through
+multi-digit subtraction with decimals.
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 2: Addition and Subtraction
+
+1. LEARN: Video - Introduction to subtraction
+   PRACTICE: Simple subtraction problems (from 5 or less)
+2. LEARN: Video - Subtraction strategies within 10
+   PRACTICE: Subtraction problems (from 10 or less)
+3. LEARN: Video - Solving subtraction story problems
+   PRACTICE: Real-world subtraction scenarios
+
+ASSESSMENT: Quiz 2 (Subtraction basics), Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 2: Addition and Subtraction
+
+1. LEARN: Video - Subtraction strategies
+   PRACTICE: Subtraction problems (from 20 or less)
+2. LEARN: Video - Solving for unknowns
+   PRACTICE: Subtract within 20 with missing numbers
+3. LEARN: Video - Solving story problems
+   PRACTICE: Real-world subtraction scenarios
+4. LEARN: Video - Comparison word problems
+   PRACTICE: "More/fewer" word problems (subtraction component)
+
+ASSESSMENT: Quiz 2, Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Units 1, 3, 4
+
+Unit 1: Add and Subtract within 20
+1. PRACTICE: Practicing subtraction within 20
+2. PRACTICE: Subtraction word problems
+
+Unit 3: Add and Subtract within 100
+3. PRACTICE: Subtracting using place value blocks
+4. PRACTICE: Subtracting using number lines
+5. PRACTICE: 1-step subtraction word problems
+6. PRACTICE: 2-step subtraction word problems
+
+Unit 4: Add and Subtract within 1,000
+7. PRACTICE: Subtracting 10s and 100s (without regrouping)
+8. PRACTICE: Subtracting 10s and 100s (with regrouping)
+9. PRACTICE: Subtracting using place value blocks (to 1,000)
+10. PRACTICE: Subtracting using number lines (to 1,000)
+11. PRACTICE: Subtraction word problems within 1,000
+
+ASSESSMENT: Unit Quiz and Unit Test for each unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 5
+
+1. PRACTICE: Subtraction within 1,000
+2. PRACTICE: Estimating differences
+3. PRACTICE: Two-step word problems (subtraction component)
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 2
+
+1. PRACTICE: Subtraction strategies
+2. PRACTICE: Multi-digit subtraction
+3. PRACTICE: Subtraction word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 3: Subtracting Decimals
+
+1. PRACTICE: Subtracting decimals using models
+2. PRACTICE: Subtracting decimals using place value
+3. PRACTICE: Subtracting decimals (tenths)
+4. PRACTICE: Subtracting decimals (hundredths)
+5. PRACTICE: Subtracting decimals (thousandths)
+6. PRACTICE: Decimal subtraction word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2 (partial)
+
+1. PRACTICE: Subtracting decimals
+2. PRACTICE: Subtracting fractions with unlike denominators
+
+(For negative number subtraction, see 13_negative_numbers.txt)
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 05_multiplication.txt (next operation)
+→ 07_fractions.txt (subtracting fractions)
+→ 13_negative_numbers.txt (subtracting negatives)

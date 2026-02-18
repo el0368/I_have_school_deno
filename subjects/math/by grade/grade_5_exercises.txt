@@ -1,0 +1,279 @@
+KHAN ACADEMY - 5TH GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: DECIMAL PLACE VALUE
+================================================================================
+
+Exercises:
+----------
+1. Understanding decimal place value
+2. Decimals on the number line
+3. Decimals in expanded form
+4. Decimals in written form
+5. Comparing decimals
+6. Ordering decimals
+7. Rounding decimals
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: ADDING DECIMALS
+================================================================================
+
+Exercises:
+----------
+1. Adding decimals using models
+2. Adding decimals using place value
+3. Adding decimals (tenths)
+4. Adding decimals (hundredths)
+5. Adding decimals (thousandths)
+6. Decimal addition word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: SUBTRACTING DECIMALS
+================================================================================
+
+Exercises:
+----------
+1. Subtracting decimals using models
+2. Subtracting decimals using place value
+3. Subtracting decimals (tenths)
+4. Subtracting decimals (hundredths)
+5. Subtracting decimals (thousandths)
+6. Decimal subtraction word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: ADD AND SUBTRACT FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Adding fractions with unlike denominators
+2. Subtracting fractions with unlike denominators
+3. Adding mixed numbers with unlike denominators
+4. Subtracting mixed numbers with unlike denominators
+5. Adding and subtracting fractions word problems
+6. Fraction estimation strategies
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: MULTI-DIGIT MULTIPLICATION AND DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Multi-digit multiplication
+2. Multiplying decimals
+3. Multi-digit division
+4. Dividing decimals
+5. Multiplication and division word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: MULTIPLY FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Multiplying fractions and whole numbers
+2. Multiplying fractions using area models
+3. Multiplying fractions
+4. Multiplying mixed numbers
+5. Fraction multiplication as scaling
+6. Fraction multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: DIVIDE FRACTIONS
+================================================================================
+
+Exercises:
+----------
+1. Dividing unit fractions by whole numbers
+2. Dividing whole numbers by unit fractions
+3. Dividing fractions by whole numbers
+4. Fraction division word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: MULTIPLY DECIMALS
+================================================================================
+
+Exercises:
+----------
+1. Multiplying decimals and whole numbers
+2. Multiplying decimals using area models
+3. Multiplying decimals
+4. Decimal multiplication word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: DIVIDE DECIMALS
+================================================================================
+
+Exercises:
+----------
+1. Dividing decimals by whole numbers
+2. Dividing whole numbers to get a decimal quotient
+3. Dividing decimals by decimals
+4. Decimal division word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: POWERS OF TEN
+================================================================================
+
+Exercises:
+----------
+1. Understanding powers of 10
+2. Multiplying and dividing by powers of 10
+3. Decimal place value patterns
+4. Powers of 10 word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: VOLUME
+================================================================================
+
+Exercises:
+----------
+1. Understanding volume with unit cubes
+2. Volume of rectangular prisms
+3. Decomposing shapes to find volume
+4. Volume word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 12: COORDINATE PLANE
+================================================================================
+
+Exercises:
+----------
+1. The coordinate plane
+2. Quadrants
+3. Graphing points
+4. Coordinate plane word problems
+5. Distance on the coordinate plane
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 13: ALGEBRAIC THINKING
+================================================================================
+
+Exercises:
+----------
+1. Writing expressions
+2. Evaluating expressions
+3. Equivalent expressions
+4. Analyzing patterns and relationships
+5. Algebraic word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 14: CONVERTING UNITS OF MEASURE
+================================================================================
+
+Exercises:
+----------
+1. Converting length units
+2. Converting mass and weight units
+3. Converting volume and capacity units
+4. Converting time units
+5. Measurement conversion word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 15: LINE PLOTS
+================================================================================
+
+Exercises:
+----------
+1. Creating line plots
+2. Interpreting line plots
+3. Line plots with fractions
+4. Line plot word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 16: PROPERTIES OF SHAPES
+================================================================================
+
+Exercises:
+----------
+1. Classifying triangles
+2. Classifying quadrilaterals
+3. Properties of 2D shapes
+4. Hierarchy of shapes
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 16
+TOTAL EXERCISE TOPICS: 100+
+================================================================================

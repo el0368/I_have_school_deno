@@ -1,0 +1,416 @@
+KHAN ACADEMY - CALCULUS 1 (AP CALCULUS AB)
+===========================================
+Complete Learn & Practice List by Unit
+
+================================================================================
+UNIT 1: LIMITS AND CONTINUITY
+================================================================================
+
+1. Limits introduction
+   LEARN: Video - Approaching a value
+   PRACTICE: Estimate limits from graphs
+
+2. Estimating limit values from graphs
+   LEARN: Video - Reading limits visually
+   PRACTICE: Evaluate lim(x→a) f(x) from graphs
+
+3. Estimating limit values from tables
+   LEARN: Video - Numerical approach to limits
+   PRACTICE: Estimate limits from tables
+
+4. Determining limits using algebraic properties
+   LEARN: Video - Sum, product, quotient rules
+   PRACTICE: Use limit properties
+
+5. Determining limits using algebraic manipulation
+   LEARN: Video - Factoring, conjugates, simplifying
+   PRACTICE: Evaluate limits algebraically
+
+6. Selecting procedures for determining limits
+   LEARN: Video - Choosing the right method
+   PRACTICE: Apply appropriate limit techniques
+
+7. Determining limits using the squeeze theorem
+   LEARN: Video - Trapping functions between bounds
+   PRACTICE: Apply squeeze theorem
+
+8. Exploring types of discontinuities
+   LEARN: Video - Removable, jump, infinite
+   PRACTICE: Classify discontinuities
+
+9. Defining continuity at a point
+   LEARN: Video - lim(x→a) f(x) = f(a)
+   PRACTICE: Determine continuity at points
+
+10. Confirming continuity over an interval
+    LEARN: Video - Continuous on [a,b]
+    PRACTICE: Verify interval continuity
+
+11. Removing discontinuities
+    LEARN: Video - Redefining functions
+    PRACTICE: Make functions continuous
+
+12. Connecting infinite limits and vertical asymptotes
+    LEARN: Video - lim(x→a) f(x) = ±∞
+    PRACTICE: Find vertical asymptotes
+
+13. Connecting limits at infinity and horizontal asymptotes
+    LEARN: Video - lim(x→∞) f(x) = L
+    PRACTICE: Find horizontal asymptotes
+
+14. Working with the intermediate value theorem
+    LEARN: Video - Continuous functions take all values
+    PRACTICE: Apply IVT
+
+ASSESSMENTS:
+- Quiz 1: Limits
+- Quiz 2: Continuity
+- Unit Test: Limits and Continuity
+
+================================================================================
+UNIT 2: DIFFERENTIATION - DEFINITION AND BASIC RULES
+================================================================================
+
+1. Defining average and instantaneous rates of change
+   LEARN: Video - Δy/Δx vs dy/dx
+   PRACTICE: Calculate rates of change
+
+2. Defining the derivative
+   LEARN: Video - f'(x) = lim(h→0) [f(x+h)-f(x)]/h
+   PRACTICE: Find derivatives using definition
+
+3. Estimating derivatives
+   LEARN: Video - Approximating from graphs/tables
+   PRACTICE: Estimate derivative values
+
+4. Connecting differentiability and continuity
+   LEARN: Video - Differentiable → continuous
+   PRACTICE: Analyze differentiability
+
+5. Power rule
+   LEARN: Video - d/dx[xⁿ] = nxⁿ⁻¹
+   PRACTICE: Differentiate using power rule
+
+6. Derivative rules: constant, sum, difference, constant multiple
+   LEARN: Video - Basic derivative rules
+   PRACTICE: Apply basic rules
+
+7. Derivatives of cos(x), sin(x), eˣ, and ln(x)
+   LEARN: Video - Common function derivatives
+   PRACTICE: Differentiate trig and exponential functions
+
+8. Product rule
+   LEARN: Video - d/dx[fg] = f'g + fg'
+   PRACTICE: Differentiate products
+
+9. Quotient rule
+   LEARN: Video - d/dx[f/g] = (f'g - fg')/g²
+   PRACTICE: Differentiate quotients
+
+10. Derivatives of tan(x), cot(x), sec(x), and csc(x)
+    LEARN: Video - Other trig derivatives
+    PRACTICE: Differentiate all trig functions
+
+ASSESSMENTS:
+- Quiz 1: Definition of derivative
+- Quiz 2: Basic derivative rules
+- Unit Test: Differentiation Basics
+
+================================================================================
+UNIT 3: DIFFERENTIATION - COMPOSITE, IMPLICIT, INVERSE
+================================================================================
+
+1. Chain rule introduction
+   LEARN: Video - d/dx[f(g(x))] = f'(g(x))·g'(x)
+   PRACTICE: Apply chain rule
+
+2. Chain rule with tables
+   LEARN: Video - Using given information
+   PRACTICE: Find derivatives from tables
+
+3. Implicit differentiation
+   LEARN: Video - Differentiating both sides
+   PRACTICE: Find dy/dx implicitly
+
+4. Differentiating inverse functions
+   LEARN: Video - (f⁻¹)'(x) = 1/f'(f⁻¹(x))
+   PRACTICE: Differentiate inverse functions
+
+5. Derivatives of inverse trigonometric functions
+   LEARN: Video - d/dx[arcsin x], d/dx[arctan x], etc.
+   PRACTICE: Differentiate inverse trig
+
+6. Selecting procedures for calculating derivatives
+   LEARN: Video - Choosing the right rule
+   PRACTICE: Apply appropriate techniques
+
+7. Calculating higher-order derivatives
+   LEARN: Video - f'', f''', f⁽ⁿ⁾
+   PRACTICE: Find second and higher derivatives
+
+ASSESSMENTS:
+- Quiz: Composite and Implicit Differentiation
+- Unit Test: Advanced Differentiation
+
+================================================================================
+UNIT 4: CONTEXTUAL APPLICATIONS OF DIFFERENTIATION
+================================================================================
+
+1. Interpreting the meaning of the derivative
+   LEARN: Video - Rate of change interpretation
+   PRACTICE: Interpret derivatives in context
+
+2. Straight-line motion
+   LEARN: Video - Position, velocity, acceleration
+   PRACTICE: Analyze motion problems
+
+3. Rates of change in other contexts
+   LEARN: Video - Non-motion applications
+   PRACTICE: Solve contextual rate problems
+
+4. Introduction to related rates
+   LEARN: Video - Rates of related quantities
+   PRACTICE: Set up related rates problems
+
+5. Solving related rates problems
+   LEARN: Video - Complete solution process
+   PRACTICE: Solve related rates problems
+
+6. Approximation with local linearity
+   LEARN: Video - L(x) = f(a) + f'(a)(x-a)
+   PRACTICE: Linear approximation
+
+7. L'Hôpital's rule
+   LEARN: Video - lim f/g = lim f'/g' (0/0 or ∞/∞)
+   PRACTICE: Evaluate limits using L'Hôpital
+
+ASSESSMENTS:
+- Quiz: Applications of Derivatives
+- Unit Test: Contextual Applications
+
+================================================================================
+UNIT 5: ANALYTICAL APPLICATIONS OF DIFFERENTIATION
+================================================================================
+
+1. Mean Value Theorem
+   LEARN: Video - f'(c) = [f(b)-f(a)]/(b-a)
+   PRACTICE: Apply MVT
+
+2. Extreme Value Theorem, global vs local extrema
+   LEARN: Video - Continuous on closed interval
+   PRACTICE: Find absolute extrema
+
+3. Determining intervals on which a function is increasing/decreasing
+   LEARN: Video - Using f'(x) > 0 or f'(x) < 0
+   PRACTICE: Find intervals of increase/decrease
+
+4. Using first derivative test to find extrema
+   LEARN: Video - Where f' changes sign
+   PRACTICE: Find local max/min
+
+5. Using second derivative test to find extrema
+   LEARN: Video - Using f''(c) to classify
+   PRACTICE: Classify critical points
+
+6. Sketching curves with calculus
+   LEARN: Video - Using derivative information
+   PRACTICE: Sketch complete graphs
+
+7. Connecting f, f', and f''
+   LEARN: Video - Relationships between graphs
+   PRACTICE: Match functions and derivatives
+
+8. Introduction to optimization problems
+   LEARN: Video - Finding absolute max/min
+   PRACTICE: Set up optimization problems
+
+9. Solving optimization problems
+   LEARN: Video - Complete solution process
+   PRACTICE: Solve optimization word problems
+
+10. Exploring behaviors of implicit relations
+    LEARN: Video - Analyzing implicit curves
+    PRACTICE: Study implicit relations
+
+ASSESSMENTS:
+- Quiz 1: Extrema and intervals
+- Quiz 2: Optimization
+- Unit Test: Analytical Applications
+
+================================================================================
+UNIT 6: INTEGRATION AND ACCUMULATION OF CHANGE
+================================================================================
+
+1. Exploring accumulations of change
+   LEARN: Video - Area under curve
+   PRACTICE: Interpret accumulation
+
+2. Approximating areas with Riemann sums
+   LEARN: Video - Left, right, midpoint sums
+   PRACTICE: Calculate Riemann sums
+
+3. Riemann sums, summation notation, and definite integral notation
+   LEARN: Video - ∫ₐᵇ f(x)dx notation
+   PRACTICE: Use integral notation
+
+4. Fundamental Theorem of Calculus and accumulation functions
+   LEARN: Video - d/dx[∫ₐˣ f(t)dt] = f(x)
+   PRACTICE: Differentiate integrals
+
+5. Interpreting the behavior of accumulation functions
+   LEARN: Video - Analyzing ∫ₐˣ f(t)dt
+   PRACTICE: Study accumulation functions
+
+6. Properties of definite integrals
+   LEARN: Video - Linearity, additivity
+   PRACTICE: Use integral properties
+
+7. Fundamental Theorem of Calculus and definite integrals
+   LEARN: Video - ∫ₐᵇ f(x)dx = F(b) - F(a)
+   PRACTICE: Evaluate definite integrals
+
+8. Finding antiderivatives and indefinite integrals
+   LEARN: Video - Reverse of differentiation
+   PRACTICE: Find antiderivatives
+
+9. Integrating using substitution
+   LEARN: Video - u-substitution method
+   PRACTICE: Integrate using substitution
+
+10. Integrating functions using long division and completing the square
+    LEARN: Video - Algebraic techniques
+    PRACTICE: Integrate using algebra
+
+11. Selecting techniques for antidifferentiation
+    LEARN: Video - Choosing the right method
+    PRACTICE: Apply appropriate techniques
+
+ASSESSMENTS:
+- Quiz 1: Riemann sums and FTC
+- Quiz 2: Integration techniques
+- Unit Test: Integration
+
+================================================================================
+UNIT 7: DIFFERENTIAL EQUATIONS
+================================================================================
+
+1. Modeling situations with differential equations
+   LEARN: Video - Setting up DEs
+   PRACTICE: Write differential equations
+
+2. Verifying solutions for differential equations
+   LEARN: Video - Checking if y satisfies DE
+   PRACTICE: Verify solutions
+
+3. Sketching slope fields
+   LEARN: Video - Visualizing solutions
+   PRACTICE: Draw slope fields
+
+4. Reasoning using slope fields
+   LEARN: Video - Analyzing behavior
+   PRACTICE: Interpret slope fields
+
+5. Approximating solutions using Euler's method
+   LEARN: Video - Numerical approximation
+   PRACTICE: Use Euler's method
+
+6. Finding general solutions using separation of variables
+   LEARN: Video - dy/dx = f(x)g(y)
+   PRACTICE: Solve separable DEs
+
+7. Finding particular solutions using initial conditions
+   LEARN: Video - Using given point
+   PRACTICE: Find particular solutions
+
+8. Exponential models with differential equations
+   LEARN: Video - dy/dt = ky
+   PRACTICE: Solve growth/decay problems
+
+9. Logistic models with differential equations
+   LEARN: Video - dy/dt = ky(1 - y/M)
+   PRACTICE: Solve logistic equations
+
+ASSESSMENTS:
+- Quiz: Differential Equations
+- Unit Test: Differential Equations
+
+================================================================================
+UNIT 8: APPLICATIONS OF INTEGRATION
+================================================================================
+
+1. Finding the average value of a function
+   LEARN: Video - f_avg = (1/(b-a))∫ₐᵇ f(x)dx
+   PRACTICE: Calculate average values
+
+2. Connecting position, velocity, and acceleration with integration
+   LEARN: Video - Antiderivatives in motion
+   PRACTICE: Solve motion problems
+
+3. Using accumulation functions and definite integrals in context
+   LEARN: Video - Real-world applications
+   PRACTICE: Applied integration problems
+
+4. Finding area between curves
+   LEARN: Video - ∫[f(x) - g(x)]dx
+   PRACTICE: Calculate areas between functions
+
+5. Finding area between curves with respect to y
+   LEARN: Video - ∫[f(y) - g(y)]dy
+   PRACTICE: Integrate with respect to y
+
+6. Volumes with cross sections: squares and rectangles
+   LEARN: Video - V = ∫A(x)dx
+   PRACTICE: Find volumes with known cross sections
+
+7. Volumes with cross sections: triangles and semicircles
+   LEARN: Video - Various cross-sectional shapes
+   PRACTICE: Calculate volumes
+
+8. Volume with disc method: revolving around x- or y-axis
+   LEARN: Video - V = π∫[f(x)]²dx
+   PRACTICE: Find volumes using disks
+
+9. Volume with disc method: revolving around other axes
+   LEARN: Video - Shifted axes
+   PRACTICE: Volumes with different axes
+
+10. Volume with washer method: revolving around x- or y-axis
+    LEARN: Video - V = π∫[R(x)² - r(x)²]dx
+    PRACTICE: Find volumes using washers
+
+11. Volume with washer method: revolving around other axes
+    LEARN: Video - Shifted axes with washers
+    PRACTICE: Complex washer problems
+
+ASSESSMENTS:
+- Quiz 1: Applications in context
+- Quiz 2: Area and volume
+- Unit Test: Applications of Integration
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 8
+TOTAL LESSONS: 100+
+TOTAL QUIZZES: 15+
+TOTAL UNIT TESTS: 8
+
+Each lesson includes:
+✓ LEARN component (instructional video/article)
+✓ PRACTICE component (interactive exercises)
+✓ Immediate feedback and hints
+✓ Progress tracking toward mastery
+
+TOPICS COVERED:
+✓ Limits and continuity
+✓ Derivatives (definition and rules)
+✓ Applications of derivatives
+✓ Integration (Riemann sums, FTC)
+✓ Integration techniques
+✓ Differential equations
+✓ Applications of integration
+
+PREREQUISITE: Pre-Calculus
+PREPARES FOR: Calculus 2 (AP Calculus BC)
+AP EXAM: AP Calculus AB
+================================================================================

@@ -1,0 +1,139 @@
+TRIGONOMETRY
+============
+Complete Topic Progression: Geometry → Precalculus → Calculus
+Source: Khan Academy (exercises from by_grade files)
+
+Trigonometry begins in High School Geometry with right-triangle
+ratios and extends through unit circle, identities, and equations.
+Requires solid geometry (09) and algebra (15) foundations.
+
+────────────────────────────────────────────────────────────────────
+
+HIGH SCHOOL GEOMETRY
+Source: geometry_exercises.txt → Unit 5: Right Triangles & Trigonometry
+
+1. PRACTICE: Pythagorean theorem
+2. PRACTICE: Pythagorean theorem proofs
+3. PRACTICE: Special right triangles (45-45-90, 30-60-90)
+4. PRACTICE: Introduction to the trigonometric ratios
+5. PRACTICE: Solving for a side in a right triangle using trigonometric ratios
+6. PRACTICE: Solving for an angle in a right triangle using trigonometric ratios
+7. PRACTICE: Sine and cosine of complementary angles
+8. PRACTICE: Modeling with right triangles
+9. PRACTICE: Law of sines
+10. PRACTICE: Law of cosines
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Unit 11: Trigonometry
+
+1. PRACTICE: Unit circle introduction
+2. PRACTICE: Radians
+3. PRACTICE: The Pythagorean identity
+4. PRACTICE: Trigonometric values of special angles
+5. PRACTICE: Graphs of sin(x) and cos(x)
+6. PRACTICE: Amplitude, midline, and period
+7. PRACTICE: Transforming sinusoidal graphs
+8. PRACTICE: Graphing sinusoidal functions
+9. PRACTICE: Sinusoidal models
+10. PRACTICE: Long live Tau
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS
+Source: precalculus_exercises.txt → Unit 2: Trigonometry
+
+1. PRACTICE: Unit circle definition of trig functions
+2. PRACTICE: Graphs of trigonometric functions
+3. PRACTICE: Sinusoidal models
+4. PRACTICE: Inverse trigonometric functions
+5. PRACTICE: Trigonometric identities on the unit circle
+6. PRACTICE: Angle addition identities
+7. PRACTICE: Using trigonometric identities
+8. PRACTICE: Challenging trigonometric equations
+9. PRACTICE: Law of sines
+10. PRACTICE: Law of cosines
+11. PRACTICE: Solving general triangles
+12. PRACTICE: Polar coordinates
+13. PRACTICE: Parametric equations
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+TRIGONOMETRY COURSE (standalone)
+Source: trigonometry_exercises.txt → All 5 units
+
+Unit 1: Right Triangles and Trigonometry
+1. PRACTICE: Ratios in right triangles
+2. PRACTICE: Introduction to the trigonometric ratios
+3. PRACTICE: Solving for a side in a right triangle using trig ratios
+4. PRACTICE: Solving for an angle in a right triangle using trig ratios
+5. PRACTICE: Sine and cosine of complementary angles
+6. PRACTICE: Modeling with right triangles
+7. PRACTICE: The reciprocal trigonometric ratios
+
+Unit 2: Trigonometric Functions
+8. PRACTICE: Unit circle introduction
+9. PRACTICE: Radians
+10. PRACTICE: The Pythagorean identity
+11. PRACTICE: Special trigonometric values in the first quadrant
+12. PRACTICE: Trigonometric values on the unit circle
+13. PRACTICE: Graphs of sin(x) and cos(x)
+14. PRACTICE: Amplitude, midline, and period
+15. PRACTICE: Transforming sinusoidal graphs
+16. PRACTICE: Graphing sinusoidal functions
+17. PRACTICE: Sinusoidal models
+18. PRACTICE: Long live Tau
+
+Unit 3: Non-right Triangles and Trigonometry
+19. PRACTICE: Law of sines
+20. PRACTICE: Law of cosines
+21. PRACTICE: Solving general triangles
+22. PRACTICE: Area of non-right triangles
+
+Unit 4: Trigonometric Equations and Identities
+23. PRACTICE: Inverse trigonometric functions
+24. PRACTICE: Sinusoidal equations
+25. PRACTICE: Sinusoidal models
+26. PRACTICE: Angle addition identities
+27. PRACTICE: Using trigonometric identities
+28. PRACTICE: Challenging trig equations
+
+Unit 5: Parametric Equations and Polar Coordinates
+29. PRACTICE: Parametric equations intro
+30. PRACTICE: Polar coordinates
+31. PRACTICE: Graphing polar functions
+32. PRACTICE: Converting between polar and rectangular
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (5 quizzes, 5 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+CALCULUS (trigonometry applications)
+Source: calculus_1_exercises.txt, calculus_2_exercises.txt
+
+From Calculus 1:
+1. PRACTICE: Limits of trigonometric functions
+2. PRACTICE: Derivatives of sin(x) and cos(x)
+3. PRACTICE: Derivatives of tan(x), cot(x), sec(x), csc(x)
+4. PRACTICE: Differentiating trigonometric functions (chain rule)
+5. PRACTICE: Integrals of trigonometric functions
+
+From Calculus 2:
+6. PRACTICE: Trigonometric integrals
+7. PRACTICE: Trigonometric substitution
+8. PRACTICE: Polar function derivatives and integrals
+9. PRACTICE: Arc length of polar curves
+10. PRACTICE: Areas bounded by polar curves
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 19_calculus.txt (derivatives and integrals of trig)
+→ 16_functions.txt (function transformations applied to trig)

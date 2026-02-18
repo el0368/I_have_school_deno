@@ -1,0 +1,331 @@
+================================================================================
+KHAN ACADEMY - AP/COLLEGE PHYSICS 2
+Complete Learn & Practice Guide
+================================================================================
+
+Course: AP/College Physics 2
+Level: AP / College (Algebra-based: Thermo, E&M, Optics, Modern)
+Units: 7
+Skills: 74
+Mastery Points: 7,400
+Prerequisite: High School Physics recommended
+Source: https://www.khanacademy.org/science/ap-physics-2
+
+================================================================================
+UNIT 1: THERMODYNAMICS
+================================================================================
+
+--- Lesson 1: Gases ---
+1. Ideal gas law and kinetic theory
+   LEARN: Video - Ideal gas equation (PV = nRT)
+   LEARN: Video - Kinetic molecular theory of gases
+   LEARN: Video - RMS speed of gas molecules
+   PRACTICE: Calculations using the ideal gas equation
+   PRACTICE: Kinetic molecular theory
+   PRACTICE: RMS speed and average kinetic energy of gas molecules
+
+ASSESSMENT: Thermodynamics - Quiz 1
+
+--- Lesson 2: Thermal Energy and Thermal Equilibrium ---
+2. Thermal energy and heat transfer
+   LEARN: Video - Thermal energy, temperature, and heat
+   LEARN: Video - Thermal equilibrium
+   LEARN: Video - Specific heat capacity
+   PRACTICE: Understand: thermal energy and equilibrium
+   PRACTICE: Apply: thermal energy and equilibrium
+   PRACTICE: Understand: thermodynamics
+   PRACTICE: Apply: thermodynamics
+   PRACTICE: Apply: specific heat capacity
+
+ASSESSMENT: Thermodynamics - Quiz 2
+
+--- Lesson 3: Thermodynamic Processes ---
+3. Laws of thermodynamics
+   LEARN: Video - First law of thermodynamics
+   LEARN: Video - PV diagrams and thermodynamic processes
+   LEARN: Video - Second law of thermodynamics and entropy
+   PRACTICE: First law of thermodynamics: word problems
+   PRACTICE: Thermodynamic processes
+
+ASSESSMENT: Thermodynamics - Quiz 3
+ASSESSMENT: Thermodynamics - Unit test
+
+================================================================================
+UNIT 2: ELECTRIC FORCE, FIELD, AND POTENTIAL
+================================================================================
+
+--- Lesson 1: Electric Charge and Electric Force ---
+4. Coulomb's law and charge
+   LEARN: Video - Conservation of charge
+   LEARN: Video - Coulomb's law
+   LEARN: Video - Charge transfer processes
+   PRACTICE: Applying conservation of charge
+   PRACTICE: Charge transfer processes
+   PRACTICE: Relationship between electric force, charge, and distance
+
+ASSESSMENT: Electric force, field, and potential - Quiz 1
+
+--- Lesson 2: Electric Fields ---
+5. Electric fields
+   LEARN: Video - Electric field definition
+   LEARN: Video - Electric field due to a point charge
+   LEARN: Video - Superposition of electric fields
+   PRACTICE: Force on charged particle in electric field
+   PRACTICE: Electric field due to a point charge
+   PRACTICE: Superposition principle (basic)
+   PRACTICE: Superposition principle (intermediate)
+
+ASSESSMENT: Electric force, field, and potential - Quiz 2
+
+--- Lesson 3: Electric Potential Energy, Electric Potential, and Voltage ---
+6. Electric potential
+   LEARN: Video - Electric potential at a point in space
+   LEARN: Video - Electric potential energy
+   LEARN: Video - Voltage
+   PRACTICE: Electric potential: definition
+   PRACTICE: Electric potential: conceptual problems (part 1)
+   PRACTICE: Potential energy of a system of charges (intermediate)
+
+ASSESSMENT: Electric force, field, and potential - Quiz 3
+ASSESSMENT: Electric force, field, and potential - Unit test
+
+================================================================================
+UNIT 3: ELECTRIC CIRCUITS
+================================================================================
+
+--- Lesson 1: Current, Resistivity, and Ohm's Law ---
+7. Ohm's law and resistance
+   LEARN: Video - Circuits (Part 1) - current, resistance, voltage
+   LEARN: Video - Ohm's law and resistivity
+   PRACTICE: Calculating resistance, voltage, and current using Ohm's law
+   PRACTICE: Ohm's law calculations
+
+ASSESSMENT: Electric circuits - Quiz 1
+
+--- Lesson 2: Compound Circuits ---
+8. Series and parallel circuits
+   LEARN: Video - Series resistors
+   LEARN: Video - Parallel resistors
+   LEARN: Video - Compound circuit analysis
+   PRACTICE: Finding equivalent resistance
+   PRACTICE: Simplifying resistor networks
+   PRACTICE: Finding currents and voltages (pure circuits)
+
+ASSESSMENT: Electric circuits - Quiz 2
+
+--- Lesson 3: Circuits with Capacitors ---
+9. Capacitors and capacitance
+   LEARN: Video - Capacitors and capacitance
+   LEARN: Video - Capacitors in series and parallel
+   LEARN: Video - RC circuits
+
+ASSESSMENT: Electric circuits - Unit test
+
+================================================================================
+UNIT 4: MAGNETISM AND ELECTROMAGNETISM
+================================================================================
+
+--- Lesson 1: Magnetic Fields ---
+10. Magnetic field properties
+    LEARN: Video - Magnetic field lines and their properties
+    LEARN: Video - Earth's magnetic field
+    PRACTICE: Magnetic field lines: direction
+
+--- Lesson 2: Magnetism and Moving Charges ---
+11. Magnetic force on charges
+    LEARN: Article - What is magnetic force?
+    LEARN: Video - Cross product and right-hand rule
+    LEARN: Video - Magnetic force on moving charges
+    PRACTICE: Direction of cross product of two vectors (right-hand rule)
+    PRACTICE: Magnetic force on moving charges
+    PRACTICE: Properties of magnetic force on charged particle
+
+ASSESSMENT: Magnetism and electromagnetism - Quiz 1
+
+--- Lesson 3: Magnetism and Current-Carrying Wires ---
+12. Current and magnetic fields
+    LEARN: Video - Oersted's experiment - magnetic field due to current
+    LEARN: Video - Force between current-carrying wires
+    PRACTICE: Apply: magnetic field due to straight current-carrying conductors
+    PRACTICE: Apply: force on a current-carrying conductor in a magnetic field
+
+--- Lesson 4: Electromagnetic Induction ---
+13. Faraday's law and Lenz's law
+    LEARN: Video - Faraday's law of electromagnetic induction
+    LEARN: Video - Lenz's law
+    PRACTICE: Faraday's law - magnitude of induced emf (average)
+    PRACTICE: Lenz's law
+
+ASSESSMENT: Magnetism and electromagnetism - Quiz 2
+
+--- Lesson 5: Magnetic Properties of Materials ---
+14. Magnetic materials
+    LEARN: Video - Ferromagnetism and paramagnetism
+    LEARN: Video - Diamagnetism
+
+ASSESSMENT: Magnetism and electromagnetism - Unit test
+
+================================================================================
+UNIT 5: GEOMETRIC OPTICS
+================================================================================
+
+--- Lesson 1: Reflection and Mirrors ---
+15. Reflection and curved mirrors
+    LEARN: Video - Specular and diffuse reflection
+    LEARN: Video - Concave and convex mirrors
+    LEARN: Video - Ray diagrams for mirrors
+    PRACTICE: Applications of concave and convex mirrors
+    PRACTICE: Ray diagrams
+    PRACTICE: Ray diagrams and curved mirrors
+
+ASSESSMENT: Geometric optics - Quiz 1
+
+--- Lesson 2: Mirror Formula and Magnification ---
+16. Mirror equations
+    LEARN: Video - Sign conventions for mirrors/lenses
+    LEARN: Video - Mirror equation derivation
+    LEARN: Video - Magnification formula
+    PRACTICE: Sign convention
+    PRACTICE: Using the mirror formula
+    PRACTICE: Using the magnification formula for mirrors
+    PRACTICE: Nature and size of images from magnification
+    PRACTICE: Concave and convex mirrors
+
+ASSESSMENT: Geometric optics - Quiz 2
+
+--- Lesson 3: Refraction ---
+17. Refraction and Snell's law
+    LEARN: Video - Refraction and Snell's law
+    LEARN: Video - Total internal reflection
+    PRACTICE: Snell's law of refraction
+    PRACTICE: Reflection and refraction questions
+
+ASSESSMENT: Geometric optics - Quiz 3
+
+--- Lesson 4: Lenses ---
+18. Thin lenses
+    LEARN: Video - Convex and concave lenses
+    LEARN: Video - Ray diagrams for lenses
+    LEARN: Video - Thin lens equation
+    PRACTICE: Paths of light rays through spherical lenses
+    PRACTICE: Image formation in spherical lenses
+    PRACTICE: Lens intuition
+    PRACTICE: Using the lens formula
+    PRACTICE: Using magnification formula for lenses
+    PRACTICE: Convex and concave lenses
+    PRACTICE: Thin lenses questions
+
+ASSESSMENT: Geometric optics - Quiz 4
+ASSESSMENT: Geometric optics - Unit test
+
+================================================================================
+UNIT 6: WAVES, SOUND, AND PHYSICAL OPTICS
+================================================================================
+
+--- Lesson 1: Wave Properties ---
+19. Properties of waves
+    LEARN: Video - Introduction to waves
+    LEARN: Video - Amplitude, wavelength, frequency, wave speed
+    PRACTICE: Identifying transverse and longitudinal waves
+    PRACTICE: Properties of transverse and longitudinal waves
+    PRACTICE: Calculating wave speed, frequency, and wavelength
+    PRACTICE: Calculating frequency and wavelength from displacement graphs
+
+ASSESSMENT: Waves, sound, and physical optics - Quiz 1
+
+--- Lesson 2: Wave Behaviors ---
+20. Interference and standing waves
+    LEARN: Video - Wave interference (pulses)
+    LEARN: Video - Standing waves
+    LEARN: Video - Harmonics
+    PRACTICE: Predicting wave interference patterns
+    PRACTICE: Wavelength of standing waves
+    PRACTICE: Calculating frequency for harmonics of a standing wave
+
+ASSESSMENT: Waves, sound, and physical optics - Quiz 2
+
+--- Lesson 3: Sound ---
+21. Sound waves and Doppler effect
+    LEARN: Video - Production of sound
+    LEARN: Video - Sound in tubes and pipes
+    LEARN: Video - Beats
+    LEARN: Video - Doppler effect
+    PRACTICE: Wavelength and frequency for sound waves in tubes
+    PRACTICE: Analyzing the interference of sound waves and beats
+    PRACTICE: Doppler effect
+
+ASSESSMENT: Waves, sound, and physical optics - Quiz 3
+
+--- Lesson 4: Electromagnetic Waves ---
+22. EM waves
+    LEARN: Video - Electromagnetic wave properties
+    LEARN: Video - Speed of light
+
+--- Lesson 5: Diffraction and Interference of Light ---
+23. Young's double-slit experiment
+    LEARN: Video - Diffraction of light
+    LEARN: Video - Young's double-slit experiment
+    PRACTICE: Calculate path difference in YDSE
+
+ASSESSMENT: Waves, sound, and physical optics - Unit test
+
+================================================================================
+UNIT 7: MODERN PHYSICS
+================================================================================
+
+--- Lesson 1: Wave-Particle Duality ---
+24. Wave-particle duality
+    LEARN: Video - Photon energy
+    LEARN: Video - de Broglie wavelength
+    PRACTICE: de Broglie wavelength
+
+--- Lesson 2: Atoms and Light ---
+25. Atomic spectra and photoelectric effect
+    LEARN: Video - Bohr model energy levels
+    LEARN: Video - Atomic emission spectra
+    LEARN: Video - Photoelectric effect
+    LEARN: Video - Einstein's photoelectric equation
+    PRACTICE: Apply: atomic spectra
+    PRACTICE: Electronic transitions
+    PRACTICE: Kinetic energy of emitted electrons
+    PRACTICE: Einstein's photoelectric equation
+
+ASSESSMENT: Modern physics - Quiz 1
+
+--- Lesson 3: Nuclear Physics ---
+26. Nuclear reactions and radioactivity
+    LEARN: Video - Introduction to radioactive decay
+    LEARN: Video - Alpha, beta, and gamma decay
+    LEARN: Video - Half-life and radiometric dating
+    LEARN: Video - Nuclear fusion
+    LEARN: Video - Nuclear fission
+    PRACTICE: Understand: radioactive decay
+    PRACTICE: Identifying the type of decay
+    PRACTICE: Apply: alpha, beta, and gamma decay
+    PRACTICE: Understand: half-life and radiometric dating
+    PRACTICE: Apply: half-life and radiometric dating
+    PRACTICE: Understand: nuclear fusion
+    PRACTICE: Understand: nuclear fission
+    PRACTICE: Apply: nuclear fission
+
+ASSESSMENT: Modern physics - Quiz 2
+ASSESSMENT: Modern physics - Unit test
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in AP/College Physics 2
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 7 content units
+Total Lessons: ~26 topics
+Total Learn Items: ~60+ videos and articles
+Total Practice Items: 74 skills
+Total Assessments: 16 quizzes + 7 unit tests + 1 course challenge
+
+AP® is a registered trademark of the College Board, which has not reviewed
+this resource.
+================================================================================

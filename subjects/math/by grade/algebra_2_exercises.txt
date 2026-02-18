@@ -1,0 +1,266 @@
+KHAN ACADEMY - ALGEBRA 2 (HIGH SCHOOL)
+=======================================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: POLYNOMIAL ARITHMETIC
+================================================================================
+
+Exercises:
+----------
+1. Adding and subtracting polynomials
+2. Multiplying monomials
+3. Multiplying monomials by polynomials
+4. Multiplying binomials
+5. Multiplying polynomials
+6. Special products of polynomials
+7. Polynomial identities
+8. Dividing polynomials by x
+9. Dividing polynomials by linear expressions
+10. Polynomial division
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: COMPLEX NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. The imaginary unit i
+2. Complex numbers introduction
+3. The complex plane
+4. Adding and subtracting complex numbers
+5. Multiplying complex numbers
+6. Complex conjugates and dividing complex numbers
+7. Identities with complex numbers
+8. Absolute value and angle of complex numbers
+9. Polar form of complex numbers
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: POLYNOMIAL FACTORIZATION
+================================================================================
+
+Exercises:
+----------
+1. Factoring monomials
+2. Greatest common factor
+3. Taking common factors
+4. Factoring quadratics intro
+5. Factoring quadratics by grouping
+6. Factoring quadratics with difference of squares
+7. Factoring quadratics with perfect squares
+8. Factoring using structure
+9. Polynomial identities
+10. Geometric series
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: POLYNOMIAL DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Dividing polynomials by x
+2. Dividing quadratics by linear expressions
+3. Dividing polynomials by linear expressions
+4. Polynomial remainder theorem
+5. Polynomial factor theorem
+6. Dividing polynomials by quadratics
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: POLYNOMIAL GRAPHS
+================================================================================
+
+Exercises:
+----------
+1. Zeros of polynomials
+2. Positive and negative intervals of polynomials
+3. End behavior of polynomials
+4. Graphing polynomials
+5. Zeros of polynomials and their graphs
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: RATIONAL EXPONENTS AND RADICALS
+================================================================================
+
+Exercises:
+----------
+1. Rational exponents
+2. Properties of exponents (rational exponents)
+3. Evaluating exponents and radicals
+4. Equivalent forms of exponential expressions
+5. Solving exponential equations using properties of exponents
+6. Radical equations
+7. Radical functions and their graphs
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: EXPONENTIAL MODELS
+================================================================================
+
+Exercises:
+----------
+1. Exponential vs. linear models
+2. Exponential expressions
+3. Graphs of exponential functions
+4. Exponential growth and decay
+5. Writing exponential functions
+6. Interpreting exponential models
+7. Constructing exponential models
+8. Advanced interpretation of exponential models
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: LOGARITHMS
+================================================================================
+
+Exercises:
+----------
+1. Introduction to logarithms
+2. The constant e and the natural logarithm
+3. Properties of logarithms
+4. The change of base formula for logarithms
+5. Solving exponential equations with logarithms
+6. Solving exponential models
+7. Graphs of logarithmic functions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: TRANSFORMATIONS OF FUNCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Shifting functions
+2. Reflecting functions
+3. Symmetry of functions
+4. Scaling functions
+5. Putting it all together
+6. Graphs of square and cube root functions
+7. Graphs of exponential functions
+8. Graphs of logarithmic functions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: EQUATIONS
+================================================================================
+
+Exercises:
+----------
+1. Rational equations
+2. Square-root equations
+3. Extraneous solutions
+4. Cube-root equations
+5. Quadratic systems
+6. Solving equations by graphing
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: TRIGONOMETRY
+================================================================================
+
+Exercises:
+----------
+1. Unit circle introduction
+2. Radians
+3. The Pythagorean identity
+4. Trigonometric values of special angles
+5. Graphs of sin(x), cos(x), and tan(x)
+6. Amplitude, midline, and period
+7. Transforming sinusoidal graphs
+8. Graphing sinusoidal functions
+9. Sinusoidal models
+10. Angle addition identities
+11. Using trigonometric identities
+12. Challenging trigonometry problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 12: MODELING
+================================================================================
+
+Exercises:
+----------
+1. Modeling with multiple variables
+2. Interpreting relationships between variables
+3. Manipulating formulas
+4. Reasoning with systems of equations
+5. Algebraic models
+6. Interpreting nonlinear expressions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 13: RATIONAL FUNCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Reducing rational expressions to lowest terms
+2. End behavior of rational functions
+3. Discontinuities of rational functions
+4. Graphs of rational functions
+5. Multiplying and dividing rational expressions
+6. Adding and subtracting rational expressions
+7. Rational equations
+8. Modeling with rational functions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 13
+TOTAL EXERCISE TOPICS: 130+
+================================================================================

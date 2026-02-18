@@ -1,0 +1,146 @@
+KHAN ACADEMY - 1ST GRADE MATH
+==============================
+Complete Learn & Practice List by Unit
+
+================================================================================
+UNIT 1: PLACE VALUE
+================================================================================
+
+1. Numbers from 1 to 9
+   LEARN: Video - Counting and ordering 1-9
+   PRACTICE: Count, order, and compare objects 1-9
+
+2. Numbers from 1 to 100
+   LEARN: Video - Understanding numbers to 100
+   PRACTICE: Making 10, counting to 100
+
+3. Understanding place value
+   LEARN: Video - Tens and ones introduction
+   PRACTICE: Identify tens and ones in numbers
+
+4. Tens and ones
+   LEARN: Video - Place value with base-10 blocks
+   PRACTICE: Represent numbers using tens and ones
+
+ASSESSMENTS:
+- Quiz: Place Value
+- Unit Test: Place Value
+
+================================================================================
+UNIT 2: ADDITION AND SUBTRACTION
+================================================================================
+
+1. Relating addition and subtraction
+   LEARN: Video - Connection between addition and subtraction
+   PRACTICE: Fact families within 20
+
+2. Adding within 20
+   LEARN: Video - Addition strategies
+   PRACTICE: Addition problems (sums to 20)
+
+3. Adding 3 numbers
+   LEARN: Video - Strategies for adding three numbers
+   PRACTICE: Add three 1-digit numbers
+
+4. Subtracting within 20
+   LEARN: Video - Subtraction strategies
+   PRACTICE: Subtraction problems (from 20 or less)
+
+5. Equal sign
+   LEARN: Video - Understanding equality
+   PRACTICE: True/false equations, balancing equations
+
+6. Finding missing numbers
+   LEARN: Video - Solving for unknowns
+   PRACTICE: Add and subtract within 20 with missing numbers
+
+7. Addition and subtraction word problems
+   LEARN: Video - Solving story problems (1, 2, and within 20)
+   PRACTICE: Real-world addition and subtraction scenarios
+
+8. Word problems with "more" and "fewer"
+   LEARN: Video - Comparison word problems
+   PRACTICE: Solve problems comparing quantities
+
+9. Adding 1 or 10
+   LEARN: Video - Mental math strategies
+   PRACTICE: Quick addition of 1 or 10
+
+10. Adding 1s or 10s (no regrouping)
+    LEARN: Video - Place value addition
+    PRACTICE: Add multiples of 1 or 10
+
+11. Adding up to four 2-digit numbers
+    LEARN: Video - Multi-number addition strategies
+    PRACTICE: Add 2-4 two-digit numbers
+
+12. Breaking apart 2-digit addition
+    LEARN: Video - Decomposition strategy
+    PRACTICE: Break numbers apart to add
+
+13. Regrouping when adding 1-digit numbers
+    LEARN: Video - Introduction to regrouping
+    PRACTICE: Addition with regrouping
+
+ASSESSMENTS:
+- Quiz 1: Addition basics
+- Quiz 2: Subtraction basics
+- Quiz 3: Word problems
+- Quiz 4: Multi-digit addition
+- Unit Test: Addition and Subtraction
+
+================================================================================
+UNIT 3: MEASUREMENT, DATA, AND GEOMETRY
+================================================================================
+
+1. Ordering by length
+   LEARN: Video - Comparing lengths
+   PRACTICE: Order objects from shortest to longest
+
+2. Indirect measurement
+   LEARN: Video - Using a third object to compare
+   PRACTICE: Compare lengths indirectly
+
+3. Measuring lengths
+   LEARN: Video - Using non-standard units
+   PRACTICE: Measure objects with units
+
+4. Solving problems with bar graphs
+   LEARN: Video - Reading and interpreting bar graphs
+   PRACTICE: Answer questions using bar graphs
+
+5. Telling time (hour or half-hour)
+   LEARN: Video - Reading analog clocks
+   PRACTICE: Tell time to the hour and half-hour
+
+6. Naming shapes
+   LEARN: Video - 2D and 3D shapes
+   PRACTICE: Identify and name shapes
+
+7. Halves
+   LEARN: Video - Understanding equal parts (halves)
+   PRACTICE: Identify and create halves
+
+8. Fourths
+   LEARN: Video - Understanding equal parts (fourths)
+   PRACTICE: Identify and create fourths
+
+ASSESSMENTS:
+- Quiz 1: Measurement
+- Quiz 2: Geometry and fractions
+- Unit Test: Measurement, Data, and Geometry
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 3
+TOTAL LESSONS: 25
+TOTAL QUIZZES: 8
+TOTAL UNIT TESTS: 3
+
+Each lesson includes:
+✓ LEARN component (instructional video/article)
+✓ PRACTICE component (interactive exercises)
+✓ Immediate feedback and hints
+✓ Progress tracking toward mastery
+================================================================================

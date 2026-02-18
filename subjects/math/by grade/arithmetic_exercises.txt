@@ -1,0 +1,319 @@
+ARITHMETIC EXERCISES
+Khan Academy - Arithmetic
+19 units, 203 skills, 20,300 possible mastery points
+Source: https://www.khanacademy.org/math/arithmetic
+
+UNIT 1: INTRO TO MULTIPLICATION
+1. PRACTICE: Understand equal groups as multiplication
+2. PRACTICE: Represent multiplication on the number line
+3. PRACTICE: Multiply using groups of objects
+ASSESSMENT: Quiz 1
+4. PRACTICE: Understand multiplication with arrays
+5. PRACTICE: Multiply with arrays
+6. PRACTICE: Represent the commutative property of multiplication
+7. PRACTICE: Commutative property of multiplication
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 2: 1-DIGIT MULTIPLICATION
+1. PRACTICE: Multiply by 0 or 1
+2. PRACTICE: Multiply by 2
+3. PRACTICE: Multiply by 4
+4. PRACTICE: Multiply by 2 and 4
+ASSESSMENT: Quiz 1
+5. PRACTICE: Multiply by 5
+6. PRACTICE: Multiply by 10
+7. PRACTICE: Multiply by 5 and 10
+8. PRACTICE: Multiply by 3
+9. PRACTICE: Multiply by 6
+10. PRACTICE: Multiply by 3 and 6
+ASSESSMENT: Quiz 2
+11. PRACTICE: Visualize distributive property
+12. PRACTICE: Distributive property
+13. PRACTICE: Multiply by 7
+14. PRACTICE: Multiply by 8
+15. PRACTICE: Multiply by 9
+ASSESSMENT: Quiz 3
+16. PRACTICE: Basic multiplication
+17. PRACTICE: Understand associative property of multiplication
+18. PRACTICE: Associative property of multiplication
+19. PRACTICE: Use associative property to multiply 2-digit numbers by 1-digit
+ASSESSMENT: Quiz 4
+20. PRACTICE: Compare with multiplication
+21. PRACTICE: Compare with multiplication word problems
+ASSESSMENT: Quiz 5
+ASSESSMENT: Unit test
+
+UNIT 3: INTRO TO DIVISION
+1. PRACTICE: Division with groups of objects
+2. PRACTICE: Divide with visuals
+3. PRACTICE: Relate division to multiplication
+4. PRACTICE: Relate multiplication and division equations
+5. PRACTICE: Relate division to multiplication word problems
+ASSESSMENT: Quiz 1
+6. PRACTICE: Divide by 1
+7. PRACTICE: Divide by 2
+8. PRACTICE: Divide by 4
+9. PRACTICE: Divide by 5
+10. PRACTICE: Divide by 10
+ASSESSMENT: Quiz 2
+11. PRACTICE: Divide by 3
+12. PRACTICE: Divide by 6
+13. PRACTICE: Divide by 7
+14. PRACTICE: Divide by 8
+15. PRACTICE: Divide by 9
+ASSESSMENT: Quiz 3
+16. PRACTICE: Basic division
+17. PRACTICE: Multiplication and division word problems (within 100)
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 4: UNDERSTAND FRACTIONS
+1. PRACTICE: Cut shapes into equal parts
+2. PRACTICE: Understand numerators and denominators
+3. PRACTICE: Recognize fractions
+4. PRACTICE: Recognize fractions greater than 1
+ASSESSMENT: Quiz 1
+5. PRACTICE: Fractions on the number line
+6. PRACTICE: Find 1 on the number line
+7. PRACTICE: Fractions greater than 1 on the number line
+ASSESSMENT: Quiz 2
+8. PRACTICE: Write whole numbers as fractions
+9. PRACTICE: Equivalent fraction models
+10. PRACTICE: Equivalent fractions on the number line
+11. PRACTICE: Equivalent fractions
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 5: PLACE VALUE THROUGH 1,000,000
+1. PRACTICE: Place value blocks within 1,000
+2. PRACTICE: Place value tables within 1,000
+3. PRACTICE: Write numbers in number and expanded form
+4. PRACTICE: Regroup whole numbers
+5. PRACTICE: Hundreds, tens, and ones
+ASSESSMENT: Quiz 1
+6. PRACTICE: Place value tables
+7. PRACTICE: Identify value of a digit
+8. PRACTICE: Write whole numbers in expanded form
+ASSESSMENT: Quiz 2
+9. PRACTICE: Multiply and divide by 10
+10. PRACTICE: Place value when multiplying and dividing by 10
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 6: ADD AND SUBTRACT THROUGH 1,000,000
+1. PRACTICE: Add within 1,000 using place value blocks
+2. PRACTICE: Add 10s and 100s (no regrouping)
+3. PRACTICE: Add using groups of 10 and 100
+4. PRACTICE: Subtract 10s and 100s (no regrouping)
+5. PRACTICE: Subtract within 1,000 using place value blocks
+ASSESSMENT: Quiz 1
+6. PRACTICE: Multi-digit addition
+7. PRACTICE: Multi-digit subtraction
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 7: MULTIPLY 1- AND 2-DIGIT NUMBERS
+1. PRACTICE: Understand multiplying by a multiple of 10, 100, and 1000
+2. PRACTICE: Multiply 1-digit numbers by a multiple of 10, 100, and 1000
+3. PRACTICE: Multiply 2-digits by 1-digit with area models
+4. PRACTICE: Multiply 2-digits by 1-digit with distributive property
+5. PRACTICE: Multiply 3- and 4-digits by 1-digit with area models
+6. PRACTICE: Multiply 3- and 4-digits by 1-digit with distributive property
+ASSESSMENT: Quiz 1
+7. PRACTICE: Multiply with regrouping
+8. PRACTICE: Multiplying 10s
+ASSESSMENT: Quiz 2
+9. PRACTICE: Multiply 2-digit numbers with area models
+10. PRACTICE: Multiply with partial products (2-digit numbers)
+11. PRACTICE: Multiply 2-digit numbers
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 8: DIVIDE WITH REMAINDERS
+1. PRACTICE: Interpret remainders
+2. PRACTICE: Divide with remainders (2-digit by 1-digit)
+ASSESSMENT: Quiz 1
+3. PRACTICE: Divide multiples of 10, 100, and 1,000 by 1-digit numbers
+4. PRACTICE: Divide using place value
+5. PRACTICE: Divide by 1-digit numbers with area models
+ASSESSMENT: Quiz 2
+6. PRACTICE: Divide multi-digit numbers by 2, 3, 4, and 5 (remainders)
+7. PRACTICE: Divide multi-digit numbers by 6, 7, 8, and 9 (remainders)
+ASSESSMENT: Quiz 3
+8. PRACTICE: Multiplication and division word problems
+9. PRACTICE: Multi-step word problems with whole numbers
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 9: ADD AND SUBTRACT FRACTION (LIKE DENOMINATORS)
+1. PRACTICE: Equivalent fractions (fraction models)
+2. PRACTICE: Equivalent fractions (number lines)
+3. PRACTICE: Equivalent fractions
+4. PRACTICE: Common denominators
+ASSESSMENT: Quiz 1
+5. PRACTICE: Decompose fractions visually
+6. PRACTICE: Decompose fractions
+7. PRACTICE: Add fractions with common denominators
+8. PRACTICE: Subtract fractions with common denominators
+9. PRACTICE: Add and subtract fractions word problems (same denominator)
+ASSESSMENT: Quiz 2
+10. PRACTICE: Write mixed numbers and improper fractions
+11. PRACTICE: Add and subtract mixed numbers (no regrouping)
+12. PRACTICE: Add and subtract mixed numbers (with regrouping)
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 10: MULTIPLY FRACTIONS
+1. PRACTICE: Multiply fractions and whole numbers on the number line
+2. PRACTICE: Multiply unit fractions and whole numbers
+3. PRACTICE: Multiply fractions and whole numbers
+ASSESSMENT: Quiz 1
+4. PRACTICE: Multiply mixed numbers and whole numbers
+5. PRACTICE: Multiply fractions and whole numbers word problems
+ASSESSMENT: Quiz 2
+6. PRACTICE: Fraction multiplication as scaling
+7. PRACTICE: Multiply fractions and whole numbers visually
+8. PRACTICE: Multiplying fractions with visuals
+9. PRACTICE: Multiplying fractions
+ASSESSMENT: Quiz 3
+10. PRACTICE: Multiply mixed numbers
+11. PRACTICE: Area of rectangles with fraction side lengths
+12. PRACTICE: Multiply fractions word problems
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 11: DECIMALS AND PLACE VALUE
+1. PRACTICE: Write decimals and fractions shown on grids
+2. PRACTICE: Write decimals and fractions greater than 1 shown on grids
+3. PRACTICE: Write decimals and fractions greater than 1 shown on number lines
+4. PRACTICE: Write fractions as decimals (denominators of 10 & 100)
+ASSESSMENT: Quiz 1
+5. PRACTICE: Place value names
+6. PRACTICE: Value of a digit
+7. PRACTICE: Decimals on the number line: thousandths
+8. PRACTICE: Decimals in expanded form
+9. PRACTICE: Regroup decimals
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 12: ADD AND SUBTRACT DECIMALS
+1. PRACTICE: Add decimals visually
+2. PRACTICE: Adding decimals (tenths)
+3. PRACTICE: Adding decimals (hundredths)
+ASSESSMENT: Quiz 1
+4. PRACTICE: Subtract decimals visually
+5. PRACTICE: Subtracting decimals (tenths)
+6. PRACTICE: Subtract decimals (hundredths)
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 13: ADD AND SUBTRACT FRACTIONS (DIFFERENT DENOMINATORS)
+1. PRACTICE: Equivalent fractions with fraction models (denominators 10 & 100)
+2. PRACTICE: Equivalent fractions (denominators 10 & 100)
+3. PRACTICE: Equivalent expressions with common denominators (denominators 10 & 100)
+4. PRACTICE: Add fractions (denominators 10 & 100)
+ASSESSMENT: Quiz 1
+5. PRACTICE: Visually add and subtract fractions
+6. PRACTICE: Equivalent expressions with common denominators
+7. PRACTICE: Add fractions with unlike denominators
+8. PRACTICE: Subtracting fractions with unlike denominators
+9. PRACTICE: Add and subtract fractions
+ASSESSMENT: Quiz 2
+10. PRACTICE: Add and subtract mixed numbers with unlike denominators (no regrouping)
+11. PRACTICE: Add and subtract mixed numbers with unlike denominators (regrouping)
+12. PRACTICE: Add and subtract fractions word problems
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 14: MULTIPLY AND DIVIDE MULTI-DIGIT NUMBERS
+1. PRACTICE: Multiply by taking out factors of 10
+2. PRACTICE: Multi-digit multiplication
+ASSESSMENT: Quiz 1
+3. PRACTICE: Divide by taking out factors of 10
+4. PRACTICE: Basic multi-digit division
+5. PRACTICE: Division by 2-digits
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 15: DIVIDE FRACTIONS
+1. PRACTICE: Fractions as division
+2. PRACTICE: Dividing unit fractions by whole numbers visually
+3. PRACTICE: Dividing unit fractions by whole numbers
+4. PRACTICE: Dividing whole numbers by unit fractions visually
+5. PRACTICE: Dividing whole numbers by unit fractions
+6. PRACTICE: Divide fractions and whole numbers word problems
+ASSESSMENT: Quiz 1
+7. PRACTICE: Divide fractions by whole numbers
+8. PRACTICE: Divide whole numbers by fractions
+9. PRACTICE: Dividing fractions
+10. PRACTICE: Divide mixed numbers
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 16: MULTIPLY AND DIVIDE DECIMALS
+1. PRACTICE: Multiply decimals and whole numbers visually
+2. PRACTICE: Multiply whole numbers and decimals less than 1
+3. PRACTICE: Multiply whole numbers and decimals
+ASSESSMENT: Quiz 1
+4. PRACTICE: Represent decimal multiplication with grids and area models
+5. PRACTICE: Understand multiplying decimals
+6. PRACTICE: Multiply decimals tenths
+7. PRACTICE: Multiply decimals (1&2-digit factors)
+8. PRACTICE: Multiply decimals (up to 4-digit factors)
+ASSESSMENT: Quiz 2
+9. PRACTICE: Divide whole numbers to get a decimal (1-digit divisors)
+10. PRACTICE: Divide decimals by whole numbers visually
+11. PRACTICE: Divide decimals by whole numbers
+12. PRACTICE: Divide whole numbers by decimals visually
+13. PRACTICE: Divide whole numbers by decimals
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 17: EXPONENTS AND POWERS OF TEN
+1. PRACTICE: Multiply and divide whole numbers by 10, 100, and 1000
+2. PRACTICE: Multiply and divide decimals by 10, 100, and 1000
+3. PRACTICE: Powers of ten
+4. PRACTICE: Multiply and divide by powers of 10
+ASSESSMENT: Quiz 1
+5. PRACTICE: Meaning of exponents
+6. PRACTICE: Powers of whole numbers
+7. PRACTICE: Powers of fractions & decimals
+8. PRACTICE: Order of operations
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 18: ADD AND SUBTRACT NEGATIVE NUMBERS
+1. PRACTICE: Negative numbers on the number line
+2. PRACTICE: Interpreting negative numbers
+3. PRACTICE: Negative symbol as opposite
+4. PRACTICE: Negative fractions on the number line
+5. PRACTICE: Finding absolute values
+ASSESSMENT: Quiz 1
+6. PRACTICE: Zero pairs
+7. PRACTICE: Add with integer chips
+8. PRACTICE: Adding negative numbers on the number line
+9. PRACTICE: Signs of sums
+10. PRACTICE: Adding negative numbers
+11. PRACTICE: Subtract with integer chips
+12. PRACTICE: Interpret negative number addition and subtraction expressions
+ASSESSMENT: Quiz 2 (partial)
+13. PRACTICE: Understand subtraction as adding the opposite
+14. PRACTICE: Subtracting negative numbers
+ASSESSMENT: Quiz 2
+15. PRACTICE: Addition & subtraction: find the missing value
+16. PRACTICE: Adding & subtracting negative fractions
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 19: MULTIPLY AND DIVIDE NEGATIVE NUMBERS
+1. PRACTICE: Multiplying negative numbers
+2. PRACTICE: Dividing negative numbers
+3. PRACTICE: Multiplying & dividing negative numbers word problems
+ASSESSMENT: Quiz 1
+4. PRACTICE: One-step equations with negatives (multiply & divide)
+5. PRACTICE: Negative signs in fractions
+6. PRACTICE: Multiplying positive and negative fractions
+7. PRACTICE: Dividing positive and negative fractions
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test

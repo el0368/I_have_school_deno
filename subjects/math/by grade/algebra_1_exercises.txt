@@ -1,0 +1,289 @@
+KHAN ACADEMY - ALGEBRA 1 (HIGH SCHOOL)
+=======================================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: ALGEBRA FOUNDATIONS
+================================================================================
+
+Exercises:
+----------
+1. The real numbers
+2. Algebraic expressions
+3. Combining like terms
+4. Introduction to variables
+5. Substitution and evaluating expressions
+6. Evaluating expressions word problems
+7. Writing algebraic expressions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: SOLVING EQUATIONS & INEQUALITIES
+================================================================================
+
+Exercises:
+----------
+1. One-step equations
+2. Two-step equations
+3. Multi-step equations
+4. Equations with variables on both sides
+5. Equations with parentheses
+6. Equation word problems
+7. One-step inequalities
+8. Two-step inequalities
+9. Multi-step inequalities
+10. Compound inequalities
+11. Inequality word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: WORKING WITH UNITS
+================================================================================
+
+Exercises:
+----------
+1. Rate conversion
+2. Appropriate units
+3. Unit conversion word problems
+4. Rates with fractions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: LINEAR EQUATIONS & GRAPHS
+================================================================================
+
+Exercises:
+----------
+1. Intro to slope-intercept form
+2. Graphing slope-intercept equations
+3. Writing slope-intercept equations
+4. Slope-intercept from two points
+5. x-intercepts and y-intercepts
+6. Horizontal and vertical lines
+7. Slope
+8. Graphing linear equations
+9. Linear equation word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: FORMS OF LINEAR EQUATIONS
+================================================================================
+
+Exercises:
+----------
+1. Intro to slope-intercept form
+2. Intro to point-slope form
+3. Point-slope and slope-intercept form
+4. Writing linear equations in all forms
+5. Parallel and perpendicular lines
+6. Linear equation word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: SYSTEMS OF EQUATIONS
+================================================================================
+
+Exercises:
+----------
+1. Introduction to systems of equations
+2. Solving systems graphically
+3. Solving systems by substitution
+4. Solving systems by elimination
+5. Number of solutions to systems
+6. Systems of equations word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: INEQUALITIES (SYSTEMS & GRAPHS)
+================================================================================
+
+Exercises:
+----------
+1. Checking solutions to two-variable inequalities
+2. Graphing two-variable inequalities
+3. Modeling with linear inequalities
+4. Systems of inequalities
+5. Systems of inequalities word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: FUNCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Evaluating functions
+2. Inputs and outputs of a function
+3. Domain and range
+4. Recognizing functions
+5. Intervals where a function is positive, negative, increasing, or decreasing
+6. Interpreting function notation
+7. Introduction to function transformations
+8. Function word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: SEQUENCES
+================================================================================
+
+Exercises:
+----------
+1. Introduction to arithmetic sequences
+2. Constructing arithmetic sequences
+3. Introduction to geometric sequences
+4. Constructing geometric sequences
+5. Modeling with sequences
+6. General sequences
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 10: ABSOLUTE VALUE & PIECEWISE FUNCTIONS
+================================================================================
+
+Exercises:
+----------
+1. Graphs of absolute value functions
+2. Solving absolute value equations
+3. Absolute value inequalities
+4. Piecewise functions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 11: EXPONENTS & RADICALS
+================================================================================
+
+Exercises:
+----------
+1. Exponent properties review
+2. Rational exponents
+3. Properties of exponents (rational exponents)
+4. Evaluating exponents and radicals
+5. Equivalent forms of exponential expressions
+6. Solving exponential equations using properties of exponents
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 12: EXPONENTIAL GROWTH & DECAY
+================================================================================
+
+Exercises:
+----------
+1. Exponential vs. linear growth
+2. Exponential expressions
+3. Graphs of exponential functions
+4. Exponential growth and decay word problems
+5. Writing exponential functions
+6. Interpreting exponential expression word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 13: QUADRATICS: MULTIPLYING & FACTORING
+================================================================================
+
+Exercises:
+----------
+1. Multiplying monomials by polynomials
+2. Multiplying binomials
+3. Special products of binomials
+4. Introduction to factoring
+5. Factoring quadratics intro
+6. Factoring quadratics by grouping
+7. Factoring quadratics with difference of squares
+8. Factoring quadratics with perfect squares
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 14: QUADRATIC FUNCTIONS & EQUATIONS
+================================================================================
+
+Exercises:
+----------
+1. Solving quadratics by taking square roots
+2. Solving quadratics by factoring
+3. The quadratic formula
+4. Completing the square
+5. Strategically choosing methods for solving quadratics
+6. Graphing quadratics in standard form
+7. Graphing quadratics in vertex form
+8. Graphing quadratics in factored form
+9. Features of quadratic functions
+10. Quadratic word problems (standard form)
+11. Quadratic word problems (vertex form)
+12. Quadratic word problems (factored form)
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 15: IRRATIONAL NUMBERS
+================================================================================
+
+Exercises:
+----------
+1. Irrational numbers
+2. Sums and products of rational and irrational numbers
+3. Proofs concerning irrational numbers
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 15
+TOTAL EXERCISE TOPICS: 120+
+================================================================================

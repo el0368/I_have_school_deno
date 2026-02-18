@@ -1,0 +1,546 @@
+================================================================================
+KHAN ACADEMY - AP CALCULUS AB
+Complete Learn & Practice Guide
+================================================================================
+
+Course: AP®/College Calculus AB
+Level: AP/College
+Units: 10
+Skills: 164
+Mastery Points: 16,400
+Source: https://www.khanacademy.org/math/ap-calculus-ab
+
+================================================================================
+UNIT 1: LIMITS AND CONTINUITY
+================================================================================
+
+1. Defining limits and using limit notation
+   LEARN: Video - Introduction to limits
+   PRACTICE: Limits intro
+
+2. Estimating limit values from graphs
+   LEARN: Video - Limits from graphs
+   PRACTICE: Estimating limit values from graphs
+   PRACTICE: One-sided limits from graphs
+   PRACTICE: Connecting limits and graphical behavior
+
+3. Estimating limit values from tables
+   LEARN: Video - Approximating limits from tables
+   PRACTICE: Creating tables for approximating limits
+   PRACTICE: Estimating limits from tables
+   PRACTICE: One-sided limits from tables
+
+ASSESSMENT: Limits and continuity - Quiz 1
+
+4. Determining limits using algebraic properties of limits: limit properties
+   LEARN: Video - Limit properties
+   PRACTICE: Limits of combined functions: sums and differences
+   PRACTICE: Limits of combined functions: products and quotients
+   PRACTICE: Limits of composite functions
+
+5. Determining limits using algebraic properties of limits: direct substitution
+   LEARN: Video - Direct substitution
+   PRACTICE: Limits by direct substitution
+   PRACTICE: Direct substitution with limits that don't exist
+   PRACTICE: Limits of trigonometric functions
+   PRACTICE: Limits of piecewise functions
+
+ASSESSMENT: Limits and continuity - Quiz 2
+
+6. Determining limits using algebraic manipulation
+   LEARN: Video - Limits by factoring
+   PRACTICE: Limits by factoring
+   PRACTICE: Limits using conjugates
+   PRACTICE: Limits using trig identities
+
+7. Selecting procedures for determining limits
+   LEARN: Video - Strategy in finding limits
+   PRACTICE: Conclusions from direct substitution (finding limits)
+   PRACTICE: Next steps after indeterminate form (finding limits)
+   PRACTICE: Strategy in finding limits
+
+8. Determining limits using the squeeze theorem
+   LEARN: Video - Squeeze theorem
+   PRACTICE: Squeeze theorem
+
+ASSESSMENT: Limits and continuity - Quiz 3
+
+9. Exploring types of discontinuities
+   LEARN: Video - Types of discontinuities
+   PRACTICE: Classify discontinuities
+
+10. Defining continuity at a point
+    LEARN: Video - Continuity at a point
+    PRACTICE: Continuity at a point (graphical)
+    PRACTICE: Continuity at a point (algebraic)
+
+11. Confirming continuity over an interval
+    LEARN: Video - Continuity over an interval
+    PRACTICE: Continuity over an interval
+    PRACTICE: Continuity and common functions
+
+12. Removing discontinuities
+    LEARN: Video - Removing discontinuities
+    PRACTICE: Removable discontinuities
+
+ASSESSMENT: Limits and continuity - Quiz 4
+
+13. Connecting infinite limits and vertical asymptotes
+    LEARN: Video - Infinite limits
+    PRACTICE: Infinite limits: graphical
+    PRACTICE: Infinite limits: algebraic
+
+14. Connecting limits at infinity and horizontal asymptotes
+    LEARN: Video - Limits at infinity
+    PRACTICE: Limits at infinity: graphical
+    PRACTICE: Limits at infinity of quotients
+    PRACTICE: Limits at infinity of quotients with square roots
+
+ASSESSMENT: Limits and continuity - Quiz 5
+
+15. Working with the intermediate value theorem
+    LEARN: Video - Intermediate value theorem
+    PRACTICE: Using the intermediate value theorem
+    PRACTICE: Justification with the intermediate value theorem
+
+ASSESSMENT: Limits and continuity - Quiz 6
+ASSESSMENT: Limits and continuity - Unit test
+
+================================================================================
+UNIT 2: DIFFERENTIATION: DEFINITION AND BASIC DERIVATIVE RULES
+================================================================================
+
+16. Defining average and instantaneous rates of change at a point
+    LEARN: Video - Rates of change
+    PRACTICE: Secant lines & average rate of change
+    PRACTICE: Derivative as slope of curve
+    PRACTICE: The derivative & tangent line equations
+
+17. Defining the derivative of a function and using derivative notation
+    LEARN: Video - Formal definition of the derivative
+    PRACTICE: Derivative as a limit
+
+18. Estimating derivatives of a function at a point
+    LEARN: Video - Estimating derivatives
+    PRACTICE: Estimate derivatives
+
+19. Connecting differentiability and continuity
+    LEARN: Video - Differentiability and continuity
+    PRACTICE: Differentiability at a point: graphical
+    PRACTICE: Differentiability at a point: algebraic
+
+ASSESSMENT: Differentiation - Quiz 1
+
+20. Applying the power rule
+    LEARN: Video - Power rule
+    PRACTICE: Power rule (positive integer powers)
+    PRACTICE: Power rule (negative & fractional powers)
+    PRACTICE: Power rule (with rewriting the expression)
+
+21. Derivative rules: constant, sum, difference, and constant multiple
+    LEARN: Video - Derivative properties
+    PRACTICE: Basic derivative rules: find the error
+    PRACTICE: Basic derivative rules: table
+    PRACTICE: Differentiate polynomials
+    PRACTICE: Differentiate integer powers (mixed positive and negative)
+    PRACTICE: Tangents of polynomials
+
+ASSESSMENT: Differentiation - Quiz 2
+
+22. Derivatives of cos(x), sin(x), eˣ, and ln(x)
+    LEARN: Video - Derivatives of sin(x) and cos(x)
+    PRACTICE: Derivatives of sin(x) and cos(x)
+    PRACTICE: Derivatives of eˣ and ln(x)
+
+23. The product rule
+    LEARN: Video - Product rule
+    PRACTICE: Differentiate products
+    PRACTICE: Product rule with tables
+
+24. The quotient rule
+    LEARN: Video - Quotient rule
+    PRACTICE: Differentiate quotients
+    PRACTICE: Quotient rule with tables
+    PRACTICE: Differentiate rational functions
+
+25. Finding the derivatives of tangent, cotangent, secant, and/or cosecant
+    LEARN: Video - Derivatives of trig functions
+    PRACTICE: Derivatives of tan(x), cot(x), sec(x), and csc(x)
+
+ASSESSMENT: Differentiation - Quiz 3
+ASSESSMENT: Differentiation - Unit test
+
+================================================================================
+UNIT 3: DIFFERENTIATION: COMPOSITE, IMPLICIT, AND INVERSE FUNCTIONS
+================================================================================
+
+26. The chain rule: introduction
+    LEARN: Video - Chain rule introduction
+    PRACTICE: Identify composite functions
+    PRACTICE: Chain rule intro
+
+27. The chain rule: further practice
+    LEARN: Video - Chain rule examples
+    PRACTICE: Chain rule with tables
+    PRACTICE: Derivatives of aˣ and logₐx
+    PRACTICE: Chain rule capstone
+
+ASSESSMENT: Differentiation 2 - Quiz 1
+
+28. Implicit differentiation
+    LEARN: Video - Implicit differentiation
+    PRACTICE: Implicit differentiation
+
+29. Differentiating inverse functions
+    LEARN: Video - Derivatives of inverse functions
+    PRACTICE: Derivatives of inverse functions
+
+30. Differentiating inverse trigonometric functions
+    LEARN: Video - Derivatives of inverse trig functions
+    PRACTICE: Derivatives of inverse trigonometric functions
+
+31. Selecting procedures for calculating derivatives
+    LEARN: Video - Selecting derivative procedures
+    PRACTICE: Differentiating functions: Find the error
+    PRACTICE: Manipulating functions before differentiation
+
+32. Calculating higher-order derivatives
+    LEARN: Video - Higher-order derivatives
+    PRACTICE: Differentiating using multiple rules: strategy
+    PRACTICE: Differentiating using multiple rules
+
+ASSESSMENT: Differentiation 2 - Quiz 2
+
+33. Second derivatives
+    LEARN: Video - Second derivatives
+    PRACTICE: Second derivatives
+    PRACTICE: Second derivatives (implicit equations)
+
+34. Disguised derivatives
+    LEARN: Video - Disguised derivatives
+    PRACTICE: Disguised derivatives
+
+ASSESSMENT: Differentiation 2 - Quiz 3
+ASSESSMENT: Differentiation 2 - Unit test
+
+================================================================================
+UNIT 4: CONTEXTUAL APPLICATIONS OF DIFFERENTIATION
+================================================================================
+
+35. Interpreting the meaning of the derivative in context
+    LEARN: Video - Interpreting the derivative in context
+    PRACTICE: Interpreting the meaning of the derivative in context
+
+36. Straight-line motion: connecting position, velocity, and acceleration
+    LEARN: Video - Motion with calculus
+    PRACTICE: Interpret motion graphs
+    PRACTICE: Motion problems (differential calc)
+
+37. Rates of change in other applied contexts
+    LEARN: Video - Rates of change in context
+    PRACTICE: Rates of change in other applied contexts (non-motion problems)
+
+ASSESSMENT: Contextual applications - Quiz 1
+
+38. Introduction to related rates
+    LEARN: Video - Related rates intro
+    PRACTICE: Analyzing related rates problems: expressions
+    PRACTICE: Analyzing related rates problems: equations
+    PRACTICE: Differentiate related functions
+
+39. Solving related rates problems
+    LEARN: Video - Solving related rates problems
+    PRACTICE: Related rates intro
+    PRACTICE: Related rates (multiple rates)
+    PRACTICE: Related rates (Pythagorean theorem)
+    PRACTICE: Related rates (advanced)
+
+ASSESSMENT: Contextual applications - Quiz 2
+
+40. Approximation with local linearity
+    LEARN: Video - Local linearization
+    PRACTICE: Approximation with local linearity
+
+41. Using L'Hôpital's rule for finding limits of indeterminate forms
+    LEARN: Video - L'Hôpital's rule
+    PRACTICE: L'Hôpital's rule: 0/0
+    PRACTICE: L'Hôpital's rule: ∞/∞
+
+ASSESSMENT: Contextual applications - Quiz 3
+ASSESSMENT: Contextual applications - Unit test
+
+================================================================================
+UNIT 5: APPLYING DERIVATIVES TO ANALYZE FUNCTIONS
+================================================================================
+
+42. Using the mean value theorem
+    LEARN: Video - Mean value theorem
+    PRACTICE: Using the mean value theorem
+    PRACTICE: Justification with the mean value theorem
+
+ASSESSMENT: Analyzing functions - Quiz 1
+
+43. Extreme value theorem, global versus local extrema, and critical points
+    LEARN: Video - Critical points
+    PRACTICE: Find critical points
+
+44. Determining intervals on which a function is increasing or decreasing
+    LEARN: Video - Increasing and decreasing intervals
+    PRACTICE: Increasing & decreasing intervals
+
+45. Using the first derivative test to find relative extrema
+    LEARN: Video - First derivative test
+    PRACTICE: Relative minima & maxima
+
+46. Finding absolute extrema
+    LEARN: Video - Absolute extrema
+    PRACTICE: Absolute minima & maxima (closed intervals)
+    PRACTICE: Absolute minima & maxima (entire domain)
+
+ASSESSMENT: Analyzing functions - Quiz 2
+
+47. Determining concavity of intervals and finding inflection points (graphical)
+    LEARN: Video - Concavity introduction
+    PRACTICE: Concavity intro
+    PRACTICE: Inflection points intro
+
+48. Determining concavity and finding inflection points (algebraic)
+    LEARN: Video - Analyze concavity
+    PRACTICE: Analyze concavity
+    PRACTICE: Find inflection points
+
+49. Using the second derivative test to find extrema
+    LEARN: Video - Second derivative test
+    PRACTICE: Second derivative test
+
+50. Sketching curves of functions and their derivatives
+    LEARN: Video - Sketching curves
+
+ASSESSMENT: Analyzing functions - Quiz 3
+ASSESSMENT: Analyzing functions - Quiz 4
+
+51. Solving optimization problems
+    LEARN: Video - Optimization
+    PRACTICE: Optimization
+
+52. Exploring behaviors of implicit relations
+    LEARN: Video - Implicit relation behaviors
+    PRACTICE: Tangents to graphs of implicit relations
+
+53. Calculator-active practice
+    PRACTICE: Analyze functions (calculator-active)
+
+ASSESSMENT: Analyzing functions - Quiz 5
+ASSESSMENT: Analyzing functions - Unit test
+
+================================================================================
+UNIT 6: INTEGRATION AND ACCUMULATION OF CHANGE
+================================================================================
+
+54. Exploring accumulations of change
+    LEARN: Video - Accumulation of change intro
+    PRACTICE: Accumulation of change
+
+55. Approximating areas with Riemann sums
+    LEARN: Video - Riemann sums
+    PRACTICE: Left & right Riemann sums
+    PRACTICE: Midpoint & trapezoidal sums
+    PRACTICE: Summation notation
+    PRACTICE: Riemann sums in summation notation
+
+ASSESSMENT: Integration - Quiz 1
+
+56. Riemann sums, summation notation, and definite integral notation
+    LEARN: Video - Definite integral notation
+
+57. The fundamental theorem of calculus and accumulation functions
+    LEARN: Video - Fundamental theorem of calculus
+    PRACTICE: Finding derivative with fundamental theorem of calculus
+    PRACTICE: Finding derivative with fundamental theorem of calculus: chain rule
+    PRACTICE: Interpreting the behavior of accumulation functions
+
+58. Interpreting the behavior of accumulation functions involving area
+    LEARN: Video - Interpreting accumulation functions
+
+59. Applying properties of definite integrals
+    LEARN: Video - Properties of definite integrals
+    PRACTICE: Finding definite integrals using area formulas
+    PRACTICE: Finding definite integrals using algebraic properties
+    PRACTICE: Definite integrals over adjacent intervals
+
+ASSESSMENT: Integration - Quiz 2
+
+60. The fundamental theorem of calculus and definite integrals
+    LEARN: Video - Evaluating definite integrals
+    PRACTICE: The fundamental theorem of calculus and definite integrals
+    PRACTICE: Antiderivatives and indefinite integrals
+
+ASSESSMENT: Integration - Quiz 3
+
+61. Finding antiderivatives and indefinite integrals: basic rules and notation
+    LEARN: Video - Reverse power rule
+    PRACTICE: Reverse power rule
+    PRACTICE: Reverse power rule: negative and fractional powers
+    PRACTICE: Reverse power rule: sums & multiples
+    PRACTICE: Indefinite integrals: eˣ & 1/x
+    PRACTICE: Indefinite integrals: sin(x), cos(x), & eˣ
+
+62. Integrating using substitution
+    LEARN: Video - u-substitution
+    PRACTICE: u-substitution: defining u
+    PRACTICE: u-substitution: indefinite integrals
+    PRACTICE: u-substitution: definite integrals
+
+63. Integrating functions using long division and completing the square
+    LEARN: Video - Integration techniques
+    PRACTICE: Integration using long division
+    PRACTICE: Integration using completing the square
+    PRACTICE: Definite integrals of piecewise functions
+
+ASSESSMENT: Integration - Quiz 4
+ASSESSMENT: Integration - Quiz 5
+ASSESSMENT: Integration - Unit test
+
+================================================================================
+UNIT 7: DIFFERENTIAL EQUATIONS
+================================================================================
+
+64. Modeling situations with differential equations
+    LEARN: Video - Differential equation introduction
+    PRACTICE: Write differential equations
+
+65. Verifying solutions for differential equations
+    LEARN: Video - Verifying solutions
+    PRACTICE: Verify solutions to differential equations
+
+66. Sketching slope fields
+    LEARN: Video - Slope fields
+    PRACTICE: Slope fields & equations
+
+67. Reasoning using slope fields
+    LEARN: Video - Reasoning with slope fields
+    PRACTICE: Reasoning using slope fields
+
+ASSESSMENT: Differential equations - Quiz 1
+
+68. Finding general solutions using separation of variables
+    LEARN: Video - Separable equations
+    PRACTICE: Separable differential equations: find the error
+    PRACTICE: Separable differential equations
+    PRACTICE: Identify separable equations
+
+69. Finding particular solutions using initial conditions
+    LEARN: Video - Particular solutions
+    PRACTICE: Particular solutions to differential equations
+    PRACTICE: Particular solutions to separable differential equations
+
+70. Exponential models with differential equations
+    LEARN: Video - Exponential models
+    PRACTICE: Differential equations: exponential model equations
+    PRACTICE: Differential equations: exponential model word problems
+
+ASSESSMENT: Differential equations - Quiz 2
+ASSESSMENT: Differential equations - Unit test
+
+================================================================================
+UNIT 8: APPLICATIONS OF INTEGRATION
+================================================================================
+
+71. Finding the average value of a function on an interval
+    LEARN: Video - Average value of a function
+    PRACTICE: Average value of a function
+
+72. Connecting position, velocity, and acceleration using integrals
+    LEARN: Video - Motion problems with integrals
+    PRACTICE: Analyzing motion problems (integral calculus)
+    PRACTICE: Motion problems (with integrals)
+
+73. Using accumulation functions and definite integrals in applied contexts
+    LEARN: Video - Applied definite integrals
+    PRACTICE: Interpreting definite integrals in context
+    PRACTICE: Analyzing problems involving definite integrals
+    PRACTICE: Problems involving definite integrals (algebraic)
+
+ASSESSMENT: Applications of integration - Quiz 1
+
+74. Finding the area between curves expressed as functions of x
+    LEARN: Video - Area between curves
+    PRACTICE: Area between a curve and the x-axis
+    PRACTICE: Area between two curves given end points
+    PRACTICE: Area between two curves
+
+75. Finding the area between curves expressed as functions of y
+    LEARN: Video - Horizontal areas between curves
+    PRACTICE: Horizontal areas between curves
+
+76. Finding the area between curves that intersect at more than two points
+    PRACTICE: Area between curves that intersect at more than two points (calculator-active)
+
+ASSESSMENT: Applications of integration - Quiz 2
+
+77. Volumes with cross sections: squares and rectangles
+    LEARN: Video - Cross section volumes
+    PRACTICE: Volumes with cross sections: squares and rectangles (intro)
+    PRACTICE: Volumes with cross sections: squares and rectangles
+
+78. Volumes with cross sections: triangles and semicircles
+    LEARN: Video - More cross sections
+    PRACTICE: Volumes with cross sections: triangles and semicircles
+
+79. Volume with disc method: revolving around x- or y-axis
+    LEARN: Video - Disc method
+    PRACTICE: Disc method: revolving around x- or y-axis
+
+80. Volume with disc method: revolving around other axes
+    LEARN: Video - Disc method other axes
+    PRACTICE: Disc method: revolving around other axes
+
+81. Volume with washer method: revolving around x- or y-axis
+    LEARN: Video - Washer method
+    PRACTICE: Washer method: revolving around x- or y-axis
+
+82. Volume with washer method: revolving around other axes
+    LEARN: Video - Washer method other axes
+    PRACTICE: Washer method: revolving around other axes
+
+83. Calculator-active practice
+    PRACTICE: Contextual and analytical applications of integration (calculator-active)
+
+ASSESSMENT: Applications of integration - Quiz 3
+ASSESSMENT: Applications of integration - Unit test
+
+================================================================================
+UNIT 9: AP CALCULUS AB SOLVED FREE RESPONSE QUESTIONS
+================================================================================
+
+84. AP Calculus AB 2017 free response
+    LEARN: Video - 2017 exam solutions
+
+85. AP Calculus AB 2015 free response
+    LEARN: Video - 2015 exam solutions
+
+86. AP Calculus AB 2011 free response
+    LEARN: Video - 2011 exam solutions
+
+================================================================================
+UNIT 10: AP CALCULUS AB STANDARDS MAPPINGS
+================================================================================
+
+87. Standards alignment
+    LEARN: Article - See how content aligns with AP Calculus AB standards
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in AP Calculus AB
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 10 (8 content units + solved exams + standards)
+Total Skills: 164
+Total Mastery Points: 16,400
+Total Assessments: ~18 quizzes + 8 unit tests + 1 course challenge
+AP® is a registered trademark of the College Board
+================================================================================

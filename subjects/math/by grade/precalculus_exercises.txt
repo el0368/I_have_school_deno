@@ -1,0 +1,378 @@
+KHAN ACADEMY - PRE-CALCULUS
+============================
+Complete Learn & Practice List by Unit
+
+================================================================================
+UNIT 1: COMPOSITE & INVERSE FUNCTIONS
+================================================================================
+
+1. Composite functions
+   LEARN: Video - (f ∘ g)(x) = f(g(x))
+   PRACTICE: Find and evaluate composite functions
+
+2. Modeling with composite functions
+   LEARN: Video - Real-world applications
+   PRACTICE: Create composite function models
+
+3. Invertible functions
+   LEARN: Video - One-to-one functions
+   PRACTICE: Determine if function has an inverse
+
+4. Finding inverse functions
+   LEARN: Video - Switching x and y, solving for y
+   PRACTICE: Find inverse functions algebraically
+
+5. Verifying inverse functions
+   LEARN: Video - f(f⁻¹(x)) = x
+   PRACTICE: Verify two functions are inverses
+
+ASSESSMENTS:
+- Quiz: Composite and Inverse Functions
+- Unit Test: Functions
+
+================================================================================
+UNIT 2: TRIGONOMETRY
+================================================================================
+
+1. Unit circle introduction
+   LEARN: Video - Circle with radius 1
+   PRACTICE: Understand unit circle coordinates
+
+2. Radians
+   LEARN: Video - π radians = 180°
+   PRACTICE: Convert between degrees and radians
+
+3. The Pythagorean identity
+   LEARN: Video - sin²θ + cos²θ = 1
+   PRACTICE: Use Pythagorean identity
+
+4. Trigonometric values of special angles
+   LEARN: Video - 30°, 45°, 60°, 90°
+   PRACTICE: Find exact trig values
+
+5. Graphs of sin(x), cos(x), and tan(x)
+   LEARN: Video - Basic trig graphs
+   PRACTICE: Graph sine, cosine, tangent
+
+6. Amplitude, midline, and period
+   LEARN: Video - Key features of trig graphs
+   PRACTICE: Identify amplitude, midline, period
+
+7. Transforming sinusoidal graphs
+   LEARN: Video - y = A·sin(B(x-C)) + D
+   PRACTICE: Graph transformed trig functions
+
+8. Graphing sinusoidal functions
+   LEARN: Video - Complete graphing process
+   PRACTICE: Graph complex trig functions
+
+9. Sinusoidal models
+   LEARN: Video - Real-world periodic phenomena
+   PRACTICE: Model with sine and cosine
+
+10. Angle addition identities
+    LEARN: Video - sin(A+B), cos(A+B)
+    PRACTICE: Use angle addition formulas
+
+11. Using trigonometric identities
+    LEARN: Video - Simplifying and proving
+    PRACTICE: Apply trig identities
+
+12. Challenging trigonometry problems
+    LEARN: Video - Advanced applications
+    PRACTICE: Solve complex trig problems
+
+ASSESSMENTS:
+- Quiz 1: Unit circle and radians
+- Quiz 2: Graphing trig functions
+- Quiz 3: Trig identities
+- Unit Test: Trigonometry
+
+================================================================================
+UNIT 3: COMPLEX NUMBERS
+================================================================================
+
+1. The imaginary unit i
+   LEARN: Video - i = √(-1), i² = -1
+   PRACTICE: Simplify powers of i
+
+2. Complex numbers introduction
+   LEARN: Video - a + bi form
+   PRACTICE: Identify real and imaginary parts
+
+3. Adding and subtracting complex numbers
+   LEARN: Video - Combine like terms
+   PRACTICE: Add and subtract complex numbers
+
+4. Multiplying complex numbers
+   LEARN: Video - FOIL method with i
+   PRACTICE: Multiply complex numbers
+
+5. Complex conjugates
+   LEARN: Video - a + bi and a - bi
+   PRACTICE: Find complex conjugates
+
+6. Dividing complex numbers
+   LEARN: Video - Multiply by conjugate
+   PRACTICE: Divide complex numbers
+
+7. Absolute value of complex numbers
+   LEARN: Video - |a + bi| = √(a² + b²)
+   PRACTICE: Find modulus of complex numbers
+
+8. Polar form of complex numbers
+   LEARN: Video - r(cos θ + i sin θ)
+   PRACTICE: Convert between rectangular and polar
+
+ASSESSMENTS:
+- Quiz: Complex Numbers
+- Unit Test: Complex Numbers
+
+================================================================================
+UNIT 4: RATIONAL FUNCTIONS
+================================================================================
+
+1. Reducing rational expressions
+   LEARN: Video - Factoring and canceling
+   PRACTICE: Simplify rational expressions
+
+2. End behavior of rational functions
+   LEARN: Video - Horizontal asymptotes
+   PRACTICE: Determine end behavior
+
+3. Discontinuities of rational functions
+   LEARN: Video - Holes and vertical asymptotes
+   PRACTICE: Find discontinuities
+
+4. Graphs of rational functions
+   LEARN: Video - Complete graphing process
+   PRACTICE: Graph rational functions
+
+5. Multiplying and dividing rational expressions
+   LEARN: Video - Factor, multiply, simplify
+   PRACTICE: Multiply and divide rationals
+
+6. Adding and subtracting rational expressions
+   LEARN: Video - Common denominators
+   PRACTICE: Add and subtract rationals
+
+ASSESSMENTS:
+- Quiz: Rational Functions
+- Unit Test: Rational Functions
+
+================================================================================
+UNIT 5: CONIC SECTIONS
+================================================================================
+
+1. Center and radii of ellipses
+   LEARN: Video - (x-h)²/a² + (y-k)²/b² = 1
+   PRACTICE: Find center and radii
+
+2. Foci of ellipses
+   LEARN: Video - c² = a² - b²
+   PRACTICE: Find foci of ellipses
+
+3. Introduction to hyperbolas
+   LEARN: Video - Difference of distances
+   PRACTICE: Understand hyperbola definition
+
+4. Foci of hyperbolas
+   LEARN: Video - c² = a² + b²
+   PRACTICE: Find foci of hyperbolas
+
+5. Hyperbola asymptotes
+   LEARN: Video - y = ±(b/a)(x-h) + k
+   PRACTICE: Find asymptotes
+
+6. Parabolas introduction
+   LEARN: Video - Focus and directrix
+   PRACTICE: Understand parabola definition
+
+7. Identifying conic sections
+   LEARN: Video - Circle, ellipse, parabola, hyperbola
+   PRACTICE: Classify conic sections
+
+ASSESSMENTS:
+- Quiz: Conic Sections
+- Unit Test: Conic Sections
+
+================================================================================
+UNIT 6: VECTORS
+================================================================================
+
+1. Vector introduction
+   LEARN: Video - Magnitude and direction
+   PRACTICE: Understand vectors
+
+2. Component form of vectors
+   LEARN: Video - ⟨x, y⟩ notation
+   PRACTICE: Write vectors in component form
+
+3. Magnitude of vectors
+   LEARN: Video - ||v|| = √(x² + y²)
+   PRACTICE: Find vector magnitude
+
+4. Vector addition and subtraction
+   LEARN: Video - Add/subtract components
+   PRACTICE: Add and subtract vectors
+
+5. Scalar multiplication
+   LEARN: Video - Multiply vector by number
+   PRACTICE: Multiply vectors by scalars
+
+6. Unit vectors
+   LEARN: Video - Vectors with magnitude 1
+   PRACTICE: Find unit vectors
+
+ASSESSMENTS:
+- Quiz: Vectors
+- Unit Test: Vectors
+
+================================================================================
+UNIT 7: MATRICES
+================================================================================
+
+1. Matrix introduction
+   LEARN: Video - Rows and columns
+   PRACTICE: Understand matrix notation
+
+2. Matrix addition and subtraction
+   LEARN: Video - Add/subtract corresponding entries
+   PRACTICE: Add and subtract matrices
+
+3. Scalar multiplication of matrices
+   LEARN: Video - Multiply each entry
+   PRACTICE: Multiply matrices by scalars
+
+4. Matrix multiplication
+   LEARN: Video - Row × column
+   PRACTICE: Multiply matrices
+
+5. Properties of matrix multiplication
+   LEARN: Video - Not commutative
+   PRACTICE: Explore matrix properties
+
+6. Determinants
+   LEARN: Video - det(A) for 2×2 and 3×3
+   PRACTICE: Calculate determinants
+
+7. Inverse matrices
+   LEARN: Video - A·A⁻¹ = I
+   PRACTICE: Find inverse matrices
+
+8. Solving systems with matrices
+   LEARN: Video - Matrix equations
+   PRACTICE: Solve systems using matrices
+
+ASSESSMENTS:
+- Quiz: Matrices
+- Unit Test: Matrices
+
+================================================================================
+UNIT 8: PROBABILITY & COMBINATORICS
+================================================================================
+
+1. Counting principle
+   LEARN: Video - Multiply number of choices
+   PRACTICE: Use fundamental counting principle
+
+2. Permutations
+   LEARN: Video - nPr = n!/(n-r)!
+   PRACTICE: Calculate permutations
+
+3. Combinations
+   LEARN: Video - nCr = n!/[r!(n-r)!]
+   PRACTICE: Calculate combinations
+
+4. Probability using combinatorics
+   LEARN: Video - Favorable/total outcomes
+   PRACTICE: Calculate probabilities
+
+5. Binomial probability
+   LEARN: Video - P(X=k) = nCk·p^k·(1-p)^(n-k)
+   PRACTICE: Calculate binomial probabilities
+
+ASSESSMENTS:
+- Quiz: Probability and Combinatorics
+- Unit Test: Probability and Combinatorics
+
+================================================================================
+UNIT 9: SERIES
+================================================================================
+
+1. Arithmetic sequences
+   LEARN: Video - Common difference
+   PRACTICE: Find terms of arithmetic sequences
+
+2. Arithmetic series
+   LEARN: Video - Sum = n(a₁ + aₙ)/2
+   PRACTICE: Sum arithmetic series
+
+3. Geometric sequences
+   LEARN: Video - Common ratio
+   PRACTICE: Find terms of geometric sequences
+
+4. Geometric series
+   LEARN: Video - Sum = a₁(1-rⁿ)/(1-r)
+   PRACTICE: Sum geometric series
+
+5. Infinite geometric series
+   LEARN: Video - Sum = a₁/(1-r) if |r| < 1
+   PRACTICE: Sum infinite geometric series
+
+ASSESSMENTS:
+- Quiz: Series
+- Unit Test: Series
+
+================================================================================
+UNIT 10: LIMITS & CONTINUITY (INTRODUCTION)
+================================================================================
+
+1. Limits introduction
+   LEARN: Video - Approaching a value
+   PRACTICE: Estimate limits from graphs
+
+2. Estimating limits from tables
+   LEARN: Video - Numerical approach
+   PRACTICE: Use tables to find limits
+
+3. One-sided limits
+   LEARN: Video - Left and right limits
+   PRACTICE: Find one-sided limits
+
+4. Continuity introduction
+   LEARN: Video - No breaks in graph
+   PRACTICE: Determine if function is continuous
+
+ASSESSMENTS:
+- Quiz: Limits and Continuity
+- Unit Test: Limits and Continuity
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 10
+TOTAL LESSONS: 80+
+TOTAL QUIZZES: 15+
+TOTAL UNIT TESTS: 10
+
+Each lesson includes:
+✓ LEARN component (instructional video/article)
+✓ PRACTICE component (interactive exercises)
+✓ Immediate feedback and hints
+✓ Progress tracking toward mastery
+
+TOPICS COVERED:
+✓ Advanced functions (composite, inverse)
+✓ Trigonometry (complete)
+✓ Complex numbers
+✓ Rational functions
+✓ Conic sections
+✓ Vectors and matrices
+✓ Probability and combinatorics
+✓ Series
+✓ Introduction to limits
+
+PREREQUISITE: Algebra 2
+PREPARES FOR: Calculus 1
+================================================================================

@@ -1,0 +1,395 @@
+ALGEBRA AND EQUATIONS
+=====================
+Complete Topic Progression: Grade 5 → Algebra 2
+Source: Khan Academy (exercises from by_grade files)
+
+This is the LARGEST topic file. Algebra runs from variable
+introduction (Grade 5-6) through polynomial and rational equations
+(Algebra 2). For functions, see 16_functions.txt.
+For trigonometric equations, see 17_trigonometry.txt.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 13 (partial)
+
+1. PRACTICE: Writing simple expressions
+2. PRACTICE: Evaluating expressions
+3. PRACTICE: Writing expressions word problems
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Units 2, 6, 7
+
+Unit 2: Arithmetic Operations (algebra intro)
+1. PRACTICE: Distributive property
+2. PRACTICE: Greatest common factor
+3. PRACTICE: Least common multiple
+4. PRACTICE: Distributive property with variables
+
+Unit 6: Variables and Expressions
+5. PRACTICE: Parts of algebraic expressions
+6. PRACTICE: Substitution and evaluating expressions
+7. PRACTICE: Writing algebraic expressions
+8. PRACTICE: Evaluating expressions word problems
+9. PRACTICE: Combining like terms
+10. PRACTICE: Equivalent expressions
+11. PRACTICE: Distributive property with variables (review)
+12. PRACTICE: Factoring algebraic expressions
+
+Unit 7: Equations and Inequalities
+13. PRACTICE: One-step equations (addition/subtraction)
+14. PRACTICE: One-step equations (multiplication/division)
+15. PRACTICE: One-step equation word problems
+16. PRACTICE: Writing inequalities
+17. PRACTICE: Graphing inequalities on a number line
+18. PRACTICE: Dependent and independent variables
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Unit 6: Expressions, Equations, and Inequalities
+
+1. PRACTICE: Combining like terms with distribution
+2. PRACTICE: Interpreting linear expressions
+3. PRACTICE: Two-step equations
+4. PRACTICE: Two-step equation word problems
+5. PRACTICE: One-step inequalities
+6. PRACTICE: Two-step inequalities
+7. PRACTICE: Inequality word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Units 2, 3, 4
+
+Unit 2: Solving Equations
+1. PRACTICE: Equations with variables on both sides
+2. PRACTICE: Equations with parentheses
+3. PRACTICE: Number of solutions to equations
+4. PRACTICE: Equations word problems
+
+Unit 3: Linear Equations and Functions
+5. PRACTICE: Introduction to linear equations
+6. PRACTICE: Slope
+7. PRACTICE: x-intercepts and y-intercepts
+8. PRACTICE: Slope-intercept form
+9. PRACTICE: Writing slope-intercept form
+10. PRACTICE: Point-slope form
+11. PRACTICE: Standard form
+12. PRACTICE: Comparing linear functions
+13. PRACTICE: Interpreting linear functions
+
+Unit 4: Systems of Equations
+14. PRACTICE: Introduction to systems of equations
+15. PRACTICE: Solving systems by graphing
+16. PRACTICE: Solving systems by substitution
+17. PRACTICE: Solving systems by elimination
+18. PRACTICE: Number of solutions to systems
+19. PRACTICE: Systems of equations word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+PRE-ALGEBRA (supplemental)
+Source: pre_algebra_exercises.txt → Units 6-10, 12-14
+
+Unit 6: Variables and Expressions
+1. PRACTICE: What is a variable?
+2. PRACTICE: Evaluating algebraic expressions
+3. PRACTICE: Writing algebraic expressions
+4. PRACTICE: Combining like terms
+5. PRACTICE: Distributive property and combining like terms
+6. PRACTICE: Equivalent expressions
+
+Unit 7: One-Variable Equations
+7. PRACTICE: Testing solutions
+8. PRACTICE: One-step equations with addition/subtraction
+9. PRACTICE: One-step equations with multiplication/division
+10. PRACTICE: Two-step equations
+11. PRACTICE: Multi-step equations
+12. PRACTICE: Equation word problems
+
+Unit 8: One-Variable Inequalities
+13. PRACTICE: Plotting inequalities
+14. PRACTICE: One-step inequalities
+15. PRACTICE: Two-step inequalities
+16. PRACTICE: Multi-step inequalities
+17. PRACTICE: Compound inequalities
+
+Unit 9: Two-Variable Equations and Intro to Functions
+18. PRACTICE: Two-variable equations
+19. PRACTICE: Intro to functions
+20. PRACTICE: Linear and nonlinear functions
+21. PRACTICE: Interpreting function graphs
+
+Unit 10: Equations and Geometry (coordinate plane)
+22. PRACTICE: Vertical and horizontal lines
+23. PRACTICE: Slope
+24. PRACTICE: Slope from a graph
+25. PRACTICE: Slope from two points
+26. PRACTICE: Slope-intercept form
+27. PRACTICE: Writing linear equations
+28. PRACTICE: Point-slope form
+
+Unit 12: Linear Equations and Inequalities
+29. PRACTICE: Two-step equations review
+30. PRACTICE: Equations with parentheses
+31. PRACTICE: Variables on both sides
+32. PRACTICE: Multi-step inequalities
+33. PRACTICE: Literal equations (solving for a variable)
+34. PRACTICE: Linear equation word problems
+
+Unit 13: Systems of Equations
+35. PRACTICE: Intro to systems
+36. PRACTICE: Solving by graphing
+37. PRACTICE: Solving by substitution
+38. PRACTICE: Solving by elimination
+39. PRACTICE: Systems word problems
+40. PRACTICE: Number of solutions
+
+Unit 14: Polynomials
+41. PRACTICE: Intro to polynomials
+42. PRACTICE: Adding and subtracting polynomials
+43. PRACTICE: Multiplying monomials
+44. PRACTICE: Multiplying binomials
+45. PRACTICE: Special products of binomials
+
+ASSESSMENT: Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1
+Source: algebra_1_exercises.txt → Units 1-8, 10, 12, 13, 14
+
+Unit 1: Algebra Foundations
+1. PRACTICE: Overview and history of algebra
+2. PRACTICE: Introduction to variables and expressions
+3. PRACTICE: Substitution and evaluating expressions
+4. PRACTICE: Combining like terms and distribution
+5. PRACTICE: Equivalent algebraic expressions
+6. PRACTICE: Introduction to equations
+
+Unit 2: Solving Equations and Inequalities
+7. PRACTICE: Linear equations with variables on both sides
+8. PRACTICE: Linear equations with parentheses
+9. PRACTICE: Analyzing the number of solutions
+10. PRACTICE: Linear equations with unknown coefficients
+11. PRACTICE: Multi-step inequalities
+12. PRACTICE: Compound inequalities
+13. PRACTICE: Absolute value equations
+
+Unit 3: Working with Units
+14. PRACTICE: Rate conversion
+15. PRACTICE: Appropriate units
+16. PRACTICE: Word problems in terms of units
+
+Unit 4: Linear Equations and Graphs
+17. PRACTICE: Introduction to slope
+18. PRACTICE: Horizontal and vertical lines
+19. PRACTICE: Slope from a graph
+20. PRACTICE: Slope from two points
+21. PRACTICE: Slope-intercept form intro
+22. PRACTICE: Writing slope-intercept equations
+23. PRACTICE: Point-slope form
+24. PRACTICE: Standard form
+25. PRACTICE: Summary of forms of two-variable linear equations
+26. PRACTICE: x-intercepts and y-intercepts
+
+Unit 5: Forms of Linear Equations
+27. PRACTICE: Intro to slope-intercept form
+28. PRACTICE: Graphing slope-intercept equations
+29. PRACTICE: Writing slope-intercept equations
+30. PRACTICE: Point-slope form
+31. PRACTICE: Standard form
+32. PRACTICE: Comparing linear functions
+
+Unit 6: Systems of Equations
+33. PRACTICE: Introduction to systems of equations
+34. PRACTICE: Solving systems by graphing
+35. PRACTICE: Solving systems by substitution
+36. PRACTICE: Solving systems by elimination
+37. PRACTICE: Equivalent systems of equations
+38. PRACTICE: Number of solutions to a system
+39. PRACTICE: Systems of equations word problems
+
+Unit 7: Inequalities (Systems)
+40. PRACTICE: Checking solutions of two-variable inequalities
+41. PRACTICE: Graphing two-variable inequalities
+42. PRACTICE: Modeling with linear inequalities
+43. PRACTICE: Systems of inequalities graphs
+
+Unit 8: Functions (see also 16_functions.txt for advanced)
+44. PRACTICE: Evaluating functions
+45. PRACTICE: Inputs and outputs of functions
+46. PRACTICE: Function notation
+47. PRACTICE: Interpreting function notation
+48. PRACTICE: Domain and range introduction
+49. PRACTICE: Recognizing functions
+
+Unit 10: Absolute Value and Piecewise Functions
+50. PRACTICE: Absolute value equations
+51. PRACTICE: Piecewise functions
+52. PRACTICE: Graphing absolute value functions
+53. PRACTICE: Absolute value inequalities
+
+Unit 12: Exponential Growth and Decay
+54. PRACTICE: Exponential vs. linear growth
+55. PRACTICE: Exponential expressions
+56. PRACTICE: Graphs of exponential growth
+57. PRACTICE: Exponential vs. linear growth over time
+58. PRACTICE: Exponential growth and decay word problems
+59. PRACTICE: Exponential functions from tables and graphs
+60. PRACTICE: Compound interest
+
+Unit 13: Quadratics — Multiplying and Factoring
+61. PRACTICE: Multiplying monomials
+62. PRACTICE: Multiplying binomials
+63. PRACTICE: Special products of binomials
+64. PRACTICE: Introduction to factoring
+65. PRACTICE: Factoring quadratics intro
+66. PRACTICE: Factoring quadratics by grouping
+67. PRACTICE: Factoring special products
+68. PRACTICE: Strategy in factoring quadratics
+
+Unit 14: Quadratic Functions and Equations
+69. PRACTICE: Intro to parabolas
+70. PRACTICE: Solving quadratics by taking square roots
+71. PRACTICE: Vertex form
+72. PRACTICE: Solving quadratics by factoring
+73. PRACTICE: The quadratic formula
+74. PRACTICE: Discriminant for number of solutions
+75. PRACTICE: Quadratic standard form
+76. PRACTICE: Features and forms of quadratic functions
+77. PRACTICE: Comparing quadratic functions
+78. PRACTICE: Modeling with quadratic functions
+79. PRACTICE: Quadratic inequalities
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (14 quizzes, 14 unit tests)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Units 1-5, 7, 8, 10, 11, 12
+
+Unit 1: Polynomial Arithmetic
+1. PRACTICE: Intro to polynomials
+2. PRACTICE: Average rate of change of polynomials
+3. PRACTICE: Adding and subtracting polynomials
+4. PRACTICE: Multiplying monomials by polynomials
+5. PRACTICE: Multiplying binomials by polynomials
+6. PRACTICE: Special products of polynomials
+
+Unit 2: Complex Numbers
+7. PRACTICE: The imaginary unit i
+8. PRACTICE: Adding and subtracting complex numbers
+9. PRACTICE: Multiplying complex numbers
+10. PRACTICE: Quadratic equations with complex solutions
+
+Unit 3: Polynomial Factoring
+11. PRACTICE: Factoring monomials
+12. PRACTICE: Greatest common factor
+13. PRACTICE: Taking common factors
+14. PRACTICE: Factoring higher degree polynomials
+15. PRACTICE: Factoring using structure
+16. PRACTICE: Polynomial identities
+17. PRACTICE: Geometric series (as polynomial)
+
+Unit 4: Polynomial Division
+18. PRACTICE: Dividing polynomials by x
+19. PRACTICE: Dividing quadratics by linear factors
+20. PRACTICE: Dividing polynomials by linear factors
+21. PRACTICE: Polynomial remainder theorem
+22. PRACTICE: Proving polynomial identities
+
+Unit 5: Polynomial Graphs
+23. PRACTICE: Zeros of polynomials
+24. PRACTICE: Positive and negative intervals
+25. PRACTICE: End behavior
+26. PRACTICE: Graphing polynomials
+27. PRACTICE: Putting it all together
+
+Unit 7: Transformations of Functions
+28. PRACTICE: Shifting functions
+29. PRACTICE: Reflecting functions
+30. PRACTICE: Symmetry of functions
+31. PRACTICE: Scaling functions
+32. PRACTICE: Putting it all together
+
+Unit 8: Equations
+33. PRACTICE: Solving equations by graphing
+34. PRACTICE: Quadratic systems
+35. PRACTICE: Solving linear systems with three variables
+
+Unit 10: Logarithms
+36. PRACTICE: Introduction to logarithms
+37. PRACTICE: The constant e and the natural logarithm
+38. PRACTICE: Properties of logarithms
+39. PRACTICE: Change of base formula
+40. PRACTICE: Solving exponential equations with logarithms
+41. PRACTICE: Solving exponential models
+42. PRACTICE: Logarithmic equations
+
+Unit 11: Trigonometry (see 17_trigonometry.txt)
+(cross-reference only)
+
+Unit 12: Modeling
+43. PRACTICE: Modeling with function combination
+44. PRACTICE: Interpreting features of functions
+45. PRACTICE: Manipulating formulas
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+COLLEGE ALGEBRA (supplemental highlights)
+Source: college_algebra_exercises.txt
+
+Unit 1: Linear Equations and Inequalities
+1. PRACTICE: Solving linear equations and inequalities
+2. PRACTICE: Modeling with linear equations
+3. PRACTICE: Absolute value equations
+
+Unit 2: Graphs and Forms of Linear Equations
+4. PRACTICE: Slope
+5. PRACTICE: Intercepts
+6. PRACTICE: Equations of lines
+
+Unit 3: Functions
+7. PRACTICE: Evaluating functions
+8. PRACTICE: Domain and range
+9. PRACTICE: Function composition
+
+Unit 4: Quadratics
+10. PRACTICE: Solving quadratics (all methods)
+11. PRACTICE: Complex numbers
+12. PRACTICE: Quadratic inequalities
+
+Unit 5: Exponents and Radicals
+13. PRACTICE: Exponent properties
+14. PRACTICE: Simplifying radicals
+
+Unit 6: Polynomials (all operations)
+15. PRACTICE: Polynomial arithmetic
+16. PRACTICE: Factoring strategies
+17. PRACTICE: Polynomial equations
+
+Unit 7: Rational Expressions and Equations
+18. PRACTICE: Simplifying rational expressions
+19. PRACTICE: Operations with rational expressions
+20. PRACTICE: Solving rational equations
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 16_functions.txt (functions as algebraic concept)
+→ 17_trigonometry.txt (trig equations)
+→ 19_calculus.txt (calculus uses all algebra)

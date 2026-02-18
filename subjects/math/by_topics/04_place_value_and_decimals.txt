@@ -1,0 +1,154 @@
+PLACE VALUE AND DECIMALS
+========================
+Complete Topic Progression: Grade 1 → Grade 8
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces PLACE VALUE from ones/tens through scientific
+notation, and DECIMALS from introduction through operations.
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 1 (partial)
+
+1. LEARN: Video - Skip counting by 10s
+   PRACTICE: Count groups of 10
+2. LEARN: Video - Understanding 11-19
+   PRACTICE: Identify and write teen numbers
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 1: Place Value
+
+1. LEARN: Video - Tens and ones introduction
+   PRACTICE: Identify tens and ones in numbers
+2. LEARN: Video - Place value with base-10 blocks
+   PRACTICE: Represent numbers using tens and ones
+
+ASSESSMENT: Quiz (Place Value), Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Unit 2: Place Value
+
+1. PRACTICE: Understanding place value blocks within 1,000
+2. PRACTICE: Identifying the value of digits
+3. PRACTICE: Writing numbers in expanded form
+4. PRACTICE: Regrouping whole numbers
+5. PRACTICE: Skip-counting by 5s, 10s, 100s
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 5 (partial)
+
+1. PRACTICE: Rounding to nearest 10 or 100
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 1: Place Value + Unit 10: Understand Decimals
+
+Place Value:
+1. PRACTICE: Identifying the value of digits
+2. PRACTICE: Writing numbers in expanded form
+3. PRACTICE: Writing numbers in written form
+4. PRACTICE: Regrouping whole numbers
+5. PRACTICE: Comparing multi-digit numbers
+6. PRACTICE: Multiplying and dividing whole numbers by 10 and 100
+
+Decimals Introduction:
+7. PRACTICE: Writing decimals from grids
+8. PRACTICE: Writing fractions from grids
+9. PRACTICE: Decimals and fractions on number lines
+10. PRACTICE: Relating decimals and fractions in words
+11. PRACTICE: Understanding decimal place value
+12. PRACTICE: Comparing decimals
+13. PRACTICE: Ordering decimals
+
+ASSESSMENT: Unit Quiz, Unit Test (for each unit)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 1: Decimal Place Value
+
+1. PRACTICE: Understanding decimal place value
+2. PRACTICE: Decimals on the number line
+3. PRACTICE: Decimals in expanded form
+4. PRACTICE: Decimals in written form
+5. PRACTICE: Comparing decimals
+6. PRACTICE: Ordering decimals
+7. PRACTICE: Rounding decimals
+
+Also from Unit 10: Powers of Ten
+8. PRACTICE: Multiplying and dividing by powers of 10
+9. PRACTICE: Decimal place value patterns
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2 (partial)
+
+(Decimal operations covered in 02_addition.txt, 03_subtraction.txt,
+ 05_multiplication.txt, 06_division.txt)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Unit 1 (partial)
+
+1. PRACTICE: Scientific notation intro
+2. PRACTICE: Operations with scientific notation
+
+ASSESSMENT: (within Numbers and Operations unit)
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental)
+Source: arithmetic_exercises.txt
+
+Unit 5: Place value through 1,000,000
+1. PRACTICE: Place value blocks within 1,000
+2. PRACTICE: Place value tables within 1,000
+3. PRACTICE: Write numbers in number and expanded form
+4. PRACTICE: Regroup whole numbers
+5. PRACTICE: Hundreds, tens, and ones
+6. PRACTICE: Place value tables
+7. PRACTICE: Identify value of a digit
+8. PRACTICE: Write whole numbers in expanded form
+9. PRACTICE: Multiply and divide by 10
+10. PRACTICE: Place value when multiplying and dividing by 10
+
+Unit 11: Decimals and place value
+11. PRACTICE: Write decimals and fractions shown on grids
+12. PRACTICE: Write decimals and fractions greater than 1 shown on grids
+13. PRACTICE: Write decimals and fractions greater than 1 shown on number lines
+14. PRACTICE: Write fractions as decimals (denominators of 10 & 100)
+15. PRACTICE: Place value names
+16. PRACTICE: Value of a digit
+17. PRACTICE: Decimals on the number line: thousandths
+18. PRACTICE: Decimals in expanded form
+19. PRACTICE: Regroup decimals
+
+Unit 17: Exponents and powers of ten
+20. PRACTICE: Multiply and divide whole numbers by 10, 100, and 1000
+21. PRACTICE: Multiply and divide decimals by 10, 100, and 1000
+22. PRACTICE: Powers of ten
+23. PRACTICE: Multiply and divide by powers of 10
+
+ASSESSMENT: Quizzes and Unit Tests for each unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 05_multiplication.txt (multiplying with place value)
+→ 06_division.txt (dividing with place value)
+→ 12_exponents_and_radicals.txt (scientific notation, powers)
+→ 13_negative_numbers.txt (extending the number line below zero)

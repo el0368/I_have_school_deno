@@ -1,0 +1,141 @@
+================================================================================
+KHAN ACADEMY - DIFFERENTIAL EQUATIONS
+Complete Learn & Practice Guide
+================================================================================
+
+Course: Differential Equations
+Level: College
+Units: 3
+Skills: 8
+Source: https://www.khanacademy.org/math/differential-equations
+
+================================================================================
+UNIT 1: FIRST ORDER DIFFERENTIAL EQUATIONS
+================================================================================
+
+1. Intro to differential equations
+   LEARN: Video - Differential equation introduction
+   LEARN: Video - Writing a differential equation
+   LEARN: Video - Verifying solutions to differential equations
+   PRACTICE: Verify solutions to differential equations
+   PRACTICE: Write differential equations
+
+2. Slope fields
+   LEARN: Video - Slope fields introduction
+   LEARN: Video - Worked example: slope field from equation
+   LEARN: Video - Worked example: equation from slope field
+   PRACTICE: Slope fields & equations
+
+3. Euler's method
+   LEARN: Video - Euler's method
+   LEARN: Video - Worked example: Euler's method
+
+4. Separable equations
+   LEARN: Video - Separable equations introduction
+   LEARN: Video - Worked example: separable differential equations
+   LEARN: Video - Worked example: identifying separable equations
+   LEARN: Video - Particular solutions to separable differential equations
+   PRACTICE: Separable differential equations
+   PRACTICE: Particular solutions to differential equations
+
+5. Exponential models
+   LEARN: Video - Exponential models & differential equations
+   LEARN: Video - Worked example: exponential solution to differential equation
+
+6. Logistic models
+   LEARN: Video - The logistic growth model
+   LEARN: Video - Growth models: introduction
+   LEARN: Video - Logistic growth versus exponential growth
+
+7. Exact equations and integrating factors
+   LEARN: Video - Exact equations intuition 1 (proofy)
+   LEARN: Video - Exact equations intuition 2 (proofy)
+   LEARN: Video - Exact equations example 1
+   LEARN: Video - Exact equations example 2
+   LEARN: Video - Exact equations example 3
+   LEARN: Video - Integrating factors 1
+   LEARN: Video - Integrating factors 2
+
+8. Homogeneous equations
+   LEARN: Video - Homogeneous first order ODE
+   LEARN: Video - First order homogeneous equations
+   LEARN: Video - First order homogeneous equations 2
+
+ASSESSMENT: First order differential equations - Unit test
+
+================================================================================
+UNIT 2: SECOND ORDER LINEAR EQUATIONS
+================================================================================
+
+9. 2nd order linear homogeneous differential equations
+   LEARN: Video - 2nd order linear homogeneous differential equations 1
+   LEARN: Video - 2nd order linear homogeneous differential equations 2
+   LEARN: Video - 2nd order linear homogeneous differential equations 3
+   LEARN: Video - 2nd order linear homogeneous differential equations 4
+
+10. Complex and repeated roots of characteristic equation
+    LEARN: Video - Complex roots of the characteristic equation 1
+    LEARN: Video - Complex roots of the characteristic equation 2
+    LEARN: Video - Complex roots of the characteristic equation 3
+    LEARN: Video - Repeated roots of the characteristic equation
+    LEARN: Video - Repeated roots of the characteristic equation part 2
+    PRACTICE: 2nd order linear homogeneous differential equations
+
+11. Method of undetermined coefficients
+    LEARN: Video - Undetermined coefficients 1
+    LEARN: Video - Undetermined coefficients 2
+    LEARN: Video - Undetermined coefficients 3
+    LEARN: Video - Undetermined coefficients 4
+
+12. Laplace transforms to solve differential equations
+    LEARN: Video - Laplace transform to solve an equation
+    LEARN: Video - Laplace transform solves an equation 2
+    LEARN: Video - Using the Laplace transform to solve a nonhomogeneous equation
+
+ASSESSMENT: Second order linear equations - Unit test
+
+================================================================================
+UNIT 3: LAPLACE TRANSFORM
+================================================================================
+
+13. Laplace transform
+    LEARN: Video - Laplace transform 1
+    LEARN: Video - Laplace transform 2
+    LEARN: Video - L{sin(at)} - transform of sin(at)
+    LEARN: Video - L{cos(at)} - transform of cos(at)
+    LEARN: Video - Laplace transform of e^at
+    PRACTICE: Laplace transform
+
+14. Inverse Laplace transform
+    LEARN: Video - Inverse Laplace examples
+    LEARN: Video - Partial fraction expansion to find inverse Laplace transform
+    LEARN: Video - Inverse Laplace examples 2
+    LEARN: Video - Inverse Laplace examples 3
+
+15. Properties of the Laplace transform
+    LEARN: Video - Laplace transform of t (L{t})
+    LEARN: Video - Laplace transform of t^n (L{t^n})
+    LEARN: Video - Laplace transform of the unit step function
+    LEARN: Video - Inverse Laplace of a shifted function
+    LEARN: Video - Laplace transform of sin t and cos t derivation
+
+16. The convolution integral
+    LEARN: Video - The convolution and the Laplace transform
+    LEARN: Video - Using the convolution theorem to solve an initial value problem
+
+17. The Dirac delta function
+    LEARN: Video - Dirac delta function
+    LEARN: Video - Laplace transform of the Dirac delta function
+
+ASSESSMENT: Laplace transform - Unit test
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 3
+Total Sections: ~17 topics
+Total Learn Items: ~55+ videos
+Total Practice Items: 8 skills
+Total Assessments: 3 unit tests
+Note: This course is heavily lecture-based with focus on mathematical theory
+================================================================================

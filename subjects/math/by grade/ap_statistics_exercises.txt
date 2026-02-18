@@ -1,0 +1,472 @@
+================================================================================
+KHAN ACADEMY - AP STATISTICS
+Complete Learn & Practice Guide
+================================================================================
+
+Course: AP®/College Statistics
+Level: AP/College
+Units: 14
+Skills: 137
+Mastery Points: 13,600
+Source: https://www.khanacademy.org/math/ap-statistics
+
+================================================================================
+UNIT 1: EXPLORING CATEGORICAL DATA
+================================================================================
+
+1. The language of variation: Variables
+   LEARN: Video - Identifying individuals, variables, and categorical data
+   PRACTICE: Individuals, variables, and categorical & quantitative data
+
+2. Representing a categorical variable with graphs
+   LEARN: Video - Creating bar charts
+   PRACTICE: Read bar graphs
+
+3. Representing two categorical variables
+   LEARN: Video - Two-way frequency tables and Venn diagrams
+
+ASSESSMENT: Exploring categorical data - Quiz 1
+
+4. Statistics for two categorical variables
+   LEARN: Video - Marginal and conditional distributions
+   PRACTICE: Identify marginal and conditional distributions
+   PRACTICE: Marginal distributions
+   PRACTICE: Conditional distributions
+
+ASSESSMENT: Exploring categorical data - Quiz 2
+ASSESSMENT: Exploring categorical data - Unit test
+
+================================================================================
+UNIT 2: EXPLORING ONE-VARIABLE QUANTITATIVE DATA: DISPLAYING AND DESCRIBING
+================================================================================
+
+5. Representing a quantitative variable with dot plots
+   LEARN: Video - Dot plots and frequency tables
+   PRACTICE: Reading dot plots & frequency tables
+
+6. Representing a quantitative variable with histograms and stem plots
+   LEARN: Video - Histograms intro
+   PRACTICE: Create histograms
+   PRACTICE: Read histograms
+   PRACTICE: Reading stem and leaf plots
+
+ASSESSMENT: Displaying and describing - Quiz 1
+
+7. Describing the distribution of a quantitative variable
+   LEARN: Video - Classifying distributions
+   PRACTICE: Shape of distributions
+   PRACTICE: Describing distributions
+
+8. Comparing distributions of a quantitative variable
+   LEARN: Video - Comparing distributions
+   PRACTICE: Comparing distributions
+
+ASSESSMENT: Displaying and describing - Quiz 2
+ASSESSMENT: Displaying and describing - Unit test
+
+================================================================================
+UNIT 3: EXPLORING ONE-VARIABLE QUANTITATIVE DATA: SUMMARY STATISTICS
+================================================================================
+
+9. Measuring center in quantitative data
+   LEARN: Video - Mean, median, and mode
+   PRACTICE: Calculating mean and median from data displays
+
+10. More on mean and median
+    LEARN: Article - Mean as the balancing point
+    PRACTICE: Missing value given the mean
+    PRACTICE: Effects of shifting, adding, & removing a data point
+    PRACTICE: Estimating mean and median in data displays
+
+ASSESSMENT: Summary statistics - Quiz 1
+
+11. Measuring variability in quantitative data
+    LEARN: Video - Interquartile range
+    PRACTICE: Interquartile range (IQR)
+    PRACTICE: Sample standard deviation
+    PRACTICE: Visually assess standard deviation
+
+12. Effects of linear transformations
+    LEARN: Video - How parameters change as data is shifted and scaled
+
+13. More on standard deviation (optional)
+    LEARN: Video - Standard deviation review
+
+14. Box and whisker plots
+    LEARN: Video - Box and whisker plots
+    PRACTICE: Identifying outliers
+
+ASSESSMENT: Summary statistics - Quiz 2
+ASSESSMENT: Summary statistics - Quiz 3
+ASSESSMENT: Summary statistics - Unit test
+
+================================================================================
+UNIT 4: PERCENTILES, Z-SCORES, AND THE NORMAL DISTRIBUTION
+================================================================================
+
+15. Percentiles
+    LEARN: Video - Calculating percentiles
+    PRACTICE: Calculate percentiles
+
+16. Z-scores
+    LEARN: Video - Z-score introduction
+    PRACTICE: Calculating z-scores
+    PRACTICE: Comparing with z-scores
+
+ASSESSMENT: Percentiles and z-scores - Quiz 1
+
+17. Density curves
+    LEARN: Video - Density curves
+
+18. Normal distributions and the empirical rule
+    LEARN: Video - Normal distribution overview
+    PRACTICE: Empirical rule
+
+19. Normal distribution calculations
+    LEARN: Video - Using z-tables
+    PRACTICE: Normal distribution: area between two points
+    PRACTICE: Normal calculations in reverse
+
+ASSESSMENT: Percentiles and z-scores - Quiz 2
+ASSESSMENT: Percentiles and z-scores - Unit test
+
+================================================================================
+UNIT 5: EXPLORING TWO-VARIABLE QUANTITATIVE DATA
+================================================================================
+
+20. Representing the relationship between two quantitative variables
+    LEARN: Video - Constructing scatter plots
+    PRACTICE: Making appropriate scatter plots
+    PRACTICE: Positive and negative linear associations
+    PRACTICE: Describing trends in scatterplots
+    PRACTICE: Describing scatterplots
+
+ASSESSMENT: Two-variable data - Quiz 1
+
+21. Correlation
+    LEARN: Video - Calculating correlation coefficient
+    PRACTICE: Correlation coefficient intuition
+
+22. Residuals
+    LEARN: Video - Regression residual intro
+    PRACTICE: Calculating and interpreting residuals
+    PRACTICE: Residual plots
+
+ASSESSMENT: Two-variable data - Quiz 2
+
+23. Least-squares regression
+    LEARN: Video - Calculating equation of regression line
+    PRACTICE: Calculating the equation of the least-squares line
+    PRACTICE: Interpreting slope and y-intercept for linear models
+    PRACTICE: Using least-squares regression output
+
+ASSESSMENT: Two-variable data - Quiz 3
+
+24. Analyzing departures from linearity
+    LEARN: Article - R-squared intuition
+    PRACTICE: Effects of influential points
+    PRACTICE: Identify influential points
+    PRACTICE: Predict with transformed data
+
+ASSESSMENT: Two-variable data - Quiz 4
+ASSESSMENT: Two-variable data - Unit test
+
+================================================================================
+UNIT 6: COLLECTING DATA
+================================================================================
+
+25. Introduction to planning a study
+    LEARN: Video - Identifying sample and population
+    PRACTICE: Identify the population and sample
+    PRACTICE: Generalizability of results
+    PRACTICE: Types of studies
+
+26. Potential problems with sampling
+    LEARN: Video - Bias in surveys
+    PRACTICE: Bias in samples and surveys
+
+ASSESSMENT: Collecting data - Quiz 1
+
+27. Random sampling and data collection
+    LEARN: Video - Sampling techniques
+    PRACTICE: Simple random samples
+    PRACTICE: Sampling methods
+    PRACTICE: Sampling method considerations
+
+ASSESSMENT: Collecting data - Quiz 2
+
+28. Introduction to experimental design
+    LEARN: Video - Experiment design intro
+    PRACTICE: Experiment designs
+    PRACTICE: Experiment design considerations
+
+29. Inference and experiments
+    LEARN: Video - Statistical significance in experiments
+    PRACTICE: Conclusions in observational studies versus experiments
+    PRACTICE: Finding errors in study conclusions
+
+ASSESSMENT: Collecting data - Quiz 3
+ASSESSMENT: Collecting data - Unit test
+
+================================================================================
+UNIT 7: PROBABILITY
+================================================================================
+
+30. Estimating probabilities using simulation
+    LEARN: Video - Basic probability
+    PRACTICE: Interpret results of simulations
+
+31. Mutually exclusive events and unions of events
+    LEARN: Video - Probability with Venn diagrams
+    PRACTICE: Two-way tables, Venn diagrams, and probability
+
+ASSESSMENT: Probability - Quiz 1
+
+32. Conditional probability
+    LEARN: Video - Conditional probability
+    PRACTICE: Calculate conditional probability
+
+33. Independent versus dependent events and the multiplication rule
+    LEARN: Video - Compound probability of independent events
+    PRACTICE: Probability with general multiplication rule
+    PRACTICE: Probability of "at least one" success
+
+ASSESSMENT: Probability - Quiz 2
+ASSESSMENT: Probability - Unit test
+
+================================================================================
+UNIT 8: RANDOM VARIABLES AND PROBABILITY DISTRIBUTIONS
+================================================================================
+
+34. Introduction to random variables and probability distributions
+    LEARN: Video - Discrete probability distribution
+    PRACTICE: Graph probability distributions
+    PRACTICE: Probability with discrete random variables
+    PRACTICE: Develop probability distributions: Theoretical probabilities
+
+ASSESSMENT: Random variables - Quiz 1
+
+35. Mean and standard deviation of random variables
+    LEARN: Video - Expected value
+    PRACTICE: Mean (expected value) of a discrete random variable
+    PRACTICE: Interpret expected value
+    PRACTICE: Standard deviation of a discrete random variable
+
+ASSESSMENT: Random variables - Quiz 2
+
+36. Transforming random variables
+    LEARN: Video - Scaling and shifting random variables
+    PRACTICE: Transforming random variables
+
+37. Combining random variables
+    LEARN: Video - Mean of sum and difference
+    PRACTICE: Combining random variables
+    PRACTICE: Combining normal random variables
+
+ASSESSMENT: Random variables - Quiz 3
+
+38. Introduction to the binomial distribution
+    LEARN: Video - Binomial variables
+    PRACTICE: Identifying binomial variables
+    PRACTICE: Binomial probability formula
+    PRACTICE: Calculating binomial probability
+
+39. Parameters for a binomial distribution
+    LEARN: Video - Mean and standard deviation of binomial
+    PRACTICE: Mean and standard deviation of a binomial random variable
+
+ASSESSMENT: Random variables - Quiz 4
+
+40. The geometric distribution
+    LEARN: Video - Geometric distributions
+    PRACTICE: Binomial vs. geometric random variables
+    PRACTICE: Geometric distributions
+    PRACTICE: Geometric probability
+    PRACTICE: Cumulative geometric probability
+
+ASSESSMENT: Random variables - Quiz 5
+ASSESSMENT: Random variables - Unit test
+
+================================================================================
+UNIT 9: SAMPLING DISTRIBUTIONS
+================================================================================
+
+41. The normal distribution, revisited
+    LEARN: Video - Density curves
+    PRACTICE: Probability in normal density curves
+
+42. The central limit theorem
+    LEARN: Video - Introduction to sampling distributions
+    PRACTICE: Sample means and the central limit theorem
+
+43. Biased and unbiased point estimates
+    LEARN: Video - Sample statistic bias
+    PRACTICE: Biased and unbiased estimators
+
+ASSESSMENT: Sampling distributions - Quiz 1
+
+44. Sampling distributions for sample proportions
+    LEARN: Video - Sampling distribution of sample proportion
+    PRACTICE: The normal condition for sample proportions
+    PRACTICE: Mean and standard deviation of sample proportions
+    PRACTICE: Finding probabilities with sample proportions
+
+45. Sampling distributions for differences in sample proportions
+    LEARN: Video - Sampling distribution difference of proportions
+    PRACTICE: Mean and standard deviation of difference of sample proportions
+    PRACTICE: Shape of sampling distributions for differences in sample proportions
+
+ASSESSMENT: Sampling distributions - Quiz 2
+
+46. Sampling distributions for sample means
+    LEARN: Video - Sampling distribution of sample means
+    PRACTICE: Mean and standard deviation of sample means
+    PRACTICE: Finding probabilities with sample means
+
+47. Sampling distributions for differences in sample means
+    LEARN: Video - Sampling distribution difference of means
+    PRACTICE: Mean and standard deviation of difference of sample means
+    PRACTICE: Shape of sampling distributions for differences in sample means
+
+ASSESSMENT: Sampling distributions - Quiz 3
+ASSESSMENT: Sampling distributions - Unit test
+
+================================================================================
+UNIT 10: INFERENCE FOR CATEGORICAL DATA: PROPORTIONS
+================================================================================
+
+48. Introduction to confidence intervals
+    LEARN: Video - Confidence intervals and margin of error
+
+49. Confidence intervals for proportions
+    LEARN: Video - Conditions for valid confidence intervals
+    PRACTICE: Conditions for a z interval for a proportion
+    PRACTICE: Finding the critical value z* for a desired confidence level
+    PRACTICE: Calculating a z interval for a proportion
+    PRACTICE: Sample size and margin of error in a z interval for p
+
+ASSESSMENT: Proportions - Quiz 1
+
+50. The idea of significance tests
+    LEARN: Video - Idea behind hypothesis testing
+    PRACTICE: Writing null and alternative hypotheses
+    PRACTICE: Estimating P-values from simulations
+
+51. Setting up a test for a population proportion
+    LEARN: Video - Constructing hypotheses
+    PRACTICE: Writing hypotheses for a test about a proportion
+    PRACTICE: Conditions for a z test about a proportion
+
+ASSESSMENT: Proportions - Quiz 2
+
+52. Carrying out a test for a population proportion
+    LEARN: Video - Test for a proportion
+
+53. Making conclusions about the difference of proportions
+    PRACTICE: Making conclusions in a z test for a proportion
+
+54. Type I and Type II errors
+    PRACTICE: Type I vs Type II error
+    PRACTICE: Error probabilities and power
+
+ASSESSMENT: Proportions - Quiz 3
+
+55. Confidence intervals for the difference of two proportions
+    PRACTICE: Conditions for inference on two proportions
+    PRACTICE: Two-sample z interval for the difference of proportions
+
+56. Testing for the difference of two proportions
+    PRACTICE: Writing hypotheses for testing the difference of proportions
+    PRACTICE: Test statistic in a two-sample z test
+    PRACTICE: P-value in a two-sample z test
+    PRACTICE: Making conclusions about the difference of proportions
+
+ASSESSMENT: Proportions - Quiz 4
+ASSESSMENT: Proportions - Unit test
+
+================================================================================
+UNIT 11: INFERENCE FOR QUANTITATIVE DATA: MEANS
+================================================================================
+
+57. Constructing a confidence interval for a population mean
+    LEARN: Video - Introduction to t-statistics
+    PRACTICE: Conditions for a t interval for a mean
+    PRACTICE: Finding the critical value t*
+    PRACTICE: Calculating a t interval for a mean
+
+ASSESSMENT: Means - Quiz 1
+
+58. Setting up a test for a population mean
+    LEARN: Video - Writing hypotheses for significance test about means
+    PRACTICE: Writing hypotheses for a test about a mean
+    PRACTICE: Conditions for a t test about a mean
+
+59. Carrying out a test for a population mean
+    LEARN: Video - When to use z or t statistics
+
+60. Confidence intervals for the difference of two means
+    LEARN: Video - Conditions for inference on two means
+
+61. Testing for the difference of two means
+    PRACTICE: Making conclusions about the difference of means
+
+ASSESSMENT: Means - Quiz 2
+ASSESSMENT: Means - Quiz 3
+ASSESSMENT: Means - Unit test
+
+================================================================================
+UNIT 12: INFERENCE FOR CATEGORICAL DATA: CHI-SQUARE
+================================================================================
+
+62. Chi-square test for goodness of fit
+    LEARN: Video - Chi-square statistic
+    PRACTICE: Expected counts in a goodness-of-fit test
+    PRACTICE: Conditions for a goodness-of-fit test
+    PRACTICE: Test statistic and P-value in a goodness-of-fit test
+    PRACTICE: Conclusions in a goodness-of-fit test
+
+ASSESSMENT: Chi-square - Quiz 1
+
+63. Chi-square tests for relationships (homogeneity or independence)
+    LEARN: Video - Chi-square test for homogeneity
+
+ASSESSMENT: Chi-square - Quiz 2
+ASSESSMENT: Chi-square - Unit test
+
+================================================================================
+UNIT 13: INFERENCE FOR QUANTITATIVE DATA: SLOPES
+================================================================================
+
+64. Confidence intervals for the slope of a regression model
+    LEARN: Video - Inference on slope intro
+    PRACTICE: Confidence interval for slope
+
+65. Testing for the slope of a regression model
+    LEARN: Video - t-statistic for slope
+    PRACTICE: Test statistic for slope
+    PRACTICE: Making conclusions about slope
+
+ASSESSMENT: Slopes - Unit test
+
+================================================================================
+UNIT 14: PREPARE FOR THE AP STATISTICS EXAM
+================================================================================
+
+66. Prepare for the exam
+    LEARN: Video - Full significance test example from AP test
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in AP Statistics
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 14
+Total Skills: 137
+Total Mastery Points: 13,600
+Total Assessments: ~22 quizzes + 13 unit tests + 1 course challenge
+AP® is a registered trademark of the College Board
+================================================================================

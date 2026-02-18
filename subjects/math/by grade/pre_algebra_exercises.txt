@@ -1,0 +1,181 @@
+PRE-ALGEBRA EXERCISES
+Khan Academy - Pre-algebra
+15 units, 179 skills, 17,900 possible mastery points
+Source: https://www.khanacademy.org/math/pre-algebra
+
+UNIT 1: FACTORS AND MULTIPLES
+1. PRACTICE: Factor pairs
+2. PRACTICE: Identify factors
+3. PRACTICE: Relate factors and multiples
+4. PRACTICE: Identify multiples
+ASSESSMENT: Quiz 1
+5. PRACTICE: Identify prime numbers
+6. PRACTICE: Identify composite numbers
+7. PRACTICE: Prime and composite numbers
+8. PRACTICE: Prime factorization
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 2: PATTERNS
+1. PRACTICE: Patterns with numbers
+2. PRACTICE: Patterns with shapes
+3. PRACTICE: Evaluate expressions with parentheses
+4. PRACTICE: Translate expressions with parentheses
+5. PRACTICE: Create expressions with parentheses
+ASSESSMENT: Quiz 1
+6. PRACTICE: Relationships between 2 patterns
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 3: RATIOS AND RATES
+1. PRACTICE: Basic ratios
+2. LEARN: Video - Equivalent ratios
+3. PRACTICE: Ratios on coordinate plane
+4. PRACTICE: Ratios and units of measurement
+5. PRACTICE: Part-part-whole ratios
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+6. PRACTICE: Unit rates
+7. PRACTICE: Rate problems
+8. PRACTICE: Comparing rates
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 4: PERCENTAGES
+1. PRACTICE: Intro to percents
+2. PRACTICE: Percents from fraction models
+3. PRACTICE: Find percents visually
+ASSESSMENT: Quiz 1
+4. PRACTICE: Equivalent representations of percent problems
+5. PRACTICE: Benchmark percents
+ASSESSMENT: Quiz 2
+6. PRACTICE: Finding percents
+7. PRACTICE: Percent word problems
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 5: EXPONENTS INTRO AND ORDER OF OPERATIONS
+1. PRACTICE: Meaning of exponents
+2. PRACTICE: Powers of whole numbers
+3. PRACTICE: Powers of fractions & decimals
+ASSESSMENT: Quiz 1
+4. PRACTICE: Order of operations (no exponents)
+5. PRACTICE: Order of operations
+6. PRACTICE: Order of operations with fractions and exponents
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 6: VARIABLES & EXPRESSIONS
+1. PRACTICE: Parts of algebraic expressions
+2. PRACTICE: Evaluating expressions with one variable
+3. PRACTICE: Variable expressions with exponents
+4. PRACTICE: Evaluating expressions with multiple variables
+5. PRACTICE: Evaluating expressions with multiple variables: fractions & decimals
+ASSESSMENT: Quiz 1
+6. PRACTICE: Expression value intuition
+7. PRACTICE: Evaluating expressions with variables word problems
+ASSESSMENT: Quiz 2
+8. PRACTICE: Writing basic expressions with variables
+ASSESSMENT: Quiz 3, Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 7: EQUATIONS & INEQUALITIES INTRODUCTION
+1. PRACTICE: Testing solutions to equations
+2. LEARN: Video - One-step equations intuition
+3. LEARN: Video - One-step addition & subtraction equations
+4. LEARN: Video - One-step multiplication and division equations
+ASSESSMENT: Quiz 1, Quiz 2
+5. PRACTICE: Find the mistake in one-step equations
+6. PRACTICE: Translate one-step equations and solve
+7. PRACTICE: Model with one-step equations
+8. PRACTICE: Model with one-step equations and solve
+ASSESSMENT: Quiz 3
+9. PRACTICE: Testing solutions to inequalities (basic)
+10. PRACTICE: Graphing basic inequalities
+ASSESSMENT: Quiz 4, Quiz 5
+ASSESSMENT: Unit test
+
+UNIT 8: PERCENT & RATIONAL NUMBER WORD PROBLEMS
+1. PRACTICE: Equivalent expressions with percent problems
+2. LEARN: Video - Percent word problems
+3. LEARN: Video - Rational number word problems
+ASSESSMENT: Unit test
+
+UNIT 9: PROPORTIONAL RELATIONSHIPS
+1. PRACTICE: Rates with fractions
+2. PRACTICE: Constant of proportionality from graphs
+ASSESSMENT: Quiz 1
+3. PRACTICE: Compare constants of proportionality
+4. PRACTICE: Interpret constants of proportionality
+5. PRACTICE: Interpret constant of proportionality in graphs
+ASSESSMENT: Quiz 2
+6. PRACTICE: Identify proportional relationships
+ASSESSMENT: Quiz 3
+7. PRACTICE: Solving proportions
+8. PRACTICE: Writing proportions
+9. PRACTICE: Proportion word problems
+10. LEARN: Video - Equations of proportional relationships
+ASSESSMENT: Unit test
+
+UNIT 10: ONE-STEP AND TWO-STEP EQUATIONS & INEQUALITIES
+1. PRACTICE: Combining like terms with negative coefficients
+2. PRACTICE: Combining like terms with negative coefficients & distribution
+3. PRACTICE: Combining like terms with rational coefficients
+4. PRACTICE: Distributive property with variables (negative numbers)
+5. PRACTICE: Equivalent expressions: negative numbers & distribution
+ASSESSMENT: Quiz 1
+6. LEARN: Video - Interpreting linear expressions
+ASSESSMENT: Quiz 2
+7. PRACTICE: Two-step equations
+8. PRACTICE: Two-step equations with decimals and fractions
+9. LEARN: Video - Two-step equation word problems
+ASSESSMENT: Quiz 3
+10. PRACTICE: Testing solutions to inequalities
+11. PRACTICE: One-step inequalities
+12. PRACTICE: Two-step inequalities
+ASSESSMENT: Unit test
+
+UNIT 11: ROOTS, EXPONENTS, & SCIENTIFIC NOTATION
+1. PRACTICE: Square roots
+2. PRACTICE: Cube roots
+3. PRACTICE: Equations with square roots & cube roots
+4. LEARN: Video - Exponent properties intro
+5. LEARN: Video - Negative exponents
+6. LEARN: Video - Exponent properties (integer exponents)
+ASSESSMENT: Quiz 1, Quiz 2, Quiz 3
+7. PRACTICE: Multiplication and division with powers of ten
+8. PRACTICE: Approximating with powers of 10
+9. PRACTICE: Scientific notation
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 12: MULTI-STEP EQUATIONS
+1. PRACTICE: Equations with variables on both sides
+2. PRACTICE: Equations with variables on both sides: decimals & fractions
+3. LEARN: Video - Equations with parentheses
+4. LEARN: Video - Number of solutions to equations
+5. LEARN: Video - Equations word problems
+ASSESSMENT: Unit test
+
+UNIT 13: TWO-VARIABLE EQUATIONS
+1. PRACTICE: Rates & proportional relationships
+2. PRACTICE: Graphing proportional relationships
+3. LEARN: Video - Solutions to linear equations
+4. LEARN: Video - Intercepts
+5. LEARN: Video - Slope
+6. LEARN: Video - Intro to slope-intercept form
+7. LEARN: Video - Writing slope-intercept equations
+ASSESSMENT: Unit test
+
+UNIT 14: FUNCTIONS AND LINEAR MODELS
+1. PRACTICE: Evaluate functions
+2. PRACTICE: Evaluate functions from their graph
+3. LEARN: Video - Inputs and outputs of a function
+4. LEARN: Video - Linear and nonlinear functions
+5. LEARN: Video - Linear models
+ASSESSMENT: Unit test
+
+UNIT 15: SYSTEMS OF EQUATIONS
+1. LEARN: Video - Intro to systems of equations
+2. PRACTICE: Systems of equations with graphing
+3. PRACTICE: Systems of equations with substitution
+ASSESSMENT: Unit test

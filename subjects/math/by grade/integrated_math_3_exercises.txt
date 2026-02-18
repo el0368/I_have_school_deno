@@ -1,0 +1,160 @@
+INTEGRATED MATH 3 EXERCISES
+Khan Academy - Integrated Math 3
+13 units, 110 skills, 10,900 possible mastery points
+Source: https://www.khanacademy.org/math/math3
+
+Note: The integrated pathway covers the same topics as the traditional pathway (Algebra 1, Geometry, Algebra 2) but interwoven.
+
+UNIT 1: POLYNOMIAL ARITHMETIC
+1. PRACTICE: Polynomials intro
+2. PRACTICE: Average rate of change of polynomials
+3. PRACTICE: Add polynomials (intro)
+4. PRACTICE: Subtract polynomials (intro)
+5. PRACTICE: Add & subtract polynomials
+ASSESSMENT: Quiz 1
+6. PRACTICE: Multiply monomials
+7. PRACTICE: Multiply monomials by polynomials: area model
+8. PRACTICE: Multiply monomials by polynomials
+ASSESSMENT: Quiz 2
+9. LEARN: Video - Multiplying binomials
+10. LEARN: Video - Special products of binomials
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 2: POLYNOMIAL FACTORIZATION
+1. PRACTICE: Factor monomials
+2. PRACTICE: Greatest common factor of monomials
+3. PRACTICE: Factor polynomials: common factor
+4. PRACTICE: Factor higher degree polynomials
+5. PRACTICE: Factor polynomials using structure
+ASSESSMENT: Quiz 1, Quiz 2
+6. PRACTICE: Polynomial identities
+7. PRACTICE: Geometric series formula
+8. PRACTICE: Finite geometric series word problems
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 3: POLYNOMIAL DIVISION
+1. LEARN: Video - Dividing polynomials by x
+2. LEARN: Video - Dividing quadratics by linear factors
+3. PRACTICE: Divide quadratics by linear expressions (with remainders)
+ASSESSMENT: Quiz 1
+4. PRACTICE: Divide polynomials by linear expressions
+5. LEARN: Video - Polynomial remainder theorem
+ASSESSMENT: Unit test
+
+UNIT 4: POLYNOMIAL GRAPHS
+1. PRACTICE: Zeros of polynomials (factored form)
+2. PRACTICE: Zeros of polynomials (with factoring)
+3. PRACTICE: Positive & negative intervals of polynomials
+4. PRACTICE: Zeros of polynomials (multiplicity)
+5. PRACTICE: End behavior of polynomials
+6. LEARN: Article - Putting it all together
+ASSESSMENT: Unit test
+
+UNIT 5: LOGARITHMS
+1. PRACTICE: Evaluate logarithms
+2. PRACTICE: Evaluate logarithms (advanced)
+3. LEARN: Video - The constant e and the natural logarithm
+4. LEARN: Video - Properties of logarithms
+5. PRACTICE: Evaluate logarithms: change of base rule
+6. PRACTICE: Use the logarithm change of base rule
+7. PRACTICE: Solve exponential equations using logarithms: base-10 and base-e
+8. LEARN: Video - Solving exponential models
+ASSESSMENT: Unit test
+
+UNIT 6: TRANSFORMATIONS OF FUNCTIONS
+1. PRACTICE: Shift functions
+2. PRACTICE: Reflect functions
+3. PRACTICE: Even and odd functions: Graphs and tables
+4. PRACTICE: Even & odd functions: Equations
+ASSESSMENT: Quiz 1
+5. PRACTICE: Scale functions vertically
+6. PRACTICE: Scale functions horizontally
+7. PRACTICE: Identify function transformations
+ASSESSMENT: Quiz 2
+8. PRACTICE: Graphs of square and cube root functions
+9. PRACTICE: Graphs of exponential functions
+10. PRACTICE: Graphs of logarithmic functions
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test
+
+UNIT 7: EQUATIONS
+1. PRACTICE: Rational equations intro
+2. PRACTICE: Rational equations
+3. PRACTICE: Find inverses of rational functions
+4. PRACTICE: Square-root equations intro
+5. PRACTICE: Square-root equations
+6. PRACTICE: Extraneous solutions of equations
+7. LEARN: Video - Cube-root equations
+ASSESSMENT: Quiz 1
+8. PRACTICE: Quadratic systems
+9. PRACTICE: Solving equations graphically: intro
+10. PRACTICE: Solving equations graphically: graphing calculator
+11. PRACTICE: Solving equations graphically: word problems
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 8: TRIGONOMETRY
+1. LEARN: Video - Law of sines
+2. LEARN: Video - Law of cosines
+3. LEARN: Video - Solving general triangles
+ASSESSMENT: Quiz 1
+4. PRACTICE: Unit circle
+5. PRACTICE: Radians & degrees
+6. PRACTICE: Unit circle (with radians)
+7. PRACTICE: Use the Pythagorean identity
+8. PRACTICE: Trig values of special angles
+9. LEARN: Video - Graphing sinusoidal functions
+10. PRACTICE: Period of sinusoidal functions from graph
+11. PRACTICE: Amplitude of sinusoidal functions from equation
+12. PRACTICE: Midline of sinusoidal functions from equation
+ASSESSMENT: Quiz 2, Quiz 3
+13. PRACTICE: Construct sinusoidal functions
+14. PRACTICE: Graph sinusoidal functions: phase shift
+15. PRACTICE: Interpret trigonometric graphs in context
+16. PRACTICE: Model with sinusoidal functions
+17. PRACTICE: Modeling with sinusoidal functions: phase shift
+ASSESSMENT: Quiz 4
+ASSESSMENT: Unit test
+
+UNIT 9: MODELING
+1. PRACTICE: Model with function combination
+2. PRACTICE: Periodicity of algebraic models
+3. PRACTICE: End behavior of algebraic models
+4. PRACTICE: Manipulate formulas
+ASSESSMENT: Quiz 1
+5. PRACTICE: Graph labels and scales
+6. LEARN: Video - Modeling with two variables
+7. LEARN: Video - Modeling with multiple variables
+ASSESSMENT: Quiz 2
+ASSESSMENT: Unit test
+
+UNIT 10: STUDY DESIGN
+1. PRACTICE: Valid claims
+2. PRACTICE: Making inferences from random samples
+3. PRACTICE: Types of statistical studies
+ASSESSMENT: Unit test
+
+UNIT 11: BINOMIAL PROBABILITY
+1. LEARN: Video - Binomial probability (Mastery unavailable)
+
+UNIT 12: NORMAL DISTRIBUTIONS
+1. LEARN: Video - Normal distributions (Mastery unavailable)
+
+UNIT 13: RATIONAL FUNCTIONS
+1. PRACTICE: Reduce rational expressions to lowest terms: Error analysis
+2. PRACTICE: Reduce rational expressions to lowest terms
+3. PRACTICE: Simplify rational expressions (advanced)
+ASSESSMENT: Quiz 1
+4. PRACTICE: End behavior of rational functions
+5. PRACTICE: Rational functions: zeros, asymptotes, and undefined points
+6. LEARN: Video - Graphs of rational functions
+7. LEARN: Video - Modeling with rational functions
+8. PRACTICE: Add & subtract rational expressions: like denominators
+9. PRACTICE: Add & subtract rational expressions (basic)
+10. PRACTICE: Add & subtract rational expressions: factored denominators
+ASSESSMENT: Quiz 2
+11. PRACTICE: Add & subtract rational expressions
+ASSESSMENT: Quiz 3
+ASSESSMENT: Unit test

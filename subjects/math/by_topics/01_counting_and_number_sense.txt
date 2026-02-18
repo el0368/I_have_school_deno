@@ -1,0 +1,150 @@
+COUNTING AND NUMBER SENSE
+=========================
+Complete Topic Progression: Kindergarten → Grade 5
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces NUMBER SENSE from first counting through rounding
+and estimation. After Grade 5, number sense branches into negative
+numbers (see 13_negative_numbers.txt) and algebra (see 15_algebra.txt).
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 1: Counting and Place Value
+
+1. LEARN: Video - Introduction to counting 1-5
+   PRACTICE: Count objects up to 5
+2. LEARN: Video - Counting sequence 1-10
+   PRACTICE: Fill in missing numbers in sequence
+3. LEARN: Video - Understanding more and less
+   PRACTICE: Identify 1 more/1 less than given numbers
+4. LEARN: Video - Number patterns
+   PRACTICE: Complete number sequences
+5. LEARN: Video - Counting to 100
+   PRACTICE: Identify and write numbers to 100
+6. LEARN: Video - Skip counting by 10s
+   PRACTICE: Count groups of 10
+7. LEARN: Video - Counting objects in images
+   PRACTICE: Count items in various pictures
+8. LEARN: Video - Counting 1 and 2 objects
+   PRACTICE: Identify groups of 1 or 2
+9. LEARN: Video - More, less, and equal
+   PRACTICE: Compare small groups
+10. LEARN: Video - Greater than, less than, equal to
+    PRACTICE: Compare numbers using symbols
+11. LEARN: Video - Understanding 11-19
+    PRACTICE: Identify and write teen numbers
+
+ASSESSMENT: Quiz 1 (Counting basics), Quiz 2 (Place value), Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 1: Place Value
+
+1. LEARN: Video - Counting and ordering 1-9
+   PRACTICE: Count, order, and compare objects 1-9
+2. LEARN: Video - Understanding numbers to 100
+   PRACTICE: Making 10, counting to 100
+3. LEARN: Video - Tens and ones introduction
+   PRACTICE: Identify tens and ones in numbers
+4. LEARN: Video - Place value with base-10 blocks
+   PRACTICE: Represent numbers using tens and ones
+
+ASSESSMENT: Quiz (Place Value), Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Unit 2: Place Value
+
+1. PRACTICE: Understanding place value blocks within 1,000
+2. PRACTICE: Identifying the value of digits
+3. PRACTICE: Writing numbers in number form
+4. PRACTICE: Writing numbers in word form
+5. PRACTICE: Writing numbers in expanded form
+6. PRACTICE: Regrouping whole numbers
+7. PRACTICE: Comparing 2-digit numbers
+8. PRACTICE: Comparing 3-digit numbers
+9. PRACTICE: Understanding even and odd numbers visually
+10. PRACTICE: Skip-counting by 5s
+11. PRACTICE: Skip-counting by 10s
+12. PRACTICE: Skip-counting by 100s
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 5: Addition, Subtraction, and Estimation (partial)
+
+1. PRACTICE: Rounding to nearest 10 or 100
+2. PRACTICE: Estimating sums and differences
+
+ASSESSMENT: (assessed within Addition/Subtraction unit)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 1: Place Value
+
+1. PRACTICE: Identifying the value of digits
+2. PRACTICE: Writing numbers in expanded form
+3. PRACTICE: Writing numbers in written form
+4. PRACTICE: Regrouping whole numbers
+5. PRACTICE: Comparing multi-digit numbers
+6. PRACTICE: Multiplying whole numbers by 10
+7. PRACTICE: Dividing whole numbers by 10
+8. PRACTICE: Multiplying whole numbers by 100
+9. PRACTICE: Dividing whole numbers by 100
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+Also from grade_4_exercises.txt → Unit 2 (partial):
+10. PRACTICE: Rounding to estimate
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 10: Powers of Ten
+
+1. PRACTICE: Understanding powers of 10
+2. PRACTICE: Multiplying and dividing by powers of 10
+3. PRACTICE: Decimal place value patterns
+4. PRACTICE: Powers of 10 word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 4: Exponents and Order of Operations (partial)
+
+1. PRACTICE: Order of operations
+2. PRACTICE: Order of operations with exponents
+
+(For exponents themselves, see 12_exponents_and_radicals.txt)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Unit 1: Numbers and Operations (partial)
+
+1. PRACTICE: Classifying rational and irrational numbers
+2. PRACTICE: Converting repeating decimals to fractions
+3. PRACTICE: Comparing irrational numbers
+4. PRACTICE: Approximating square roots
+5. PRACTICE: Scientific notation intro
+6. PRACTICE: Operations with scientific notation
+7. PRACTICE: Order of operations
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+After mastering counting and number sense:
+→ 02_addition.txt (combining quantities)
+→ 03_subtraction.txt (taking away quantities)
+→ 04_place_value_and_decimals.txt (deeper place value + decimals)
+→ 13_negative_numbers.txt (extending the number line)

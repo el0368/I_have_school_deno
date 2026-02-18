@@ -1,0 +1,176 @@
+================================================================================
+KHAN ACADEMY - LINEAR ALGEBRA
+Complete Learn & Practice Guide
+================================================================================
+
+Course: Linear Algebra
+Level: College
+Units: 3
+Skills: 4
+Source: https://www.khanacademy.org/math/linear-algebra
+
+================================================================================
+UNIT 1: VECTORS AND SPACES
+================================================================================
+
+1. Vectors
+   LEARN: Video - Vector intro for linear algebra
+   LEARN: Video - Real coordinate spaces
+   LEARN: Video - Adding vectors algebraically & graphically
+   LEARN: Video - Multiplying a vector by a scalar
+   LEARN: Video - Vector examples
+   LEARN: Video - Unit vector notation
+   LEARN: Video - Unit vectors intro
+   PRACTICE: Add vectors
+
+2. Linear combinations and spans
+   LEARN: Video - Linear combinations and span
+   LEARN: Video - Linear combinations and span examples
+
+3. Linear dependence and independence
+   LEARN: Video - Introduction to linear independence
+   LEARN: Video - More on linear independence
+   LEARN: Video - Basis of a subspace
+
+4. Subspaces and the basis for a subspace
+   LEARN: Video - Linear subspaces
+   LEARN: Video - Basis of a subspace
+   LEARN: Video - Vector dot product and length
+   LEARN: Video - Proving vector dot product properties
+   LEARN: Video - Proof of the Cauchy-Schwarz inequality
+
+5. Vector dot and cross products
+   LEARN: Video - Vector dot product
+   LEARN: Video - Cross product introduction
+   LEARN: Video - Proof: Relationship between cross product and sin of angle
+   LEARN: Video - Dot and cross product comparison/intuition
+   PRACTICE: Cross product
+
+6. Matrices for solving systems by elimination
+   LEARN: Video - Solving a system of 3 equations and 4 unknowns using matrix row-echelon form
+   LEARN: Video - Matrix row-echelon form and reduced row-echelon form
+   LEARN: Video - Gauss-Jordan elimination examples
+
+7. Null space and column space
+   LEARN: Video - Matrix vector products
+   LEARN: Video - Introduction to the null space of a matrix
+   LEARN: Video - Null space 2: Calculating the null space
+   LEARN: Video - Null space 3: Relation to linear independence
+   LEARN: Video - Column space of a matrix
+   LEARN: Video - Null space and column space basis
+   LEARN: Video - Visualizing a column space as a plane in R3
+   LEARN: Video - Dimension of the null space or nullity
+   LEARN: Video - Dimension of the column space or rank
+
+ASSESSMENT: Vectors and spaces - Unit test
+
+================================================================================
+UNIT 2: MATRIX TRANSFORMATIONS
+================================================================================
+
+8. Functions and linear transformations
+   LEARN: Video - A more formal understanding of functions
+   LEARN: Video - Vector transformations
+   LEARN: Video - Linear transformations
+   LEARN: Video - Matrix vector products as linear transformations
+   LEARN: Video - Linear transformations as matrix vector products
+   LEARN: Video - Image of a subset under a transformation
+   LEARN: Video - im(T): Image of a transformation
+   LEARN: Video - Preimage of a set
+   LEARN: Video - Preimage and kernel example
+   LEARN: Video - Sums and scalar multiples of linear transformations
+
+9. Linear transformation examples
+   LEARN: Video - Linear transformation examples: Scaling and reflections
+   LEARN: Video - Linear transformation examples: Rotations in R2
+   LEARN: Video - Rotation in R3 around the x-axis
+   LEARN: Video - Unit vectors
+   PRACTICE: Linear transformation examples
+
+10. Transformations and matrix multiplication
+    LEARN: Video - Composition of linear transformations
+    LEARN: Video - Matrix product association
+    LEARN: Video - Matrix product examples
+
+11. Inverse functions and transformations
+    LEARN: Video - Introduction to the inverse of a function
+    LEARN: Video - Proof: Invertibility implies a unique solution to f(x)=y
+    LEARN: Video - Surjective (onto) and injective (one-to-one) functions
+    LEARN: Video - Relating invertibility to being onto and one-to-one
+    LEARN: Video - Determining whether a transformation is onto
+
+12. Finding inverses and determinants
+    LEARN: Video - Introduction to determinants
+    LEARN: Video - nxn determinant
+    LEARN: Video - Inverse of a matrix using its determinant
+    LEARN: Video - 3x3 determinant
+    LEARN: Video - Formula for 2x2 inverse
+    PRACTICE: Determinant of a 2x2 matrix
+
+13. Transpose of a matrix
+    LEARN: Video - Transpose of a matrix
+    LEARN: Video - Determinant after row operations
+    LEARN: Video - Upper triangular determinant
+    LEARN: Video - Simpler 4x4 determinant
+
+ASSESSMENT: Matrix transformations - Unit test
+
+================================================================================
+UNIT 3: ALTERNATE COORDINATE SYSTEMS (BASES)
+================================================================================
+
+14. Orthogonal complements
+    LEARN: Video - Orthogonal complements
+    LEARN: Video - dim(v) + dim(orthogonal complement of v) = n
+    LEARN: Video - Representing vectors in Rn using subspace members
+    LEARN: Video - Orthogonal complement of the null space
+    LEARN: Video - Orthogonal complement of the row space
+    LEARN: Video - Proof: Any subspace basis has same number of elements
+
+15. Orthogonal projections
+    LEARN: Video - Projections onto subspaces
+    LEARN: Video - Visualizing a projection onto a plane
+    LEARN: Video - A projection onto a subspace is a linear transformation
+    LEARN: Video - Subspace projection matrix example
+    LEARN: Video - Another example of a projection matrix
+    LEARN: Video - Projection is closest vector in subspace
+    LEARN: Video - Least squares approximation
+    LEARN: Video - Least squares examples
+
+16. Change of basis
+    LEARN: Video - Coordinates with respect to a basis
+    LEARN: Video - Change of basis matrix
+    LEARN: Video - Invertible change of basis matrix
+    LEARN: Video - Transformation matrix with respect to a basis
+    LEARN: Video - Alternate basis transformation matrix
+    LEARN: Video - Changing our basis transformation matrix
+
+17. Orthonormal bases and the Gram-Schmidt process
+    LEARN: Video - Introduction to orthonormal bases
+    LEARN: Video - Coordinates with respect to orthonormal bases
+    LEARN: Video - Projections onto subspaces with orthonormal bases
+    LEARN: Video - Finding projections onto subspaces with orthonormal bases
+    LEARN: Video - Example using orthogonal change-of-basis matrix to find transformation matrix
+    LEARN: Video - The Gram-Schmidt process
+
+18. Eigen-everything
+    LEARN: Video - Introduction to eigenvalues and eigenvectors
+    LEARN: Video - Proof of formula for determining eigenvalues
+    LEARN: Video - Example solving for the eigenvalues of a 2x2 matrix
+    LEARN: Video - Finding eigenvectors and eigenspaces example
+    LEARN: Video - Eigenvalues of a 3x3 matrix
+    LEARN: Video - Eigenvectors and eigenspaces for a 3x3 matrix
+    LEARN: Video - Showing that an eigenbasis makes for good coordinate systems
+
+ASSESSMENT: Alternate coordinate systems - Unit test
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 3
+Total Sections: ~18 topics
+Total Learn Items: ~90+ videos
+Total Practice Items: 4 skills
+Total Assessments: 3 unit tests
+Note: This course is heavily lecture-based with fewer interactive exercises
+================================================================================

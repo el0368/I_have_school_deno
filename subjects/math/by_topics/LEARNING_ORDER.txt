@@ -1,0 +1,204 @@
+MATH TOPICS - CONCEPTUAL CHAIN (LEARNING ORDER)
+=================================================
+Which topic to study first? Follow this numbered path.
+
+These 19 topic files show how each concept progresses across ALL grade levels.
+Use this order to understand the dependency chain between topics.
+
+================================================================================
+RECOMMENDED TOPIC ORDER
+================================================================================
+
+STEP  TOPIC FILE                              BUILDS ON
+----  ----------                              ---------
+ 1    01_counting_and_number_sense.txt         (starting point)
+ 2    02_addition.txt                          Step 1
+ 3    03_subtraction.txt                       Steps 1-2
+ 4    04_place_value_and_decimals.txt          Steps 1-3
+ 5    05_multiplication.txt                    Steps 1-4
+ 6    06_division.txt                          Steps 1-5
+ 7    07_fractions.txt                         Steps 4-6
+ 8    08_measurement_money_and_time.txt        Steps 1-6
+ 9    09_geometry.txt                          Steps 1-8
+10    10_data_and_graphs.txt                   Steps 1-6
+11    11_ratios_rates_proportions.txt          Steps 5-7
+12    12_exponents_and_radicals.txt            Steps 5-6
+13    13_negative_numbers.txt                  Steps 1-6
+14    14_patterns_and_sequences.txt            Steps 1-6
+15    15_algebra_and_equations.txt             Steps 1-14
+16    16_functions.txt                         Step 15
+17    17_trigonometry.txt                      Steps 9, 15-16
+18    18_statistics_and_probability.txt        Steps 7, 10-11, 15
+19    19_calculus.txt                          Steps 15-17
+
+
+================================================================================
+VISUAL DEPENDENCY MAP
+================================================================================
+
+  1. Counting & Number Sense
+     |
+     +---> 2. Addition ---> 3. Subtraction
+     |                          |
+     +----------+---------------+
+                |
+          4. Place Value & Decimals
+                |
+     +----------+----------+
+     |                     |
+  5. Multiplication     6. Division
+     |                     |
+     +----------+----------+
+                |
+     +----+-----+-----+-----+-----+-----+
+     |    |     |     |     |     |     |
+     |  7.Frac 8.Meas 10.Data 12.Exp 13.Neg 14.Pat
+     |    |     |     |     |     |     |
+     |    +--+--+     |     +--+--+     |
+     |       |        |       |         |
+     |  11.Ratios     |       |         |
+     |       |        |       |         |
+     +---+---+--------+-------+---------+
+         |
+    15. Algebra & Equations
+         |
+    16. Functions
+         |
+    +----+----+-------+
+    |         |       |
+  17.Trig  18.Stats   |
+    |         |       |
+    +----+----+       |
+         |            |
+    19. Calculus ------+
+
+
+================================================================================
+WHY THIS ORDER? (CONCEPT CHAIN EXPLAINED)
+================================================================================
+
+STEP 1: COUNTING & NUMBER SENSE
+  What: Recognizing numbers, counting objects, comparing quantities
+  Why first: Everything in math starts with understanding numbers
+  Covers: Kindergarten → Grade 8
+
+STEP 2: ADDITION
+  What: Combining quantities, regrouping, multi-digit, decimal addition
+  Why next: First operation — extends counting by "how many altogether?"
+  Needs: Step 1 (you must know numbers to add them)
+
+STEP 3: SUBTRACTION
+  What: Taking away, finding differences, borrowing
+  Why next: Inverse of addition — "how many are left?"
+  Needs: Steps 1-2
+
+STEP 4: PLACE VALUE & DECIMALS
+  What: Ones/tens/hundreds, expanded form, decimal notation
+  Why next: Needed before multi-digit multiplication/division
+  Needs: Steps 1-3
+
+STEP 5: MULTIPLICATION
+  What: Repeated addition, times tables, multi-digit, properties
+  Why next: Builds on addition, needs place value for large numbers
+  Needs: Steps 1-4
+
+STEP 6: DIVISION
+  What: Sharing equally, long division, remainders
+  Why next: Inverse of multiplication
+  Needs: Steps 1-5
+
+STEP 7: FRACTIONS
+  What: Parts of wholes, equivalent fractions, fraction operations
+  Why next: Combines division concept with place value understanding
+  Needs: Steps 4-6 (fractions ARE division: 3/4 means 3 ÷ 4)
+
+STEP 8: MEASUREMENT, MONEY & TIME
+  What: Length, weight, volume, coins, clocks, unit conversion
+  Why here: Applies basic operations to real-world contexts
+  Needs: Steps 1-6 (measurement uses all four operations)
+  Note: Practical topic — can be studied alongside Steps 5-7
+
+STEP 9: GEOMETRY
+  What: Shapes, angles, area, volume, transformations, proofs
+  Why next: Applies all prior arithmetic to spatial reasoning
+  Needs: Steps 1-8 (area = multiplication, perimeter = addition)
+
+STEP 10: DATA & GRAPHS
+  What: Bar graphs, line plots, histograms, scatter plots
+  Why here: Reading and creating data displays uses counting and operations
+  Needs: Steps 1-6 (basic operations for interpreting data)
+  Note: Can be studied alongside Steps 7-9
+
+STEP 11: RATIOS, RATES & PROPORTIONS
+  What: Comparing quantities, unit rates, proportional reasoning
+  Why next: Bridge between arithmetic and algebra
+  Needs: Steps 5-7 (ratios are fractions in context)
+
+STEP 12: EXPONENTS & RADICALS
+  What: Powers, exponent rules, roots, scientific notation
+  Why here: Extends multiplication to repeated multiplication
+  Needs: Steps 5-6 (exponents are repeated multiplication)
+  Note: Can be studied alongside Steps 11, 13, 14
+
+STEP 13: NEGATIVE NUMBERS
+  What: Number line, ordering, operations with negatives
+  Why here: Extends the number system below zero
+  Needs: Steps 1-6 (all four operations, now with sign rules)
+  Note: Can be studied alongside Steps 11, 12, 14
+
+STEP 14: PATTERNS & SEQUENCES
+  What: Shape patterns, number patterns, sequences, series
+  Why here: Bridge from arithmetic patterns to algebraic thinking
+  Needs: Steps 1-6 (patterns use operations and number sense)
+
+STEP 15: ALGEBRA & EQUATIONS
+  What: Variables, expressions, linear/quadratic/polynomial equations
+  Why next: Generalizes ALL prior arithmetic into abstract reasoning
+  Needs: Steps 1-14 (algebra is arithmetic with unknowns)
+
+STEP 16: FUNCTIONS
+  What: Input/output, graphing, function types, transformations
+  Why next: Formalizes algebraic relationships as mappings
+  Needs: Step 15 (functions are equations with structure)
+
+STEP 17: TRIGONOMETRY
+  What: Sine/cosine/tangent, unit circle, identities, graphing
+  Why next: Connects geometry (triangles) with algebra (functions)
+  Needs: Steps 9, 15-16 (trig = geometry + functions)
+
+STEP 18: STATISTICS & PROBABILITY
+  What: Data analysis, distributions, inference, combinatorics
+  Why here: Needs fractions, ratios, data skills, and some algebra
+  Needs: Steps 7, 10-11, 15
+  Note: Can be studied alongside Steps 16-17
+
+STEP 19: CALCULUS
+  What: Limits, derivatives, integrals, series, multivariable
+  Why last: Combines ALL previous topics at the highest level
+  Needs: Steps 15-17 (requires strong algebra, functions, and trig)
+
+
+================================================================================
+HOW TO USE by_topics vs by_grade
+================================================================================
+
+  by_grade/ files answer:  "I'm in Grade 7 — what should I practice?"
+  by_topics/ files answer: "I want to master fractions from K to college."
+
+USE by_topics WHEN:
+  - You're weak in one area and want to trace it from the beginning
+  - You want to see how a concept evolves across all grade levels
+  - You're an adult learner filling in gaps
+  - You're a tutor mapping a student's skill gaps
+
+USE by_grade WHEN:
+  - You're following a school curriculum grade by grade
+  - You want exact Khan Academy exercise names to practice
+  - You need quizzes and unit tests listed
+  - You want a complete course, not just one topic
+
+
+================================================================================
+SOURCE: Khan Academy (www.khanacademy.org) — ALL FREE
+TOTAL TOPIC FILES: 19
+================================================================================

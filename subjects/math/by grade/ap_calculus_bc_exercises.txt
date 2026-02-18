@@ -1,0 +1,327 @@
+================================================================================
+KHAN ACADEMY - AP CALCULUS BC
+Complete Learn & Practice Guide
+================================================================================
+
+Course: AP®/College Calculus BC
+Level: AP/College
+Units: 12
+Skills: 205
+Mastery Points: 20,500
+Source: https://www.khanacademy.org/math/ap-calculus-bc
+
+Note: AP Calculus BC includes ALL content from AP Calculus AB (Units 1-8)
+plus additional topics in Units 9-10 below.
+
+================================================================================
+UNIT 1: LIMITS AND CONTINUITY (Same as AP Calculus AB Unit 1)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Defining limits and using limit notation
+- Estimating limit values from graphs and tables
+- Determining limits using algebraic properties
+- Direct substitution, algebraic manipulation
+- Squeeze theorem
+- Types of discontinuities and continuity
+- Infinite limits and limits at infinity
+- Intermediate value theorem
+
+PRACTICE ITEMS: Limits intro, Estimating limits from graphs, One-sided limits,
+Creating tables for approximating limits, Estimating limits from tables,
+Limits of combined functions, Limits of composite functions, Direct substitution,
+Limits of trigonometric functions, Limits of piecewise functions, Limits by factoring,
+Limits using conjugates, Limits using trig identities, Strategy in finding limits,
+Squeeze theorem, Classify discontinuities, Continuity at a point (graphical/algebraic),
+Continuity over an interval, Removable discontinuities, Infinite limits (graphical/algebraic),
+Limits at infinity (graphical), Limits at infinity of quotients, Intermediate value theorem
+
+ASSESSMENT: 6 Quizzes + Unit test
+
+================================================================================
+UNIT 2: DIFFERENTIATION: DEFINITION AND BASIC DERIVATIVE RULES (Same as AB Unit 2)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Average and instantaneous rates of change
+- Formal derivative definition
+- Estimating derivatives
+- Differentiability and continuity
+- Power rule, derivative rules
+- Derivatives of trig functions, eˣ, ln(x)
+- Product rule, quotient rule
+
+PRACTICE ITEMS: Secant lines, Derivative as slope, Tangent line equations,
+Derivative as a limit, Estimate derivatives, Power rule variations,
+Basic derivative rules, Polynomials, Trigonometric derivatives,
+Product rule, Quotient rule, Rational functions
+
+ASSESSMENT: 3 Quizzes + Unit test
+
+================================================================================
+UNIT 3: DIFFERENTIATION: COMPOSITE, IMPLICIT, AND INVERSE FUNCTIONS (Same as AB Unit 3)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Chain rule (introduction and further practice)
+- Implicit differentiation
+- Differentiating inverse functions and inverse trig
+- Selecting derivative procedures, higher-order derivatives
+- Second derivatives, disguised derivatives
+
+PRACTICE ITEMS: Composite functions, Chain rule, Implicit differentiation,
+Inverse functions, Inverse trig functions, Multiple rules strategy,
+Second derivatives, Disguised derivatives
+
+ASSESSMENT: 3 Quizzes + Unit test
+
+================================================================================
+UNIT 4: CONTEXTUAL APPLICATIONS OF DIFFERENTIATION (Same as AB Unit 4)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Interpreting derivatives in context
+- Motion problems, rates of change
+- Related rates, local linearity
+- L'Hôpital's rule
+
+PRACTICE ITEMS: Derivative in context, Motion graphs, Motion problems,
+Non-motion applications, Related rates (basic through advanced),
+Local linearity, L'Hôpital's rule (0/0 and ∞/∞)
+
+ASSESSMENT: 3 Quizzes + Unit test
+
+================================================================================
+UNIT 5: APPLYING DERIVATIVES TO ANALYZE FUNCTIONS (Same as AB Unit 5)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Mean value theorem
+- Critical points, increasing/decreasing intervals
+- First and second derivative tests
+- Concavity, inflection points
+- Curve sketching, optimization
+- Implicit relation behaviors
+
+PRACTICE ITEMS: Mean value theorem, Critical points, Intervals,
+Relative and absolute extrema, Concavity, Inflection points,
+Second derivative test, Optimization, Implicit relations,
+Calculator-active analysis
+
+ASSESSMENT: 5 Quizzes + Unit test
+
+================================================================================
+UNIT 6: INTEGRATION AND ACCUMULATION OF CHANGE (Expanded from AB Unit 6)
+================================================================================
+
+Includes all AB Unit 6 content PLUS:
+
+Additional BC-only topics:
+- Integration by parts
+- Integration with partial fractions
+- Improper integrals
+
+PRACTICE ITEMS (includes all AB items plus):
+   PRACTICE: Integration by parts
+   PRACTICE: Integration by parts: definite integrals
+   PRACTICE: Integration with partial fractions
+   PRACTICE: Improper integrals
+
+ASSESSMENT: 6 Quizzes + Unit test
+
+================================================================================
+UNIT 7: DIFFERENTIAL EQUATIONS (Expanded from AB Unit 7)
+================================================================================
+
+Includes all AB Unit 7 content PLUS:
+
+Additional BC-only topics:
+- Euler's method
+- Logistic models with differential equations
+
+PRACTICE ITEMS (includes all AB items plus):
+   PRACTICE: Euler's method
+   PRACTICE: Differential equations: logistic model word problems
+
+ASSESSMENT: 2 Quizzes + Unit test
+
+================================================================================
+UNIT 8: APPLICATIONS OF INTEGRATION (Same as AB Unit 8)
+================================================================================
+
+See AP Calculus AB for full details on:
+- Average value of a function
+- Motion with integrals
+- Applied definite integrals
+- Area between curves (functions of x and y)
+- Cross section volumes
+- Disc and washer methods
+
+PRACTICE ITEMS: Average value, Motion problems, Definite integrals in context,
+Area between curves, Cross section volumes, Disc method, Washer method,
+Calculator-active applications
+
+ASSESSMENT: 4 Quizzes + Unit test
+
+================================================================================
+UNIT 9: PARAMETRIC EQUATIONS, POLAR COORDINATES, AND VECTOR-VALUED FUNCTIONS
+(BC ONLY)
+================================================================================
+
+1. Defining and differentiating parametric equations
+   LEARN: Video - Parametric equations intro
+   LEARN: Video - Differentiating parametric equations
+   PRACTICE: Parametric equations differentiation
+
+2. Second derivatives of parametric equations
+   LEARN: Video - Second derivatives of parametric functions
+   PRACTICE: Second derivatives (parametric functions)
+
+3. Finding arc lengths of curves given by parametric equations
+   LEARN: Video - Parametric curve arc length
+   PRACTICE: Parametric curve arc length
+
+ASSESSMENT: Parametric, polar, vectors - Quiz 1
+
+4. Defining and differentiating vector-valued functions
+   LEARN: Video - Vector-valued functions
+   PRACTICE: Vector-valued functions differentiation
+   PRACTICE: Second derivatives (vector-valued functions)
+
+5. Solving motion problems using parametric and vector-valued functions
+   LEARN: Video - Planar motion
+   PRACTICE: Planar motion (differential calc)
+   PRACTICE: Motion along a curve (differential calc)
+   PRACTICE: Planar motion (with integrals)
+
+ASSESSMENT: Parametric, polar, vectors - Quiz 2
+
+6. Defining polar coordinates and differentiating in polar form
+   LEARN: Video - Polar coordinates
+   PRACTICE: Differentiate polar functions
+   PRACTICE: Tangents to polar curves
+
+7. Finding the area of a polar region or the area bounded by a single polar curve
+   LEARN: Video - Area in polar coordinates
+   PRACTICE: Area bounded by polar curves intro
+   PRACTICE: Area bounded by polar curves
+
+8. Finding the area of the region bounded by two polar curves
+   LEARN: Video - Area between polar curves
+   PRACTICE: Area between two polar curves
+
+9. Calculator-active practice
+   PRACTICE: Area with polar functions (calculator-active)
+
+ASSESSMENT: Parametric, polar, vectors - Quiz 3
+ASSESSMENT: Parametric, polar, vectors - Unit test
+
+================================================================================
+UNIT 10: INFINITE SEQUENCES AND SERIES (BC ONLY)
+================================================================================
+
+10. Defining convergent and divergent infinite series
+    LEARN: Video - Convergent and divergent sequences
+    PRACTICE: Sequence convergence/divergence
+    PRACTICE: Partial sums intro
+
+11. Working with geometric series
+    LEARN: Video - Geometric series
+    PRACTICE: Geometric series convergence & sums
+    PRACTICE: Geometric series word problems
+
+12. The nth-term test for divergence
+    LEARN: Video - nth-term test
+    PRACTICE: nth-term divergence test
+
+ASSESSMENT: Infinite sequences and series - Quiz 1
+
+13. Integral test for convergence
+    LEARN: Video - Integral test
+    PRACTICE: Integral test
+
+14. Harmonic series and p-series
+    LEARN: Video - p-series
+    PRACTICE: p-series
+
+15. Comparison tests for convergence
+    LEARN: Video - Comparison tests
+    PRACTICE: Comparison tests
+    PRACTICE: Limit comparison test
+
+16. Alternating series test for convergence
+    LEARN: Video - Alternating series test
+    PRACTICE: Alternating series test
+
+17. Ratio test for convergence
+    LEARN: Video - Ratio test
+    PRACTICE: Ratio test
+
+18. Determining absolute or conditional convergence
+    LEARN: Video - Absolute vs conditional convergence
+    PRACTICE: Absolute vs conditional convergence
+
+ASSESSMENT: Infinite sequences and series - Quiz 2
+
+19. Alternating series error bound
+    LEARN: Video - Alternating series error bound
+    PRACTICE: Alternating series error bound
+
+20. Finding Taylor polynomial approximations of functions
+    LEARN: Video - Taylor polynomials
+    PRACTICE: Taylor & Maclaurin polynomials intro
+
+21. Lagrange error bound
+    LEARN: Video - Lagrange error bound
+    PRACTICE: Lagrange error bound
+
+22. Finding Taylor or Maclaurin series for a function
+    LEARN: Video - Taylor and Maclaurin series
+    PRACTICE: Taylor/Maclaurin series of common functions
+
+23. Representing functions as power series
+    LEARN: Video - Power series
+    PRACTICE: Radius and interval of convergence of power series
+    PRACTICE: Integrals & derivatives of functions with known power series
+
+ASSESSMENT: Infinite sequences and series - Quiz 3
+ASSESSMENT: Infinite sequences and series - Unit test
+
+================================================================================
+UNIT 11: AP CALCULUS BC SOLVED FREE RESPONSE QUESTIONS
+================================================================================
+
+24. AP Calculus BC 2017 free response
+    LEARN: Video - 2017 exam solutions
+
+25. AP Calculus BC 2015 free response
+    LEARN: Video - 2015 exam solutions
+
+26. AP Calculus BC 2011 free response
+    LEARN: Video - 2011 exam solutions
+
+27. AP Calculus BC 2008 free response
+    LEARN: Video - 2008 exam solutions
+
+================================================================================
+UNIT 12: AP CALCULUS BC STANDARDS MAPPINGS
+================================================================================
+
+28. Standards alignment
+    LEARN: Article - See how content aligns with AP Calculus BC standards
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in AP Calculus BC
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 12 (10 content + solved exams + standards)
+Total Skills: 205
+Total Mastery Points: 20,500
+Total Assessments: ~25 quizzes + 10 unit tests + 1 course challenge
+AP® is a registered trademark of the College Board
+================================================================================

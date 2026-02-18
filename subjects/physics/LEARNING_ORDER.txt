@@ -1,0 +1,145 @@
+PHYSICS LEARNING ORDER - CONCEPTUAL CHAIN
+==========================================
+Which course to study first? Follow this numbered path.
+
+================================================================================
+RECOMMENDED LEARNING ORDER
+================================================================================
+
+STEP  COURSE                 FILE                          MATH PREREQUISITE
+----  ------                 ----                          -----------------
+ 1    Middle School Physics  middle_school_physics.txt      Grade 6-7 math
+ 2    High School Physics    high_school_physics.txt        Algebra 1
+ 3    AP Physics 1           ap_physics_1.txt               Algebra 2 + Trig
+ 4    AP Physics 2           ap_physics_2.txt               Algebra 2 + Trig
+
+
+================================================================================
+VISUAL PROGRESSION MAP
+================================================================================
+
+  Middle School Physics  (motion basics, forces intro, energy, waves)
+         |
+         |  needs: Algebra 1
+         v
+  High School Physics    (kinematics, Newton's laws, momentum, E&M intro)
+         |
+         |  needs: Algebra 2 + Trigonometry
+         |
+    +----+----+
+    |         |
+    v         v
+AP Physics 1     AP Physics 2
+(Mechanics)      (E&M, Thermo, Optics, Modern)
+  - Kinematics     - Thermodynamics
+  - Forces         - Electric force/field/potential
+  - Work/Energy    - Circuits
+  - Momentum       - Magnetism
+  - Torque         - Geometric optics
+  - Rotation       - Waves & sound
+  - Oscillations   - Modern physics
+  - Fluids
+
+
+================================================================================
+CONCEPT CHAIN - WHAT BUILDS ON WHAT
+================================================================================
+
+STEP 1: MIDDLE SCHOOL PHYSICS
+  What you learn:
+    - What is motion? Speed, velocity, acceleration (qualitative)
+    - Forces: pushes, pulls, friction, gravity (conceptual)
+    - Energy: kinetic, potential, conservation (intro)
+    - Waves: properties, light, sound (intro)
+  Why first:
+    - Builds intuition before math-heavy physics
+    - No algebra required, just arithmetic
+
+STEP 2: HIGH SCHOOL PHYSICS
+  What you learn:
+    - Kinematics equations (d = vt, v = at, etc.)
+    - Newton's 3 laws (quantitative)
+    - Momentum and collisions
+    - Gravitational force (F = Gm1m2/r^2)
+    - Electrostatics intro
+    - Energy conservation with numbers
+    - Electromagnetic radiation
+    - Nuclear physics intro
+  Why second:
+    - Applies algebra to the concepts from Step 1
+    - First time doing physics with real equations
+
+STEP 3: AP PHYSICS 1 (Mechanics deep dive)
+  What you learn:
+    - Kinematics in 2D (projectile motion)
+    - Free body diagrams and complex force problems
+    - Work, energy, power (with calculus concepts)
+    - Impulse-momentum theorem
+    - Torque and rotational dynamics
+    - Simple harmonic motion and oscillations
+    - Fluid mechanics (pressure, buoyancy)
+  Why third:
+    - Deepens the mechanics from Step 2
+    - College-level rigor and problem-solving
+    - Requires strong algebra and trigonometry
+
+STEP 4: AP PHYSICS 2 (Everything else)
+  What you learn:
+    - Thermodynamics (heat, entropy, ideal gas law)
+    - Electric fields and Gauss's law
+    - Electric potential and capacitors
+    - DC circuits (Kirchhoff's laws)
+    - Magnetic fields and electromagnetic induction
+    - Geometric and physical optics
+    - Quantum phenomena and nuclear physics
+  Why last:
+    - Most abstract topics in introductory physics
+    - Builds on E&M concepts from Steps 2-3
+    - Requires comfort with physics problem-solving
+
+
+================================================================================
+MATH YOU NEED FOR EACH STEP
+================================================================================
+
+Step 1 (Middle School Physics):
+  - Arithmetic, fractions, decimals
+  - Basic graphing (reading charts)
+  - Ratios and proportions
+
+Step 2 (High School Physics):
+  - Algebra 1 (solving equations, graphing lines)
+  - Basic geometry (angles, area)
+  - Scientific notation
+
+Step 3 (AP Physics 1):
+  - Algebra 2 (quadratics, systems of equations)
+  - Trigonometry (sin, cos, tan, vectors)
+  - Comfortable manipulating equations
+
+Step 4 (AP Physics 2):
+  - Same as Step 3
+  - Basic understanding of logarithms (helpful)
+  - Exponential functions (helpful)
+
+
+================================================================================
+NOTES
+================================================================================
+
+1. AP Physics 1 and AP Physics 2 can technically be taken in either order.
+   However, AP Physics 1 (mechanics) is recommended first because:
+   - Mechanics concepts (force, energy) appear everywhere in physics
+   - Problem-solving skills transfer to AP Physics 2
+   - Most schools teach them in this order
+
+2. These are all ALGEBRA-BASED physics courses. Khan Academy does not
+   currently offer calculus-based physics (the equivalent of university
+   Physics I & II for science/engineering majors).
+
+3. If you want calculus-based physics, study AP Calculus AB/BC alongside
+   or before AP Physics 1 & 2.
+
+4. Khan Academy also has a separate "Cosmology and Astronomy" course
+   under science, but it is not included here as it is not part of the
+   core physics curriculum.

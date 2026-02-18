@@ -1,0 +1,224 @@
+FRACTIONS
+=========
+Complete Topic Progression: Grade 1 → Precalculus
+Source: Khan Academy (exercises from by_grade files)
+
+Fractions are among the most CRITICAL topics in math. They appear
+from Grade 1 (halves, fourths) through college (rational functions).
+Requires multiplication (05) and division (06) as foundations.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 4 (partial)
+
+1. LEARN: Video - Equal parts
+   PRACTICE: Identify halves and fourths
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Unit 8 (partial)
+
+1. PRACTICE: Equal parts of circles and rectangles
+2. PRACTICE: Recognizing fractions (halves, thirds, fourths)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Units 6, 7
+
+Unit 6: Understanding Fractions
+1. PRACTICE: What fractions mean
+2. PRACTICE: Fractions on the number line
+3. PRACTICE: Fractions of a group
+4. PRACTICE: Comparing fractions with same numerator
+5. PRACTICE: Comparing fractions with same denominator
+6. PRACTICE: Comparing fractions
+7. PRACTICE: Equivalent fractions
+
+Unit 7: Equivalent Fractions and Comparing
+8. PRACTICE: Finding equivalent fractions
+9. PRACTICE: Simplifying fractions
+10. PRACTICE: Comparing fractions using benchmarks
+11. PRACTICE: Comparing and ordering fractions
+12. PRACTICE: Whole numbers as fractions
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Units 6, 7, 8, 9
+
+Unit 6: Equivalent Fractions and Comparing
+1. PRACTICE: Equivalent fractions
+2. PRACTICE: Common denominators
+3. PRACTICE: Comparing fractions with unlike denominators
+4. PRACTICE: Ordering fractions
+
+Unit 7: Adding and Subtracting Fractions
+5. PRACTICE: Decomposing fractions
+6. PRACTICE: Adding fractions with like denominators
+7. PRACTICE: Subtracting fractions with like denominators
+8. PRACTICE: Adding and subtracting fractions word problems
+9. PRACTICE: Mixed numbers
+10. PRACTICE: Adding mixed numbers
+11. PRACTICE: Subtracting mixed numbers
+
+Unit 8: Multiplying Fractions
+12. PRACTICE: Multiplying fractions by whole numbers
+13. PRACTICE: Multiplying fractions by whole numbers word problems
+14. PRACTICE: Mixed numbers as improper fractions
+
+Unit 9: Fractions and Decimals
+15. PRACTICE: Fractions with denominators of 10 and 100
+16. PRACTICE: Converting fractions to decimals
+17. PRACTICE: Converting decimals to fractions
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Units 3, 4, 5, 7
+
+Unit 3: Add and Subtract Fractions
+1. PRACTICE: Finding common denominators
+2. PRACTICE: Adding fractions with unlike denominators
+3. PRACTICE: Subtracting fractions with unlike denominators
+4. PRACTICE: Adding and subtracting mixed numbers
+5. PRACTICE: Fraction addition and subtraction word problems
+
+Unit 4: Add and Subtract Fractions (continued)
+6. PRACTICE: Adding and subtracting fractions review
+7. PRACTICE: Estimating with fractions
+
+Unit 5: Multiply Fractions
+8. PRACTICE: Multiplying fractions
+9. PRACTICE: Multiplying mixed numbers
+10. PRACTICE: Area with fractions
+11. PRACTICE: Fraction multiplication word problems
+
+Unit 7: Divide Fractions
+12. PRACTICE: Fractions as division
+13. PRACTICE: Dividing unit fractions by whole numbers
+14. PRACTICE: Dividing whole numbers by unit fractions
+15. PRACTICE: Dividing fractions word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2 (partial)
+
+1. PRACTICE: Dividing fractions by fractions
+2. PRACTICE: Dividing mixed numbers
+3. PRACTICE: Fraction division word problems
+4. PRACTICE: GCF and LCM
+
+ASSESSMENT: (within unit assessment)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Unit 2 (partial)
+
+1. PRACTICE: Rate problems with fractions
+2. PRACTICE: Operations with fractions (review)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1
+Source: algebra_1_exercises.txt → Units 13, 14 (partial)
+
+1. PRACTICE: Factoring quadratics (relates to fraction operations)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Unit 9: Rational Functions
+
+1. PRACTICE: Cancelling common factors
+2. PRACTICE: Multiplying and dividing rational expressions
+3. PRACTICE: Adding and subtracting rational expressions
+4. PRACTICE: Graphs of rational functions
+5. PRACTICE: End behavior of rational functions
+6. PRACTICE: Discontinuities of rational functions
+7. PRACTICE: Modeling with rational functions
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS
+Source: precalculus_exercises.txt → Unit 3 (partial)
+
+1. PRACTICE: Rational equations
+2. PRACTICE: Partial fractions
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental — 57 exercises)
+Source: arithmetic_exercises.txt → Units 8, 9, 10, 11, 12, 13, 14
+
+Unit 8: Fraction Basics
+1. PRACTICE: Intro to fractions
+2. PRACTICE: Fractions on the number line
+3. PRACTICE: Comparing fractions (same denominator)
+4. PRACTICE: Comparing fractions (same numerator)
+5. PRACTICE: Comparing fractions (benchmarks)
+6. PRACTICE: Ordering fractions
+7. PRACTICE: Equivalent fractions
+8. PRACTICE: Simplifying fractions
+
+Unit 9: Fraction Operations — Add & Subtract
+9. PRACTICE: Adding fractions (like denominators)
+10. PRACTICE: Subtracting fractions (like denominators)
+11. PRACTICE: Finding common denominators
+12. PRACTICE: Adding fractions (unlike denominators)
+13. PRACTICE: Subtracting fractions (unlike denominators)
+14. PRACTICE: Adding mixed numbers
+15. PRACTICE: Subtracting mixed numbers
+16. PRACTICE: Fraction add/subtract word problems
+
+Unit 10: Fraction Operations — Multiply
+17. PRACTICE: Multiplying fractions by whole numbers
+18. PRACTICE: Multiplying fractions
+19. PRACTICE: Multiplying mixed numbers
+20. PRACTICE: Area with fractions
+21. PRACTICE: Fraction multiplication word problems
+
+Unit 11: Fraction Operations — Divide
+22. PRACTICE: Dividing fractions by whole numbers
+23. PRACTICE: Dividing whole numbers by fractions
+24. PRACTICE: Dividing fractions by fractions
+25. PRACTICE: Dividing mixed numbers
+26. PRACTICE: Reciprocals
+27. PRACTICE: Fraction division word problems
+
+Unit 12: Mixed Fraction Operations
+28. PRACTICE: Mixed fraction operations
+29. PRACTICE: Order of operations with fractions
+30. PRACTICE: Fraction word problems (all operations)
+
+Unit 13: Decimals and Fractions Connection
+31. PRACTICE: Converting fractions to decimals
+32. PRACTICE: Converting decimals to fractions
+33. PRACTICE: Repeating decimals as fractions
+34. PRACTICE: Comparing fractions and decimals
+
+Unit 14: Fractions, Decimals, and Percents
+35. PRACTICE: Converting fractions to percents
+36. PRACTICE: Converting percents to fractions
+37. PRACTICE: Fraction/decimal/percent equivalents
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 11_ratios_rates_proportions.txt (ratios are fractions in context)
+→ 15_algebra_and_equations.txt (algebraic fractions)
+→ 19_calculus.txt (partial fractions in integration)

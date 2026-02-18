@@ -1,0 +1,175 @@
+KHAN ACADEMY - TOPIC-BASED INDEX
+=================================
+Complete Math Curriculum Organized by Topic
+KINDERGARTEN → COLLEGE LEVEL
+
+This folder contains Khan Academy's math curriculum organized by TOPIC
+rather than by grade level. Each file shows the complete progression of
+that topic from its earliest introduction through advanced levels, with
+ACTUAL exercise names from Khan Academy.
+
+================================================================================
+AVAILABLE TOPIC FILES (19 COMPREHENSIVE FILES)
+================================================================================
+
+01. counting_and_number_sense.txt
+    Coverage: Kindergarten → Grade 8
+    Topics: Counting 1-120, skip counting, even/odd, rounding,
+            irrational numbers, scientific notation
+    Exercises: 40+
+
+02. addition.txt
+    Coverage: Kindergarten → Grade 6
+    Topics: Sums to 5 → multi-digit → decimal addition
+    Exercises: 30+
+
+03. subtraction.txt
+    Coverage: Kindergarten → Grade 6
+    Topics: Within 5 → multi-digit → decimal subtraction
+    Exercises: 25+
+
+04. place_value_and_decimals.txt
+    Coverage: Kindergarten → Grade 8
+    Topics: Place value, expanded form, decimals, rounding,
+            scientific notation + Arithmetic course supplements
+    Exercises: 50+
+
+05. multiplication.txt
+    Coverage: Grade 3 → Algebra 2
+    Topics: Times tables → multi-digit → fractions → polynomials
+            + 49 Arithmetic course exercises
+    Exercises: 80+
+
+06. division.txt
+    Coverage: Grade 3 → Algebra 2
+    Topics: Basic division → long division → fractions → polynomials
+            + 34 Arithmetic course exercises
+    Exercises: 65+
+
+07. fractions.txt
+    Coverage: Grade 1 → Precalculus
+    Topics: Halves/fourths → operations → rational functions
+            + 57 Arithmetic course exercises
+    Exercises: 100+
+
+08. measurement_money_and_time.txt                          ★ NEW
+    Coverage: Kindergarten → Grade 5
+    Topics: Length, weight, volume, money, time, unit conversion
+            + Basic Geometry course exercises
+    Exercises: 45+
+
+09. geometry.txt
+    Coverage: Kindergarten → High School Geometry
+    Topics: Shapes → area/perimeter → transformations → proofs
+            → conic sections → constructions
+            + 106 Basic Geometry course exercises
+    Exercises: 180+
+
+10. data_and_graphs.txt                                     ★ NEW
+    Coverage: Grade 1 → Grade 8
+    Topics: Bar graphs → line plots → histograms → scatter plots
+            → two-way tables
+    Exercises: 30+
+
+11. ratios_rates_proportions.txt
+    Coverage: Grade 6 → Grade 7
+    Topics: Ratios → unit rates → proportions → percent
+            + Pre-Algebra and Arithmetic supplements
+    Exercises: 55+
+
+12. exponents_and_radicals.txt                              ★ NEW
+    Coverage: Grade 5 → Algebra 2
+    Topics: Powers of 10 → exponent rules → negative exponents
+            → radicals → rational exponents
+    Exercises: 40+
+
+13. negative_numbers.txt                                    ★ NEW
+    Coverage: Grade 6 → Grade 7
+    Topics: Number line → ordering → operations with negatives
+            + Pre-Algebra and Arithmetic supplements
+    Exercises: 35+
+
+14. patterns_and_sequences.txt                              ★ NEW
+    Coverage: Kindergarten → Precalculus
+    Topics: Shape patterns → number patterns → arithmetic/geometric
+            sequences → series → sigma notation
+    Exercises: 25+
+
+15. algebra_and_equations.txt
+    Coverage: Grade 5 → College Algebra
+    Topics: Variables → expressions → linear → quadratic → polynomial
+            → systems → logarithms + Pre-Algebra supplements
+    Exercises: 200+
+
+16. functions.txt
+    Coverage: Grade 8 → Precalculus
+    Topics: Function intro → transformations → polynomial/rational
+            → exponential/log → vectors → matrices
+    Exercises: 75+
+
+17. trigonometry.txt
+    Coverage: Geometry → Calculus 2
+    Topics: Right triangle ratios → unit circle → identities
+            → graphing → trig calculus + standalone Trig course
+    Exercises: 50+
+
+18. statistics_and_probability.txt
+    Coverage: Grade 7 → AP Statistics
+    Topics: Probability → distributions → inference → regression
+            + Statistics course (75 exercises) + AP Statistics (47 exercises)
+    Exercises: 130+
+
+19. calculus.txt
+    Coverage: Precalculus → Calculus 3
+    Topics: Limits → derivatives → integrals → series → multivariable
+            + AP Calculus AB (79) + AP Calculus BC (26 additional)
+    Exercises: 250+
+
+================================================================================
+TOTAL CURRICULUM COVERAGE
+================================================================================
+
+Total Topic Files:    19
+Total Exercises:     1,500+
+Grade Range:         Kindergarten → Advanced College
+★ New Files Added:   5 (topics 08, 10, 12, 13, 14)
+
+Subjects Covered:
+  ✓ Elementary Math (K-5)
+  ✓ Middle School Math (6-8)
+  ✓ High School Math (Algebra 1, Geometry, Algebra 2)
+  ✓ Advanced High School (Pre-Calculus, Trigonometry)
+  ✓ College Math (Calculus 1-3, Statistics, Linear Algebra)
+  ✓ AP Courses (AP Calculus AB/BC, AP Statistics)
+
+================================================================================
+HOW TO USE THESE FILES
+================================================================================
+
+SCENARIO 1: Learning a specific topic from scratch
+  → Open the topic file, start at the earliest grade, progress upward.
+
+SCENARIO 2: Filling knowledge gaps
+  → Open the topic file, scan for your grade level, drop back if needed.
+
+SCENARIO 3: Seeing the big picture
+  → Read LEARNING_ORDER.txt for the dependency chain between topics.
+
+SCENARIO 4: College-level preparation
+  → Focus on files 15-19 (Algebra, Functions, Trig, Stats, Calculus).
+
+================================================================================
+CROSS-REFERENCE WITH GRADE-BASED FILES
+================================================================================
+
+The ../by grade/ folder contains grade-based files.
+
+  by_grade/ → "I'm in Grade 7 — what should I practice?"
+  by_topics/ → "I want to master fractions from K to college."
+
+See LEARNING_ORDER.txt for the recommended study sequence.
+
+================================================================================
+SOURCE: Khan Academy (www.khanacademy.org) — ALL FREE
+TOTAL FILES: 19 comprehensive topic files + this index + LEARNING_ORDER.txt
+================================================================================

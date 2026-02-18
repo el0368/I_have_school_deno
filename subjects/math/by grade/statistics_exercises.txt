@@ -1,0 +1,382 @@
+KHAN ACADEMY - STATISTICS & PROBABILITY (COLLEGE)
+=================================================
+Complete Learn & Practice List by Unit
+
+================================================================================
+UNIT 1: ANALYZING CATEGORICAL DATA
+================================================================================
+
+1. Analyzing one categorical variable
+   LEARN: Video - Frequency tables and bar charts
+   PRACTICE: Summarize categorical data
+
+2. Two-way tables
+   LEARN: Video - Contingency tables
+   PRACTICE: Analyze two-way tables
+
+3. Distributions in two-way tables
+   LEARN: Video - Marginal and conditional distributions
+   PRACTICE: Calculate distributions
+
+================================================================================
+UNIT 2: DISPLAYING AND COMPARING QUANTITATIVE DATA
+================================================================================
+
+1. Displaying quantitative data with graphs
+   LEARN: Video - Dot plots, histograms, box plots
+   PRACTICE: Create and interpret graphs
+
+2. Describing and comparing distributions
+   LEARN: Video - Shape, center, spread
+   PRACTICE: Compare distributions
+
+3. More on data displays
+   LEARN: Video - Stem-and-leaf, cumulative frequency
+   PRACTICE: Use various displays
+
+================================================================================
+UNIT 3: SUMMARIZING QUANTITATIVE DATA
+================================================================================
+
+1. Measuring center in quantitative data
+   LEARN: Video - Mean, median, mode
+   PRACTICE: Calculate measures of center
+
+2. More on mean and median
+   LEARN: Video - When to use each
+   PRACTICE: Choose appropriate measure
+
+3. Interquartile range (IQR)
+   LEARN: Video - Q3 - Q1
+   PRACTICE: Calculate IQR
+
+4. Variance and standard deviation
+   LEARN: Video - Measures of spread
+   PRACTICE: Calculate variance and SD
+
+5. Box and whisker plots
+   LEARN: Video - Five-number summary
+   PRACTICE: Create and interpret box plots
+
+================================================================================
+UNIT 4: MODELING DATA DISTRIBUTIONS
+================================================================================
+
+1. Percentiles
+   LEARN: Video - Position in distribution
+   PRACTICE: Find and interpret percentiles
+
+2. Z-scores
+   LEARN: Video - z = (x - μ)/σ
+   PRACTICE: Calculate and interpret z-scores
+
+3. Effects of linear transformations
+   LEARN: Video - How transformations affect statistics
+   PRACTICE: Transform data
+
+4. Density curves
+   LEARN: Video - Smooth approximations
+   PRACTICE: Work with density curves
+
+5. Normal distributions and the empirical rule
+   LEARN: Video - 68-95-99.7 rule
+   PRACTICE: Apply empirical rule
+
+6. Normal distribution calculations
+   LEARN: Video - Using z-tables
+   PRACTICE: Find probabilities
+
+7. More on normal distributions
+   LEARN: Video - Applications
+   PRACTICE: Solve normal distribution problems
+
+================================================================================
+UNIT 5: EXPLORING BIVARIATE NUMERICAL DATA
+================================================================================
+
+1. Introduction to scatterplots
+   LEARN: Video - Plotting (x, y) pairs
+   PRACTICE: Create and interpret scatterplots
+
+2. Correlation coefficients
+   LEARN: Video - Measuring linear relationship (r)
+   PRACTICE: Calculate and interpret correlation
+
+3. Introduction to trend lines
+   LEARN: Video - Line of best fit
+   PRACTICE: Draw trend lines
+
+4. Least-squares regression
+   LEARN: Video - Minimizing squared residuals
+   PRACTICE: Find regression equations
+
+5. Assessing the fit of least-squares regression
+   LEARN: Video - Residual plots, r²
+   PRACTICE: Assess regression quality
+
+6. More on regression
+   LEARN: Video - Outliers, influential points
+   PRACTICE: Analyze regression issues
+
+================================================================================
+UNIT 6: STUDY DESIGN
+================================================================================
+
+1. Statistical questions
+   LEARN: Video - Formulating good questions
+   PRACTICE: Write statistical questions
+
+2. Sampling and observational studies
+   LEARN: Video - Data collection methods
+   PRACTICE: Design studies
+
+3. Sampling methods
+   LEARN: Video - Random, stratified, cluster, systematic
+   PRACTICE: Choose sampling methods
+
+4. Types of studies
+   LEARN: Video - Observational vs experimental
+   PRACTICE: Identify study types
+
+5. Scope of inference
+   LEARN: Video - Generalization and causation
+   PRACTICE: Determine scope of conclusions
+
+================================================================================
+UNIT 7: PROBABILITY
+================================================================================
+
+1. Basic probability
+   LEARN: Video - P(A) = favorable/total
+   PRACTICE: Calculate probabilities
+
+2. Probability using sample spaces
+   LEARN: Video - Listing all outcomes
+   PRACTICE: Use sample spaces
+
+3. Basic set operations
+   LEARN: Video - Union, intersection, complement
+   PRACTICE: Work with sets
+
+4. Experimental probability
+   LEARN: Video - Observed frequencies
+   PRACTICE: Calculate experimental probabilities
+
+5. Randomness, probability, and simulation
+   LEARN: Video - Modeling random phenomena
+   PRACTICE: Run simulations
+
+6. Addition rule
+   LEARN: Video - P(A or B) = P(A) + P(B) - P(A and B)
+   PRACTICE: Apply addition rule
+
+7. Multiplication rule for independent events
+   LEARN: Video - P(A and B) = P(A) × P(B)
+   PRACTICE: Calculate independent probabilities
+
+8. Multiplication rule for dependent events
+   LEARN: Video - P(A and B) = P(A) × P(B|A)
+   PRACTICE: Calculate dependent probabilities
+
+9. Conditional probability
+   LEARN: Video - P(A|B) = P(A and B)/P(B)
+   PRACTICE: Find conditional probabilities
+
+10. Independence
+    LEARN: Video - P(A|B) = P(A)
+    PRACTICE: Test for independence
+
+================================================================================
+UNIT 8: COUNTING, PERMUTATIONS, AND COMBINATIONS
+================================================================================
+
+1. Counting principle
+   LEARN: Video - Multiply choices
+   PRACTICE: Use counting principle
+
+2. Permutations
+   LEARN: Video - nPr = n!/(n-r)!
+   PRACTICE: Calculate permutations
+
+3. Combinations
+   LEARN: Video - nCr = n!/[r!(n-r)!]
+   PRACTICE: Calculate combinations
+
+4. Combinatorics and probability
+   LEARN: Video - Using counting in probability
+   PRACTICE: Solve probability problems
+
+================================================================================
+UNIT 9: RANDOM VARIABLES
+================================================================================
+
+1. Random variables
+   LEARN: Video - Discrete and continuous
+   PRACTICE: Identify random variables
+
+2. Discrete random variable distributions
+   LEARN: Video - Probability distributions
+   PRACTICE: Work with discrete distributions
+
+3. Expected value
+   LEARN: Video - E(X) = Σx·P(x)
+   PRACTICE: Calculate expected values
+
+4. Variance of random variables
+   LEARN: Video - Var(X) = E(X²) - [E(X)]²
+   PRACTICE: Calculate variance
+
+5. Binomial random variables
+   LEARN: Video - Fixed trials, two outcomes
+   PRACTICE: Work with binomial distribution
+
+6. Binomial mean and standard deviation
+   LEARN: Video - μ = np, σ = √(np(1-p))
+   PRACTICE: Calculate binomial statistics
+
+7. Geometric random variables
+   LEARN: Video - Trials until first success
+   PRACTICE: Work with geometric distribution
+
+8. More on expected value
+   LEARN: Video - Applications
+   PRACTICE: Solve expected value problems
+
+================================================================================
+UNIT 10: SAMPLING DISTRIBUTIONS
+================================================================================
+
+1. What is a sampling distribution?
+   LEARN: Video - Distribution of sample statistics
+   PRACTICE: Understand sampling distributions
+
+2. Sampling distribution of sample proportion
+   LEARN: Video - Distribution of p̂
+   PRACTICE: Work with proportion distributions
+
+3. Sampling distribution of sample mean
+   LEARN: Video - Distribution of x̄
+   PRACTICE: Work with mean distributions
+
+4. Central Limit Theorem
+   LEARN: Video - Sampling distribution approaches normal
+   PRACTICE: Apply CLT
+
+5. Biased and unbiased estimators
+   LEARN: Video - E(estimator) = parameter
+   PRACTICE: Identify bias
+
+================================================================================
+UNIT 11: CONFIDENCE INTERVALS
+================================================================================
+
+1. Introduction to confidence intervals
+   LEARN: Video - Interval estimates
+   PRACTICE: Interpret confidence intervals
+
+2. Confidence intervals for proportions
+   LEARN: Video - p̂ ± z*√(p̂(1-p̂)/n)
+   PRACTICE: Calculate proportion CIs
+
+3. Confidence intervals for means
+   LEARN: Video - x̄ ± t*·(s/√n)
+   PRACTICE: Calculate mean CIs
+
+4. More on confidence intervals
+   LEARN: Video - Margin of error, sample size
+   PRACTICE: Solve CI problems
+
+================================================================================
+UNIT 12: SIGNIFICANCE TESTS (HYPOTHESIS TESTING)
+================================================================================
+
+1. Idea of significance tests
+   LEARN: Video - Null and alternative hypotheses
+   PRACTICE: Set up hypothesis tests
+
+2. Error probabilities and power
+   LEARN: Video - Type I and Type II errors
+   PRACTICE: Understand error types
+
+3. Tests about a population proportion
+   LEARN: Video - z-test for proportions
+   PRACTICE: Test proportions
+
+4. Tests about a population mean
+   LEARN: Video - t-test for means
+   PRACTICE: Test means
+
+5. More on significance tests
+   LEARN: Video - P-values, conclusions
+   PRACTICE: Conduct and interpret tests
+
+================================================================================
+UNIT 13: TWO-SAMPLE INFERENCE
+================================================================================
+
+1. Comparing two proportions
+   LEARN: Video - Two-proportion z-test
+   PRACTICE: Compare proportions
+
+2. Comparing two means
+   LEARN: Video - Two-sample t-test
+   PRACTICE: Compare means
+
+3. More on two-sample inference
+   LEARN: Video - Paired vs independent
+   PRACTICE: Choose appropriate test
+
+================================================================================
+UNIT 14: INFERENCE FOR CATEGORICAL DATA (CHI-SQUARE)
+================================================================================
+
+1. Chi-square goodness-of-fit tests
+   LEARN: Video - Testing distribution fit
+   PRACTICE: Conduct goodness-of-fit tests
+
+2. Chi-square tests for relationships
+   LEARN: Video - Test of independence
+   PRACTICE: Test for independence in tables
+
+3. More on chi-square tests
+   LEARN: Video - Expected counts, conditions
+   PRACTICE: Solve chi-square problems
+
+================================================================================
+UNIT 15: ADVANCED REGRESSION (INFERENCE AND TRANSFORMING)
+================================================================================
+
+1. Inference about slope
+   LEARN: Video - t-test for slope
+   PRACTICE: Test regression slope
+
+2. Transforming to achieve linearity
+   LEARN: Video - Log and power transformations
+   PRACTICE: Transform non-linear data
+
+3. More on regression inference
+   LEARN: Video - Confidence and prediction intervals
+   PRACTICE: Make inferences from regression
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 15
+TOTAL LESSONS: 100+
+
+TOPICS COVERED:
+✓ Descriptive statistics
+✓ Probability
+✓ Random variables and distributions
+✓ Sampling distributions
+✓ Central Limit Theorem
+✓ Confidence intervals
+✓ Hypothesis testing
+✓ Two-sample inference
+✓ Chi-square tests
+✓ Regression inference
+
+PREREQUISITE: Algebra 2
+TYPICAL COURSE: AP Statistics or College Intro Statistics
+AP EXAM: AP Statistics
+================================================================================

@@ -1,0 +1,448 @@
+GEOMETRY
+========
+Complete Topic Progression: Kindergarten → High School Geometry
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces GEOMETRY from first shapes through formal proofs.
+For trigonometry see 17_trigonometry.txt.
+For coordinate geometry see also 15_algebra_and_equations.txt.
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 3 (partial)
+
+1. LEARN: Video - Basic 2D shapes (circle, square, triangle, rectangle)
+   PRACTICE: Identify shapes in pictures
+2. LEARN: Video - Above, below, beside, in front, behind
+   PRACTICE: Describe object positions
+3. LEARN: Video - Same and different shapes
+   PRACTICE: Match and sort shapes
+4. LEARN: Video - Making shapes from other shapes
+   PRACTICE: Build new shapes using basic shapes
+
+ASSESSMENT: Quiz 2 (Geometry), Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 3 (partial)
+
+1. LEARN: Video - 2D and 3D shapes
+   PRACTICE: Identify and name shapes
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Unit 8: Geometry
+
+1. PRACTICE: Identifying shapes
+2. PRACTICE: Classifying shapes
+3. PRACTICE: Analyzing shapes (including by angles)
+4. PRACTICE: Understanding equal parts of circles
+5. PRACTICE: Understanding equal parts of rectangles
+6. PRACTICE: Partitioning rectangles
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Units 8, 9, 10
+
+Unit 8: Area
+1. PRACTICE: Counting unit squares to find area
+2. PRACTICE: Area formulas
+3. PRACTICE: Multiplying to find area
+4. PRACTICE: Area of rectangles
+5. PRACTICE: Decomposing figures to find area
+6. PRACTICE: Area word problems
+
+Unit 9: Perimeter
+7. PRACTICE: Understanding perimeter
+8. PRACTICE: Finding perimeter
+9. PRACTICE: Perimeter word problems
+10. PRACTICE: Comparing area and perimeter
+
+Unit 10: Quadrilaterals and Plane Figures
+11. PRACTICE: Classifying quadrilaterals
+12. PRACTICE: Properties of shapes
+13. PRACTICE: Identifying quadrilaterals
+14. PRACTICE: Analyzing plane figures
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Units 11, 13
+
+Unit 11: Plane Figures
+1. PRACTICE: Classifying geometric shapes
+2. PRACTICE: Lines, line segments, and rays
+3. PRACTICE: Parallel and perpendicular lines
+4. PRACTICE: Types of triangles
+5. PRACTICE: Types of quadrilaterals
+6. PRACTICE: Symmetry
+
+Unit 13: Area and Perimeter
+7. PRACTICE: Finding area of rectangles
+8. PRACTICE: Finding perimeter
+9. PRACTICE: Area and perimeter word problems
+10. PRACTICE: Area of composite figures
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Units 11, 12, 16
+
+Unit 11: Volume
+1. PRACTICE: Understanding volume with unit cubes
+2. PRACTICE: Volume of rectangular prisms
+3. PRACTICE: Decomposing shapes to find volume
+4. PRACTICE: Volume word problems
+
+Unit 12: Coordinate Plane
+5. PRACTICE: The coordinate plane
+6. PRACTICE: Quadrants
+7. PRACTICE: Graphing points
+8. PRACTICE: Coordinate plane word problems
+9. PRACTICE: Distance on the coordinate plane
+
+Unit 16: Properties of Shapes
+10. PRACTICE: Classifying triangles
+11. PRACTICE: Classifying quadrilaterals
+12. PRACTICE: Properties of 2D shapes
+13. PRACTICE: Hierarchy of shapes
+
+ASSESSMENT: Unit Quiz, Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Units 8, 9, 10
+
+Unit 8: Plane Figures
+1. PRACTICE: Area of parallelograms
+2. PRACTICE: Area of triangles
+3. PRACTICE: Area of trapezoids
+4. PRACTICE: Area of composite shapes
+5. PRACTICE: Polygons on the coordinate plane
+6. PRACTICE: Area word problems
+
+Unit 9: Coordinate Plane
+7. PRACTICE: Points on the coordinate plane
+8. PRACTICE: Quadrants
+9. PRACTICE: Distance on the coordinate plane
+10. PRACTICE: Graphing polygons on the coordinate plane
+11. PRACTICE: Coordinate plane word problems
+
+Unit 10: 3D Figures
+12. PRACTICE: Identifying 3D shapes
+13. PRACTICE: Nets of 3D shapes
+14. PRACTICE: Volume with unit cubes
+15. PRACTICE: Volume of rectangular prisms
+16. PRACTICE: Surface area
+17. PRACTICE: Volume and surface area word problems
+
+ASSESSMENT: Unit Quiz, Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Units 8, 9
+
+Unit 8: Scale Copies / Scale Drawings
+1. PRACTICE: What are scaled copies?
+2. PRACTICE: Creating scaled copies
+3. PRACTICE: Scale factor
+4. PRACTICE: Scale drawings
+5. PRACTICE: Scale drawing word problems
+
+Unit 9: Geometry
+6. PRACTICE: Radius and diameter
+7. PRACTICE: Circumference of circles
+8. PRACTICE: Area of circles
+9. PRACTICE: Area of parts of circles
+10. PRACTICE: Identifying supplementary, complementary, and vertical angles
+11. PRACTICE: Finding missing angles
+12. PRACTICE: Unknown angle problems using algebra
+13. PRACTICE: Triangle side length rules
+14. PRACTICE: Translations
+15. PRACTICE: Reflections
+16. PRACTICE: Rotations
+17. PRACTICE: Dilations
+
+ASSESSMENT: Unit Quiz, Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Units 5, 6
+
+Unit 5: Geometry
+1. PRACTICE: Reflections
+2. PRACTICE: Rotations
+3. PRACTICE: Translations
+4. PRACTICE: Dilations
+5. PRACTICE: Congruence
+6. PRACTICE: Similarity
+7. PRACTICE: Angle relationships
+8. PRACTICE: Pythagorean theorem
+9. PRACTICE: Pythagorean theorem word problems
+10. PRACTICE: Pythagorean theorem in 3D
+11. PRACTICE: Distance between points
+12. PRACTICE: Volume of cylinders
+13. PRACTICE: Volume of cones
+14. PRACTICE: Volume of spheres
+
+Unit 6: Geometric Transformations
+15. PRACTICE: Performing reflections
+16. PRACTICE: Performing rotations
+17. PRACTICE: Performing translations
+18. PRACTICE: Performing dilations
+19. PRACTICE: Properties of transformations
+20. PRACTICE: Sequences of transformations
+21. PRACTICE: Congruence and transformations
+22. PRACTICE: Similarity and transformations
+
+ASSESSMENT: Unit Quiz, Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+HIGH SCHOOL GEOMETRY
+Source: geometry_exercises.txt → All 10 units
+
+Unit 1: Performing Transformations
+1. PRACTICE: Translations
+2. PRACTICE: Rotations
+3. PRACTICE: Reflections
+4. PRACTICE: Dilations
+5. PRACTICE: Properties of transformations
+6. PRACTICE: Sequences of transformations
+
+Unit 2: Transformation Properties and Proofs
+7. PRACTICE: Rigid transformations overview
+8. PRACTICE: Dilations and similarity
+9. PRACTICE: Symmetry
+10. PRACTICE: Proofs with transformations
+
+Unit 3: Congruence
+11. PRACTICE: Congruent triangles
+12. PRACTICE: Triangle congruence from transformations
+13. PRACTICE: Congruent triangle proofs
+14. PRACTICE: Working with triangles
+15. PRACTICE: Theorems concerning triangle properties
+16. PRACTICE: Theorems concerning quadrilateral properties
+17. PRACTICE: Proofs of general theorems
+
+Unit 4: Similarity
+18. PRACTICE: Dilations and similarity in the coordinate plane
+19. PRACTICE: Proving slope is constant using similarity
+20. PRACTICE: Similar triangles
+21. PRACTICE: Angle-angle criterion for similar triangles
+22. PRACTICE: Solving similar triangles
+23. PRACTICE: Solving modeling problems with similar and congruent triangles
+
+Unit 5: Right Triangles & Trigonometry
+(see also 17_trigonometry.txt)
+24. PRACTICE: Pythagorean theorem
+25. PRACTICE: Pythagorean theorem proofs
+26. PRACTICE: Special right triangles
+27. PRACTICE: Introduction to the trigonometric ratios
+28. PRACTICE: Solving for a side in a right triangle using trig ratios
+29. PRACTICE: Solving for an angle in a right triangle using trig ratios
+30. PRACTICE: Sine and cosine of complementary angles
+31. PRACTICE: Modeling with right triangles
+32. PRACTICE: Law of sines
+33. PRACTICE: Law of cosines
+
+Unit 6: Analytic Geometry
+34. PRACTICE: Distance and midpoints
+35. PRACTICE: Dividing line segments
+36. PRACTICE: Problem solving with distance on the coordinate plane
+37. PRACTICE: Parallel and perpendicular lines on the coordinate plane
+38. PRACTICE: Equations of parallel and perpendicular lines
+
+Unit 7: Conic Sections
+39. PRACTICE: Introduction to conic sections
+40. PRACTICE: Center and radii of circles
+41. PRACTICE: Standard equation of a circle
+42. PRACTICE: Expanded equation of a circle
+43. PRACTICE: Focus and directrix of a parabola
+
+Unit 8: Circles
+44. PRACTICE: Circle basics
+45. PRACTICE: Arc measure
+46. PRACTICE: Arc length (from degrees)
+47. PRACTICE: Introduction to radians
+48. PRACTICE: Arc length (from radians)
+49. PRACTICE: Sectors
+50. PRACTICE: Inscribed angles
+51. PRACTICE: Inscribed shapes problem solving
+52. PRACTICE: Properties of tangents
+53. PRACTICE: Radius and tangent line
+54. PRACTICE: Constructing regular polygons inscribed in circles
+
+Unit 9: Solid Geometry
+55. PRACTICE: 2D vs. 3D objects
+56. PRACTICE: Cavalieri's principle and dissection methods
+57. PRACTICE: Volume of prisms and cylinders
+58. PRACTICE: Volume of pyramids and cones
+59. PRACTICE: Volume of spheres
+60. PRACTICE: Surface area
+61. PRACTICE: Density word problems
+
+Unit 10: Geometric Constructions
+62. PRACTICE: Basic constructions
+63. PRACTICE: Constructing lines and angles
+64. PRACTICE: Constructing bisectors
+65. PRACTICE: Constructing polygons
+66. PRACTICE: Constructing circumcircles and incircles
+67. PRACTICE: Classical construction challenges
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (10 quizzes, 10 unit tests)
+
+────────────────────────────────────────────────────────────────────
+
+BASIC GEOMETRY COURSE (supplemental)
+Source: basic_geometry_exercises.txt
+
+Unit 1: Intro to Area and Perimeter
+1. PRACTICE: Understand area
+2. PRACTICE: Find area by counting unit squares
+3. PRACTICE: Compare area with unit squares
+4. PRACTICE: Create rectangles with a given area
+5. PRACTICE: Transition from unit squares to area formula
+6. PRACTICE: Area of rectangles
+7. PRACTICE: Find a missing side length when given area
+8. PRACTICE: Represent area with the distributive property
+9. PRACTICE: Solve area with the distributive property
+10. PRACTICE: Decompose figures to find area
+11. PRACTICE: Find perimeter by counting units
+12. PRACTICE: Find perimeter when given side lengths
+13. PRACTICE: Find a missing side length when given perimeter
+14. PRACTICE: Perimeter word problems
+15. PRACTICE: Area and perimeter situations
+16. PRACTICE: Compare area and perimeter
+17. PRACTICE: Area and perimeter word problems
+18. PRACTICE: Represent rectangle measurements
+19. PRACTICE: Area & perimeter of rectangles word problems
+
+Unit 4: Plane Figures
+20. PRACTICE: Analyze quadrilaterals
+21. PRACTICE: Classify quadrilaterals
+22. PRACTICE: Classify triangles by angles
+23. PRACTICE: Classify triangles by both sides and angles
+24. PRACTICE: Identify parallel and perpendicular lines
+25. PRACTICE: Classify shapes by line and angle types
+26. PRACTICE: Identify line symmetry
+27. PRACTICE: Quadrilateral types
+28. PRACTICE: Properties of shapes
+29. PRACTICE: Classifying shapes
+
+Unit 6: Volume
+30. PRACTICE: Volume with unit cubes
+31. PRACTICE: Volume of rectangular prisms with unit cubes
+32. PRACTICE: Volume as area of base times height
+33. PRACTICE: Volume of rectangular prisms
+34. PRACTICE: Understanding decomposing figures to find volume
+35. PRACTICE: Decompose figures to find volume
+36. PRACTICE: Volume word problems
+
+Unit 7: Coordinate Plane
+37. PRACTICE: Graph points
+38. PRACTICE: Identify points
+39. PRACTICE: Distance between points in first quadrant
+40. PRACTICE: Coordinate plane word problems (quadrant 1)
+41. PRACTICE: Points on the coordinate plane
+42. PRACTICE: Distance between points: vertical or horizontal
+43. PRACTICE: Coordinate plane problems in all four quadrants
+
+Unit 8: Decomposing to Find Area
+44. PRACTICE: Area of parallelograms
+45. PRACTICE: Find base and height on a triangle
+46. PRACTICE: Area of triangles
+47. PRACTICE: Drawing polygons with coordinates
+48. PRACTICE: Area and perimeter on the coordinate plane
+49. PRACTICE: Decompose area with triangles
+50. PRACTICE: Area of composite shapes
+
+Unit 9: 3D Figures
+51. PRACTICE: Volume by multiplying area of base times height
+52. PRACTICE: Volume with fractions
+53. PRACTICE: Volume word problems: fractions & decimals
+54. PRACTICE: Nets of polyhedra
+55. PRACTICE: Surface area using nets
+56. PRACTICE: Surface area
+57. PRACTICE: Surface area word problems
+58. PRACTICE: Cross sections of 3D objects (basic)
+59. PRACTICE: Volume and surface area word problems
+
+Unit 10: Circles, Cylinders, Cones, and Spheres
+60. PRACTICE: Radius and diameter
+61. PRACTICE: Circumference of a circle
+62. PRACTICE: Area of a circle
+63. PRACTICE: Circumference of parts of circles
+64. PRACTICE: Area of parts of circles
+65. PRACTICE: Volume of cylinders
+66. PRACTICE: Volume of spheres
+67. PRACTICE: Volume of cones
+68. PRACTICE: Volume of cylinders, spheres, and cones word problems
+
+Unit 11: Angle Relationships
+69. PRACTICE: Identifying supplementary, complementary, and vertical angles
+70. PRACTICE: Complementary and supplementary angles (visual)
+71. PRACTICE: Vertical angles
+72. PRACTICE: Finding missing angles
+73. PRACTICE: Finding angle measures between intersecting lines
+74. PRACTICE: Create equations to solve for missing angles
+75. PRACTICE: Angle relationships with parallel lines
+76. PRACTICE: Find angles in triangles
+77. PRACTICE: Find angles in isosceles triangles
+78. PRACTICE: Finding angle measures using triangles
+
+Unit 12: Scale
+79. PRACTICE: Corresponding sides and points
+80. PRACTICE: Identify scale copies
+81. PRACTICE: Identify scale factor in scale drawings
+82. PRACTICE: Scale copies
+83. PRACTICE: Construct scale drawings
+
+Unit 13: Triangle Side Lengths
+84. PRACTICE: Triangle side length rules
+85. PRACTICE: Use Pythagorean theorem to find right triangle side lengths
+86. PRACTICE: Use Pythagorean theorem to find isosceles triangle side lengths
+87. PRACTICE: Right triangle side lengths
+88. PRACTICE: Use Pythagorean theorem to find perimeter
+89. PRACTICE: Use Pythagorean theorem to find area
+90. PRACTICE: Pythagorean theorem word problems
+91. PRACTICE: Pythagorean theorem in 3D
+92. PRACTICE: Distance between two points
+
+Unit 14: Geometric Transformations
+93. PRACTICE: Identify transformations
+94. PRACTICE: Translate shapes
+95. PRACTICE: Determine translations
+96. PRACTICE: Rotate points (basic)
+97. PRACTICE: Determine rotations (basic)
+98. PRACTICE: Reflect shapes
+99. PRACTICE: Determine reflections
+100. PRACTICE: Find measures using rigid transformations
+101. PRACTICE: Rigid transformations: preserved properties
+102. PRACTICE: Mapping shapes
+103. PRACTICE: Dilations: scale factor
+104. PRACTICE: Dilate triangles
+105. PRACTICE: Congruence & transformations
+106. PRACTICE: Similarity & transformations
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 17_trigonometry.txt (geometry + algebra applied to triangles)
+→ 15_algebra_and_equations.txt (coordinate geometry)
+→ 19_calculus.txt (geometry of curves)

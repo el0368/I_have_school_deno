@@ -1,0 +1,177 @@
+KHAN ACADEMY - 7TH GRADE MATH
+==============================
+Complete Exercise List by Unit
+
+================================================================================
+UNIT 1: PROPORTIONAL RELATIONSHIPS
+================================================================================
+
+Exercises:
+----------
+1. Understanding constant of proportionality from graphs
+2. Constant of proportionality from equations
+3. Constant of proportionality from tables
+4. Identifying proportional relationships
+5. Solving proportions
+6. Proportion word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 2: RATES AND PERCENTAGES
+================================================================================
+
+Exercises:
+----------
+1. Rates involving fractions
+2. Calculating percentages
+3. Percent of a number
+4. Percentage word problems
+5. Percentage increase and decrease
+6. Percent error
+7. Tax, tip, and discount problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 3: INTEGERS: ADDITION AND SUBTRACTION
+================================================================================
+
+Exercises:
+----------
+1. Operations with integer chips
+2. Adding negative numbers on the number line
+3. Subtracting negative numbers on the number line
+4. Adding and subtracting negative numbers
+5. Interpreting negative number statements
+6. Solving one-step equations with negatives
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 4: RATIONAL NUMBERS: ADDITION AND SUBTRACTION
+================================================================================
+
+Exercises:
+----------
+1. Absolute value to find distance
+2. Adding and subtracting negative fractions
+3. Adding and subtracting negative decimals
+4. Rational number word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 5: NEGATIVE NUMBERS: MULTIPLICATION AND DIVISION
+================================================================================
+
+Exercises:
+----------
+1. Multiplying negative numbers
+2. Dividing negative numbers
+3. Understanding signs of expressions
+4. Multiplication and division word problems with negatives
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 6: EXPRESSIONS, EQUATIONS, & INEQUALITIES
+================================================================================
+
+Exercises:
+----------
+1. Combining like terms
+2. Combining like terms with negative coefficients
+3. Distributive property
+4. Writing expressions for word problems
+5. Solving two-step equations
+6. Solving two-step inequalities
+7. Multi-step equations
+8. Equation and inequality word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 7: STATISTICS AND PROBABILITY
+================================================================================
+
+Exercises:
+----------
+1. Simple probability
+2. Experimental probability
+3. Comparing probabilities
+4. Making predictions with probability
+5. Probability models
+6. Sample spaces for compound events
+7. Making inferences from random samples
+8. Comparing distributions
+9. Statistical questions
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 8: SCALE COPIES / SCALE DRAWINGS
+================================================================================
+
+Exercises:
+----------
+1. What are scaled copies?
+2. Creating scaled copies
+3. Scale factor
+4. Scale drawings
+5. Scale drawing word problems
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+UNIT 9: GEOMETRY
+================================================================================
+
+Exercises:
+----------
+1. Radius and diameter
+2. Circumference of circles
+3. Area of circles
+4. Area of parts of circles
+5. Identifying supplementary, complementary, and vertical angles
+6. Finding missing angles
+7. Unknown angle problems using algebra
+8. Triangle side length rules
+9. Translations
+10. Reflections
+11. Rotations
+12. Dilations
+
+Assessments:
+------------
+- Unit Quiz
+- Unit Test
+
+================================================================================
+TOTAL UNITS: 9
+TOTAL EXERCISE TOPICS: 70+
+================================================================================

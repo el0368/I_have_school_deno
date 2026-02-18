@@ -1,0 +1,240 @@
+KHAN ACADEMY - CALCULUS 3 (MULTIVARIABLE CALCULUS)
+===================================================
+Complete Learn & Practice List by Unit
+
+================================================================================
+UNIT 1: THINKING ABOUT MULTIVARIABLE FUNCTIONS
+================================================================================
+
+1. Functions with multiple inputs
+   LEARN: Video - f(x, y), f(x, y, z)
+   PRACTICE: Evaluate multivariable functions
+
+2. Visualizing multivariable functions (graphs)
+   LEARN: Video - 3D graphs of f(x, y)
+   PRACTICE: Interpret 3D graphs
+
+3. Visualizing multivariable functions (contour maps)
+   LEARN: Video - Level curves f(x, y) = c
+   PRACTICE: Sketch and interpret contour maps
+
+4. Transformations of multivariable functions
+   LEARN: Video - Shifts, stretches, reflections
+   PRACTICE: Transform multivariable functions
+
+================================================================================
+UNIT 2: DERIVATIVES OF MULTIVARIABLE FUNCTIONS
+================================================================================
+
+1. Partial derivatives
+   LEARN: Video - ∂f/∂x, ∂f/∂y
+   PRACTICE: Calculate partial derivatives
+
+2. Second partial derivatives
+   LEARN: Video - ∂²f/∂x², ∂²f/∂x∂y
+   PRACTICE: Find second partials
+
+3. Symmetry of second partial derivatives
+   LEARN: Video - ∂²f/∂x∂y = ∂²f/∂y∂x
+   PRACTICE: Verify Clairaut's theorem
+
+4. Gradient
+   LEARN: Video - ∇f = ⟨∂f/∂x, ∂f/∂y, ∂f/∂z⟩
+   PRACTICE: Calculate gradients
+
+5. Directional derivatives
+   LEARN: Video - D_u f = ∇f · u
+   PRACTICE: Find directional derivatives
+
+6. Gradient and directional derivatives
+   LEARN: Video - Relationship between gradient and direction
+   PRACTICE: Use gradient for directional derivatives
+
+7. Partial derivative and gradient (articles)
+   LEARN: Article - Formal definitions
+   PRACTICE: Understand notation and meaning
+
+8. Tangent planes and local linearization
+   LEARN: Video - L(x,y) = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)
+   PRACTICE: Find tangent planes
+
+9. Quadratic approximation
+   LEARN: Video - Second-order approximations
+   PRACTICE: Find quadratic approximations
+
+10. Optimizing multivariable functions
+    LEARN: Video - Finding max/min of f(x, y)
+    PRACTICE: Optimize multivariable functions
+
+11. Optimizing multivariable functions (articles)
+    LEARN: Article - Second derivative test
+    PRACTICE: Classify critical points
+
+12. Lagrange multipliers
+    LEARN: Video - Constrained optimization
+    PRACTICE: Use Lagrange multipliers
+
+13. Constrained optimization
+    LEARN: Video - Maximize/minimize with constraints
+    PRACTICE: Solve constrained optimization problems
+
+================================================================================
+UNIT 3: APPLICATIONS OF MULTIVARIABLE DERIVATIVES
+================================================================================
+
+1. Tangent planes
+   LEARN: Video - Plane tangent to surface
+   PRACTICE: Find equations of tangent planes
+
+2. Local linearization
+   LEARN: Video - Linear approximation in 3D
+   PRACTICE: Approximate function values
+
+3. Quadratic approximations
+   LEARN: Video - Using second derivatives
+   PRACTICE: Find quadratic approximations
+
+4. Optimizing multivariable functions
+   LEARN: Video - Critical points
+   PRACTICE: Find local extrema
+
+5. Lagrange multipliers and constrained optimization
+   LEARN: Video - Method of Lagrange multipliers
+   PRACTICE: Solve optimization with constraints
+
+================================================================================
+UNIT 4: INTEGRATING MULTIVARIABLE FUNCTIONS
+================================================================================
+
+1. Double integrals
+   LEARN: Video - ∫∫f(x,y)dA
+   PRACTICE: Evaluate double integrals
+
+2. Triple integrals
+   LEARN: Video - ∫∫∫f(x,y,z)dV
+   PRACTICE: Evaluate triple integrals
+
+3. Double integrals (articles)
+   LEARN: Article - Formal definition
+   PRACTICE: Understand Riemann sums in 2D
+
+4. Triple integrals (articles)
+   LEARN: Article - Formal definition
+   PRACTICE: Understand Riemann sums in 3D
+
+5. Polar coordinates
+   LEARN: Video - Converting to polar for integration
+   PRACTICE: Integrate using polar coordinates
+
+6. Spherical coordinates
+   LEARN: Video - (ρ, θ, φ) system
+   PRACTICE: Integrate using spherical coordinates
+
+7. Cylindrical coordinates
+   LEARN: Video - (r, θ, z) system
+   PRACTICE: Integrate using cylindrical coordinates
+
+8. Change of variables
+   LEARN: Video - Jacobian determinant
+   PRACTICE: Change variables in integrals
+
+9. Applications of double integrals
+   LEARN: Video - Area, volume, mass
+   PRACTICE: Solve applied problems
+
+10. Applications of triple integrals
+    LEARN: Video - Volume, mass, center of mass
+    PRACTICE: Solve 3D applied problems
+
+================================================================================
+UNIT 5: LINE INTEGRALS AND GREEN'S THEOREM
+================================================================================
+
+1. Line integrals in vector fields
+   LEARN: Video - ∫_C F·dr
+   PRACTICE: Evaluate line integrals
+
+2. Line integrals for scalar functions
+   LEARN: Video - ∫_C f ds
+   PRACTICE: Integrate scalar functions over curves
+
+3. 2D divergence
+   LEARN: Video - ∇·F = ∂P/∂x + ∂Q/∂y
+   PRACTICE: Calculate divergence
+
+4. 2D curl
+   LEARN: Video - ∇×F = ∂Q/∂x - ∂P/∂y
+   PRACTICE: Calculate curl
+
+5. Green's theorem
+   LEARN: Video - ∮_C Pdx + Qdy = ∫∫(∂Q/∂x - ∂P/∂y)dA
+   PRACTICE: Apply Green's theorem
+
+6. 2D divergence theorem
+   LEARN: Video - Flux form of Green's theorem
+   PRACTICE: Use divergence theorem in 2D
+
+7. Constructing a unit normal vector to a curve
+   LEARN: Video - Normal vectors
+   PRACTICE: Find unit normals
+
+================================================================================
+UNIT 6: SURFACE INTEGRALS AND STOKES' THEOREM
+================================================================================
+
+1. Parametric surfaces
+   LEARN: Video - r(u, v) = ⟨x(u,v), y(u,v), z(u,v)⟩
+   PRACTICE: Parametrize surfaces
+
+2. Surface integrals
+   LEARN: Video - ∫∫_S f dS
+   PRACTICE: Evaluate surface integrals
+
+3. Surface integrals of vector fields
+   LEARN: Video - ∫∫_S F·dS (flux)
+   PRACTICE: Calculate flux through surfaces
+
+4. 3D divergence
+   LEARN: Video - ∇·F = ∂P/∂x + ∂Q/∂y + ∂R/∂z
+   PRACTICE: Calculate divergence in 3D
+
+5. 3D curl
+   LEARN: Video - ∇×F = ⟨∂R/∂y - ∂Q/∂z, ∂P/∂z - ∂R/∂x, ∂Q/∂x - ∂P/∂y⟩
+   PRACTICE: Calculate curl in 3D
+
+6. Stokes' theorem
+   LEARN: Video - ∮_C F·dr = ∫∫_S (∇×F)·dS
+   PRACTICE: Apply Stokes' theorem
+
+7. Divergence theorem (Gauss' theorem)
+   LEARN: Video - ∫∫_S F·dS = ∫∫∫_V (∇·F)dV
+   PRACTICE: Apply divergence theorem
+
+8. Orienting surfaces
+   LEARN: Video - Choosing normal direction
+   PRACTICE: Orient surfaces correctly
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 6
+TOTAL LESSONS: 60+
+
+TOPICS COVERED:
+✓ Multivariable functions and visualization
+✓ Partial derivatives and gradient
+✓ Directional derivatives
+✓ Optimization (unconstrained and constrained)
+✓ Lagrange multipliers
+✓ Double and triple integrals
+✓ Polar, cylindrical, and spherical coordinates
+✓ Line integrals
+✓ Surface integrals
+✓ Green's theorem
+✓ Stokes' theorem
+✓ Divergence theorem
+
+PREREQUISITE: Calculus 2
+PREPARES FOR: Differential Equations, Vector Calculus
+TYPICAL COURSE: Third semester calculus
+================================================================================

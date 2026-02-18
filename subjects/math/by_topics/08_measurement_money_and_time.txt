@@ -1,0 +1,151 @@
+MEASUREMENT, MONEY, AND TIME
+=============================
+Complete Topic Progression: Kindergarten → Grade 5
+Source: Khan Academy (exercises from by_grade files)
+
+These practical math topics appear in K-5 and are prerequisites for
+geometry and science applications. After Grade 5, measurement concepts
+merge into geometry (see 09_geometry.txt) and unit conversion becomes
+part of ratios (see 11_ratios_rates_proportions.txt).
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 3: Measurement and Geometry (partial)
+
+Measurement:
+1. LEARN: Video - Big, bigger, biggest; small, smaller, smallest
+   PRACTICE: Compare objects by size
+2. LEARN: Video - Long, longer, longest; short, shorter, shortest
+   PRACTICE: Compare objects by length
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 3: Measurement, Data, and Geometry (partial)
+
+Measurement:
+1. LEARN: Video - Comparing lengths
+   PRACTICE: Order objects from shortest to longest
+2. LEARN: Video - Using a third object to compare
+   PRACTICE: Compare lengths indirectly
+3. LEARN: Video - Using non-standard units
+   PRACTICE: Measure objects with units
+
+Time:
+4. LEARN: Video - Reading analog clocks
+   PRACTICE: Tell time to the hour and half-hour
+
+ASSESSMENT: Quiz 1 (Measurement), Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Units 5, 6
+
+Unit 5: Money and Time
+1. PRACTICE: Identifying the value of U.S. coins
+2. PRACTICE: Identifying the value of U.S. dollars
+3. PRACTICE: Counting money
+4. PRACTICE: Money word problems
+5. PRACTICE: Telling time on a number line
+6. PRACTICE: Telling time on a clock
+
+Unit 6: Measurement
+7. PRACTICE: Units of length (cm, m, inch, ft)
+8. PRACTICE: Measuring lengths in different units
+9. PRACTICE: Estimating lengths
+10. PRACTICE: Length word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 11: Measurement
+
+1. PRACTICE: Measuring length
+2. PRACTICE: Measuring mass
+3. PRACTICE: Measuring volume (liquid)
+4. PRACTICE: Telling time
+5. PRACTICE: Elapsed time
+6. PRACTICE: Measurement word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Units 12, 14
+
+Unit 12: Measuring Angles (see also 09_geometry.txt)
+1. PRACTICE: Understanding angles
+2. PRACTICE: Acute, right, and obtuse angles
+3. PRACTICE: Measuring angles with a protractor
+4. PRACTICE: Drawing angles
+5. PRACTICE: Estimating angle measures
+6. PRACTICE: Angle addition
+7. PRACTICE: Angle word problems
+
+Unit 14: Units of Measurement
+8. PRACTICE: Converting length units
+9. PRACTICE: Converting mass units
+10. PRACTICE: Converting volume units
+11. PRACTICE: Converting time units
+12. PRACTICE: Telling time
+13. PRACTICE: Measurement word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 14: Converting Units of Measure
+
+1. PRACTICE: Converting length units
+2. PRACTICE: Converting mass and weight units
+3. PRACTICE: Converting volume and capacity units
+4. PRACTICE: Converting time units
+5. PRACTICE: Measurement conversion word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+BASIC GEOMETRY COURSE (supplemental)
+Source: basic_geometry_exercises.txt
+
+Unit 2: Intro to Mass and Volume
+1. PRACTICE: Estimate mass (grams and kilograms)
+2. PRACTICE: Word problems with mass
+3. PRACTICE: Estimate volume (milliliters and liters)
+4. PRACTICE: Word problems with volume
+
+Unit 3: Measuring Angles
+5. PRACTICE: Identify points, lines, line segments, rays, and angles
+6. PRACTICE: Name angles
+7. PRACTICE: Angle basics
+8. PRACTICE: Angle types
+9. PRACTICE: Recognize angles in figures
+10. PRACTICE: Angles in circles
+11. PRACTICE: Measure angles
+12. PRACTICE: Draw angles
+13. PRACTICE: Estimate angle measures
+14. PRACTICE: Decompose angles
+
+Unit 5: Units of Measurement
+15. PRACTICE: Estimating length (mm, cm, m, km)
+16. PRACTICE: Convert to smaller units (g and kg)
+17. PRACTICE: Convert to smaller units (mL and L)
+18. PRACTICE: Convert to smaller units (mm, cm, m, & km)
+19. PRACTICE: Metric conversions word problems
+20. PRACTICE: Convert units (metrics)
+21. PRACTICE: Convert units word problems (metrics)
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 09_geometry.txt (area, perimeter, volume use measurement)
+→ 11_ratios_rates_proportions.txt (unit conversion as ratios)

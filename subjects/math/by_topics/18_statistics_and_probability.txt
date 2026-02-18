@@ -1,0 +1,229 @@
+STATISTICS AND PROBABILITY
+===========================
+Complete Topic Progression: Grade 7 → AP Statistics
+Source: Khan Academy (exercises from by_grade files)
+
+For elementary data and graphs (K-6), see 10_data_and_graphs.txt.
+This file picks up at Grade 7 formal probability and continues
+through inferential statistics.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 7
+Source: grade_7_exercises.txt → Unit 7: Statistics and Probability
+
+1. PRACTICE: Making inferences from random samples
+2. PRACTICE: Comparing distributions
+3. PRACTICE: Statistical questions
+4. PRACTICE: Basic probability
+5. PRACTICE: Experimental probability
+6. PRACTICE: Sample spaces
+7. PRACTICE: Compound events and sample spaces
+8. PRACTICE: Compound probability
+9. PRACTICE: Counting outcomes (tree diagrams and organized lists)
+10. PRACTICE: Probability word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+PRECALCULUS (Combinatorics and Probability)
+Source: precalculus_exercises.txt → Unit 8
+
+1. PRACTICE: Counting principle and factorials
+2. PRACTICE: Permutations
+3. PRACTICE: Combinations
+4. PRACTICE: Probability using combinatorics
+5. PRACTICE: Binomial probability
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+STATISTICS COURSE
+Source: statistics_exercises.txt → All 15 units
+
+Unit 1: Analyzing Categorical Data
+1. PRACTICE: Analyzing one categorical variable
+2. PRACTICE: Two-way tables
+3. PRACTICE: Distributions in two-way tables
+
+Unit 2: Displaying and Comparing Quantitative Data
+4. PRACTICE: Displaying quantitative data with graphs
+5. PRACTICE: Describing and comparing distributions
+6. PRACTICE: More on data displays
+
+Unit 3: Summarizing Quantitative Data
+7. PRACTICE: Measuring center in quantitative data
+8. PRACTICE: More on mean and median
+9. PRACTICE: Interquartile range (IQR)
+10. PRACTICE: Variance and standard deviation of a population
+11. PRACTICE: Variance and standard deviation of a sample
+12. PRACTICE: More on standard deviation
+13. PRACTICE: Box and whisker plots
+14. PRACTICE: Other measures of spread
+
+Unit 4: Modeling Data Distributions
+15. PRACTICE: Percentiles
+16. PRACTICE: Z-scores
+17. PRACTICE: Effects of linear transformations
+18. PRACTICE: Density curves
+19. PRACTICE: Normal distributions and the empirical rule
+20. PRACTICE: Normal distribution calculations
+
+Unit 5: Exploring Bivariate Numerical Data
+21. PRACTICE: Introduction to scatterplots
+22. PRACTICE: Correlation coefficients
+23. PRACTICE: Introduction to trend lines
+24. PRACTICE: Least-squares regression
+25. PRACTICE: Assessing the fit in least-squares regression
+26. PRACTICE: More on regression
+
+Unit 6: Study Design
+27. PRACTICE: Statistical questions
+28. PRACTICE: Sampling and observational studies
+29. PRACTICE: Sampling methods
+30. PRACTICE: Types of studies (experimental vs. observational)
+31. PRACTICE: Experiments
+
+Unit 7: Probability
+32. PRACTICE: Basic theoretical probability
+33. PRACTICE: Probability using sample spaces
+34. PRACTICE: Basic set operations
+35. PRACTICE: Experimental probability
+36. PRACTICE: Randomness, probability, and simulation
+37. PRACTICE: Addition rule
+38. PRACTICE: Multiplication rule
+39. PRACTICE: Conditional probability and independence
+
+Unit 8: Counting, Permutations, and Combinations
+40. PRACTICE: Counting principle
+41. PRACTICE: Permutations
+42. PRACTICE: Combinations
+43. PRACTICE: Combinatorics and probability
+
+Unit 9: Random Variables
+44. PRACTICE: Discrete random variables
+45. PRACTICE: Continuous random variables
+46. PRACTICE: Transforming random variables
+47. PRACTICE: Combining random variables
+48. PRACTICE: Binomial random variables
+49. PRACTICE: Binomial mean and standard deviation
+50. PRACTICE: Geometric random variables
+51. PRACTICE: More on expected value
+
+Unit 10: Sampling Distributions
+52. PRACTICE: What is a sampling distribution?
+53. PRACTICE: Sampling distribution of a sample proportion
+54. PRACTICE: Sampling distribution of a sample mean
+
+Unit 11: Confidence Intervals
+55. PRACTICE: Introduction to confidence intervals
+56. PRACTICE: Estimating a population proportion
+57. PRACTICE: Estimating a population mean
+58. PRACTICE: More confidence interval videos
+59. PRACTICE: Confidence interval for proportions
+60. PRACTICE: Confidence interval for means
+
+Unit 12: Significance Tests (Hypothesis Testing)
+61. PRACTICE: The idea of significance tests
+62. PRACTICE: Error probabilities and power
+63. PRACTICE: Tests about a population proportion
+64. PRACTICE: Tests about a population mean
+65. PRACTICE: More significance testing videos
+
+Unit 13: Two-Sample Inference for the Difference Between Groups
+66. PRACTICE: Comparing two proportions
+67. PRACTICE: Comparing two means
+68. PRACTICE: Confidence intervals for the difference between two parameters
+69. PRACTICE: Testing the difference between two parameters
+
+Unit 14: Inference for Categorical Data (Chi-Square Tests)
+70. PRACTICE: Chi-square goodness-of-fit tests
+71. PRACTICE: Chi-square tests for relationships
+72. PRACTICE: Chi-square test calculations
+
+Unit 15: Advanced Regression (Inference and Transformations)
+73. PRACTICE: Inference about slope
+74. PRACTICE: Confidence interval for slope
+75. PRACTICE: Transformations to achieve linearity
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (15 quizzes, 15 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+AP STATISTICS (supplemental / exam-focused)
+Source: ap_statistics_exercises.txt → All 9 units
+
+Unit 1: Exploring One-Variable Data
+1. PRACTICE: Representing a categorical variable with graphs
+2. PRACTICE: Representing a quantitative variable with graphs
+3. PRACTICE: Describing the distribution of a quantitative variable
+4. PRACTICE: The normal distribution
+5. PRACTICE: Comparing distributions of a quantitative variable
+
+Unit 2: Exploring Two-Variable Data
+6. PRACTICE: Comparing representations of 2 categorical variables
+7. PRACTICE: Statistics for two categorical variables
+8. PRACTICE: Representing two quantitative variables
+9. PRACTICE: Correlation
+10. PRACTICE: Linear regression models
+11. PRACTICE: Residuals
+12. PRACTICE: Departures from linearity
+
+Unit 3: Collecting Data
+13. PRACTICE: Introduction to planning a study
+14. PRACTICE: Sampling methods
+15. PRACTICE: Potential problems with sampling
+16. PRACTICE: Introduction to experimental design
+17. PRACTICE: Inference and experiments
+
+Unit 4: Probability, Random Variables, and Probability Distributions
+18. PRACTICE: Estimating probabilities using simulation
+19. PRACTICE: Probability rules and conditional probability
+20. PRACTICE: Discrete random variables and expected value
+21. PRACTICE: Combining random variables
+22. PRACTICE: The binomial distribution
+
+Unit 5: Sampling Distributions
+23. PRACTICE: Introduction to sampling distributions
+24. PRACTICE: The normal distribution, revisited
+25. PRACTICE: Sampling distributions for sample proportions
+26. PRACTICE: Sampling distributions for sample means
+27. PRACTICE: Sampling distributions for differences in sample proportions
+28. PRACTICE: Sampling distributions for differences in sample means
+
+Unit 6: Inference for Categorical Data — Proportions
+29. PRACTICE: Constructing a confidence interval for a population proportion
+30. PRACTICE: Setting up a test for a population proportion
+31. PRACTICE: Carrying out a test for a population proportion
+32. PRACTICE: Confidence intervals for the difference of two proportions
+33. PRACTICE: Testing the difference of two proportions
+34. PRACTICE: Justifying a claim based on a confidence interval for a difference of proportions
+
+Unit 7: Inference for Quantitative Data — Means
+35. PRACTICE: Constructing a confidence interval for a population mean
+36. PRACTICE: Setting up a test for a population mean
+37. PRACTICE: Carrying out a test for a population mean
+38. PRACTICE: Confidence intervals for the difference of two means
+39. PRACTICE: Testing the difference of two means
+
+Unit 8: Inference for Categorical Data — Chi-Square
+40. PRACTICE: Setting up a chi-square goodness-of-fit test
+41. PRACTICE: Carrying out a chi-square goodness-of-fit test
+42. PRACTICE: Expected counts in two-way tables
+43. PRACTICE: Setting up a chi-square test for homogeneity or independence
+44. PRACTICE: Carrying out a chi-square test for homogeneity or independence
+
+Unit 9: Inference for Quantitative Data — Slopes
+45. PRACTICE: Confidence intervals for the slope of a regression model
+46. PRACTICE: Setting up a test for the slope of a regression model
+47. PRACTICE: Carrying out a test for the slope of a regression model
+
+ASSESSMENT: Unit Quiz and Unit Test per unit (9 quizzes, 9 unit tests, Course Challenge)
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 19_calculus.txt (continuous distributions, integration)
+→ 16_functions.txt (probability distribution functions)

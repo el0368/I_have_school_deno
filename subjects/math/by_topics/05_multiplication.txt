@@ -1,0 +1,181 @@
+MULTIPLICATION
+==============
+Complete Topic Progression: Grade 3 → Algebra 2
+Source: Khan Academy (exercises from by_grade files)
+
+Multiplication starts with equal groups and times tables, then
+extends through multi-digit, fractions, decimals, and polynomials.
+Requires addition (02) and place value (04) foundations.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Units 1, 3, 5
+
+Unit 1: Intro to Multiplication
+1. PRACTICE: Equal groups
+2. PRACTICE: Arrays
+3. PRACTICE: Multiplication as repeated addition
+4. PRACTICE: Multiplication on the number line
+
+Unit 3: More with Multiplication and Division (mult portion)
+5. PRACTICE: Multiplying by 0 and 1
+6. PRACTICE: Multiplying by 2 and 4
+7. PRACTICE: Multiplying by 5 and 10
+8. PRACTICE: Multiplying by 3 and 6
+9. PRACTICE: Multiplying by 7, 8, and 9
+10. PRACTICE: 1-digit multiplication
+11. PRACTICE: Multiplication word problems
+12. PRACTICE: Associative property of multiplication
+13. PRACTICE: Commutative property of multiplication
+14. PRACTICE: Distributive property
+
+Unit 5: Multiplication and Division Word Problems
+15. PRACTICE: Multiplication word problems within 100
+16. PRACTICE: Division word problems within 100
+17. PRACTICE: Multiplication and division word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Units 3, 4, 5
+
+Unit 3: Multiplication
+18. PRACTICE: Multi-digit multiplication (2-digit by 1-digit)
+19. PRACTICE: Multi-digit multiplication (2-digit by 2-digit)
+20. PRACTICE: Multiplication with area models
+21. PRACTICE: Estimating products
+22. PRACTICE: Multiplication word problems
+
+Unit 4: Division (uses multiplication)
+23. PRACTICE: Relating multiplication and division
+24. PRACTICE: Remainders
+
+Unit 5: Factors, Multiples, and Patterns
+25. PRACTICE: Factors and multiples
+26. PRACTICE: Prime and composite numbers
+27. PRACTICE: Factor pairs
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Units 1, 5, 6
+
+Unit 1: Multi-digit Multiplication
+28. PRACTICE: Multi-digit multiplication (3-digit by 2-digit)
+29. PRACTICE: Multi-digit multiplication estimation
+30. PRACTICE: Multi-digit multiplication word problems
+
+Unit 5: Multiply Fractions
+31. PRACTICE: Multiplying fractions and whole numbers
+32. PRACTICE: Multiplying fractions
+33. PRACTICE: Area with fractions
+34. PRACTICE: Multiplying mixed numbers
+
+Unit 6: Multiply Decimals
+35. PRACTICE: Multiplying decimals and whole numbers
+36. PRACTICE: Multiplying decimals
+37. PRACTICE: Decimal multiplication estimation
+38. PRACTICE: Multiplying decimals word problems
+
+ASSESSMENT: Unit Quiz and Unit Test per unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2 (partial)
+
+1. PRACTICE: Multiplying decimals review
+2. PRACTICE: Distributive property
+3. PRACTICE: GCF and LCM (uses multiplication)
+4. PRACTICE: Distributive property with variables
+
+ASSESSMENT: Unit Quiz, Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1
+Source: algebra_1_exercises.txt → Unit 13 (partial)
+
+1. PRACTICE: Multiplying monomials
+2. PRACTICE: Multiplying binomials
+3. PRACTICE: Special products of binomials (difference of squares, perfect squares)
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Unit 1 (partial)
+
+1. PRACTICE: Multiplying monomials by polynomials
+2. PRACTICE: Multiplying binomials by polynomials
+3. PRACTICE: Special products of polynomials
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental — 49 exercises)
+Source: arithmetic_exercises.txt → Units 3, 4, 5, 8, 9
+
+Unit 3: Multiplication
+1. PRACTICE: Intro to multiplication
+2. PRACTICE: Multiplication as equal groups
+3. PRACTICE: Multiplication on the number line
+4. PRACTICE: Multiplication as arrays
+5. PRACTICE: Multiply by 1s and 0s
+6. PRACTICE: Multiply by 2s
+7. PRACTICE: Multiply by 3s
+8. PRACTICE: Multiply by 4s
+9. PRACTICE: Multiply by 5s
+10. PRACTICE: Multiply by 6s
+11. PRACTICE: Multiply by 7s
+12. PRACTICE: Multiply by 8s
+13. PRACTICE: Multiply by 9s
+14. PRACTICE: Multiply by 10s
+15. PRACTICE: Multiplication facts review
+16. PRACTICE: Properties of multiplication
+17. PRACTICE: Multiplying 1-digit numbers
+
+Unit 4: Multi-digit Multiplication
+18. PRACTICE: Multiplying 10s, 100s, 1000s
+19. PRACTICE: Multi-digit multiplication (place value)
+20. PRACTICE: Multi-digit multiplication (standard algorithm)
+21. PRACTICE: Multi-digit multiplication (area model)
+22. PRACTICE: Estimation in multiplication
+23. PRACTICE: Multi-digit multiplication word problems
+
+Unit 5: Multiplication (Factors & Multiples)
+24. PRACTICE: Factors and multiples
+25. PRACTICE: Finding factors of a number
+26. PRACTICE: Finding multiples
+27. PRACTICE: Prime and composite
+28. PRACTICE: Prime factorization
+29. PRACTICE: LCM
+30. PRACTICE: GCF
+
+Unit 8: Multiplying Fractions
+31. PRACTICE: Multiplying fractions by whole numbers
+32. PRACTICE: Multiplying fractions
+33. PRACTICE: Multiplying mixed numbers
+34. PRACTICE: Fraction multiplication word problems
+35. PRACTICE: Area with fractions
+
+Unit 9: Multiplying Decimals
+36. PRACTICE: Multiplying decimals and whole numbers
+37. PRACTICE: Multiplying decimals (tenths)
+38. PRACTICE: Multiplying decimals (hundredths)
+39. PRACTICE: Multiplying decimals (standard algorithm)
+40. PRACTICE: Estimating decimal products
+41. PRACTICE: Decimal multiplication word problems
+
+ASSESSMENT: Quizzes and Unit Tests per unit
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 06_division.txt (inverse of multiplication)
+→ 07_fractions.txt (fraction multiplication)
+→ 12_exponents_and_radicals.txt (repeated multiplication)
+→ 15_algebra_and_equations.txt (polynomial multiplication)

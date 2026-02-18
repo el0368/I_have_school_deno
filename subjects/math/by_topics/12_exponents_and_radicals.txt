@@ -1,0 +1,115 @@
+EXPONENTS AND RADICALS
+======================
+Complete Topic Progression: Grade 5 → Algebra 2
+Source: Khan Academy (exercises from by_grade files)
+
+This file tracks exponent concepts from basic powers to
+rational exponents and radical equations.
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 3 (partial)
+
+1. PRACTICE: Powers of 10
+2. PRACTICE: Multiplying and dividing by powers of 10
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 4 (partial)
+
+1. PRACTICE: Meaning of exponents
+2. PRACTICE: Writing expressions with exponents
+3. PRACTICE: Evaluating expressions with exponents
+4. PRACTICE: Comparing expressions with exponents
+5. PRACTICE: Order of operations with exponents
+6. PRACTICE: Exponent word problems
+
+ASSESSMENT: Unit Quiz, Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 8
+Source: grade_8_exercises.txt → Unit 1 (partial)
+
+1. PRACTICE: Exponent properties (integer exponents)
+2. PRACTICE: Negative exponents
+3. PRACTICE: Exponent properties review
+4. PRACTICE: Scientific notation intro
+5. PRACTICE: Arithmetic with numbers in scientific notation
+6. PRACTICE: Scientific notation word problems
+7. PRACTICE: Square roots and cube roots
+8. PRACTICE: Approximating irrational numbers
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+PRE-ALGEBRA (supplemental)
+Source: pre_algebra_exercises.txt → Unit 11
+
+1. PRACTICE: Exponents
+2. PRACTICE: Evaluating exponents
+3. PRACTICE: Exponent properties (product rule)
+4. PRACTICE: Exponent properties (quotient rule)
+5. PRACTICE: Exponent properties (power rule)
+6. PRACTICE: Negative exponents
+7. PRACTICE: Zero exponent
+8. PRACTICE: Square roots
+9. PRACTICE: Cube roots
+10. PRACTICE: Intro to scientific notation
+11. PRACTICE: Computing in scientific notation
+
+ASSESSMENT: Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 1
+Source: algebra_1_exercises.txt → Unit 11: Irrational Numbers
+
+1. PRACTICE: Irrational numbers
+2. PRACTICE: Sums and products of rational and irrational numbers
+3. PRACTICE: Proofs concerning irrational numbers
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ALGEBRA 2
+Source: algebra_2_exercises.txt → Unit 6: Rational Exponents and Radicals
+
+1. PRACTICE: Rational exponents intro
+2. PRACTICE: Properties of exponents (rational exponents)
+3. PRACTICE: Evaluating exponents and radicals
+4. PRACTICE: Equivalent forms of exponential expressions
+5. PRACTICE: Solving exponential equations using properties of exponents
+6. PRACTICE: Intro to square-root equations and extraneous solutions
+7. PRACTICE: Solving square-root equations
+8. PRACTICE: Solving cube-root equations
+9. PRACTICE: Graphs of square and cube root functions
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+ARITHMETIC COURSE (supplemental)
+Source: arithmetic_exercises.txt → Unit 17
+
+Unit 17: Exponents & Order of Operations
+1. PRACTICE: Intro to exponents
+2. PRACTICE: Evaluating exponents
+3. PRACTICE: Comparing with exponents
+4. PRACTICE: Powers of 0 and 1
+5. PRACTICE: Exponents with decimals and fractions
+6. PRACTICE: Intro to order of operations
+7. PRACTICE: Order of operations (multi-step)
+
+ASSESSMENT: Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+→ 15_algebra_and_equations.txt (exponents in equations)
+→ 16_functions.txt (exponential functions)
+→ 19_calculus.txt (derivatives of exponentials)

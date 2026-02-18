@@ -1,0 +1,277 @@
+================================================================================
+KHAN ACADEMY - MULTIVARIABLE CALCULUS
+Complete Learn & Practice Guide
+================================================================================
+
+Course: Multivariable Calculus
+Level: College
+Units: 5
+Skills: 48
+Mastery Points: 4,800
+Source: https://www.khanacademy.org/math/multivariable-calculus
+
+================================================================================
+UNIT 1: THINKING ABOUT MULTIVARIABLE FUNCTIONS
+================================================================================
+
+1. Introduction and motivation
+   LEARN: Video - Multivariable calculus introduction
+
+2. Vectors and matrices
+   LEARN: Video - Vector intro for linear algebra
+   LEARN: Video - Dot products and duality
+   LEARN: Video - Cross products
+   LEARN: Video - Matrices, vectors, and linear transformations
+
+3. Visualizing scalar-valued functions
+   LEARN: Video - Visualizing multivariable functions
+   LEARN: Video - 3D graphs
+   LEARN: Video - Contour plots
+   LEARN: Video - Parametric surfaces
+   PRACTICE: Visualizing scalar-valued functions
+
+4. Visualizing vector-valued functions
+   LEARN: Video - Vector fields introduction
+   LEARN: Video - Fluid flow and vector fields
+   LEARN: Video - 3D vector fields
+   PRACTICE: Visualizing vector-valued functions
+
+5. Transformations
+   LEARN: Video - Transformations, part 1
+   LEARN: Video - Transformations, part 2
+   LEARN: Video - Transformations, part 3
+
+ASSESSMENT: Thinking about multivariable functions - Unit test
+
+================================================================================
+UNIT 2: DERIVATIVES OF MULTIVARIABLE FUNCTIONS
+================================================================================
+
+6. Partial derivatives
+   LEARN: Video - Partial derivatives, introduction
+   LEARN: Video - Partial derivatives and graphs
+   LEARN: Video - Formal definition of partial derivatives
+   LEARN: Video - Symmetry of second partial derivatives
+   PRACTICE: Basic partial derivatives
+   PRACTICE: Higher order partial derivatives
+
+7. Gradient and directional derivatives
+   LEARN: Video - Gradient
+   LEARN: Video - Gradient and contour maps
+   LEARN: Video - Directional derivative
+   LEARN: Video - Directional derivative, formal definition
+   LEARN: Video - Directional derivatives and slope
+   PRACTICE: Gradient
+   PRACTICE: Directional derivatives
+
+8. Partial derivatives of vector-valued functions
+   LEARN: Video - Partial derivatives of vector-valued functions
+   PRACTICE: Partial derivatives of vector-valued functions
+
+9. Multivariable chain rule
+   LEARN: Video - Multivariable chain rule, simple version
+   LEARN: Video - Vector form of the multivariable chain rule
+   PRACTICE: Multivariable chain rule intro
+   PRACTICE: Multivariable chain rule
+
+ASSESSMENT: Derivatives of multivariable functions - Quiz 1
+
+10. Curvature
+    LEARN: Video - Curvature intuition
+    LEARN: Video - Curvature formula, part 1
+    LEARN: Video - Curvature formula, part 2
+    LEARN: Video - Curvature of a helix, part 1
+    LEARN: Video - Curvature of a helix, part 2
+    PRACTICE: Curvature
+
+11. Divergence
+    LEARN: Video - Divergence intuition, part 1
+    LEARN: Video - Divergence intuition, part 2
+    LEARN: Video - Divergence formula, part 1
+    LEARN: Video - Divergence formula, part 2
+    LEARN: Video - Divergence example
+    PRACTICE: 2D divergence
+    PRACTICE: 3D divergence
+
+12. Curl
+    LEARN: Video - 2D curl intuition
+    LEARN: Video - 2D curl formula
+    LEARN: Video - 2D curl example
+    LEARN: Video - 3D curl intuition, part 1
+    LEARN: Video - 3D curl intuition, part 2
+    LEARN: Video - 3D curl formula, part 1
+    LEARN: Video - 3D curl formula, part 2
+    LEARN: Video - 3D curl computation example
+    PRACTICE: 2D curl
+    PRACTICE: 3D curl
+
+ASSESSMENT: Derivatives of multivariable functions - Quiz 2
+
+13. Laplacian
+    LEARN: Video - Laplacian intuition
+    LEARN: Video - Laplacian formula
+
+14. Jacobian
+    LEARN: Video - Local linearity for a multivariable function
+    LEARN: Video - The Jacobian matrix
+    LEARN: Video - Computing a Jacobian matrix
+    LEARN: Video - The Jacobian determinant
+    PRACTICE: Jacobian
+
+ASSESSMENT: Derivatives of multivariable functions - Unit test
+
+================================================================================
+UNIT 3: APPLICATIONS OF MULTIVARIABLE DERIVATIVES
+================================================================================
+
+15. Tangent planes and local linearization
+    LEARN: Video - Tangent planes
+    LEARN: Video - Local linearization
+    PRACTICE: Tangent planes
+
+16. Quadratic approximations
+    LEARN: Video - Quadratic approximation
+    LEARN: Video - The Hessian matrix
+    LEARN: Video - Quadratic approximation example
+    PRACTICE: Quadratic approximations
+
+17. Optimizing multivariable functions
+    LEARN: Video - Maxima, minima, and saddle points
+    LEARN: Video - Second partial derivative test
+    LEARN: Video - Second partial derivative test intuition
+    LEARN: Video - Optimizing a function on a closed and bounded set
+    PRACTICE: Optimizing multivariable functions
+
+ASSESSMENT: Applications of multivariable derivatives - Quiz 1
+
+18. Lagrange multipliers and constrained optimization
+    LEARN: Video - Constrained optimization introduction
+    LEARN: Video - Lagrange multipliers, using tangency to solve constrained optimization
+    LEARN: Video - Meaning of Lagrange multiplier
+    LEARN: Video - Lagrange multipliers, examples
+    LEARN: Video - The Lagrangian
+    PRACTICE: Lagrange multipliers
+
+19. Constrained optimization (articles)
+    LEARN: Article - Lagrange multipliers and constrained optimization examples
+
+ASSESSMENT: Applications of multivariable derivatives - Quiz 2
+ASSESSMENT: Applications of multivariable derivatives - Unit test
+
+================================================================================
+UNIT 4: INTEGRATING MULTIVARIABLE FUNCTIONS
+================================================================================
+
+20. Line integrals for scalar functions
+    LEARN: Video - Introduction to the line integral
+    LEARN: Video - Line integral example 1
+    LEARN: Video - Line integral example 2 (part 1)
+    LEARN: Video - Line integral example 2 (part 2)
+    PRACTICE: Line integrals (scalar)
+
+21. Line integrals in vector fields
+    LEARN: Video - Line integrals and vector fields
+    LEARN: Video - Line integrals in a vector field example
+    PRACTICE: Line integrals in vector fields
+
+22. Double integrals
+    LEARN: Video - Double integrals 1
+    LEARN: Video - Double integrals 2
+    LEARN: Video - Double integrals 3
+    LEARN: Video - Double integrals 4
+    LEARN: Video - Double integrals 5
+    LEARN: Video - Double integrals 6
+    PRACTICE: Double integrals
+
+ASSESSMENT: Integrating multivariable functions - Quiz 1
+
+23. Triple integrals
+    LEARN: Video - Triple integrals 1
+    LEARN: Video - Triple integrals 2
+    LEARN: Video - Triple integrals 3
+    PRACTICE: Triple integrals
+
+24. Change of variables
+    LEARN: Video - Change of variables and the Jacobian
+    LEARN: Video - Change of variables example
+
+25. Polar, spherical, and cylindrical coordinates
+    LEARN: Video - Polar coordinates 1
+    LEARN: Video - Polar coordinates 2
+    LEARN: Video - Double integral in polar coordinates
+    LEARN: Video - Triple integrals in spherical coordinates
+    LEARN: Video - Triple integrals in cylindrical coordinates
+
+26. Surface integrals
+    LEARN: Video - Introduction to the surface integral
+    LEARN: Video - Example of calculating a surface integral
+    LEARN: Video - Surface integral example, part 1
+    LEARN: Video - Surface integral example, part 2
+    PRACTICE: Surface integrals
+
+27. Flux in 3D
+    LEARN: Video - Flux in 3D example
+    LEARN: Video - Flux in 3D article
+    PRACTICE: Flux in 3D
+
+ASSESSMENT: Integrating multivariable functions - Quiz 2
+ASSESSMENT: Integrating multivariable functions - Unit test
+
+================================================================================
+UNIT 5: GREEN'S, STOKES', AND THE DIVERGENCE THEOREMS
+================================================================================
+
+28. Green's theorem
+    LEARN: Video - Green's theorem proof part 1
+    LEARN: Video - Green's theorem proof part 2
+    LEARN: Video - Green's theorem example 1
+    LEARN: Video - Green's theorem example 2
+    LEARN: Video - Green's theorem (articles)
+    PRACTICE: Green's theorem
+
+29. 2D divergence theorem
+    LEARN: Video - 2D divergence theorem
+    LEARN: Video - Constructing a unit normal vector to a curve
+    LEARN: Video - 2D flux
+    PRACTICE: 2D divergence theorem
+
+30. Stokes' theorem
+    LEARN: Video - Stokes' theorem intuition
+    LEARN: Video - Green's and Stokes' theorem relationship
+    LEARN: Video - Orienting boundary with surface
+    LEARN: Video - Stokes' theorem examples
+    PRACTICE: Stokes' theorem
+
+31. 3D divergence theorem
+    LEARN: Video - 3D divergence theorem intuition
+    LEARN: Video - Divergence theorem proof (part 1)
+    LEARN: Video - Divergence theorem proof (part 2)
+    LEARN: Video - Divergence theorem example 1
+    PRACTICE: 3D divergence theorem
+
+32. Types of regions in three dimensions
+    LEARN: Video - Type I regions
+    LEARN: Video - Type II regions
+    LEARN: Video - Type III regions
+    PRACTICE: Types of regions in three dimensions
+
+33. Proof of Stokes' theorem
+    LEARN: Video - Stokes' theorem proof part 1
+    LEARN: Video - Stokes' theorem proof part 2
+    LEARN: Video - Stokes' theorem proof part 3
+    LEARN: Video - Stokes' theorem proof part 4
+    LEARN: Video - Stokes' theorem proof part 5
+    LEARN: Video - Stokes' theorem proof part 6
+    LEARN: Video - Stokes' theorem proof part 7
+
+ASSESSMENT: Green's, Stokes', and the divergence theorems - Unit test
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 5
+Total Sections: ~33 topics
+Total Learn Items: ~120+ videos and articles
+Total Practice Items: 48 skills
+Total Assessments: 5 quizzes + 5 unit tests
+================================================================================

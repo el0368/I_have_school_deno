@@ -1,0 +1,66 @@
+Implementation Plan - Deno WebUI "Life Saver"
+In response to your request for a "Life Saver" that makes development easier, I have identified deno-webui as the best solution.
+
+Goal
+Replace the complex Rust-based desktop shell (desktop/) with a single, lightweight Deno configuration. This allows you to run your entire "Discord-style" app with just Deno, utilizing your system's installed browser engine (Edge/Chrome) for the rendering, without the overhead of Electron or the build times of Rust.
+
+The Hybrid "Life Saver" Approach:
+
+UI Shell (deno-webui): Written in pure TypeScript (No Rust compilation).
+Physics Engine (math-engine): Retains Rust/WASM for high-performance simulation.
+Why: You need heavy math/physics. Pure TS is too slow. Rust compiled to WASM is near-native speed. This gives you the best of both worlds: easy UI development, fast simulation.
+
+User Review Required
+IMPORTANT
+
+This change effectively deprecates the desktop/ Cargo project (Tao/Wry). You will no longer need to compile Rust to run the desktop app (only for the WASM math engine).
+
+Prerequisite: Ensure you have Google Chrome or Microsoft Edge installed (which is standard on Windows).
+
+Proposed Changes
+Root Directory
+[NEW] desktop.ts
+This new script will:
+
+Import deno-webui.
+Spawn your Fresh server (just like 
+main.rs
+ did, but in TS).
+Create a Frameless Window pointing to localhost.
+Handle basic "Window Draggable" logic (since frameless windows need a custom drag region).
+Configuration
+[MODIFY] 
+deno.json
+Update tasks to run the new script instead of cargo run.
+
+json
+{
+  "tasks": {
+    "dev:desktop": "deno run -A --unstable-ffi desktop.ts",
+    ...
+  }
+}
+Logic & Mathematics
+[KEEP] math-engine/ (Rust) We will RETAIN the Rust-based math engine as it provides the necessary performance for heavy simulations. It will continue to be compiled to WASM and loaded by the UI.
+
+[MODIFY] 
+deno.json
+We will keep task: build:wasm but remove task: build:desktop.
+
+Clean Up
+[DELETE] desktop/ directory impact
+We will effectively ignore or archive the desktop/ folder. I recommend we keep it for now as a backup, but remove it from the active workflow.
+
+[KEEP] math-engine/
+Do NOT delete. Required for simulation performance.
+
+Verification Plan
+Automated Tests
+None valid for this visual change.
+Manual Verification
+Run deno task dev:desktop.
+Verify:
+ Fresh server starts.
+ A "Discord-style" dark frameless window opens.
+ Content loads from the Fresh server.
+ Critical: Window dragging works (we need to inject a small script or CSS to make the titlebar app-region: drag).

@@ -1,0 +1,147 @@
+ADDITION
+========
+Complete Topic Progression: Kindergarten → Grade 5
+Source: Khan Academy (exercises from by_grade files)
+
+This file traces ADDITION from first sums through multi-digit
+addition with decimals. After Grade 5, addition becomes part of
+algebra (see 15_algebra.txt).
+
+────────────────────────────────────────────────────────────────────
+
+KINDERGARTEN
+Source: kindergarten_exercises.txt → Unit 2: Addition and Subtraction
+
+1. LEARN: Video - Introduction to addition
+   PRACTICE: Simple addition problems (sums to 5)
+2. LEARN: Video - Number bonds to 5
+   PRACTICE: Find pairs that make 5
+3. LEARN: Video - Different ways to make numbers
+   PRACTICE: Show multiple representations of numbers
+4. LEARN: Video - Number bonds to 10
+   PRACTICE: Use grids and bonds to make 10
+5. LEARN: Video - Pairs that make 10
+   PRACTICE: Find all combinations that equal 10
+6. LEARN: Video - Addition strategies within 10
+   PRACTICE: Addition problems (sums to 10)
+7. LEARN: Video - Solving addition story problems
+   PRACTICE: Real-world addition scenarios
+
+ASSESSMENT: Quiz 1 (Addition basics), Quiz 3 (Word problems), Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 1
+Source: grade_1_exercises.txt → Unit 2: Addition and Subtraction
+
+1. LEARN: Video - Connection between addition and subtraction
+   PRACTICE: Fact families within 20
+2. LEARN: Video - Addition strategies
+   PRACTICE: Addition problems (sums to 20)
+3. LEARN: Video - Strategies for adding three numbers
+   PRACTICE: Add three 1-digit numbers
+4. LEARN: Video - Understanding equality
+   PRACTICE: True/false equations, balancing equations
+5. LEARN: Video - Solving for unknowns
+   PRACTICE: Add within 20 with missing numbers
+6. LEARN: Video - Solving story problems
+   PRACTICE: Real-world addition scenarios
+7. LEARN: Video - Comparison word problems
+   PRACTICE: Solve problems comparing quantities
+8. LEARN: Video - Mental math strategies
+   PRACTICE: Quick addition of 1 or 10
+9. LEARN: Video - Place value addition
+   PRACTICE: Add multiples of 1 or 10
+10. LEARN: Video - Multi-number addition strategies
+    PRACTICE: Add 2-4 two-digit numbers
+11. LEARN: Video - Decomposition strategy
+    PRACTICE: Break numbers apart to add
+12. LEARN: Video - Introduction to regrouping
+    PRACTICE: Addition with regrouping
+
+ASSESSMENT: Quiz 1, Quiz 4 (Multi-digit), Unit Test (partial)
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 2
+Source: grade_2_exercises.txt → Units 1, 3, 4
+
+Unit 1: Add and Subtract within 20
+1. PRACTICE: Visualizing addition and subtraction
+2. PRACTICE: Practicing addition within 20
+3. PRACTICE: Using arrays for addition
+4. PRACTICE: Addition word problems
+
+Unit 3: Add and Subtract within 100
+5. PRACTICE: Adding using place value blocks
+6. PRACTICE: Adding using number lines
+7. PRACTICE: Breaking apart 2-digit addition problems
+8. PRACTICE: Selecting strategies for adding within 100
+9. PRACTICE: 1-step addition word problems
+10. PRACTICE: 2-step addition word problems
+
+Unit 4: Add and Subtract within 1,000
+11. PRACTICE: Adding 10s and 100s (without regrouping)
+12. PRACTICE: Adding 10s and 100s (with regrouping)
+13. PRACTICE: Adding using place value blocks (to 1,000)
+14. PRACTICE: Adding using number lines (to 1,000)
+15. PRACTICE: Breaking apart 3-digit addition problems
+16. PRACTICE: Adding up to four 2-digit numbers
+17. PRACTICE: Addition word problems within 1,000
+
+ASSESSMENT: Unit Quiz and Unit Test for each unit
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 3
+Source: grade_3_exercises.txt → Unit 5: Addition, Subtraction, and Estimation
+
+1. PRACTICE: Addition within 1,000
+2. PRACTICE: Estimating sums
+3. PRACTICE: Two-step word problems (addition component)
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 4
+Source: grade_4_exercises.txt → Unit 2: Addition, Subtraction, and Estimation
+
+1. PRACTICE: Addition strategies
+2. PRACTICE: Multi-digit addition
+3. PRACTICE: Rounding to estimate (addition)
+4. PRACTICE: Addition word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 5
+Source: grade_5_exercises.txt → Unit 2: Adding Decimals
+
+1. PRACTICE: Adding decimals using models
+2. PRACTICE: Adding decimals using place value
+3. PRACTICE: Adding decimals (tenths)
+4. PRACTICE: Adding decimals (hundredths)
+5. PRACTICE: Adding decimals (thousandths)
+6. PRACTICE: Decimal addition word problems
+
+ASSESSMENT: Unit Quiz, Unit Test
+
+────────────────────────────────────────────────────────────────────
+
+GRADE 6
+Source: grade_6_exercises.txt → Unit 2: Arithmetic with Rational Numbers (partial)
+
+1. PRACTICE: Adding decimals
+2. PRACTICE: Adding fractions with unlike denominators
+
+(For negative number addition, see 13_negative_numbers.txt)
+
+────────────────────────────────────────────────────────────────────
+
+WHAT'S NEXT?
+After mastering addition:
+→ 03_subtraction.txt (inverse operation)
+→ 05_multiplication.txt (repeated addition)
+→ 07_fractions.txt (adding fractions)

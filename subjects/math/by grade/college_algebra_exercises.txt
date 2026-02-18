@@ -1,0 +1,464 @@
+================================================================================
+KHAN ACADEMY - COLLEGE ALGEBRA
+Complete Learn & Practice Guide
+================================================================================
+
+Course: College Algebra
+Level: College
+Units: 14
+Skills: 105
+Mastery Points: 10,500
+Source: https://www.khanacademy.org/math/college-algebra
+
+================================================================================
+UNIT 1: LINEAR EQUATIONS AND INEQUALITIES
+================================================================================
+
+1. Solving equations with one unknown
+   LEARN: Video - Solving equations with the distributive property
+   PRACTICE: Equations with parentheses
+   PRACTICE: Equations with parentheses: decimals & fractions
+   PRACTICE: Number of solutions to equations
+
+2. Solutions to linear equations
+   LEARN: Video - Descartes and Cartesian coordinates
+   PRACTICE: Solutions to 2-variable equations
+   PRACTICE: Interpret points relative to a system
+
+ASSESSMENT: Linear equations and inequalities - Quiz 1
+
+3. Multi-step linear inequalities
+   LEARN: Video - Multi-step inequalities
+   PRACTICE: Multi-step linear inequalities
+
+4. Compound inequalities
+   LEARN: Video - Compound inequalities
+   PRACTICE: Compound inequalities
+
+5. Modeling with linear equations and inequalities
+   LEARN: Video - Linear modeling word problems
+   PRACTICE: Comparing linear rates word problems
+
+6. Absolute value equations
+   LEARN: Video - Absolute value equations
+   PRACTICE: Absolute value equations
+
+ASSESSMENT: Linear equations and inequalities - Quiz 2
+ASSESSMENT: Linear equations and inequalities - Unit test
+
+================================================================================
+UNIT 2: GRAPHS AND FORMS OF LINEAR EQUATIONS
+================================================================================
+
+7. Intercepts
+   LEARN: Video - Introduction to intercepts
+   PRACTICE: Intercepts from an equation
+
+8. Slope
+   LEARN: Article - Slope from two points
+   PRACTICE: Slope from two points
+   PRACTICE: Slope from equation
+
+9. Graphing from slope
+   LEARN: Video - Graph from point-slope
+   PRACTICE: Graphing from slope
+
+10. Horizontal and vertical lines
+    LEARN: Video - Horizontal and vertical lines
+    PRACTICE: Horizontal & vertical lines
+
+ASSESSMENT: Graphs and forms of linear equations - Quiz 1
+
+11. Slope-intercept form
+    LEARN: Video - Slope-intercept form introduction
+    PRACTICE: Slope-intercept intro
+    PRACTICE: Graph from slope-intercept form
+
+12. Point-slope form
+    LEARN: Video - Point-slope form
+    PRACTICE: Point-slope form
+
+13. Writing linear equations in any form
+    LEARN: Video - Writing equations in any form
+    PRACTICE: Linear equations in any form
+
+14. Equations of parallel and perpendicular lines
+    LEARN: Video - Parallel and perpendicular lines
+    PRACTICE: Parallel & perpendicular lines from equation
+    PRACTICE: Write equations of parallel & perpendicular lines
+
+ASSESSMENT: Graphs and forms of linear equations - Quiz 2
+ASSESSMENT: Graphs and forms of linear equations - Unit test
+
+================================================================================
+UNIT 3: FUNCTIONS
+================================================================================
+
+15. Evaluating functions
+    LEARN: Video - What is a function
+    PRACTICE: Evaluate functions
+    PRACTICE: Evaluate functions from their graph
+
+16. Inputs and outputs of a function
+    LEARN: Video - Finding input given function output
+    PRACTICE: Function inputs & outputs: equation
+    PRACTICE: Function inputs & outputs: graph
+
+ASSESSMENT: Functions - Quiz 1
+
+17. Domain and range of a function
+    LEARN: Video - Introduction to interval notation
+    PRACTICE: Domain and range from graph
+    PRACTICE: Determine the domain of functions
+
+18. Recognizing functions
+    LEARN: Video - Recognizing functions
+    PRACTICE: Recognize functions from tables
+    PRACTICE: Recognize functions from graphs
+
+ASSESSMENT: Functions - Quiz 2
+
+19. Intervals where a function is positive/negative/increasing/decreasing
+    LEARN: Video - Positive and negative intervals
+    PRACTICE: Positive and negative intervals
+    PRACTICE: Increasing and decreasing intervals
+
+20. Intro to inverse functions
+    LEARN: Video - Inverse functions introduction
+    PRACTICE: Evaluate inverse functions
+    PRACTICE: Find inverses of linear functions
+
+ASSESSMENT: Functions - Quiz 3
+ASSESSMENT: Functions - Unit test
+
+================================================================================
+UNIT 4: QUADRATICS: MULTIPLYING AND FACTORING
+================================================================================
+
+21. Multiplying binomials
+    LEARN: Video - Area model for multiplying binomials
+    PRACTICE: Multiply binomials
+
+22. Special products of binomials
+    LEARN: Video - Difference of squares pattern
+    PRACTICE: Multiply difference of squares
+    PRACTICE: Multiply perfect squares of binomials
+
+ASSESSMENT: Quadratics: Multiplying and factoring - Quiz 1
+
+23. Factoring quadratics intro
+    LEARN: Video - Factoring simple quadratic expressions
+    PRACTICE: Factoring quadratics intro
+
+24. Factoring quadratics by grouping
+    LEARN: Video - Factoring by grouping
+    PRACTICE: Factor quadratics by grouping
+
+25. Factoring with difference of squares
+    LEARN: Video - Factoring difference of squares
+    PRACTICE: Difference of squares
+
+26. Factoring with perfect squares
+    LEARN: Video - Factoring perfect square trinomials
+    PRACTICE: Perfect squares
+
+ASSESSMENT: Quadratics: Multiplying and factoring - Quiz 2
+ASSESSMENT: Quadratics: Multiplying and factoring - Unit test
+
+================================================================================
+UNIT 5: QUADRATIC FUNCTIONS AND EQUATIONS
+================================================================================
+
+27. Solving quadratics by taking the square root
+    LEARN: Video - Simple quadratic equation
+    PRACTICE: Quadratics by taking square roots
+
+28. Vertex form
+    LEARN: Video - Vertex form intro
+    PRACTICE: Graph quadratics in vertex form
+
+29. Solving quadratics by factoring
+    LEARN: Video - Solving quadratics by factoring
+    PRACTICE: Quadratics by factoring
+    PRACTICE: Solve equations using structure
+
+ASSESSMENT: Quadratic functions and equations - Quiz 1
+
+30. The quadratic formula
+    LEARN: Video - The quadratic formula
+    PRACTICE: Quadratic formula
+
+31. Completing the square
+    LEARN: Video - Completing the square
+    PRACTICE: Completing the square (intro)
+    PRACTICE: Solve equations by completing the square
+    PRACTICE: Completing the square
+
+32. Forms and features of quadratic functions
+    LEARN: Video - Standard form, vertex form, factored form
+    PRACTICE: Features of quadratic functions
+    PRACTICE: Graph parabolas in all forms
+    PRACTICE: Interpret quadratic models
+
+ASSESSMENT: Quadratic functions and equations - Quiz 2
+ASSESSMENT: Quadratic functions and equations - Unit test
+
+================================================================================
+UNIT 6: COMPLEX NUMBERS
+================================================================================
+
+33. The imaginary unit i
+    LEARN: Video - Introduction to i and imaginary numbers
+    PRACTICE: Simplify roots of negative numbers
+
+34. Adding and subtracting complex numbers
+    LEARN: Video - Adding complex numbers
+    PRACTICE: Add & subtract complex numbers
+
+35. Multiplying complex numbers
+    LEARN: Article - Multiplying complex numbers
+    PRACTICE: Multiply complex numbers (basic)
+    PRACTICE: Multiply complex numbers
+
+36. Complex conjugates and dividing complex numbers
+    LEARN: Video - Dividing complex numbers
+    PRACTICE: Divide complex numbers
+
+ASSESSMENT: Complex numbers - Unit test
+
+================================================================================
+UNIT 7: EXPONENTS AND RADICALS
+================================================================================
+
+37. Exponent properties (integer exponents)
+    LEARN: Video - Multiplying and dividing powers
+    PRACTICE: Multiply & divide powers (integer exponents)
+    PRACTICE: Powers of products & quotients (integer exponents)
+    PRACTICE: Properties of exponents challenge (integer exponents)
+
+38. Simplifying square roots
+    LEARN: Video - Simplifying square roots
+    PRACTICE: Simplify square-root expressions
+
+ASSESSMENT: Exponents and radicals - Quiz 1
+
+39. Exponential expressions
+    LEARN: Video - Exponential expressions
+    PRACTICE: Interpret exponential expressions word problems
+
+40. Graphing exponential growth and decay
+    LEARN: Video - Graphing exponential functions
+    PRACTICE: Graphing exponential growth & decay
+
+ASSESSMENT: Exponents and radicals - Quiz 2
+ASSESSMENT: Exponents and radicals - Unit test
+
+================================================================================
+UNIT 8: RATIONAL EXPRESSIONS AND EQUATIONS
+================================================================================
+
+41. Rational equations
+    LEARN: Video - Rational equations intro
+    PRACTICE: Rational equations
+    PRACTICE: Find inverses of rational functions
+
+42. Modeling with rational expressions
+    LEARN: Video - Combining mixtures example
+    PRACTICE: Mixtures and combined rates word problems
+
+43. Reducing rational expressions to lowest terms
+    LEARN: Article - Intro to rational expressions
+    PRACTICE: Reduce rational expressions to lowest terms
+
+44. Multiplying and dividing rational expressions
+    LEARN: Video - Multiplying and dividing rational expressions
+    PRACTICE: Multiply & divide rational expressions
+
+45. Adding and subtracting rational expressions
+    LEARN: Video - Adding and subtracting rational expressions
+    PRACTICE: Add & subtract rational expressions (basic)
+    PRACTICE: Add & subtract rational expressions
+
+ASSESSMENT: Rational expressions and equations - Unit test
+
+================================================================================
+UNIT 9: RELATING ALGEBRA AND GEOMETRY
+================================================================================
+
+46. Distance and midpoints
+    LEARN: Video - Distance formula
+    PRACTICE: Distance between two points
+    PRACTICE: Midpoint formula
+
+ASSESSMENT: Relating algebra and geometry - Quiz 1
+
+47. Standard equation of a circle
+    LEARN: Video - Radius and center from standard form
+    PRACTICE: Features of a circle from its standard equation
+    PRACTICE: Graph a circle from its standard equation
+    PRACTICE: Write standard equation of a circle
+
+48. Expanded equation of a circle
+    LEARN: Video - Expanded equation of a circle
+    PRACTICE: Features of a circle from its expanded equation
+    PRACTICE: Graph a circle from its expanded equation
+
+ASSESSMENT: Relating algebra and geometry - Quiz 2
+ASSESSMENT: Relating algebra and geometry - Unit test
+
+================================================================================
+UNIT 10: POLYNOMIAL ARITHMETIC
+================================================================================
+
+49. Average rate of change of polynomials
+    LEARN: Video - Average rate of change of polynomials
+    PRACTICE: Average rate of change of polynomials
+
+50. Adding and subtracting polynomials
+    LEARN: Video - Adding and subtracting polynomials
+    PRACTICE: Add polynomials (intro)
+    PRACTICE: Subtract polynomials (intro)
+    PRACTICE: Add & subtract polynomials
+
+ASSESSMENT: Polynomial arithmetic - Quiz 1
+
+51. Taking common factors
+    LEARN: Video - Factor higher degree polynomials intro
+    PRACTICE: Factor polynomials: common factor
+
+52. Factoring higher degree polynomials
+    LEARN: Video - Factoring higher degree polynomials
+    PRACTICE: Factor higher degree polynomials
+
+53. Factoring using structure
+    LEARN: Video - Factoring using substitution
+    PRACTICE: Factor polynomials using structure
+
+ASSESSMENT: Polynomial arithmetic - Quiz 2
+ASSESSMENT: Polynomial arithmetic - Unit test
+
+================================================================================
+UNIT 11: ADVANCED FUNCTION TYPES
+================================================================================
+
+54. Graphs of absolute value functions
+    LEARN: Video - Shifting absolute value graphs
+    PRACTICE: Shift absolute value graphs
+
+55. Piecewise functions
+    LEARN: Video - Piecewise function example
+    PRACTICE: Evaluate piecewise functions
+    PRACTICE: Piecewise functions graphs
+
+ASSESSMENT: Advanced function types - Quiz 1
+
+56. Composing functions
+    LEARN: Video - Function composition
+    PRACTICE: Evaluate composite functions
+    PRACTICE: Find composite functions
+
+57. Verifying inverse functions by composition
+    LEARN: Video - Verifying inverse functions
+    PRACTICE: Verify inverse functions
+
+ASSESSMENT: Advanced function types - Quiz 2
+ASSESSMENT: Advanced function types - Unit test
+
+================================================================================
+UNIT 12: TRANSFORMATIONS OF FUNCTIONS
+================================================================================
+
+58. Shifting functions
+    LEARN: Video - Shifting functions intro
+    PRACTICE: Shift functions
+
+59. Reflecting functions
+    LEARN: Video - Reflecting functions intro
+    PRACTICE: Reflect functions
+
+60. Symmetry of functions
+    LEARN: Video - Even and odd functions
+    PRACTICE: Even and odd functions: Graphs and tables
+
+61. Scaling functions
+    LEARN: Video - Scaling functions intro
+    PRACTICE: Scale functions vertically
+
+ASSESSMENT: Transformations of functions - Unit test
+
+================================================================================
+UNIT 13: RATIONAL EXPONENTS AND RADICALS
+================================================================================
+
+62. Rational exponents
+    LEARN: Video - Basic fractional exponents
+    PRACTICE: Rational exponents challenge
+
+63. Properties of exponents (rational exponents)
+    LEARN: Video - Simplifying exponent expressions with division
+    PRACTICE: Properties of exponents (rational exponents)
+
+64. Evaluating exponents and radicals
+    LEARN: Video - Fractional exponents with numerators other than 1
+    PRACTICE: Evaluate radical expressions challenge
+
+ASSESSMENT: Rational exponents and radicals - Quiz 1
+
+65. Solving exponential equations using properties of exponents
+    LEARN: Video - Solving exponential equations
+    PRACTICE: Solve exponential equations using exponent properties
+
+66. Interpreting the rate of change of exponential models
+    LEARN: Video - Modeling with exponential functions
+    PRACTICE: Interpret change in exponential models
+
+67. Square-root equations
+    LEARN: Video - Solving square root equations
+    PRACTICE: Square-root equations intro
+    PRACTICE: Square-root equations
+
+ASSESSMENT: Rational exponents and radicals - Quiz 2
+ASSESSMENT: Rational exponents and radicals - Unit test
+
+================================================================================
+UNIT 14: LOGARITHMS
+================================================================================
+
+68. Introduction to logarithms
+    LEARN: Video - Logarithms introduction
+    PRACTICE: Evaluate logarithms
+    PRACTICE: Evaluate logarithms (advanced)
+    PRACTICE: Relationship between exponentials & logarithms
+
+69. Properties of logarithms
+    LEARN: Video - Introduction to logarithm properties
+    PRACTICE: Use the properties of logarithms
+
+ASSESSMENT: Logarithms - Quiz 1
+
+70. The change of base formula for logarithms
+    LEARN: Video - Change of base formula
+    PRACTICE: Evaluate logarithms: change of base rule
+
+71. Exponential model word problems
+    LEARN: Video - Exponential model word problems
+    PRACTICE: Exponential model word problems
+
+ASSESSMENT: Logarithms - Quiz 2
+ASSESSMENT: Logarithms - Unit test
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in College Algebra
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 14
+Total Lessons: ~71 topics
+Total Learn Items: ~70+ videos and articles
+Total Practice Items: 105 skills
+Total Assessments: ~22 quizzes + 14 unit tests + 1 course challenge
+================================================================================

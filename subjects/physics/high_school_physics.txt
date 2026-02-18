@@ -1,0 +1,321 @@
+================================================================================
+KHAN ACADEMY - HIGH SCHOOL PHYSICS
+Complete Learn & Practice Guide
+================================================================================
+
+Course: High School Physics
+Level: High School (NGSS-aligned)
+Units: 8 (+ Teacher Resources)
+Skills: 50
+Mastery Points: 5,000
+Source: https://www.khanacademy.org/science/highschool-physics
+
+================================================================================
+UNIT 1: MOTION AND FORCES
+================================================================================
+
+--- Lesson 1: Describing Motion ---
+1. Introduction to motion
+   LEARN: Video - Introduction to high school physics
+   LEARN: Video - Distance, displacement, speed, velocity
+   LEARN: Video - Acceleration
+   PRACTICE: Understand: motion variables
+   PRACTICE: Apply: constant speed motion
+   PRACTICE: Apply: accelerated motion
+
+--- Lesson 2: Forces ---
+2. Forces and free-body diagrams
+   LEARN: Video - Introduction to forces
+   LEARN: Video - Types of forces and free-body diagrams
+   LEARN: Video - Net force and acceleration
+   PRACTICE: Understand: forces
+   PRACTICE: Apply: free body diagrams
+   PRACTICE: Apply: net force
+
+ASSESSMENT: Motion and forces - Quiz 1
+
+--- Lesson 3: Newton's First and Second Laws ---
+3. Newton's laws of motion
+   LEARN: Video - Newton's first law of motion
+   LEARN: Video - Newton's second law of motion
+   LEARN: Video - Applying Newton's second law
+   PRACTICE: Understand: Newton's first and second laws
+   PRACTICE: Apply: Newton's first and second laws
+   PRACTICE: Apply: Newton's second law calculations
+
+--- Activity ---
+4. How do engineers design strong bridges?
+   LEARN: Article - Activity: How do engineers design strong bridges?
+
+ASSESSMENT: Motion and forces - Quiz 2
+ASSESSMENT: Motion and forces - Unit test
+
+================================================================================
+UNIT 2: FORCE PAIRS AND MOMENTUM
+================================================================================
+
+--- Lesson 1: Newton's Third Law ---
+5. Newton's third law
+   LEARN: Video - Newton's third law of motion
+   LEARN: Video - Action-reaction pairs
+   PRACTICE: Understand: Newton's third law
+   PRACTICE: Apply: Newton's third law
+
+--- Lesson 2: Momentum ---
+6. Momentum
+   LEARN: Video - Introduction to momentum
+   LEARN: Video - Conservation of momentum
+   PRACTICE: Understand: momentum
+   PRACTICE: Understand: conservation of momentum
+
+ASSESSMENT: Force pairs and momentum - Quiz 1
+
+--- Lesson 3: Impulse ---
+7. Impulse
+   LEARN: Video - Introduction to impulse
+   LEARN: Video - Impulse and momentum relationship
+   PRACTICE: Understand: impulse
+   PRACTICE: Apply: impulse
+
+--- Activity ---
+8. How do engineers design safety cushions to save lives?
+   LEARN: Article - Activity: How do engineers design safety cushions to save lives?
+
+ASSESSMENT: Force pairs and momentum - Quiz 2
+ASSESSMENT: Force pairs and momentum - Unit test
+
+================================================================================
+UNIT 3: GRAVITATION
+================================================================================
+
+--- Lesson 1: Newton's Law of Gravitation ---
+9. Newton's law of gravitation
+   LEARN: Video - Newton's law of universal gravitation
+   LEARN: Video - Gravitational field strength
+   PRACTICE: Understand: Newton's law of gravitation
+   PRACTICE: Apply: Newton's law of gravitation
+
+--- Lesson 2: Falling Objects ---
+10. Falling objects
+    LEARN: Video - Falling objects and air resistance
+    LEARN: Video - Free fall and acceleration due to gravity
+    PRACTICE: Understand: falling objects
+
+ASSESSMENT: Gravitation - Quiz 1
+
+--- Lesson 3: Orbital Motion ---
+11. Orbital motion
+    LEARN: Video - Centripetal force and acceleration
+    LEARN: Video - Circular orbits and orbital velocity
+    PRACTICE: Understand: centripetal force
+    PRACTICE: Understand: orbital motion
+    PRACTICE: Apply: orbital motion
+
+--- Activity ---
+12. Why is a Neptune year so long?
+    LEARN: Article - Activity: Why is a Neptune year so long?
+
+ASSESSMENT: Gravitation - Quiz 2
+ASSESSMENT: Gravitation - Unit test
+
+================================================================================
+UNIT 4: ELECTROSTATICS
+================================================================================
+
+--- Lesson 1: Coulomb's Law ---
+13. Coulomb's law
+    LEARN: Video - Coulomb's law
+    LEARN: Video - Electric charge and electric force
+    PRACTICE: Understand: Coulomb's law
+    PRACTICE: Apply: Coulomb's law
+
+--- Lesson 2: Static Electricity ---
+14. Static electricity
+    LEARN: Video - Static electricity
+    LEARN: Video - Charging by friction, conduction, and induction
+    PRACTICE: Apply: static electricity
+
+--- Activity ---
+15. Why do clothes develop static cling in a dryer?
+    LEARN: Article - Activity: Why do clothes develop static cling in a dryer?
+
+ASSESSMENT: Electrostatics - Quiz 1
+ASSESSMENT: Electrostatics - Unit test
+
+================================================================================
+UNIT 5: ENERGY
+================================================================================
+
+--- Lesson 1: Kinetic and Potential Energy ---
+16. Kinetic and potential energy
+    LEARN: Video - Kinetic energy
+    LEARN: Video - Gravitational potential energy
+    LEARN: Video - Elastic potential energy
+    PRACTICE: Apply: kinetic energy
+    PRACTICE: Apply: potential energy
+
+ASSESSMENT: Energy - Quiz 1
+
+--- Lesson 2: Conservation of Energy ---
+17. Conservation of energy
+    LEARN: Video - Conservation of energy
+    LEARN: Video - Energy conversion and efficiency
+    PRACTICE: Apply: conservation of energy
+
+--- Activity ---
+18. How do engineers design roller coasters?
+    LEARN: Article - Activity: How do engineers design roller coasters?
+
+--- Lesson 3: Work and Power ---
+19. Work and power
+    LEARN: Video - Work and energy
+    LEARN: Video - Power
+    PRACTICE: Apply: work and power
+
+ASSESSMENT: Energy - Quiz 2
+ASSESSMENT: Energy - Unit test
+
+================================================================================
+UNIT 6: ELECTROMAGNETICS
+================================================================================
+
+--- Lesson 1: Voltage and Current ---
+20. Voltage and current
+    LEARN: Video - What is voltage?
+    LEARN: Video - What is current?
+    LEARN: Video - Ohm's law
+    PRACTICE: Apply: voltage and current
+
+--- Lesson 2: Magnetic Field Due to Current ---
+21. Magnetic field due to current
+    LEARN: Video - Oersted's experiment - magnetic field due to current
+    LEARN: Video - Magnetic field due to a current-carrying conductor
+    PRACTICE: Apply: magnetic field due to straight current-carrying conductors
+    PRACTICE: Apply: magnetic field due to current-carrying coils
+
+ASSESSMENT: Electromagnetics - Quiz 1
+
+--- Lesson 3: Electric Motors ---
+22. Electric motors
+    LEARN: Video - Force on a current-carrying conductor in a magnetic field
+    LEARN: Video - How electric motors work
+    PRACTICE: Apply: force on a current-carrying conductor in a magnetic field
+    PRACTICE: Apply: electric motors
+
+ASSESSMENT: Electromagnetics - Quiz 2
+
+--- Lesson 4: Electromagnetic Induction ---
+23. Electromagnetic induction
+    LEARN: Video - Electromagnetic induction (Faraday's law)
+    LEARN: Video - Lenz's law
+    PRACTICE: Apply: electromagnetic induction
+
+--- Lesson 5: Electric Generators ---
+24. Electric generators
+    LEARN: Video - Electric generators
+    LEARN: Video - AC vs DC generators
+    PRACTICE: Apply: electric generators
+
+ASSESSMENT: Electromagnetics - Quiz 3
+ASSESSMENT: Electromagnetics - Unit test
+
+================================================================================
+UNIT 7: ELECTROMAGNETIC RADIATION
+================================================================================
+
+--- Lesson 1: The Electromagnetic Spectrum ---
+25. The electromagnetic spectrum
+    LEARN: Article - The electromagnetic spectrum
+    LEARN: Video - Electromagnetic spectrum overview
+    PRACTICE: Apply: the electromagnetic spectrum
+
+--- Lesson 2: Wave Behaviors of EM Radiation ---
+26. Wave behaviors of electromagnetic radiation
+    LEARN: Video - Electromagnetic waves
+    LEARN: Video - Reflection, refraction, and diffraction
+    PRACTICE: Apply: electromagnetic waves
+    PRACTICE: Apply: refraction, diffraction, and interference of light
+
+--- Activity ---
+27. Why do optical discs reflect rainbow colors?
+    LEARN: Article - Activity: Why do optical discs reflect rainbow colors?
+
+ASSESSMENT: Electromagnetic radiation - Quiz 1
+
+--- Lesson 3: Particle Behaviors of EM Radiation ---
+28. Particle behaviors of electromagnetic radiation
+    LEARN: Video - Photoelectric effect
+    LEARN: Video - Photovoltaic cells
+    PRACTICE: Apply: the photoelectric and photovoltaic effects
+    PRACTICE: Apply: atomic spectra
+
+--- Lesson 4: EM Radiation from the Sun ---
+29. EM radiation from the Sun
+    LEARN: Video - Solar radiation and Earth's climate
+    LEARN: Video - Greenhouse effect
+    PRACTICE: Apply: EM radiation from the Sun
+
+--- Activity ---
+30. How do carbon dioxide and albedo affect how Earth interacts with sunlight?
+    LEARN: Article - Activity: How do CO2 and albedo affect Earth's interaction with sunlight?
+
+ASSESSMENT: Electromagnetic radiation - Quiz 2
+ASSESSMENT: Electromagnetic radiation - Unit test
+
+================================================================================
+UNIT 8: NUCLEAR PHYSICS
+================================================================================
+
+--- Lesson 1: Radioactive Decay ---
+31. Radioactive decay
+    LEARN: Video - Introduction to radioactive decay
+    LEARN: Video - Types of radioactive decay (alpha, beta, gamma)
+    PRACTICE: Apply: alpha decay
+    PRACTICE: Apply: beta decay
+    PRACTICE: Understand: radioactive decay
+    PRACTICE: Apply: alpha, beta, and gamma decay
+
+--- Lesson 2: Half-life ---
+32. Half-life and radiometric dating
+    LEARN: Video - Half-life and radiometric dating
+    LEARN: Video - Carbon dating
+    PRACTICE: Understand: half-life and radiometric dating
+    PRACTICE: Apply: half-life and radiometric dating
+
+--- Activity ---
+33. How do we know when dinosaurs lived on Earth?
+    LEARN: Article - Activity: How do we know when dinosaurs lived on Earth?
+
+ASSESSMENT: Nuclear physics - Quiz 1
+
+--- Lesson 3: Nuclear Fusion ---
+34. Nuclear fusion
+    LEARN: Video - Nuclear fusion
+    LEARN: Video - Stellar fusion
+    PRACTICE: Understand: nuclear fusion
+
+--- Lesson 4: Nuclear Fission ---
+35. Nuclear fission
+    LEARN: Video - Nuclear fission
+    LEARN: Video - Chain reactions and nuclear power
+    PRACTICE: Understand: nuclear fission
+    PRACTICE: Apply: nuclear fission
+
+ASSESSMENT: Nuclear physics - Quiz 2
+ASSESSMENT: Nuclear physics - Unit test
+
+================================================================================
+COURSE CHALLENGE
+================================================================================
+Test your knowledge of all skills in High School Physics
+- Course challenge (comprehensive assessment)
+
+================================================================================
+SUMMARY
+================================================================================
+Total Units: 8 content units + 1 teacher resource unit
+Total Lessons: ~35 topics
+Total Learn Items: ~70+ videos and articles
+Total Practice Items: 50 skills
+Total Assessments: 15 quizzes + 8 unit tests + 1 course challenge
+================================================================================

@@ -1,0 +1,186 @@
+KHAN ACADEMY - CALCULUS 2 (AP CALCULUS BC)
+===========================================
+Complete Learn & Practice List by Unit
+
+This course includes all of Calculus 1 (AP Calc AB) plus additional BC topics.
+
+================================================================================
+ADDITIONAL BC TOPICS (Beyond Calculus 1)
+================================================================================
+
+UNIT 1: INTEGRATION BY PARTS
+-----------------------------
+
+1. Integration by parts
+   LEARN: Video - ∫udv = uv - ∫vdu
+   PRACTICE: Integrate products using integration by parts
+
+2. Integration by parts: definite integrals
+   LEARN: Video - Applying to definite integrals
+   PRACTICE: Evaluate definite integrals using parts
+
+3. Integration by parts: choosing u and dv
+   LEARN: Video - LIATE rule
+   PRACTICE: Select appropriate u and dv
+
+UNIT 2: PARAMETRIC EQUATIONS, POLAR COORDINATES, VECTOR-VALUED FUNCTIONS
+-------------------------------------------------------------------------
+
+1. Parametric equations differentiation
+   LEARN: Video - dy/dx = (dy/dt)/(dx/dt)
+   PRACTICE: Find derivatives of parametric curves
+
+2. Second derivatives of parametric equations
+   LEARN: Video - d²y/dx²
+   PRACTICE: Find second derivatives
+
+3. Arc length of parametric curves
+   LEARN: Video - L = ∫√[(dx/dt)² + (dy/dt)²]dt
+   PRACTICE: Calculate arc lengths
+
+4. Polar coordinates
+   LEARN: Video - (r, θ) system
+   PRACTICE: Work with polar coordinates
+
+5. Area bounded by polar curves
+   LEARN: Video - A = (1/2)∫r²dθ
+   PRACTICE: Find areas in polar coordinates
+
+6. Vector-valued functions
+   LEARN: Video - r(t) = ⟨x(t), y(t)⟩
+   PRACTICE: Work with vector functions
+
+7. Derivatives of vector-valued functions
+   LEARN: Video - r'(t) = ⟨x'(t), y'(t)⟩
+   PRACTICE: Differentiate vector functions
+
+UNIT 3: INFINITE SEQUENCES AND SERIES
+--------------------------------------
+
+1. Defining convergent and divergent sequences
+   LEARN: Video - lim(n→∞) aₙ
+   PRACTICE: Determine sequence convergence
+
+2. Working with geometric sequences
+   LEARN: Video - aₙ = a₁·rⁿ⁻¹
+   PRACTICE: Analyze geometric sequences
+
+3. Defining convergent and divergent infinite series
+   LEARN: Video - Σaₙ
+   PRACTICE: Determine series convergence
+
+4. Working with geometric series
+   LEARN: Video - Σarⁿ = a/(1-r) if |r| < 1
+   PRACTICE: Sum geometric series
+
+5. nth term test for divergence
+   LEARN: Video - If lim aₙ ≠ 0, then Σaₙ diverges
+   PRACTICE: Apply divergence test
+
+6. Integral test
+   LEARN: Video - Compare series to integral
+   PRACTICE: Use integral test
+
+7. Harmonic series and p-series
+   LEARN: Video - Σ1/nᵖ converges if p > 1
+   PRACTICE: Test p-series
+
+8. Comparison tests
+   LEARN: Video - Direct and limit comparison
+   PRACTICE: Compare series
+
+9. Alternating series test
+   LEARN: Video - Leibniz test for alternating series
+   PRACTICE: Test alternating series
+
+10. Ratio test
+    LEARN: Video - lim |aₙ₊₁/aₙ|
+    PRACTICE: Apply ratio test
+
+11. Determining absolute or conditional convergence
+    LEARN: Video - Absolute vs conditional
+    PRACTICE: Classify convergence type
+
+12. Alternating series error bound
+    LEARN: Video - Error ≤ |aₙ₊₁|
+    PRACTICE: Estimate error
+
+13. Finding Taylor polynomial approximations
+    LEARN: Video - Pₙ(x) = Σ[f⁽ᵏ⁾(a)/k!](x-a)ᵏ
+    PRACTICE: Find Taylor polynomials
+
+14. Lagrange error bound
+    LEARN: Video - Error bound for Taylor polynomials
+    PRACTICE: Estimate approximation error
+
+15. Radius and interval of convergence of power series
+    LEARN: Video - Finding where series converges
+    PRACTICE: Determine radius/interval of convergence
+
+16. Finding Taylor or Maclaurin series for a function
+    LEARN: Video - Power series representations
+    PRACTICE: Find Taylor/Maclaurin series
+
+17. Representing functions as power series
+    LEARN: Video - Using known series
+    PRACTICE: Represent functions as series
+
+UNIT 4: ADDITIONAL INTEGRATION TECHNIQUES
+------------------------------------------
+
+1. Improper integrals
+   LEARN: Video - ∫ₐ^∞ f(x)dx, discontinuities
+   PRACTICE: Evaluate improper integrals
+
+2. Partial fraction decomposition
+   LEARN: Video - Breaking apart rational functions
+   PRACTICE: Integrate using partial fractions
+
+3. Trigonometric substitution
+   LEARN: Video - Using sin, tan, sec substitutions
+   PRACTICE: Integrate using trig substitution
+
+UNIT 5: ADDITIONAL APPLICATIONS
+--------------------------------
+
+1. Volume with shell method
+   LEARN: Video - V = 2π∫x·f(x)dx
+   PRACTICE: Find volumes using cylindrical shells
+
+2. Arc length
+   LEARN: Video - L = ∫√(1 + [f'(x)]²)dx
+   PRACTICE: Calculate arc lengths
+
+3. Surface area of revolution
+   LEARN: Video - SA = 2π∫f(x)√(1 + [f'(x)]²)dx
+   PRACTICE: Find surface areas
+
+4. Logistic differential equations
+   LEARN: Video - dy/dt = ky(1 - y/M)
+   PRACTICE: Solve logistic growth problems
+
+5. Euler's method with differential equations
+   LEARN: Video - Numerical approximation
+   PRACTICE: Use Euler's method
+
+================================================================================
+SUMMARY
+================================================================================
+TOTAL UNITS: 5 additional BC units (plus all AB content)
+TOTAL NEW LESSONS: 40+
+TOTAL COURSE LESSONS: 140+
+
+BC-ONLY TOPICS:
+✓ Integration by parts
+✓ Parametric, polar, and vector-valued functions
+✓ Sequences and series (major topic)
+✓ Taylor and Maclaurin series
+✓ Additional integration techniques
+✓ Shell method, arc length, surface area
+✓ Logistic differential equations
+
+PREREQUISITE: Pre-Calculus
+INCLUDES: All of Calculus 1 (AP Calc AB)
+AP EXAM: AP Calculus BC
+PREPARES FOR: Calculus 3 (Multivariable Calculus)
+================================================================================
