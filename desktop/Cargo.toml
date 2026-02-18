@@ -1,0 +1,13 @@
+[package]
+name = "sovereign-academy-desktop"
+version = "0.1.0"
+edition = "2021"
+description = "Sovereign Academy - Discord-style frameless desktop app"
+
+[[bin]]
+name = "sovereign"
+path = "src/main.rs"
+
+[dependencies]
+tao = "0.31"
+wry = "0.48"

@@ -1,0 +1,157 @@
+# ═══════════════════════════════════════════════════════════════════
+# Sovereign Academy — CI/CD Verification (Phase 6.6)
+# ═══════════════════════════════════════════════════════════════════
+# Mirrors the local pre-push verification on GitHub.
+# Runs on every push to main and on every pull request.
+# ═══════════════════════════════════════════════════════════════════
+
+name: Verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel in-progress runs on the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DENO_VERSION: "2.6.9"
+  RUST_VERSION: "1.92.0"
+
+jobs:
+  # ── Rust Math Engine Tests ────────────────────────────────────────
+  rust-tests:
+    name: Rust Tests (math-engine)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: math-engine
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Cache Cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            math-engine/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('math-engine/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Run unit tests (9 tests)
+        run: cargo test --verbose
+
+      - name: Run purity tests (22 × 100 iterations)
+        run: cargo test --test purity_test --verbose
+
+  # ── Deno Verification Pipeline ───────────────────────────────────
+  deno-verify:
+    name: Deno Verify (fmt + lint + check + vitest + snapshots)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: ${{ env.DENO_VERSION }}
+
+      - name: Install Rust (for cargo test in verify pipeline)
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Cache Cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            math-engine/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('math-engine/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-deno-nm-${{ hashFiles('deno.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deno-nm-
+
+      - name: Install dependencies
+        run: deno install
+
+      - name: Check formatting
+        run: deno fmt --check .
+
+      - name: Lint
+        run: deno lint .
+
+      - name: Type check
+        run: deno check
+
+      - name: Run Rust tests
+        run: cd math-engine && cargo test
+
+      - name: Run Vitest unit tests
+        run: npx vitest run --config vitest.config.ts
+
+      - name: Verify golden snapshots
+        run: deno run --allow-read scripts/verify-snapshots.ts
+
+  # ── Golden Snapshot Integrity ────────────────────────────────────
+  snapshot-check:
+    name: Snapshot Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: ${{ env.DENO_VERSION }}
+
+      - name: Verify all 6 golden files exist and are non-empty
+        run: deno run --allow-read scripts/verify-snapshots.ts
+
+      - name: Check snapshot files are committed
+        run: |
+          # Ensure golden files are tracked by git
+          EXPECTED_FILES=(
+            "tests/golden/physics.txt"
+            "tests/golden/state-flow.log"
+            "tests/golden/ui-titlebar.html"
+            "tests/golden/ui-sidebar.html"
+            "tests/golden/ui-mathstage.html"
+            "tests/golden/ui-theme.html"
+          )
+          MISSING=0
+          for f in "${EXPECTED_FILES[@]}"; do
+            if ! git ls-files --error-unmatch "$f" > /dev/null 2>&1; then
+              echo "❌ Not tracked by git: $f"
+              MISSING=1
+            else
+              echo "✅ $f"
+            fi
+          done
+          if [ $MISSING -ne 0 ]; then
+            echo ""
+            echo "❌ Some golden files are not committed."
+            echo "   Run: deno task snapshot:all && git add tests/golden/"
+            exit 1
+          fi
+          echo ""
+          echo "✅ All golden snapshots are committed."

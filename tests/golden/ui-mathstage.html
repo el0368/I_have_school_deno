@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UI Snapshot: MathStage</title>
+    <style>
+      body {
+        font-family: "gg sans", "Noto Sans", sans-serif;
+        background: #1e1f22;
+        color: #dbdee1;
+        padding: 24px;
+      }
+      h1 {
+        color: #f2f3f5;
+        border-bottom: 1px solid #3f4147;
+        padding-bottom: 8px;
+      }
+      h2 {
+        color: #b5bac1;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      .section {
+        background: #2b2d31;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 12px 0;
+      }
+      .item {
+        padding: 4px 0;
+        color: #dbdee1;
+        font-size: 14px;
+      }
+      .class-name {
+        color: #5865f2;
+        font-family: "Consolas", monospace;
+      }
+      .signal-name {
+        color: #23a559;
+        font-family: "Consolas", monospace;
+      }
+      .behavior {
+        color: #fee75c;
+      }
+      .tag {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        margin-right: 4px;
+      }
+      .tag-class {
+        background: #5865f220;
+        color: #5865f2;
+      }
+      .tag-signal {
+        background: #23a55920;
+        color: #23a559;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MathStage</h1>
+    <p>Source: <code>islands/MathStage.tsx</code></p>
+
+    <div class="section">
+      <h2>Required CSS Classes</h2>
+      <div class="item"><span class="tag tag-class">.math-stage</span></div>
+      <div class="item"><span class="tag tag-class">.stage-header</span></div>
+      <div class="item"><span class="tag tag-class">.stage-content</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-card</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-problem</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-form</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-input</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-submit</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-skip</span></div>
+      <div class="item"><span class="tag tag-class">.exercise-result</span></div>
+      <div class="item"><span class="tag tag-class">.result-correct</span></div>
+      <div class="item"><span class="tag tag-class">.result-incorrect</span></div>
+      <div class="item"><span class="tag tag-class">.stage-wasm-badge</span></div>
+      <div class="item"><span class="tag tag-class">.streak-badge</span></div>
+      <div class="item"><span class="tag tag-class">.success-overlay</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Required Elements</h2>
+      <div class="item">• Channel header with # icon</div>
+      <div class="item">• WASM badge (when engine loaded)</div>
+      <div class="item">• Exercise type badge</div>
+      <div class="item">• Problem display (monospace)</div>
+      <div class="item">• Answer text input</div>
+      <div class="item">• Check button</div>
+      <div class="item">• Skip button</div>
+      <div class="item">• Result feedback (✅/❌ + hint)</div>
+      <div class="item">• Streak counter (🔥)</div>
+      <div class="item">• Success overlay (🎉)</div>
+    </div>
+
+    <div class="section">
+      <h2>Preact Signals</h2>
+      <div class="item"><span class="tag tag-signal">activeTopic / activeTopicData</span></div>
+      <div class="item"><span class="tag tag-signal">currentExercise</span></div>
+      <div class="item"><span class="tag tag-signal">exerciseIndex</span></div>
+      <div class="item"><span class="tag tag-signal">isLoading</span></div>
+      <div class="item"><span class="tag tag-signal">studentAnswer</span></div>
+      <div class="item"><span class="tag tag-signal">lastResult</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Critical Behaviors</h2>
+      <div class="item behavior">⚡ WASM loads on mount (dynamic fetch+blob import)</div>
+      <div class="item behavior">⚡ Exercise loads when topic/index changes</div>
+      <div class="item behavior">⚡ Submit validates via WASM (or JS fallback)</div>
+      <div class="item behavior">⚡ Correct answer: green flash + auto-advance 1.5s</div>
+      <div class="item behavior">⚡ Wrong answer: red flash + hint</div>
+      <div class="item behavior">⚡ Streak increments on consecutive correct</div>
+      <div class="item behavior">⚡ Skip resets streak</div>
+    </div>
+  </body>
+</html>

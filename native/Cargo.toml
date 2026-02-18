@@ -1,0 +1,17 @@
+[package]
+name = "native_window"
+version = "0.1.0"
+edition = "2021"
+description = "Frameless native window with webview for Sovereign Academy via Deno FFI"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+tao = "0.31"
+wry = "0.48"
+raw-window-handle = "0.6"
+
+[profile.release]
+opt-level = 2
+lto = true

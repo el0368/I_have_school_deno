@@ -1,0 +1,48 @@
+# Git Attributes — Consistent file handling
+
+# Auto-detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# Binary files (never modify line endings)
+*.wasm binary
+*.bin binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Text files (enforce LF)
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Rust files
+*.rs text eol=lf
+*.toml text eol=lf
+Cargo.lock text eol=lf
+
+# Deno files
+deno.json text eol=lf
+deno.lock text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Shell scripts
+*.sh text eol=lf

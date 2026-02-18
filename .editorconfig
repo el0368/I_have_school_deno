@@ -1,0 +1,31 @@
+# EditorConfig — Consistent formatting across editors
+# https://editorconfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{ts,tsx,js,jsx,json}]
+indent_size = 2
+
+[*.{rs,toml}]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+[Makefile]
+indent_style = tab
+
+[*.yml]
+indent_size = 2
+
+[deno.json]
+indent_size = 2

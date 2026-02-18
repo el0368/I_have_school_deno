@@ -1,0 +1,466 @@
+# ═══════════════════════════════════════════════════════════════════
+# SOVEREIGN ACADEMY — Implementation Status
+# ═══════════════════════════════════════════════════════════════════
+# Fresh 1.7.3 + Rust FFI + Rust WASM | Discord-Frameless UI
+# ═══════════════════════════════════════════════════════════════════
+
+
+# ── PHASE 1: Environment Scaffolding ────────────────────────────────
+
+[x] Install Deno 2.6.9 (verified)
+[x] Install Rust 1.92.0 + Cargo (verified)
+[x] Install wasm-pack (verified)
+[x] Scaffold Fresh project: sovereign-academy/
+[x] Configure deno.json with FFI tasks (start:native, build:native, build:wasm, build:all)
+[x] Create Rust native window library: native/Cargo.toml + native/src/lib.rs
+    [x] crate-type = ["cdylib"] for FFI
+    [x] Uses `tao` crate for cross-platform frameless windows
+    [x] Exports: create_frameless_window, minimize, maximize, close, set_title, set_size, is_maximized
+    [x] SendPtr wrapper for thread-safe global window handle
+    [x] Compiled successfully: native/target/release/native_window.dll
+[x] Create Deno FFI bridge: lib/native.ts
+    [x] Loads .dll/.dylib/.so based on platform
+    [x] Graceful fallback for browser-only mode
+    [x] Full NativeWindow API (create, minimize, maximize, close, setTitle, setSize, isMaximized, destroy)
+[x] Create window control API routes: routes/api/window/[action].ts
+    [x] POST /api/window/minimize → calls FFI minimize
+    [x] POST /api/window/maximize → calls FFI maximize
+    [x] POST /api/window/close → calls FFI close + Deno.exit
+
+# ── PHASE 2: Binary Vault Strategy ─────────────────────────────────
+
+[x] Create binary streaming middleware: routes/_middleware.ts
+    [x] Intercepts /exercises/*.bin requests
+    [x] Streams via ReadableStream (zero-copy)
+    [x] Sets Cache-Control: public, max-age=3600, immutable
+    [x] Proper error handling (404, 500)
+[x] Create exercise manifest API: routes/api/manifest.ts
+    [x] Returns all 19 topics with 1,814 exercise paths
+    [x] Cache-Control: max-age=86400
+[x] Create exercise loader: lib/exercise-loader.ts
+    [x] Binary parser (type byte + length-prefixed UTF-8 strings)
+    [x] In-memory cache (Map<string, Uint8Array>)
+    [x] Demo exercise generator for development
+    [x] Cache stats API
+[ ] Generate 1,814 actual .bin exercise files (Phase 5)
+    → Currently using JS demo generator as fallback
+
+# ── PHASE 3: Rust-WASM Integration ─────────────────────────────────
+
+[x] Create WASM math engine: math-engine/Cargo.toml + math-engine/src/lib.rs
+    [x] validate_arithmetic() — expression evaluation
+    [x] validate_equation() — variable substitution + balance check
+    [x] validate_fraction() — cross-multiplication comparison
+    [x] simplify_fraction() — GCD reduction to lowest terms
+    [x] check_answer() — returns JSON result with hints
+    [x] batch_validate() — bulk validation
+[x] Compile to WASM: static/wasm/math_validator_bg.wasm
+    [x] Optimized: opt-level="z", lto=true, codegen-units=1, strip=true
+    [x] TypeScript declarations generated
+[x] All 9 Rust tests pass:
+    [x] test_addition
+    [x] test_subtraction
+    [x] test_multiplication
+    [x] test_division
+    [x] test_division_by_zero
+    [x] test_fraction_validation
+    [x] test_simplify_fraction
+    [x] test_batch_validate
+    [x] test_check_answer_json
+[x] WASM loader in MathStage island (dynamic fetch+blob import)
+
+# ── PHASE 4: Discord "Skinning" ────────────────────────────────────
+
+[x] Create Discord CSS theme: static/discord.css
+    [x] CSS custom properties (Discord palette: #1e1f22, #2b2d31, #313338)
+    [x] Typography: gg sans / Noto Sans fallback
+    [x] Transitions: 0.15s fast, 0.25s normal
+    [x] Scrollbar styling (thin, dark)
+    [x] Selection color (brand accent)
+    [x] Responsive breakpoint (768px)
+[x] TitleBar island: islands/TitleBar.tsx
+    [x] Draggable region (-webkit-app-region: drag)
+    [x] No-drag zone for buttons
+    [x] Minimize / Maximize / Restore / Close buttons with SVG icons
+    [x] Hover states (red for close)
+    [x] Communicates via POST /api/window/[action]
+[x] Sidebar island: islands/Sidebar.tsx
+    [x] 19 math topics as Discord-style channels
+    [x] Active topic highlighting
+    [x] Progress badges (percentage per topic)
+    [x] Global progress bar (linear gradient)
+    [x] User area at bottom (avatar + status)
+    [x] Category header: "MATH TOPICS"
+    [x] Collapsible for mobile
+[x] MathStage island: islands/MathStage.tsx
+    [x] Channel header with hash (#) icon
+    [x] WASM badge when engine is loaded
+    [x] Exercise card with type badge
+    [x] Monospace font for math problems
+    [x] Answer input with correct/incorrect states
+    [x] Check / Skip buttons
+    [x] Result feedback (green check / red X + hint)
+    [x] Streak counter (🔥 with pulse glow animation)
+    [x] Success overlay (🎉 pop animation)
+    [x] Auto-advance after 1.5s on correct answer
+[x] Preact Signals state management: lib/state.ts
+    [x] activeTopic signal + activeTopicData computed
+    [x] currentExercise, exerciseIndex, isLoading
+    [x] studentAnswer, lastResult
+    [x] progress tracking (Map<topicId, completedCount>)
+    [x] totalCompleted computed
+    [x] isMaximized, sidebarCollapsed UI signals
+    [x] selectTopic(), markCompleted() actions
+[x] Updated routes: _app.tsx (Discord body class), index.tsx (shell layout)
+[x] Updated fresh.gen.ts (all islands + routes registered)
+[x] Server running and verified: HTTP 200 at localhost:8000
+
+# ── PHASE 5: Quality Gate ───────────────────────────────────────────
+
+[x] Rust unit tests (cargo test) — 9/9 passing
+[ ] Deno unit tests (deno test)
+    → Write tests for exercise-loader.ts
+    → Write tests for state.ts actions
+[ ] Vitest integration (optional)
+[ ] Stryker mutation testing (optional)
+[ ] Pre-commit hook
+[ ] Generate .bin exercise files from exercise spec
+
+# ── REMAINING TASKS ─────────────────────────────────────────────────
+
+[ ] Generate 1,814 .bin exercise files (or build a generator script)
+[ ] Test native window mode: deno task start:native (requires FFI permissions)
+[ ] Add keyboard navigation (Arrow keys for topic switching)
+[ ] Add Exercise history / review mode
+[ ] Add mastery verification in middleware (gating binary access)
+[ ] Cross-platform testing (macOS, Linux)
+[ ] Production build: deno task build:all
+[ ] Package as distributable (bundle Deno + native lib + WASM + static assets)
+
+
+# ── COMMANDS ────────────────────────────────────────────────────────
+
+# Development (browser mode):
+#   cd sovereign-academy && deno task start
+#   → http://localhost:8000
+
+# Development (native frameless desktop app):
+#   cd sovereign-academy && deno task launch:desktop
+#   → Launches native window with webview loading localhost:8000
+#   → Discord UI in frameless native window (NOT browser)
+
+# Build desktop app:
+#   deno task build:desktop       ← compile Rust desktop launcher
+
+# Build WASM math engine:
+#   deno task build:wasm
+
+# Run Rust math tests:
+#   deno task test:rust
+
+# Build everything for production:
+#   deno task build:all
+#   → Output: desktop/target/release/sovereign.exe (or sovereign on Unix)
+
+
+# ── PROJECT STRUCTURE ───────────────────────────────────────────────
+
+# sovereign-academy/
+# ├── deno.json                  ← Config + tasks + imports
+# ├── main.ts                    ← Server entry point
+# ├── dev.ts                     ← Dev server entry
+# ├── fresh.gen.ts               ← Route/island manifest (auto)
+# ├── fresh.config.ts            ← Fresh configuration
+# │
+# ├── lib/                       ← Shared utilities
+# │   ├── native.ts              ← Deno FFI bridge to Rust
+# │   ├── state.ts               ← Preact Signals (global state)
+# │   └── exercise-loader.ts     ← Binary file loader + parser
+# │
+# ├── islands/                   ← Interactive Preact components
+# │   ├── TitleBar.tsx            ← Custom window title bar
+# │   ├── Sidebar.tsx             ← Topic channel list
+# │   └── MathStage.tsx           ← Exercise display + WASM validation
+# │
+# ├── routes/                    ← Server routes
+# │   ├── _app.tsx               ← HTML shell (Discord theme)
+# │   ├── _middleware.ts         ← Binary file streaming
+# │   ├── index.tsx              ← Main layout
+# │   └── api/
+# │       ├── manifest.ts        ← Exercise manifest API
+# │       └── window/[action].ts ← FFI window controls
+# │
+# ├── static/                    ← Static assets
+# │   ├── discord.css            ← Discord dark theme (~450 lines)
+# │   └── wasm/                  ← Compiled WASM modules
+# │       ├── math_validator.js
+# │       ├── math_validator.d.ts
+# │       └── math_validator_bg.wasm
+# │
+# ├── native/                    ← Rust FFI library
+# │   ├── Cargo.toml
+# │   └── src/lib.rs             ← Frameless window (tao crate)
+# │
+# └── math-engine/               ← Rust WASM library
+#     ├── Cargo.toml
+#     └── src/lib.rs              ← Math validation (9 tests)
+
+
+# ═══════════════════════════════════════════════════════════════════
+# PHASE 6: "FROZEN CORE" + LIFE SAVER STRATEGY
+# ═══════════════════════════════════════════════════════════════════
+# Source: C:\Users\hlek\.gemini\antigravity\brain\16ad6bdf-99d6-4603-a4c5-f96ce82ee950\
+# Date: 2026-02-18
+# ═══════════════════════════════════════════════════════════════════
+
+# ── OBJECTIVE ────────────────────────────────────────────────────────
+# The "Discord-Quality" Hybrid Plan:
+#   1. UI Shell (desktop/ - Rust): KEEP as FROZEN CORE (Pillar 21)
+#      → tao + wry handles WM_NCHITTEST (native resize) + DwmExtendFrameIntoClientArea (frameless)
+#      → Build once, rarely touch. Just a "dumb" container loading http://localhost:5173
+#   2. Physics Engine (math-engine/ - Rust): KEEP for performance
+#      → Compiled to WASM, loaded by UI
+#   3. Add Anti-Logic Drift safeguards (Pillars 2, 3, 22, 51-56)
+#   4. Standard Tooling Suite: Vitest + Playwright + Deno tools
+#   5. Git Bisect strategy with deterministic snapshots
+
+# ── PHASE 6.1: Frozen Core Shell (Rust) ──────────────────────────────
+
+[x] Audit desktop/src/main.rs
+    [x] Verify WM_NCHITTEST implementation (8-direction resize)
+    [x] Verify DwmExtendFrameIntoClientArea(-1) for frameless shadow
+    [x] Verify IPC bridge (minimize, maximize, close, resize)
+    [x] Verify JS resize handles injection
+    [x] Verify WM_NCCALCSIZE, WM_ERASEBKGND, WM_SIZE handlers
+    [x] Build succeeds with 0 warnings: cargo build --release
+[x] Mark desktop/ as FROZEN CORE
+    → Status: ✅ AUDITED & VERIFIED (Phase 1 complete)
+    → Action: Treat as "do not modify unless critical bug"
+[x] Document desktop/ freeze status
+    [x] Add comment to desktop/src/main.rs header: "FROZEN CORE - DO NOT MODIFY"
+    [x] Create desktop/README.md explaining freeze policy
+    [x] Update root README.md with architecture diagram
+
+# ── PHASE 6.2: Anti-Logic Drift Integration ───────────────────────────
+
+[x] WASM Purity Tests (Pillar 2: Same Input → Same Output)
+    [x] Create math-engine/tests/purity_test.rs
+    [x] Test: validate_arithmetic("2+2", 4) ALWAYS returns true
+    [x] Test: validate_arithmetic("10/2", 5) ALWAYS returns true
+    [x] Test: validate_fraction("1/2", "2/4") ALWAYS returns true
+    [x] Test: simplify_fraction("4/8") ALWAYS returns "1/2"
+    [x] Add to CI: must pass 100 times in a row (no flakes)
+    [x] Fixed evaluate_side() bug (removed parenthesis wrapping)
+    [x] 22 purity tests × 100 iterations each — ALL PASSING
+
+[x] WASM Health Check (Pillar 3: Verify Everything)
+    [x] Create lib/wasm-health-check.ts
+    [x] On app startup, test WASM: 1+1=2, 2*3=6, 4/2=2
+    [x] If ANY fail → display warning banner in MathStage
+    [x] Log health check results to console
+    [x] Integrated into MathStage island (runs on WASM load)
+
+[x] Golden Master Snapshots (Prevent Circular Regression)
+    [x] Create tests/golden/ directory structure
+    [x] Physics Snapshots:
+        [x] Create scripts/snapshot-physics.ts
+        [x] Run 41 math scenarios (deterministic, no WASM needed)
+        [x] Save to tests/golden/physics.txt (line-by-line readable)
+        [x] Categories: arithmetic, fraction, simplify, equation, check_answer, batch, edge
+    [x] UI Snapshots:
+        [x] Create scripts/snapshot-ui.ts
+        [x] Snapshot MathStage, Sidebar, TitleBar components + Theme
+        [x] Save HTML to tests/golden/ui-*.html (4 files)
+        [x] Viewable in browser for visual inspection
+    [x] State Logic Snapshots:
+        [x] Create scripts/snapshot-state.ts
+        [x] Simulate: selectTopic → loadExercise → submitAnswer → markCompleted
+        [x] Save to tests/golden/state-flow.log (5 flows)
+    [x] Add snapshot verification to deno task verify
+        [x] Created scripts/verify-snapshots.ts
+        [x] Checks all 6 golden files present and non-empty
+        [x] Integrated into deno task verify pipeline
+
+# ── PHASE 6.3: Standard Tooling Suite ──────────────────────────────────
+
+[x] Vite Integration (Already Core Build Tool)
+    [x] Vite configured in Fresh 2.2.0
+    [x] Verify dev server HMR works correctly
+    [x] Verify production build optimization
+
+[x] Vitest Installation (Unit Testing)
+    [x] Install vitest: deno add npm:vitest
+    [x] Create vitest.config.ts
+    [x] Configure test patterns: **/*.test.ts
+    [x] Write tests for lib/ pure functions
+    [x] Write tests for islands/ component logic
+    [x] Add to deno task verify
+
+[x] Playwright Installation (E2E Testing)
+    [x] Install playwright: deno add npm:@playwright/test
+    [x] Create playwright.config.ts
+    [x] Write E2E test: launch desktop app
+    [x] Write E2E test: math validation flow
+    [x] Write E2E test: topic navigation
+    [x] Add to deno task verify (optional, may be slow)
+
+[x] Preact Signals Standardization
+    [x] Already using @preact/signals in lib/state.ts
+    [x] Audit all state management (ensure no useState)
+    [x] Document signal patterns in copilot-instructions.md
+    [x] Add example tests for signal reactivity
+
+[x] Deno Tools Configuration
+    [x] deno.json exists with imports and tasks
+    [x] Configure deno.json lint rules (recommended set)
+    [x] Configure deno.json fmt rules (line width, indentation)
+    [x] Add deno check to verify task
+    [x] Verify all tasks work: lint, fmt, check, test
+
+# ── PHASE 6.4: Institutional Memory ────────────────────────────────────
+
+[x] Create .editorconfig (Pillar 56: Consistent Formatting)
+    [x] Set: indent_style = space, indent_size = 2
+    [x] Set: end_of_line = lf, charset = utf-8
+    [x] Set: trim_trailing_whitespace = true
+    [x] Set: insert_final_newline = true
+    [x] Language-specific rules for TS, Rust, JSON
+
+[x] Create GitHub Copilot Instructions & VSCode Skills
+    [x] .github/copilot-instructions.md (replaces GEMINI.md)
+        [x] Project identity and architecture overview
+        [x] Frozen Core protection rules
+        [x] Anti-Logic Drift protocol
+        [x] Code style conventions
+        [x] Task commands reference
+        [x] Phase 6 status tracking
+        [x] Common pitfalls and troubleshooting
+    [x] .vscode/skills/sovereign-academy.skill.md
+        [x] Tech stack reference
+        [x] Project structure documentation
+        [x] Common workflows (islands, WASM, desktop, styling)
+        [x] Diagnostic commands
+        [x] Implementation status tracking
+    [x] .vscode/skills/phase6-anti-logic-drift.skill.md
+        [x] Phase 6 implementation guide
+        [x] WASM purity testing
+        [x] Health check system
+        [x] Golden snapshot strategy
+        [x] Tooling setup (Vitest, Playwright)
+        [x] Git hooks (pre-commit, pre-push)
+        [x] Git bisect workflow
+        [x] CI/CD configuration
+
+[x] Create .gitattributes
+    [x] Set: *.wasm binary
+    [x] Set: *.bin binary
+    [x] Set: *.txt text eol=lf
+    [x] Prevent line ending issues across Windows/Mac/Linux
+    [x] Binary formats: .dll, .so, .dylib, .exe, images
+    [x] Text formats: .ts, .tsx, .rs, .toml, .json, .md
+    [x] Shell scripts: .sh with LF
+
+
+
+# ── PHASE 6.5: Git Bisect Strategy ────────────────────────────────────
+
+[x] Setup Git Bisect Documentation
+    [x] Create docs/GIT_BISECT_GUIDE.md
+    [x] Document how to use: git bisect start/bad/good
+    [x] Explain snapshot-based regression detection
+    [x] Example: "Test failed at commit X? Bisect finds culprit in 7 steps max (log2(100))"
+
+[x] Deterministic Snapshot Strategy
+    [x] Ensure all snapshots are deterministic (no timestamps, no random data)
+    [x] Use fixed seed for any randomized test data
+    [x] Document in copilot-instructions.md: "All tests must be reproducible"
+    [x] Add script: scripts/bisect-verify.ts (runs snapshots, exits 0/1/125)
+    [x] Test git bisect with: git bisect run deno task bisect:verify
+
+[x] Regression Detection Workflow
+    [x] Document in README: "If CI fails on main, use git bisect"
+    [x] Example workflow:
+        [x] git bisect start
+        [x] git bisect bad (current broken commit)
+        [x] git bisect good <last-known-good-commit>
+        [x] git bisect run deno task bisect:verify
+        [x] Git auto-finds the breaking commit
+    [x] Add to copilot-instructions.md as standard troubleshooting step
+
+# ── PHASE 6.6: Verification Before Push ────────────────────────────────
+
+[x] Create deno task verify (Pillar 51/53: No Broken Code on GitHub)
+    [x] Run: deno lint (code quality)
+    [x] Run: deno fmt --check (formatting)
+    [x] Run: deno check (type errors)
+    [x] Run: deno task test:rust (Rust math-engine tests)
+    [x] Run: npx vitest run (unit tests)
+    [x] Run: verify-snapshots.ts (golden snapshot check)
+    [x] All must pass or script exits 1 (blocks push)
+
+[x] Install Git Pre-Push Hook
+    [x] Create .git/hooks/pre-push (shell script)
+    [x] Auto-run: deno task verify
+    [x] If ANY test fails → block push + show error
+    [x] Test: ran hook directly, confirmed block on fmt failure + pass on clean
+    [x] Document in README: "All pushes are auto-verified"
+
+[x] Add GitHub Actions CI/CD (backup verification)
+    [x] Create .github/workflows/verify.yml
+    [x] Trigger: on push to main + on pull request
+    [x] Jobs:
+        [x] rust-tests: cd math-engine && cargo test (unit + purity)
+        [x] deno-verify: fmt + lint + check + cargo test + vitest + snapshots
+        [x] snapshot-check: verify golden files exist + committed to git
+    [x] Concurrency: cancel in-progress runs on same branch
+
+# ── PHASE 6.7: Migration & Clean Up ───────────────────────────────────
+    [x] Audit lib/, islands/, routes/ for math calculations
+    [x] Move any complex math to math-engine/src/lib.rs
+    [x] Ensure UI only calls WASM, never does math itself
+    [x] Add purity tests for new WASM functions
+
+[x] Refactor UI (Pure TypeScript where possible)
+    [x] Audit islands/ for side effects
+    [x] Extract business logic to lib/ (pure functions)
+    [x] Keep islands/ as thin view layer (Preact + render only)
+    [x] Add unit tests for lib/ pure functions
+
+[x] Final Verification
+    [x] Run deno task verify manually (must pass 100%)
+    [x] Test desktop app: deno task launch:desktop
+        [x] Verify frameless window (no OS chrome)
+        [x] Verify drag, resize (8 directions), min/max/close
+        [x] Verify WASM math validation (try 5 exercises)
+        [x] Verify hot reload works (edit islands/MathStage.tsx, save, check updates)
+    [x] Test browser mode: deno task dev → open http://localhost:5173
+        [x] Verify UI renders correctly
+        [x] Verify WASM loads and validates math
+    [x] Review snapshots in tests/golden/:
+        [x] Open physics.txt → readable math results?
+        [x] Open ui-*.html → components look correct?
+        [x] Open state-flow.log → event sequence makes sense?
+
+[x] Documentation
+    [x] Update README.md with:
+        [x] Architecture diagram (desktop/ + math-engine/ + Fresh UI)
+        [x] Development workflow (dev vs launch:desktop)
+        [x] Testing strategy (Rust tests + snapshots + pre-push hook)
+        [x] Frozen Core policy (desktop/ = do not touch)
+    [x] Update file.todo with completion status
+    [x] Create CHANGELOG.md entry for Phase 6
+
+# ── COMPLETION CRITERIA ────────────────────────────────────────────────
+
+# Phase 6 is complete when:
+#   [x] desktop/ is audited, frozen, and documented
+#   [x] Anti-Logic Drift tests pass (purity + health check + snapshots)
+#   [x] Standard Tooling Suite configured (Vitest, Playwright, Deno tools)
+#   [x] copilot-instructions.md + .editorconfig exist and are followed
+#   [x] Git Bisect workflow documented and tested
+#   [x] Pre-push hook auto-runs verify (and blocks if fails)
+#   [x] GitHub Actions CI mirrors pre-push verification
+#   [x] All snapshots are human-readable and committed to tests/golden/
+#   [x] deno task verify passes 100% (no warnings, no errors)
+#   [x] Desktop app works: drag, resize, WASM math validation
+#   [x] Documentation is complete and accurate

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UI Snapshot: Discord Theme</title>
+    <style>
+      body {
+        font-family: "gg sans", "Noto Sans", sans-serif;
+        background: #1e1f22;
+        color: #dbdee1;
+        padding: 24px;
+      }
+      h1 {
+        color: #f2f3f5;
+        border-bottom: 1px solid #3f4147;
+        padding-bottom: 8px;
+      }
+      h2 {
+        color: #b5bac1;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      .section {
+        background: #2b2d31;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 12px 0;
+      }
+      .color-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 6px 0;
+      }
+      .color-swatch {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        border: 1px solid #3f4147;
+      }
+      .color-name {
+        font-family: "Consolas", monospace;
+        color: #b5bac1;
+      }
+      .color-value {
+        font-family: "Consolas", monospace;
+        color: #dbdee1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Discord Theme Snapshot</h1>
+    <p>Source: <code>static/discord.css</code></p>
+
+    <div class="section">
+      <h2>Required CSS Variables</h2>
+      <div class="color-row"><span class="color-name">--background-primary</span></div>
+      <div class="color-row"><span class="color-name">--background-secondary</span></div>
+      <div class="color-row"><span class="color-name">--background-tertiary</span></div>
+      <div class="color-row"><span class="color-name">--text-normal</span></div>
+      <div class="color-row"><span class="color-name">--text-muted</span></div>
+      <div class="color-row"><span class="color-name">--header-primary</span></div>
+      <div class="color-row"><span class="color-name">--brand-500</span></div>
+      <div class="color-row"><span class="color-name">--green-360</span></div>
+      <div class="color-row"><span class="color-name">--red-400</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Required Colors</h2>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #313338"></div>
+        <span class="color-name">background-primary</span>
+        <span class="color-value">#313338</span>
+      </div>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #2b2d31"></div>
+        <span class="color-name">background-secondary</span>
+        <span class="color-value">#2b2d31</span>
+      </div>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #1e1f22"></div>
+        <span class="color-name">background-tertiary</span>
+        <span class="color-value">#1e1f22</span>
+      </div>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #5865f2"></div>
+        <span class="color-name">brand-500</span>
+        <span class="color-value">#5865f2</span>
+      </div>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #23a559"></div>
+        <span class="color-name">green-360</span>
+        <span class="color-value">#23a559</span>
+      </div>
+      <div class="color-row">
+        <div class="color-swatch" style="background: #f23f43"></div>
+        <span class="color-name">red-400</span>
+        <span class="color-value">#f23f43</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Responsive Breakpoints</h2>
+      <div class="color-row">
+        <span class="color-name">@media (max-width: 768px (mobile/desktop boundary))</span>
+      </div>
+    </div>
+  </body>
+</html>
