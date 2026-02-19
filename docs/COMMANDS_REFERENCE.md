@@ -42,25 +42,25 @@ Serve the production build locally.
 
 ### `deno task desktop`
 
-(Deprecated) Run the desktop app via Deno WebUI.
-
-- Original method before Rust tao/wry shell
-
-### `deno task build:desktop`
-
-Compile the native desktop shell to a release binary.
-
-- Compiles Rust code in `desktop/`
-- Outputs optimized `.exe` in `desktop/target/release/`
-- Takes ~2–3 minutes
-
-### `deno task launch:desktop`
-
-Build and run the desktop app.
+Alias for `launch:desktop`. Build and run the native Rust desktop shell.
 
 - Compiles + launches the Rust frameless window
 - Embeds the web view inside
 - For testing native window features (drag, resize, IPC)
+- First run takes ~2–3 minutes (Rust compile), subsequent runs are cached
+
+### `deno task build:desktop`
+
+Compile the native desktop shell to a release binary only (no launch).
+
+- Compiles Rust code in `desktop/`
+- Outputs optimized `.exe` in `desktop/target/release/`
+- Takes ~2–3 minutes
+- Use this if you want to build without launching
+
+### `deno task launch:desktop`
+
+Same as `deno task desktop`.
 
 ---
 

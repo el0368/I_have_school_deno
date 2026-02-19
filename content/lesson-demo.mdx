@@ -1,0 +1,42 @@
+import { useSignal } from "@preact/signals";
+import VolumeSimulator from "../islands/VolumeSimulator.tsx";
+import { Counter } from "../islands/Counter.tsx"; // Assuming a simpler component exists, or we use VolumeSim
+
+# 📐 Understanding 3D Space
+
+In traditional textbooks, you learn that **Volume** is the amount of space a 3D shape occupies.
+The formula for a rectangular prism is:
+
+$$ V = l \times w \times h $$
+
+But what does that *feel* like?
+
+## 1. The Interactive Prism
+Instead of just looking at a static diagram, manipulate the dimensions below. Notice how the
+volume grows much faster when you increase all three dimensions compared to just one.
+
+<div style={{ padding: '20px', background: '#2b2d31', borderRadius: '8px', margin: '20px 0' }}>
+  <VolumeSimulator />
+</div>
+
+## 2. Dynamic Text & Logic
+We can even use JavaScript variables right inside our content.
+
+export const author = "Sovereign Academy";
+export const year = 2026;
+
+> This lesson was crafted by **{author}** in **{year}**.
+
+## 3. How far can we go?
+With MDX, the line between "content" and "app" disappears. You can:
+1. **Scrollytelling**: Trigger animations as the student reads.
+2. **Live Code Editing**: Embed a code editor that executes live (like we do with WASM).
+3. **Data Visualization**: Render charts that update based on user input elsewhere in the lesson.
+
+For example, if we had a chart component, we could pass the volume data directly to it:
+
+```tsx
+<VolumeChart data={volumeSignal.value} />
+```
+
+*This file demonstrates the syntax of MDX. To render it, we would need to add an MDX plugin to our Fresh configuration.*

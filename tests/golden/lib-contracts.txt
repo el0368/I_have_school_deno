@@ -1,0 +1,57 @@
+## exercise-loader.ts
+  function clearCache (): void
+  function getCacheStats (): { entries: number; approximateBytes: number }
+  function loadExerciseBinary (path): Promise<Uint8Array>
+  function loadManifest (): Promise<ExerciseManifest>
+  function parseExercise (data, id): Promise<Exercise>
+  function setMsgpackDecoder (fn): void
+  interface ExerciseManifest topics: TopicManifest[]
+  interface TopicManifest exercises: string[]; // paths to .bin files | id: number | name: string
+
+## schemas.ts
+  function parseExerciseRecord (raw): ValidatedExercise
+  function safeParseExercise (raw): ValidatedExercise | null
+  type ValidatedExercise z.infer<typeof ExerciseSchema>
+  type ValidatedManifest z.infer<typeof ExerciseManifestSchema>
+  type ValidatedSubTopic z.infer<typeof SubTopicSchema>
+  type ValidatedTopic z.infer<typeof TopicSchema>
+
+## state.ts
+  computed activeSubTopicData <SubTopic | null>
+  computed activeTopicData <Topic>
+  computed totalCompleted <number>
+  function markCompleted (topicId): void
+  function selectSubTopic (subTopicId): void
+  function selectTopic (topicId): void
+  interface Exercise expectedAnswer: string | id: number | problem: string | type: string; // "arithmetic" | "fraction" | "equation"
+  interface SubTopic description: string | id: string | lessonText?: string | name: string
+  interface Topic exerciseCount: number | icon: string | id: number | name: string | subTopics: SubTopic[]
+  interface ValidationResult answer: string | correct: boolean | hint: string | problem: string
+  signal activeSubTopicId <string | null>
+  signal activeTopic <number>
+  signal currentExercise <Exercise | null>
+  signal exerciseIndex <number>
+  signal isLoading <boolean>
+  signal isMaximized <boolean>
+  signal lastResult <ValidationResult | null>
+  signal progress <Record<number, number>
+  signal sidebarCollapsed <boolean>
+  signal studentAnswer <string>
+
+## types.ts
+  interface MathWasm batch_validate: (problems: string, answers: string) => number | check_answer: (type: string, problem: string, answer: string) => string | simplify_fraction: (numerator: bigint, denominator: bigint) => BigInt64Array | validate_arithmetic: (expr: string, answer: number) => boolean | validate_fraction: (en: bigint, ed: bigint, sn: bigint, sd: bigint) => boolean
+
+## validation.ts
+  function validateFallback (exercise, answer): ValidationResult
+
+## wasm-health-check.ts
+  function formatHealthCheckReport (result): string
+  function runHealthCheck (wasm): HealthCheckResult
+  interface HealthCheck actual: string | error?: string | expected: string | name: string | passed: boolean
+  interface HealthCheckResult checks: HealthCheck[] | duration: number; // ms | passed: boolean
+
+## wasm-loader.ts
+  function initWasm (): Promise<void>
+  signal healthStatus <HealthCheckResult | null>
+  signal wasmModule <MathWasm | null>
+  signal wasmReady <boolean>

@@ -1,0 +1,422 @@
+A. Integers
+1. Understanding integers
+2. Integers on number lines
+3. Graph integers on horizontal and vertical number lines
+4. Understanding absolute value
+5. Absolute value and opposite integers
+6. Quantities that combine to zero: word problems
+7. Compare and order integers
+8. Integer inequalities with absolute values
+
+B. Operations with integers
+1. Add integers using counters
+2. Add integers using number lines
+3. Integer addition rules
+4. Add integers
+5. Add three or more integers
+6. Subtract integers using counters
+7. Subtract integers using number lines
+8. Integer subtraction rules
+9. Subtract integers
+10. Integer addition and subtraction rules
+11. Add and subtract integers using counters
+12. Add and subtract integers
+13. Complete addition and subtraction equations with integers
+14. Add and subtract integers: word problems
+15. Understand multiplying by a negative integer using a number line
+16. Multiply integers
+17. Determine the sign of a product of integers
+18. Multiply integers: find the missing factor
+19. Multiply three or more integers
+20. Multiply integers: word problems
+21. Divide integers
+22. Divisibility rules
+23. Integer multiplication and division rules
+24. Complete multiplication and division equations with integers
+25. Integer multiplication and division: word problems
+
+C. Decimals
+1. Decimal numbers review
+2. Compare and order decimals
+3. Round decimals
+
+D. Operations with decimals
+1. Add and subtract decimals
+2. Add and subtract decimals: word problems
+3. Multiply decimals
+4. Multiply decimals and whole numbers: word problems
+5. Divide decimals
+6. Divide decimals by whole numbers
+7. Divide decimals by decimals
+8. Multiply and divide decimals: word problems
+9. Estimate sums, differences, products, and quotients of decimals
+10. Multi-step inequalities with decimals
+11. Decimal operations: word problems
+12. Maps with decimal distances
+
+E. Number theory
+1. Prime factorization
+2. Greatest common factor
+3. Least common multiple
+4. GCF and LCM: word problems
+
+F. Fractions
+1. Fractions review
+2. Equivalent fractions
+3. Simplify fractions
+4. Convert between mixed numbers and improper fractions
+5. Compare and order fractions
+6. Compare and order fractions and mixed numbers
+7. Compare fractions: word problems
+8. Multiply fractions
+9. Multiply mixed numbers
+10. Divide fractions
+
+G. Operations with fractions
+1. Add and subtract fractions
+2. Add and subtract fractions: word problems
+3. Add and subtract mixed numbers
+4. Add and subtract mixed numbers: word problems
+5. Multiply fractions and whole numbers
+6. Multiply two fractions
+7. Multiply two fractions: word problems
+8. Multiply mixed numbers
+9. Multiply mixed numbers: word problems
+10. Divide whole numbers by fractions
+11. Divide fractions
+12. Divide fractions: word problems
+13. Divide mixed numbers
+14. Divide mixed numbers: word problems
+15. Add, subtract, multiply, and divide fractions and mixed numbers
+16. Add, subtract, multiply, and divide fractions and mixed numbers: word problems
+17. Maps with fractional distances
+18. Evaluate numerical expressions involving fractions
+
+H. Rational numbers
+1. Rational numbers
+2. Rational numbers: find the sign
+3. Compare and order rational numbers
+4. Absolute value of rational numbers
+5. Number lines
+6. Coordinate plane
+7. Multiply and divide rational numbers
+8. Multiply and divide rational numbers: word problems
+9. Apply multiplication and division rules
+10. Multi-step problems with rational numbers
+11. Apply properties of multiplication and addition
+
+I. Operations with rational numbers
+1. Add and subtract positive and negative decimals
+2. Add and subtract positive and negative fractions
+3. Add and subtract rational numbers
+4. Apply addition and subtraction rules
+5. Add and subtract rational numbers: word problems
+6. Complete addition and subtraction equations with rational numbers
+7. Add, subtract, multiply, and divide rational numbers
+8. Add, subtract, multiply, and divide rational numbers: word problems
+9. Evaluate numerical expressions with rational numbers
+10. Multi-step problems with rational numbers
+11. Apply properties of multiplication and addition
+
+J. Exponents
+1. Powers of ten
+2. Evaluate exponents
+3. Identify bases and exponents
+4. Powers with decimal and fractional bases
+5. Exponents with negative bases
+6. Evaluate numerical expressions involving exponents
+7. Exponent rules
+8. Multiplication with exponents
+9. Division with exponents
+
+K. Square roots
+1. Estimate positive and negative square roots
+2. Simplify square roots
+
+L. Ratios, rates, and proportions
+1. Write a ratio
+2. Write a ratio: word problems
+3. Identify equivalent ratios
+4. Write an equivalent ratio
+5. Ratio tables
+6. Compare ratios: word problems
+7. Unit rates
+8. Do the ratios form a proportion?
+9. Solve proportions
+10. Estimate population size using proportions
+11. Scale drawings: word problems
+12. Rate of change
+13. Constant rates of change
+14. Ratios and proportions: word problems
+
+M. Coordinate plane
+1. Objects on a coordinate plane
+2. Reflect a point over an axis
+3. Quadrants and axes
+4. Coordinate plane: word problems
+
+N. Proportional relationships
+1. Identify proportional relationships
+2. Find the constant of proportionality from a table
+3. Write equations for proportional relationships from tables
+4. Find the constant of proportionality from a graph
+5. Write equations for proportional relationships from graphs
+6. Identify proportional relationships from graphs and equations
+7. Graph proportional relationships
+8. Find the constant of proportionality: word problems
+9. Identify proportional relationships: word problems
+10. Write and solve equations for proportional relationships
+11. Proportional relationships: word problems
+
+O. Percents
+1. What percentage is illustrated?
+2. Convert between percents, fractions, and decimals
+3. Find what percent one number is of another
+4. Find what percent one number is of another: word problems
+5. Estimate percents of numbers
+6. Percents of numbers and money amounts
+7. Percents of numbers: word problems
+8. Compare percents to fractions and decimals
+9. Find the total given a part and a percent
+10. Multi-step problems with percents
+11. Percent of change
+12. Percent of change: word problems
+13. Percent of change: find the original amount
+
+P. Consumer math
+1. Add, subtract, multiply, and divide money amounts: word problems
+2. Price lists
+3. Unit prices
+4. Unit prices with unit conversions
+5. Unit prices: find the total price
+6. Percent of a number: tax, discount, and more
+7. Which is the better coupon?
+8. Find the percent: tax, discount, and more
+9. Sale prices: find the original price
+10. Multi-step problems with percents
+11. Estimate tips
+12. Simple interest
+13. Compound interest
+
+Q. Units of measurement
+1. Convert rates and measurements: customary units
+2. Convert rates and measurements: metric units
+3. Mixed customary units
+4. Mixed metric units
+5. Convert between metric and customary units
+
+R. Expressions
+1. Write variable expressions: one operation
+2. Write variable expressions: two or three operations
+3. Write variable expressions: word problems
+4. Evaluate multi-variable expressions
+5. Evaluate absolute value expressions
+6. Evaluate variable expressions involving integers
+7. Write variable expressions for arithmetic sequences
+8. Identify terms and coefficients
+9. Sort factors of variable expressions
+
+S. Equivalent expressions
+1. Properties of addition and multiplication
+2. Multiply using the distributive property
+3. Write equivalent expressions using properties
+4. Add and subtract like terms
+5. Add and subtract linear expressions
+6. Factors of linear expressions
+7. Identify equivalent linear expressions I
+8. Identify equivalent linear expressions II
+9. Identify equivalent expressions: word problems
+10. Write equivalent expressions: word problems
+11. Factor using the distributive property
+12. Add linear expressions
+13. Subtract linear expressions
+14. Evaluate linear expressions
+
+T. One-variable equations
+1. Which x satisfies an equation?
+2. Write an equation from words
+3. Model and solve equations using algebra tiles
+4. Write and solve equations that represent diagrams
+5. Properties of equality
+6. Identify equivalent equations
+7. Solve one-step linear equations
+8. Solve one-step equations: word problems
+9. Solve two-step linear equations
+10. Solve two-step equations: word problems
+11. Solve multi-step equations
+12. Solve equations involving like terms
+13. Solve equations with variables on both sides
+14. Solve equations using the distributive property
+15. Equations: word problems
+
+U. One-variable inequalities
+1. Graph inequalities on number lines
+2. Write inequalities from number lines
+3. Solve one-step linear inequalities
+4. Graph solutions to one-step inequalities
+5. Solve one-step inequalities: word problems
+6. Solve two-step linear inequalities
+7. Graph solutions to two-step inequalities
+8. Solve two-step inequalities: word problems
+
+V. Sequences
+1. Identify arithmetic and geometric sequences
+2. Arithmetic sequences
+3. Geometric sequences
+4. Sequences: mixed review
+5. Sequences: word problems
+6. Evaluate variable expressions for sequences
+7. Write variable expressions for arithmetic sequences
+
+W. Slope
+1. Find the slope from a graph
+2. Find the slope from two points
+3. Find the slope from a table
+4. Find a missing coordinate using slope
+5. Rate of change: tables
+6. Constant rate of change: graphs
+7. Direct variation
+8. Identify proportional relationships by graphing
+
+X. Two-variable equations
+1. Does (x, y) satisfy the linear equation?
+2. Identify independent and dependent variables
+3. Find a value using two-variable equations
+4. Complete a table for a two-variable relationship
+5. Write a two-variable equation
+6. Identify the graph of an equation
+7. Graph a two-variable equation
+8. Interpret a graph: word problems
+9. Write an equation from a graph
+10. Write a linear equation from a table
+
+Y. Lines and angles
+1. Identify and classify polygons
+2. Parallel, perpendicular, and intersecting lines
+3. Identify complementary, supplementary, vertical, adjacent, and congruent angles
+4. Find measures of complementary, supplementary, vertical, and adjacent angles
+5. Identify alternate interior and alternate exterior angles
+6. Transversals of parallel lines: find angle measures
+7. Find missing angles in triangles
+8. Interior angles of polygons
+9. Lines, line segments, and half-lines
+10. Name angles
+
+Z. Two-dimensional figures
+1. Classify triangles
+2. Identify and classify triangles
+3. Classify quadrilaterals
+4. Identify and classify quadrilaterals
+5. Graph triangles and quadrilaterals
+6. Find missing angles in quadrilaterals
+7. Properties of parallelograms
+8. Properties of rectangles
+9. Proofs involving triangles I
+10. Proofs involving triangles II
+11. Proofs involving quadrilaterals I
+12. Proofs involving quadrilaterals II
+13. Circles: identify and name parts
+14. Parts of a circle
+
+AA. Three-dimensional figures
+1. Three-dimensional figure names
+2. Nets of three-dimensional figures
+3. Front, side, and top view
+4. Base plans
+
+BB. Perimeter and area
+1. Perimeter
+2. Area of rectangles and squares
+3. Area of triangles
+4. Area of parallelograms and trapezoids
+5. Area of compound figures
+6. Area between two shapes
+7. Area and perimeter: word problems
+8. Area and circumference of circles
+9. Semicircles: calculate area, perimeter, radius, and diameter
+10. Circles: word problems
+11. Area of sectors
+12. Circumference of circles
+13. Area of complex figures
+14. Perimeter of polygons with an inscribed figure
+
+CC. Surface area and volume
+1. Surface area of prisms and cylinders
+2. Surface area of pyramids
+3. Volume of prisms and cylinders
+4. Volume of pyramids and cones
+5. Volume of spheres
+6. Apply volume formulas
+7. Perimeter, area, and volume: changes in scale
+8. Volume of composite three-dimensional figures
+9. Surface area and volume of similar solids
+
+DD. Scale drawings
+1. Scale drawings: word problems
+2. Scale drawings: scale factor
+3. Interpret scale drawings
+4. Construct scale drawings
+
+EE. Transformations
+1. Identify reflections, rotations, and translations
+2. Translations: graph the image
+3. Translations: find the coordinates
+4. Reflections: graph the image
+5. Reflections: find the coordinates
+6. Rotations: graph the image
+7. Rotations: find the coordinates
+8. Classify congruence transformations
+9. Describe a sequence of transformations
+
+FF. Congruence and similarity
+1. Identify congruent figures
+2. Identify similar figures
+3. Side lengths and angle measures of similar figures
+4. Similar triangles and indirect measurement
+5. Perimeters of similar figures
+
+GG. Data and graphs
+1. Create line plots
+2. Interpret line plots
+3. Create and interpret line plots with fractions
+4. Create frequency tables
+5. Interpret frequency tables
+6. Create histograms
+7. Interpret histograms
+8. Create and interpret histograms
+9. Create stem-and-leaf plots
+10. Interpret stem-and-leaf plots
+11. Create and interpret box-and-whisker plots
+12. Circle graphs
+13. Interpret a scatter plot
+
+HH. Statistics
+1. Calculate mean, median, mode, and range
+2. Interpret charts to find mean, median, mode, and range
+3. Mean, median, mode, and range: find the missing number
+4. Changes in mean, median, mode, and range
+5. Quartiles
+6. Identify an outlier
+7. Identify an outlier and describe the effect of removing it
+8. Make predictions
+9. Scatter plots
+10. Identify trends with scatter plots
+11. Make predictions with scatter plots
+
+II. Probability
+1. Probability of simple events
+2. Probability of simple events: word problems
+3. Probability of opposite events
+4. Probability of independent events
+5. Probability of mutually exclusive events and overlapping events
+6. Experimental probability
+7. Make predictions using experimental probability
+8. Compound events: find the number of outcomes
+9. Identify independent and dependent events
+10. Probability of independent and dependent events
+11. Counting principle
+12. Permutations
+13. Combinations
+14. Find the number of outcomes: word problems
+15. Geometric probability
+16. Probability of compound events

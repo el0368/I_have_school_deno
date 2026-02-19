@@ -1,0 +1,217 @@
+# INSTRUCTIONS: HOW TO USE THIS FILE
+# ==================================
+# This file is a "Universal Documentation Kit" for Deno Fresh 2.x.
+# It is designed to providing context to AI Coding Agents (Cursor, Windsurf, Copilot, etc.).
+
+# INSTALLATION FOR AGENTS:
+# 1. Copy the content BELOW the "--- START OF DOCUMENTATION ---" line.
+# 2. Create a file named `llms.txt` in the root of your Deno Fresh project.
+# 3. Paste the copied content into that file.
+
+# WHY DO THIS?
+# Most AI agents automatically look for `llms.txt` to understand the project's framework and patterns.
+# Providing this file ensures the agent knows how to write correct code for Fresh 2.x (Islands, Signals, Deno).
+
+# --- START OF DOCUMENTATION (Copy below this line) ---
+
+# Deno Fresh 2.x Documentation for LLMs
+
+Fresh is a full stack modern web framework for JavaScript and TypeScript developers, designed to build high-quality, performant, and personalized web applications.
+
+## Core Philosophy: The Island Architecture
+Fresh renders server-generated HTML pages and only ships JavaScript for areas in the page that need to be interactive. This is known as the **Island Architecture**.
+- **Server-First**: By default, everything is rendered on the server (SSR).
+- **Islands**: Specific components in the `islands/` directory are completely hydrated on the client.
+- **Zero Config**: No build step is strictly required for development; Deno compiles on the fly.
+
+## Project Structure
+A typical Fresh 2.x project looks like this:
+```
+.
+├── deno.json        # Deno configuration (imports, tasks)
+├── main.ts          # Entry point
+├── static/          # Static assets (css, images)
+├── routes/          # File-system based routing
+│   ├── index.tsx
+│   ├── about.tsx
+│   ├── _app.tsx     # Global App Wrapper
+│   ├── _layout.tsx  # Layout for this directory
+│   ├── _middleware.ts # Middleware
+│   ├── _404.tsx     # Custom 404 Page
+│   └── _500.tsx     # Custom Error Page
+├── islands/         # Interactive client-side components
+│   └── Counter.tsx
+└── components/      # Shared stateless components (server-rendered)
+```
+
+## Routing
+Fresh supports file-system based routing in the `routes/` directory.
+
+### Basic Route
+Create a file `routes/about.tsx`:
+```tsx
+import { define } from "@/utils.ts";
+
+export default define.page(() => {
+  return (
+    <main>
+      <h1>About Page</h1>
+    </main>
+  );
+});
+```
+
+### Dynamic Routes
+Use square brackets for dynamic parameters, e.g., `routes/books/[id].tsx`:
+```tsx
+import { define } from "@/utils.ts";
+
+export default define.page((ctx) => {
+  return <div>Book ID: {ctx.params.id}</div>;
+});
+```
+
+## Data Fetching & Handlers
+Data fetching is performed on the server using **Handlers**. You can define a handler to fetch data before rendering the page.
+
+```tsx
+import { define } from "@/utils.ts";
+
+export const handler = define.handlers({
+  async GET(ctx) {
+    const user = await fetchUser(ctx.params.id);
+    if (!user) return ctx.renderNotFound();
+    return ctx.render({ user });
+  },
+  async POST(ctx) {
+    const form = await ctx.req.formData();
+    // Process form...
+    return ctx.redirect("/success");
+  }
+});
+
+export default define.page<typeof handler>((props) => {
+  const { user } = props.data;
+  return <div>Hello, {user.name}</div>;
+});
+```
+
+### Context (`ctx`)
+The `ctx` object is passed to handlers, middleware, and pages.
+- `ctx.req`: The standard Web API `Request` object.
+- `ctx.params`: Route parameters (e.g., `{ id: "123" }`).
+- `ctx.url`: The `URL` of the request.
+- `ctx.state`: Shared state passing through middleware.
+- `ctx.render(data)`: Renders the page component with the provided data.
+- `ctx.redirect(path, status)`: Redirects the user.
+
+## Islands (Client-Side Interactivity)
+Islands are Preact components located in the `islands/` directory. They are the **only** components that execute JavaScript in the browser.
+
+### Creating an Island
+`islands/Countdown.tsx`:
+```tsx
+import { useSignal } from "@preact/signals";
+import { useEffect } from "preact/hooks";
+
+export default function Countdown(props: { target: string }) {
+  const count = useSignal(10);
+  
+  useEffect(() => {
+    // Client-side logic here
+    const timer = setInterval(() => count.value--, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  return <div>{count}</div>;
+}
+```
+
+### Analyzing Props
+Props passed to Islands must be **serializable** (JSON-serializable + Signals, URL, Date, etc.). You **cannot** pass functions as props to islands.
+
+## Advanced Concepts
+
+### Middleware (`_middleware.ts`)
+Middleware intercepts requests before they reach the handler.
+```ts
+import { define } from "@/utils.ts";
+
+export const handler = define.middleware(async (ctx) => {
+  console.log(`Request to ${ctx.url.pathname}`);
+  ctx.state.startTime = Date.now();
+  const resp = await ctx.next(); // Proceed to next middleware/handler
+  resp.headers.set("X-Response-Time", `${Date.now() - ctx.state.startTime}ms`);
+  return resp;
+});
+```
+
+### Layouts (`_layout.tsx`)
+Layouts wrap all routes within their directory.
+```tsx
+import { define } from "@/utils.ts";
+
+export default define.layout(function Layout({ Component, state }) {
+  return (
+    <div class="layout">
+      <nav>My App Navbar</nav>
+      <Component />
+    </div>
+  );
+});
+```
+To skip a layout for a specific route, use `skipInheritedLayouts` in the route config (Fresh 2.x specific).
+
+### App Wrapper (`_app.tsx`)
+The `_app.tsx` file defines the global HTML structure (`<html>`, `<head>`, `<body>`).
+```tsx
+import { define } from "@/utils.ts";
+
+export default define.page(function App({ Component }) {
+  return (
+    <html>
+      <head>
+        <title>My Fresh App</title>
+        <link rel="stylesheet" href="/styles.css" />
+      </head>
+      <body>
+        <Component />
+      </body>
+    </html>
+  );
+});
+```
+
+### Partials (Client-Side Navigation)
+Fresh 2.x supports "Partials" for SPA-like navigation without full reloads.
+- **Enable Globally**: Add `f-client-nav` to the `<body>` in `_app.tsx`.
+- **Wrap Components**: Wrap `<Component />` in a `<Partial name="body">` for automatic updates.
+- **Partial Updates**: Fresh will only update the content within the `<Partial>` tag when navigating between pages.
+
+### Path Aliases
+Standard projects use `@/` for root-level imports:
+```json
+{
+  "imports": {
+    "@/": "./"
+  }
+}
+```
+
+### trailingSlashes
+Fresh 2.x can automatically handle trailing slashes via the `trailingSlashes` state in the app configuration.
+
+## Deployment
+Fresh projects are optimized for **Deno Deploy**.
+- No build step required.
+- Global distribution (Edge).
+- Fast start times.
+
+To deploy manually (Docker):
+```dockerfile
+FROM denoland/deno:2.0.0
+WORKDIR /app
+COPY . .
+RUN deno cache main.ts
+CMD ["run", "-A", "main.ts"]
+```

@@ -1,11 +1,12 @@
 // Sovereign Academy - Main Layout Route
 //
-// Assembles the Discord-style UI: TitleBar + Sidebar + MathStage.
+// Assembles the Discord-style UI: TitleBar + Sidebar + MathStage + LessonToc.
 
 import { define } from "@/utils.ts";
 import TitleBar from "@/islands/TitleBar.tsx";
 import Sidebar from "@/islands/Sidebar.tsx";
 import MathStage from "@/islands/MathStage.tsx";
+import LessonToc from "@/islands/LessonToc.tsx";
 
 export default define.page(function Home() {
   return (
@@ -20,6 +21,9 @@ export default define.page(function Home() {
 
         {/* Math exercise stage */}
         <MathStage />
+
+        {/* Right sidebar: Table of contents & related topics */}
+        <LessonToc />
       </div>
     </div>
   );

@@ -1,0 +1,255 @@
+A. Logic
+1. Identify hypotheses and conclusions
+2. Counterexamples
+3. Conditionals
+4. Negations
+5. Converses, inverses, and contrapositives
+6. Biconditionals
+7. Truth tables
+8. Truth values
+
+B. Points, lines, line segments, and planes
+1. Lines, line segments, and rays
+2. Properties of planes, lines, and points
+3. Describe intersections in a plane
+4. Lengths of segments on number lines
+5. Additive property of length
+6. Midpoints
+
+C. Angles
+1. Angle vocabulary
+2. Angle measures
+3. Identify complementary, supplementary, vertical, adjacent, and congruent angles
+4. Find measures of complementary, supplementary, vertical, and adjacent angles
+5. Angle diagrams: solve for the variable
+6. Angle bisectors
+7. Construct an angle bisector
+8. Construct a congruent angle
+9. Proofs involving angles
+
+D. Parallel and perpendicular lines
+1. Identify parallel, intersecting, and skew lines and planes
+2. Construct a perpendicular line
+3. Transversals: name angle pairs
+4. Transversals of parallel lines: find angle measures
+5. Transversals of parallel lines: solve for x
+6. Construct parallel lines
+7. Proofs involving parallel lines I
+8. Proofs involving parallel lines II
+
+E. Lines in the coordinate plane
+1. Slopes of lines
+2. Graph a linear equation
+3. Equations of lines
+4. Slopes of parallel and perpendicular lines
+5. Equations of parallel and perpendicular lines
+
+F. Triangles review
+1. Classify triangles
+2. Triangle Angle-Sum Theorem
+3. Exterior Angle Theorem
+4. Exterior Angle Inequality
+
+G. Polygons
+1. Polygon vocabulary
+2. Interior angles of polygons
+3. Exterior angles of polygons
+
+H. Congruence transformations
+1. Classify congruence transformations
+2. Translations: graph the image
+3. Translations: find the coordinates
+4. Translations: write the rule
+5. Reflections: graph the image
+6. Reflections: find the coordinates
+7. Rotate polygons about a point
+8. Rotations: graph the image
+9. Rotations: find the coordinates
+10. Reflections and rotations: write the rule
+11. Glide reflections: graph the image
+12. Sequences of congruence transformations: graph the image
+13. Sequences of congruence transformations: choose the sequence
+14. Sequences of congruence transformations: find the rules
+15. Transformations that carry a polygon onto itself
+16. Congruence transformations: mixed review
+
+I. Dilations
+1. Dilations: graph the image
+2. Dilations: find the coordinates
+3. Dilations: find length, perimeter, and area
+4. Dilations: find the scale factor
+5. Dilations: find the scale factor and center
+6. Dilations and parallel lines
+
+J. Symmetry
+1. Line symmetry
+2. Rotational symmetry
+3. Draw lines of symmetry
+4. Count lines of symmetry
+
+K. Congruent figures review
+1. Congruence statements and corresponding parts
+2. Solve problems involving corresponding parts
+3. Identify congruent figures
+4. Determine if two figures are congruent: justify your answer
+
+L. Congruent triangles
+1. Prove triangles are congruent using rigid motions
+2. SSS and SAS Theorems
+3. Proving triangles congruent by SSS and SAS
+4. ASA and AAS Theorems
+5. Proving triangles congruent by ASA and AAS
+6. SSS/SAS/ASA/AAS Theorems
+7. SSS Theorem in the coordinate plane
+8. Proving triangles congruent by SSS/SAS/ASA/AAS
+9. Proofs involving corresponding parts of congruent triangles
+10. Congruency in isosceles and equilateral triangles
+11. Proofs involving isosceles triangles
+12. Hypotenuse-Leg Theorem
+
+M. Similar figures
+1. Ratios in similar figures
+2. Similarity statements
+3. Identify similar figures
+4. Side lengths and angle measures in similar figures
+5. Similar triangles and indirect measurement
+6. Perimeters of similar figures
+7. Angle-angle criterion for similar triangles
+8. Similarity rules for triangles
+9. Similar triangles and similarity transformations
+10. Determine if two figures are similar: justify your answer
+11. Similarity of circles
+12. Triangle Proportionality Theorem
+13. Similarity and altitudes in right triangles
+14. Areas of similar figures
+15. Prove similarity statements
+16. Prove proportions or angle congruences using similarity
+17. Proofs involving similarity in right triangles
+
+N. Properties of triangles
+1. Midsegments of triangles
+2. Triangles and bisectors
+3. Identify medians, altitudes, angle bisectors, and perpendicular bisectors
+4. Angle-side relationships in triangles
+5. Triangle Inequality Theorem
+6. Construct the circumcenter or incenter of a triangle
+7. Construct the centroid or orthocenter of a triangle
+8. Find the centroid of a triangle
+9. Proofs involving triangles I
+10. Proofs involving triangles II
+
+O. Quadrilaterals
+1. Identify trapezoids
+2. Classify quadrilaterals I
+3. Classify quadrilaterals II
+4. Find missing angles in quadrilaterals
+5. Graph quadrilaterals
+6. Properties of parallelograms
+7. Proving a quadrilateral is a parallelogram
+8. Properties of rhombuses
+9. Properties of squares and rectangles
+10. Properties of trapezoids
+11. Properties of kites
+12. Review: properties of quadrilaterals
+13. Classify shapes on the coordinate plane: justify your answer
+14. Proofs involving triangles and quadrilaterals
+15. Proofs involving quadrilaterals
+
+P. Pythagorean theorem
+1. Pythagorean theorem
+2. Prove the Pythagorean theorem
+3. Converse of the Pythagorean theorem
+4. Pythagorean Inequality Theorems
+
+Q. Right triangle trigonometry
+1. Trigonometric ratios: sin, cos, and tan
+2. Trigonometric ratios with radicals: sin, cos, and tan
+
+R. Laws of Sines and Cosines
+1. Law of Sines
+2. Law of Cosines
+3. Solve a triangle
+4. Area of a triangle: sine formula
+5. Area of a triangle: Law of Sines
+
+S. Area and perimeter
+1. Perimeter
+2. Area of rectangles and squares
+3. Area of parallelograms and triangles
+
+T. Three-dimensional figures
+1. Parts of three-dimensional figures
+2. Three-dimensional figure vocabulary
+3. Nets and drawings of three-dimensional figures
+4. Cross sections of three-dimensional figures
+5. Solids of revolution
+
+U. Surface area and volume
+1. Lateral area of prisms and cylinders
+2. Lateral area of pyramids and cones
+3. Surface area and volume of rectangular prisms
+4. Surface area of prisms and cylinders
+5. Surface area of pyramids and cones
+6. Surface area of spheres
+7. Volume of prisms and cylinders
+8. Volume of pyramids and cones
+9. Volume of spheres
+10. Volume of compound figures
+11. Similar solids: find the missing length
+12. Surface area and volume of similar solids
+13. Surface area and volume: changes in scale
+14. Perimeter, area, and volume: changes in scale
+15. Surface area and volume review
+
+V. Measurement
+1. Convert rates and measurements: customary units
+2. Convert rates and measurements: metric units
+3. Convert square and cubic units of length
+4. Precision
+5. Greatest possible error
+
+W. Circles
+1. Parts of a circle
+2. Central angles and arc measures
+3. Understand arc length and sector area of a circle
+
+X. Constructions with circles
+1. Construct a tangent line to a circle
+2. Construct an equilateral triangle inscribed in a circle
+3. Construct a square inscribed in a circle
+4. Construct a regular hexagon inscribed in a circle
+5. Construct the inscribed or circumscribed circle of a triangle
+
+Y. Circles in the coordinate plane
+1. Find the center of a circle
+2. Find the radius or diameter of a circle
+3. Determine if a point lies on a circle
+
+Z. Parabolas in the coordinate plane
+1. Find the vertex of a parabola
+2. Find the focus or directrix of a parabola
+3. Find the axis of symmetry of a parabola
+4. Write equations of parabolas in vertex form from graphs
+5. Write equations of parabolas in vertex form using the focus and directrix
+6. Write equations of parabolas in vertex form using properties
+7. Convert equations of parabolas from general to vertex form
+8. Find properties of a parabola from equations in general form
+9. Graph parabolas
+
+AA. Probability
+1. Theoretical and experimental probability
+2. Outcomes of compound events
+3. Identify independent and dependent events
+4. Probability of independent and dependent events
+5. Counting principle
+6. Permutations
+
+BB. Vectors
+1. Compass directions and vectors
+2. Find the magnitude of a vector
+3. Find the component form of a vector
+4. Find the component form of a vector given its magnitude and direction angle
+5. Graph a resultant vector using the triangle method
+6. Graph a resultant vector using the parallelogram method
+7. Add vectors
+8. Subtract vectors

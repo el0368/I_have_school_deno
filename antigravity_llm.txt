@@ -1,0 +1,52 @@
+# Google Antigravity - LLM Reference Documentation
+
+Google Antigravity is an agent-centric Integrated Development Environment (IDE) designed for autonomous AI-assisted software engineering.
+
+## 1. Model Stack (Reasoning & Specialized)
+
+The platform utilizes a multi-model architecture to handle different aspects of the development lifecycle.
+
+### Reasoning Models (Customizable)
+Users can select frontier models for core reasoning via the prompt box selector:
+- **Gemini 3 Pro** (High/Low variants)
+- **Gemini 3 Flash**
+- **Claude 4.5** (Sonnet/Opus with Thinking capabilities)
+- **GPT-OSS**
+
+### Specialized Models (Non-Customizable)
+- **Nano Banana Pro**: Generative image tasks (UI mockups, system diagrams, web assets).
+- **Gemini 2.5 Pro UI Checkpoint**: Powers the browser subagent for native DOM interaction.
+- **Gemini 2.5 Flash**: Background checkpointing and context summarization.
+- **Gemini 2.5 Flash Lite**: Semantic search engine for codebase indexing.
+
+## 2. Agentic Workflows
+
+Workflows are the primary mechanism for standardizing and automating complex development tasks.
+
+- **Definition**: Structured markdown files (`.agent/workflows/*.md`) containing sequences of steps.
+- **Execution**: Triggered via slash commands (e.g., `/sovereign-development`) or automated sequences.
+- **Composition**: Workflows can call other workflows to form complex automation chains.
+- **Capabilities**: Can delegate tasks across the file system, terminal, and browser.
+
+## 3. Artifacts & Verification
+
+Antigravity operates at a "Task" level rather than just a "Chat" level.
+
+- **Artifact Types**:
+    - `task.md`: Granular checklist for the current sub-task.
+    - `implementation_plan.md`: Technical design and step-by-step logic approved before execution.
+    - `walkthrough.md`: Proof-of-work summary with embedded media.
+- **Feedback Loop**: Users provide feedback directly on artifacts. The agent incorporates this feedback asynchronously.
+- **Verification Gates**: Agents prioritize "Verified Execution" where changes are checked against test suites (e.g., `deno task verify`) before completion.
+
+## 4. Best Practices for Human-Agent Pairing
+
+- **Clear Scoping**: Use `implementation_plan.md` to define the boundary of work.
+- **Institutional Memory**: Use `GEMINI.md` for project identity and `SKILL.md` folders for specialized capabilities.
+- **Granular Tasks**: Break complex features into small, testable entries in `task.md`.
+- **Verified Pushes**: Use pre-commit and pre-push hooks to ensure the agent never commits broken code.
+- **Snapshot Testing**: Use deterministic "Golden Snapshots" to prevent logic drift in AI-generated code.
+
+---
+Source: https://antigravity.google/docs/models (Synthesized via Web Search)
+Last Updated: 2026-02-19

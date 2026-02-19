@@ -1,0 +1,320 @@
+A. Function concepts
+1. Domain and range
+2. Identify functions
+3. Evaluate functions
+4. Find values using function graphs
+5. Complete a table for a function graph
+6. Identify graphs: word problems
+
+B. Linear equations
+1. Solve linear equations
+2. Solve linear equations: complete the solution
+
+C. Linear inequalities
+1. Graph inequalities
+2. Write inequalities from graphs
+3. Solve linear inequalities
+4. Graph solutions to linear inequalities
+
+D. Linear functions
+1. Find the slope of a linear function
+2. Graph a linear function
+3. Write the equation of a linear function
+4. Linear functions over unit intervals
+
+E. Systems of linear equations
+1. Is (x, y) a solution to the system of equations?
+2. Solve a system of equations by graphing
+3. Solve a system of equations by graphing: word problems
+4. Find the number of solutions to a system of equations
+5. Classify a system of equations
+6. Solve a system of equations using substitution
+7. Solve a system of equations using substitution: word problems
+8. Solve a system of equations using elimination
+9. Solve a system of equations using elimination: word problems
+10. Solve a system of equations using any method
+11. Solve a system of equations using any method: word problems
+12. Solve a system of equations in three variables using substitution
+
+F. Two-variable linear inequalities
+1. Write two-variable linear inequalities: word problems
+2. Graph a two-variable linear inequality
+3. Is (x, y) a solution to the system of inequalities?
+4. Solve systems of linear inequalities by graphing
+5. Find the vertices of a solution set for a system of linear inequalities
+6. Linear programming
+
+G. Absolute value equations and inequalities
+1. Solve absolute value equations
+2. Graph solutions to absolute value equations
+3. Write absolute value equations from graphs
+4. Solve absolute value inequalities
+5. Graph solutions to absolute value inequalities
+
+H. Absolute value functions
+1. Domain and range of absolute value functions: graphs
+2. Domain and range of absolute value functions: equations
+3. Graph an absolute value function
+4. Transformations of absolute value functions
+5. Graph solutions to two-variable absolute value inequalities
+6. Solve systems of linear and absolute value inequalities by graphing
+
+I. Piecewise-defined functions
+1. Evaluate piecewise-defined functions
+2. Graph piecewise-defined functions
+
+J. Real numbers
+1. Sort rational and irrational numbers
+2. Classify rational and irrational numbers
+3. Properties of operations on rational and irrational numbers
+
+K. Complex numbers
+1. Introduction to complex numbers
+2. Add and subtract complex numbers
+3. Complex conjugates
+4. Multiply complex numbers
+5. Divide complex numbers
+6. Add, subtract, multiply, and divide complex numbers
+7. Absolute values of complex numbers
+8. Powers of i
+
+L. Polynomial operations
+1. Polynomial vocabulary
+2. Add and subtract polynomials
+3. Multiply polynomials
+
+M. Factor polynomials
+1. Sort factors of single-variable expressions
+2. Sort factors of multi-variable expressions
+
+N. Quadratic functions
+1. Characteristics of quadratic functions: graphs
+2. Characteristics of quadratic functions: equations
+
+O. Quadratic equations and inequalities
+1. Solve a quadratic equation using square roots
+2. Solve a quadratic equation using the zero product property
+3. Solve a quadratic equation by factoring
+4. Complete the square
+5. Solve a quadratic equation by completing the square
+6. Solve a quadratic equation using the quadratic formula
+7. Solve quadratic equations: word problems
+8. Using the discriminant
+9. Graph solutions to quadratic inequalities
+10. Solve quadratic inequalities
+
+P. Systems of linear and quadratic equations
+1. Solve a system of linear and quadratic equations by graphing: parabolas
+2. Solve a system of linear and quadratic equations: parabolas
+3. Solve a system of linear and quadratic equations: circles
+4. Solve a nonlinear system of equations
+
+Q. Polynomial equations and functions
+
+R. Radical expressions
+1. Roots of integers
+2. Roots of rational numbers
+3. Find roots using a calculator
+
+S. Radical functions and equations
+1. Domain and range of radical functions
+2. Graph square root functions
+3. Graph cube root functions
+4. Solve radical equations
+
+T. Rational exponents
+1. Evaluate rational exponents
+2. Convert between rational exponents and radicals
+
+U. Function operations
+1. Add and subtract functions
+2. Multiply functions
+3. Divide functions
+
+V. Inverse functions
+1. Identify inverse functions
+2. Find values of inverse functions from tables
+3. Find values of inverse functions from graphs
+
+W. Function transformations
+1. Function transformation rules
+2. Translations of functions
+3. Reflections of functions
+4. Dilations of functions
+5. Transformations of functions
+6. Describe function transformations
+
+X. Rational functions and expressions
+1. Rational functions: asymptotes and excluded values
+2. Evaluate rational expressions I
+3. Evaluate rational expressions II
+4. Simplify rational expressions
+5. Multiply and divide rational expressions
+6. Add and subtract rational expressions
+7. Simplify complex fractions
+8. Solve rational equations
+
+Y. Variation
+1. Write and solve direct variation equations
+2. Write and solve inverse variation equations
+3. Classify variation
+4. Write joint and combined variation equations I
+5. Find the constant of variation
+6. Write joint and combined variation equations II
+7. Solve variation equations
+
+Z. Exponential functions
+1. Domain and range of exponential functions
+2. Evaluate exponential functions
+3. Write exponential functions: word problems
+4. Graph exponential functions
+5. Match exponential functions and graphs
+6. Exponential functions over unit intervals
+7. Identify linear and exponential functions
+8. Describe linear and exponential growth and decay
+9. Exponential growth and decay: word problems
+
+AA. Logarithms
+1. Convert between exponential and logarithmic form: rational bases
+2. Convert between natural exponential and logarithmic form
+3. Convert between exponential and logarithmic form: all bases
+4. Evaluate logarithms
+
+BB. Logarithmic functions
+1. Domain and range of logarithmic functions
+2. Graph logarithmic functions
+
+CC. Exponential and logarithmic equations
+1. Solve exponential equations by rewriting the base
+2. Solve exponential equations using common logarithms
+3. Solve exponential equations using natural logarithms
+4. Compound interest: word problems
+5. Continuously compounded interest: word problems
+6. Solve logarithmic equations I
+7. Solve logarithmic equations II
+
+DD. Parabolas
+1. Identify the direction a parabola opens
+2. Find the vertex of a parabola
+
+EE. Circles
+1. Find the center of a circle
+2. Find the radius or diameter of a circle
+3. Write equations of circles in standard form from graphs
+4. Write equations of circles in standard form using properties
+5. Convert equations of circles from general to standard form
+6. Find properties of circles from equations in general form
+7. Graph circles
+
+FF. Ellipses
+
+GG. Hyperbolas
+
+HH. Angle measures
+1. Convert between radians and degrees
+2. Radians and arc length
+3. Angles in standard position
+4. Quadrants
+5. Coterminal angles
+6. Reference angles
+
+II. Right triangle trigonometry
+
+JJ. Laws of Sines and Cosines
+1. Law of Sines
+2. Law of Cosines
+3. Solve a triangle
+4. Area of a triangle: sine formula
+5. Area of a triangle: Law of Sines
+
+KK. Trigonometric functions
+1. Find properties of sine functions
+2. Write equations of sine functions from graphs
+3. Write equations of sine functions using properties
+4. Graph sine functions
+5. Graph translations of sine functions
+6. Find properties of cosine functions
+7. Write equations of cosine functions from graphs
+8. Write equations of cosine functions using properties
+9. Graph cosine functions
+10. Graph translations of cosine functions
+11. Find properties of sine and cosine functions
+12. Write equations of sine and cosine functions from graphs
+13. Write equations of sine and cosine functions using properties
+14. Graph sine and cosine functions
+15. Graph translations of sine and cosine functions
+
+LL. Trigonometric identities
+1. Complementary angle identities
+2. Symmetry and periodicity of trigonometric functions
+
+MM. Sequences
+1. Find terms of an arithmetic sequence
+2. Find terms of a geometric sequence
+3. Evaluate explicit formulas for sequences
+4. Evaluate recursive formulas for sequences
+5. Classify formulas and sequences
+6. Write a formula for an arithmetic sequence
+7. Write a formula for a geometric sequence
+8. Write a formula for a recursive sequence
+9. Convert a recursive formula to an explicit formula
+10. Convert an explicit formula to a recursive formula
+11. Convert between explicit and recursive formulas
+12. Sequences: mixed review
+
+NN. Series
+1. Identify arithmetic and geometric series
+2. Introduction to sigma notation
+3. Find the sum of an arithmetic series
+4. Find the sum of a finite geometric series
+5. Introduction to partial sums
+6. Partial sums of arithmetic series
+
+OO. Probability
+1. Calculate probabilities of events
+2. Counting principle
+3. Combinations and permutations
+
+PP. Probability distributions
+1. Identify probability distributions
+2. Identify discrete and continuous random variables
+3. Write a discrete probability distribution
+4. Graph a discrete probability distribution
+5. Expected values of random variables
+6. Variance of random variables
+7. Standard deviation of random variables
+8. Write the probability distribution for a game of chance
+9. Expected values for a game of chance
+10. Choose the better bet
+
+QQ. Binomial and normal distributions
+1. Find probabilities using the binomial distribution
+2. Find probabilities using the normal distribution I
+3. Find probabilities using the normal distribution II
+4. Find values of a normally distributed variable
+5. Distributions of sample means
+6. The Central Limit Theorem
+
+RR. Single-variable statistics
+1. Identify biased samples
+2. Variance and standard deviation
+3. Identify an outlier
+4. Identify an outlier and describe the effect of removing it
+5. Find confidence intervals for population means
+
+SS. Bivariate statistics
+1. Outliers in scatter plots
+2. Match correlation coefficients to scatter plots
+3. Calculate correlation coefficients
+4. Find the equation of a regression line
+5. Interpret regression lines
+
+TT. Matrices
+1. Matrix vocabulary
+2. Matrix operation rules
+3. Add and subtract matrices
+4. Multiply a matrix by a scalar
+5. Add and subtract scalar multiples of matrices
+6. Multiply two matrices
+7. Simplify matrix expressions
+8. Properties of matrices

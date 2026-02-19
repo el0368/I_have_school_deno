@@ -1,0 +1,425 @@
+A. Whole numbers and place value
+1. Convert between standard and expanded form
+2. Place value
+3. Relationship between place values
+4. Write numbers in words
+5. Spell word names for numbers up to one million
+6. Round numbers
+7. Round numbers: word problems
+
+B. Addition and subtraction
+1. Estimate sums and differences of whole numbers
+2. Estimate sums and differences: word problems
+3. Add and subtract whole numbers
+4. Add and subtract whole numbers: word problems
+5. Complete addition and subtraction sentences
+6. Properties of addition
+7. Add using properties
+
+C. Powers of ten
+1. Understanding powers of ten
+2. Evaluate powers of ten
+
+D. Multiplication
+1. Multiplication patterns over increasing place values
+2. Multiply numbers ending in zeros
+3. Multiply numbers ending in zeros: word problems
+4. Multiply a whole number by a power of ten
+5. Estimate products
+6. Multiply by 1-digit numbers
+7. Multiply by 1-digit numbers: word problems
+8. Multiply by 2-digit numbers: complete the missing steps
+9. Multiply by 2-digit numbers
+10. Multiply by 2-digit numbers: word problems
+11. Complete multiplication sentences
+12. Multiply by 3-digit numbers
+13. Properties of multiplication
+14. Multiply using properties
+
+E. Division
+1. Division patterns over increasing place values
+2. Estimate quotients: 1-digit divisors
+3. Estimate quotients: 2-digit divisors
+4. Divide numbers ending in zeros
+5. Divide numbers ending in zeros: word problems
+6. Divide by 1-digit numbers
+7. Divide by 1-digit numbers: word problems
+8. Divide by 2-digit numbers using models
+9. Divide by 2-digit numbers using partial quotients
+10. Divide 2-digit and 3-digit numbers by 2-digit numbers
+11. Divide greater numbers by 2-digit numbers
+12. Divide by 2-digit numbers: word problems
+13. Relate multiplication and division
+14. Complete the division sentence: 2-digit divisors
+
+F. Factors, multiples, and divisibility
+1. Identify factors
+2. Identify multiples
+3. Prime and composite numbers
+4. Prime factorization
+5. Divisibility rules
+6. Divisibility rules: word problems
+
+G. Mixed operations: whole numbers
+1. Add, subtract, multiply, and divide whole numbers
+2. Add, subtract, multiply, and divide whole numbers: word problems
+
+H. Numerical expressions
+1. Write numerical expressions: one operation
+2. Write numerical expressions: two operations
+3. Evaluate numerical expressions
+4. Evaluate numerical expressions using order of operations
+5. Evaluate numerical expressions with parentheses and brackets
+6. Identify mistakes involving the order of operations
+7. Evaluate numerical expressions with parentheses in different places
+8. Evaluate numerical expressions with fractions
+9. Numerical operations: find the missing sign
+10. Comparison statements with numerical expressions
+11. Make the largest possible quotient
+
+I. Multi-step word problems
+1. Multi-step word problems
+2. Multi-step word problems: identify reasonable answers
+3. Solve multi-step word problems using guess-and-check
+4. Find the answer from a table
+
+J. Fractions and mixed numbers
+1. Fractions review
+2. Equivalent fractions
+3. Simplest form
+4. Convert between mixed numbers and improper fractions
+5. Compare fractions using benchmarks
+6. Compare fractions
+7. Order fractions
+8. Fractions on number lines
+9. Mixed numbers on number lines
+
+K. Compare fractions
+1. Compare fractions using benchmarks
+2. Compare fractions with like numerators or denominators
+3. Compare fractions
+4. Order fractions
+5. Order mixed numbers
+6. Compare mixed numbers
+7. Compare fractions: word problems
+
+L. Add and subtract fractions
+1. Add fractions with like denominators
+2. Subtract fractions with like denominators
+3. Add fractions with unlike denominators
+4. Subtract fractions with unlike denominators
+5. Add and subtract fractions with unlike denominators
+6. Add and subtract fractions with unlike denominators: word problems
+7. Add 3 or more fractions
+8. Add 3 or more fractions: word problems
+9. Complete addition and subtraction sentences with fractions
+10. Estimate sums and differences of fractions
+
+M. Add and subtract mixed numbers
+1. Estimate sums and differences of mixed numbers
+2. Add and subtract mixed numbers with unlike denominators: without regrouping
+3. Add mixed numbers with unlike denominators
+4. Subtract mixed numbers with unlike denominators
+5. Add and subtract mixed numbers
+6. Add and subtract mixed numbers: word problems
+7. Regrouping to subtract mixed numbers
+8. Add and subtract mixed numbers: multi-step word problems
+9. Complete addition and subtraction sentences with mixed numbers
+10. Compare sums and differences of mixed numbers
+
+N. Understand fraction multiplication
+1. Understand fraction multiplication as repeated addition
+2. Fractions as products using area models
+3. Multiply fractions by whole numbers using number lines
+4. Multiples of fractions: find the missing numbers
+5. Multiples of fractions
+6. Multiply fractions by whole numbers using models
+
+O. Multiply fractions and whole numbers
+1. Multiply fractions by whole numbers
+2. Multiply fractions by whole numbers: word problems
+3. Multiply fractions and whole numbers: sorting
+4. Fractions of a number I
+5. Fractions of a number: word problems
+6. Fractions of a number II
+7. Multiply whole numbers by fractions
+
+P. Multiply fractions
+1. Multiply two fractions
+2. Multiply two fractions: word problems
+3. Multiply fractions and mixed numbers
+4. Multiply two mixed numbers
+5. Multiply two mixed numbers: word problems
+6. Area of a rectangle with fractional sides
+7. Multiply fractions to find area
+
+Q. Understand multiplication with mixed numbers
+1. Multiply whole numbers and mixed numbers
+2. Multiply mixed numbers using models
+3. Scaling: understand how factors affect products
+
+R. Multiply mixed numbers
+1. Multiply mixed numbers
+2. Multiply mixed numbers: word problems
+3. Multiply three or more fractions and whole numbers
+
+S. Scaling by fractions
+1. Scaling whole numbers by fractions
+2. Scaling fractions by fractions
+3. Compare factors and products
+
+T. Understand fraction division
+1. Relate division and fractions
+2. Understand fractions as division: word problems
+3. Divide unit fractions using area models
+4. Divide whole numbers using unit fraction models
+5. Determine the division equation from a model
+6. Divide unit fractions and whole numbers: complete the equation
+7. Divide unit fractions and whole numbers using area models
+8. Divide unit fractions and whole numbers using number lines
+
+U. Divide unit fractions and whole numbers
+1. Divide unit fractions by whole numbers
+2. Divide whole numbers by unit fractions
+3. Divide unit fractions and whole numbers
+4. Divide unit fractions and whole numbers: word problems
+
+V. Mixed operations: fractions
+1. Add, subtract, multiply, and divide fractions and mixed numbers
+2. Add, subtract, multiply, and divide fractions and mixed numbers: word problems
+3. Multi-step word problems with fractions and mixed numbers
+
+W. Decimal place value
+1. Decimal place value
+2. Identify decimal places
+3. Read and write decimals
+4. Convert between standard and expanded form for decimals
+5. Decimal place value: write numbers in words
+6. Compare decimals using models
+7. Compare decimals
+8. Order decimals
+9. Round decimals
+10. Decimal number lines
+
+X. Compare decimals
+1. Compare decimals using models
+2. Compare decimals using number lines
+3. Compare decimals using place value
+4. Compare decimal numbers
+5. Put decimal numbers in order
+6. Compare, order, and round decimals: word problems
+
+Y. Convert between decimals and fractions
+1. Model decimals and fractions
+2. Convert fractions to decimals
+3. Convert mixed numbers to decimals
+4. Convert decimals to fractions
+5. Convert decimals to mixed numbers
+
+Z. Compare decimals and fractions
+1. Compare decimals and fractions on number lines
+2. Compare decimals and fractions
+3. Put a mix of decimals and fractions in order
+4. Put a mix of decimals, fractions, and mixed numbers in order
+
+AA. Add and subtract decimals
+1. Add decimal numbers using blocks
+2. Add decimal numbers
+3. Use properties to add three decimals
+4. Subtract decimal numbers using blocks
+5. Subtract decimal numbers
+6. Add and subtract decimal numbers
+7. Use compensation to add and subtract decimals
+8. Add and subtract decimals: word problems
+9. Choose decimals with a particular sum or difference
+10. Complete the decimal addition or subtraction sentence
+11. Compare sums and differences of decimals
+12. Number sequences involving decimals
+13. Estimate sums and differences of decimals using rounding
+14. Estimate sums and differences of decimals using benchmarks
+
+BB. Multiply decimals by powers of ten
+1. Multiply a decimal by a power of ten
+2. Multiply a decimal by a power of ten: with exponents
+3. Multiply by 0.1 or 0.01
+4. Multiply by a power of ten with decimals: find the missing number
+
+CC. Multiply decimals by whole numbers
+1. Estimate products of whole numbers and decimals
+2. Multiply a decimal by a one-digit whole number: tenths or hundredths
+3. Multiply a decimal by a one-digit whole number using area models
+4. Multiply a decimal by a multi-digit whole number using place value
+5. Multiply a decimal by a one-digit whole number
+6. Multiply a decimal by a two-digit whole number using area models
+7. Multiply a decimal by a multi-digit whole number
+8. Multiply decimals and whole numbers: word problems
+
+DD. Multiply decimals
+1. Estimate products of decimals
+2. Multiply decimals less than one using grids
+3. Multiply decimals using grids
+4. Multiply two decimals: where does the decimal point go?
+5. Multiply two decimals: tenths
+6. Multiply two decimals: hundredths
+7. Multiply two decimals: products up to thousandths
+8. Decimal multiplication: compare products up to hundredths
+
+EE. Divide decimals by powers of ten
+1. Divide by powers of ten
+2. Decimal division patterns over increasing place values
+3. Divide by a power of ten: with exponents
+4. Multiply and divide by a power of ten: with exponents
+5. Divide by a power of ten with decimals: find the missing number
+6. Divide by 0.1 or 0.01
+
+FF. Divide decimals
+1. Estimate decimal quotients
+2. Divide decimals using blocks: complete the equation
+3. Divide decimals by whole numbers using models
+4. Divide decimals by whole numbers
+5. Divide decimals by whole numbers without adding zeros
+6. Division with decimal quotients
+7. Division with decimal quotients and rounding
+8. Division with decimal quotients: word problems
+9. Divide by decimals using place value
+10. Divide by decimals without adding zeros
+11. Divide by decimals
+
+GG. Mixed operations: decimals
+1. Add, subtract, multiply, and divide decimals
+2. Add, subtract, multiply, and divide decimals: word problems
+3. Add, subtract, multiply, and divide decimals: multi-step word problems
+4. Equations with mixed operations: true or false
+
+HH. Money and time
+1. Add and subtract money amounts
+2. Add and subtract money: word problems
+3. Add and subtract money: multi-step word problems
+4. Multiply money amounts
+5. Multiply money amounts: word problems
+6. Multiply money amounts: multi-step word problems
+7. Divide money amounts
+8. Divide money amounts: word problems
+9. Price lists
+10. Unit prices
+11. Find the number of each type of coin
+12. Convert time units
+
+II. Number patterns
+1. Identify an arithmetic pattern
+2. Continue an arithmetic pattern
+3. Identify a geometric pattern
+4. Complete a multiplication number pattern
+5. Number patterns: word problems
+6. Number patterns: mixed review
+
+JJ. Coordinate plane
+1. Describe the coordinate plane
+2. Objects on a coordinate plane
+3. Graph points on a coordinate plane
+4. Graph triangles and quadrilaterals
+5. Graph points from a table
+
+KK. Variable expressions
+1. Write variable expressions
+2. Write variable expressions: word problems
+3. Evaluate variable expressions
+4. Write variable equations: word problems
+5. Find a value using two-variable equations
+6. Complete a table for a two-variable relationship
+7. Complete a table from a graph
+8. Graph patterns using rules
+9. Graph a two-variable relationship
+10. Write a two-variable equation
+
+LL. Data and graphs
+1. Interpret line plots with whole numbers
+2. Create line plots with decimals
+3. Interpret line plots with decimals
+4. Line plots: word problems
+5. Create line graphs
+6. Interpret line graphs
+7. Create bar graphs
+8. Interpret bar graphs
+9. Interpret bar graphs: multi-step problems
+10. Create frequency tables
+11. Create stem-and-leaf plots
+12. Interpret stem-and-leaf plots
+13. Circle graphs
+14. Choose the best type of graph
+15. Create scatter plots
+16. Interpret scatter plots
+17. Predictions and trends in scatter plots
+
+MM. Statistics
+1. Find the mode
+2. Find the mean
+3. Find the median
+4. Find the range
+5. Mean: find the missing number
+6. Median: find the missing number
+7. Range: find the missing number
+8. Interpret charts and graphs to find the mode
+9. Interpret charts and graphs to find the mean
+10. Interpret charts and graphs to find the median
+11. Interpret charts and graphs to find the range
+
+NN. Triangles
+1. Identify triangles
+2. Classify triangles
+3. Angles of a triangle
+4. Find missing angles in triangles
+5. Find side lengths and angle measures
+6. Triangle inequality
+
+OO. Quadrilaterals
+1. Identify quadrilaterals
+2. Classify quadrilaterals
+3. Properties of parallelograms
+4. Properties of rectangles
+5. Properties of rhombuses
+6. Properties of squares
+7. Pick all the names for a quadrilateral
+8. Draw quadrilaterals
+
+PP. Polygons
+1. Identify polygons
+2. Classify polygons
+3. Interior angles of polygons
+4. Find missing angles in polygons
+5. Congruent figures
+6. Similar figures
+7. Line symmetry
+8. Rotational symmetry
+
+QQ. Area
+1. Area of squares and rectangles
+2. Area of rectangles with fractions
+3. Area of rectangles with fractions and mixed numbers
+4. Area of compound figures
+5. Area between two rectangles
+6. Area of figures on grids
+7. Area and perimeter of rectangles with decimals
+
+RR. Volume
+1. Understand volume of solid figures
+2. Count unit cubes in rectangular prisms
+3. Volume of rectangular prisms
+4. Volume of rectangular prisms with fractional side lengths
+5. Volume of rectangular prisms: word problems
+6. Volume of irregular figures
+7. Volume of compound figures
+8. Compare and apply cubic units
+
+SS. Financial literacy
+1. Income and payroll taxes: understanding pay stubs
+2. Income and payroll taxes: word problems
+3. Sales and property taxes: word problems
+4. Identify types of taxes
+5. Understand gross and net income
+6. Calculate gross and net income
+7. Identify advantages and disadvantages of payment methods
+8. Evaluate payment methods
+9. Reading financial records
+10. Keeping financial records
+11. Balance a budget

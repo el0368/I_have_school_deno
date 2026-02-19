@@ -1,0 +1,28 @@
+## LessonSheet.tsx → export: LessonSheet
+  props:
+    /** Selector of the scrollable content container (default: .mdx-lesson) */
+    contentSelector?: string
+    grade?: string
+    lang?: string
+    langHref?: string
+    langLabel?: string
+    nextHref?: string
+    nextLabel?: string
+    nodeId?: string
+
+## LessonToc.tsx → export: LessonToc
+  props: (none)
+
+## MathStage.tsx → export: MathStage
+  props: (none)
+  lib-imports: HealthCheck, generateDemoExercise, healthStatus, initWasm, validateAnswer, wasmModule, wasmReady
+
+## Sidebar.tsx → export: Sidebar
+  props: (none)
+
+## TitleBar.tsx → export: TitleBar
+  props: (none)
+  lib-imports: isMaximized
+
+## VolumeSimulator.tsx → export: VolumeSimulator
+  props: (none)

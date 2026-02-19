@@ -1,0 +1,383 @@
+A. Numbers and operations
+1. Add, subtract, multiply, and divide integers
+2. Evaluate numerical expressions involving integers
+3. Convert between decimals and fractions
+4. Add and subtract rational numbers
+5. Multiply and divide rational numbers
+6. Simplify complex fractions
+7. Evaluate numerical expressions involving rational numbers
+8. Square roots
+9. Cube roots
+10. Sort rational and irrational numbers
+11. Classify rational and irrational numbers
+12. Properties of operations on rational and irrational numbers
+13. Classify numbers
+
+B. Expressions
+1. Write variable expressions
+2. Evaluate variable expressions involving integers
+3. Evaluate variable expressions involving rational numbers
+4. Evaluate rational expressions
+5. Sort factors of variable expressions
+6. Simplify variable expressions involving like terms and the distributive property
+7. Identify equivalent linear expressions
+8. Write variable expressions: two-step
+9. Write and evaluate variable expressions for real-world situations
+10. Identify equivalent linear expressions: word problems
+
+C. Solve linear equations
+1. Write variable equations
+2. Does x satisfy the equation?
+3. Which x satisfies an equation?
+4. Properties of equality
+5. Identify equivalent equations
+6. Model and solve linear equations using algebra tiles
+7. Solve one-step linear equations
+8. Solve two-step linear equations
+9. Solve one-step and two-step linear equations: word problems
+10. Solve linear equations with variables on one side
+11. Consecutive integer problems
+12. Solve linear equations with variables on both sides
+13. Solve linear equations: mixed review
+14. Solve linear equations: complete the solution
+15. Find the number of solutions to a linear equation
+16. Create linear equations with no solutions or infinitely many solutions
+17. Solve linear equations with variables on both sides: word problems
+18. Rearrange multi-variable equations
+
+D. Geometry and measurement
+1. Area and perimeter: word problems
+2. Volume
+3. Surface area
+
+E. Problem solving with units
+
+F. Solve linear inequalities
+1. Graph inequalities
+2. Write inequalities from graphs
+3. Identify solutions to inequalities
+4. Solve one-step linear inequalities: addition and subtraction
+5. Solve one-step linear inequalities: multiplication and division
+6. Solve one-step linear inequalities
+7. Graph solutions to one-step linear inequalities
+8. Solve two-step linear inequalities
+9. Graph solutions to two-step linear inequalities
+10. Solve advanced linear inequalities
+11. Graph solutions to advanced linear inequalities
+12. Graph compound inequalities
+13. Write compound inequalities from graphs
+14. Solve compound inequalities
+15. Graph solutions to compound inequalities
+
+G. Sets
+1. Sets, subsets, and complements
+2. Set-builder notation
+3. Interval notation
+
+H. Absolute value equations and inequalities
+1. Solve absolute value equations
+2. Graph solutions to absolute value equations
+3. Write absolute value equations from graphs
+4. Solve absolute value inequalities
+5. Graph solutions to absolute value inequalities
+
+I. Coordinate plane
+1. Coordinate plane review
+2. Midpoint formula: find the midpoint
+3. Midpoint formula: find the endpoint
+4. Distance between two points
+
+J. Direct and inverse variation
+1. Find the constant of variation
+2. Write direct variation equations
+3. Write and solve direct variation equations
+4. Identify direct variation and inverse variation
+5. Write inverse variation equations
+6. Write and solve inverse variation equations
+
+K. Slope
+1. Find the slope of a graph
+2. Find the slope from two points
+3. Find the slope from a table
+
+L. Linear functions
+1. Identify linear functions from graphs and equations
+2. Identify linear functions from tables
+3. Complete a table and graph a linear function
+4. Evaluate a linear function from its graph: word problems
+5. Rate of change of a linear function: tables
+6. Rate of change of a linear function: graphs
+7. Interpret the slope and y-intercept of a linear function
+8. Write a linear function: word problems
+9. Domain and range of linear functions: graphs
+10. Domain and range of linear functions: word problems
+11. Compare linear functions: graphs and equations
+12. Compare linear functions: tables, graphs, and equations
+13. Transformations of linear functions
+
+M. Function concepts
+1. Relations: convert between tables, graphs, mappings, and lists of points
+2. Domain and range of relations
+3. Identify independent and dependent variables
+4. Identify functions
+5. Identify functions: vertical line test
+
+N. Proportional relationships
+1. Find the constant of proportionality from a table
+2. Find the constant of proportionality from a graph
+3. Write equations for proportional relationships from tables
+4. Write equations for proportional relationships from graphs
+5. Identify proportional relationships from graphs and equations
+6. Proportional relationships: word problems
+
+O. Systems of linear equations
+1. Is (x, y) a solution to the system of equations?
+2. Solve a system of equations by graphing
+3. Solve a system of equations by graphing: word problems
+4. Find the number of solutions to a system of equations by graphing
+5. Find the number of solutions to a system of equations
+6. Classify a system of equations by graphing
+7. Classify a system of equations
+8. Solve a system of equations using substitution
+9. Solve a system of equations using substitution: word problems
+10. Solve a system of equations using elimination
+11. Solve a system of equations using elimination: word problems
+12. Solve a system of equations using augmented matrices
+13. Solve a system of equations using augmented matrices: word problems
+14. Solve a system of equations using any method
+15. Solve a system of equations using any method: word problems
+
+P. Two-variable linear inequalities
+1. Does (x, y) satisfy the inequality?
+2. Linear inequalities: solve for y
+3. Graph a two-variable linear inequality
+4. Write a linear inequality from a graph
+5. Write two-variable inequalities: word problems
+6. Is (x, y) a solution to the system of linear inequalities?
+7. Solve systems of linear inequalities by graphing
+
+Q. Rational numbers
+1. Convert between fractions and repeating decimals
+2. Identify rational and irrational numbers
+3. Operations with rational numbers
+4. Apply properties of rational numbers
+
+R. Integer exponents
+1. Powers with integer bases
+2. Powers with decimal and fractional bases
+3. Negative exponents
+4. Multiplication rule for exponents
+5. Division rule for exponents
+6. Power rule for exponents
+7. Simplify exponential expressions using the multiplication rule
+8. Simplify exponential expressions using the division rule
+9. Simplify exponential expressions using the multiplication and division rules
+10. Simplify exponential expressions using the power rule
+11. Simplify exponential expressions using exponent rules
+12. Evaluate expressions using exponent rules
+13. Identify equivalent exponential expressions I
+14. Identify equivalent exponential expressions II
+
+S. Scientific notation
+1. Convert between standard and scientific notation
+2. Compare numbers written in scientific notation
+3. Add and subtract numbers written in scientific notation
+4. Multiply numbers written in scientific notation
+5. Divide numbers written in scientific notation
+
+T. Radical expressions
+1. Simplify radical expressions
+2. Simplify radical expressions with variables
+3. Simplify radical expressions involving fractions
+4. Multiply radical expressions
+5. Add and subtract radical expressions
+6. Simplify radical expressions using the distributive property
+7. Simplify radical expressions using conjugates
+8. Simplify radical expressions: mixed review
+9. Convert between rational exponents and radicals
+
+U. Sequences
+1. Identify arithmetic and geometric sequences
+2. Arithmetic sequences
+3. Geometric sequences
+4. Evaluate an explicit formula for a sequence
+5. Write an explicit formula for an arithmetic sequence
+6. Write an explicit formula for a geometric sequence
+7. Find recursive formulas for arithmetic sequences
+8. Find recursive formulas for geometric sequences
+9. Convert between explicit and recursive formulas
+10. Write recursive and explicit formulas for sequences
+11. Sequences: word problems
+12. Sequences: mixed review
+
+V. Exponential functions
+1. Evaluate an exponential function
+2. Graph exponential functions
+3. Match exponential functions and graphs I
+
+W. Polynomials
+1. Polynomial vocabulary
+2. Model polynomials with algebra tiles
+3. Add and subtract polynomials using algebra tiles
+4. Add and subtract polynomials
+5. Add polynomials to find perimeter
+6. Multiply a polynomial by a monomial
+7. Multiply two binomials using algebra tiles
+8. Multiply two binomials
+9. Multiply two binomials: special cases
+10. Multiply polynomials using area models
+11. Multiply polynomials
+12. Multiply polynomials to find area
+13. Divide polynomials by monomials
+14. Divide polynomials using long division
+
+X. Factor polynomials
+1. GCF of monomials
+2. LCM of monomials
+3. Factor out a monomial
+4. Factor quadratics using algebra tiles
+5. Factor quadratics with leading coefficient 1
+6. Factor quadratics with other leading coefficients
+7. Factor quadratics: special cases
+8. Factor by grouping
+9. Factor using a quadratic pattern
+10. Factor polynomials
+
+Y. Quadratic functions
+1. Characteristics of quadratic functions: graphs
+2. Characteristics of quadratic functions: equations
+3. Complete a function table: quadratic functions
+4. Transformations of quadratic functions
+5. Graph quadratic functions in vertex form
+6. Write a quadratic function in vertex form
+7. Graph quadratic functions in standard form
+8. Match quadratic functions and graphs
+9. Domain and range of quadratic functions: graphs
+10. Domain and range of quadratic functions: equations
+11. Write a quadratic function in vertex form from its vertex and another point
+12. Write a quadratic function in factored form from its x-intercepts and another point
+13. Interpret parts of quadratic expressions: word problems
+
+Z. Quadratic equations
+1. Solve a quadratic equation using square roots
+2. Solve a quadratic equation using the zero product property
+3. Solve a quadratic equation by factoring
+4. Complete the square
+5. Solve a quadratic equation by completing the square
+6. Solve a quadratic equation using the quadratic formula
+7. Solve quadratic equations: word problems
+8. Using the discriminant
+9. Solve a system of linear and quadratic equations by graphing
+10. Solve a system of linear and quadratic equations
+
+AA. Linear, quadratic, and exponential functions
+1. Identify linear and exponential functions from graphs
+2. Identify linear, quadratic, and exponential functions from graphs
+3. Identify linear and exponential functions from tables
+4. Identify linear, quadratic, and exponential functions from tables
+5. Write linear and exponential functions: word problems
+6. Write linear and exponential functions from tables
+7. Write linear, quadratic, and exponential functions from tables
+8. Linear functions over unit intervals
+9. Exponential functions over unit intervals
+10. Describe linear and exponential growth and decay
+11. Compare linear and exponential growth
+12. Compare linear, exponential, and quadratic growth
+
+BB. Absolute value functions
+1. Complete a function table: absolute value functions
+2. Graph an absolute value function
+3. Domain and range of absolute value functions: graphs
+4. Domain and range of absolute value functions: equations
+5. Transformations of absolute value functions: translations and reflections
+6. Transformations of absolute value functions: translations, reflections, and dilations
+
+CC. Function operations
+1. Add and subtract functions
+2. Multiply functions
+3. Find the inverse of a linear function
+
+DD. Function transformations
+1. Function transformation rules
+2. Translations of functions
+3. Reflections of functions
+4. Dilations of functions
+5. Transformations of functions
+6. Describe function transformations
+
+EE. Piecewise-defined functions
+1. Evaluate piecewise-defined functions
+2. Graph piecewise-defined functions
+
+FF. Radical functions
+1. Evaluate square root functions
+2. Domain and range of square root functions: graphs
+3. Domain and range of square root functions: equations
+4. Graph square root functions
+5. Graph cube root functions
+6. Solve radical equations I
+7. Solve radical equations II
+
+GG. Rational functions and expressions
+1. Rational functions: asymptotes and excluded values
+2. Simplify rational expressions
+3. Multiply and divide rational expressions
+4. Add and subtract rational expressions
+5. Simplify mixed rational expressions
+6. Solve rational equations
+
+HH. Data and graphs
+1. Create line plots
+2. Interpret line plots
+3. Create histograms
+4. Interpret histograms
+5. Create bar graphs, line graphs, and histograms
+6. Interpret bar graphs, line graphs, and histograms
+7. Interpret circle graphs
+8. Interpret stem-and-leaf plots
+9. Box plots
+10. Interpret graphics I
+11. Interpret graphics II
+
+II. Single-variable statistics
+1. Identify biased samples
+2. Mean, median, mode, and range
+3. Calculate quartiles and interquartile range
+4. Identify an outlier
+5. Identify an outlier and describe the effect of removing it
+6. Variance and standard deviation
+7. Choose appropriate measures of center and variation
+
+JJ. Bivariate statistics
+1. Interpret a scatter plot
+2. Outliers in scatter plots
+3. Match correlation coefficients to scatter plots
+4. Calculate correlation coefficients
+5. Write equations for lines of best fit
+6. Interpret lines of best fit: word problems
+7. Find the equation of a regression line
+8. Interpret regression lines
+9. Analyze a regression line of a data set
+10. Exponential regression
+11. Correlation and causation
+
+KK. Probability
+1. Theoretical probability
+2. Experimental probability
+3. Find probabilities using two-way frequency tables
+4. Find conditional probabilities using two-way frequency tables
+5. Outcomes of compound events
+6. Identify independent and dependent events
+7. Probability of independent and dependent events
+8. Counting principle
+9. Permutations
+10. Permutation and combination notation
+
+LL. Matrices
+1. Matrix vocabulary
+2. Matrix operation rules
+3. Add and subtract matrices
+4. Multiply a matrix by a scalar
+5. Add and subtract scalar multiples of matrices
+6. Multiply two matrices
+7. Properties of matrices

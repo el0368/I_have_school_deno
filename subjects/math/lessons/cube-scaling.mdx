@@ -1,0 +1,327 @@
+{/*
+  Sovereign Academy — Interactive Lesson
+  Topic : The Cube — 2D faces → 3D volume → scaling graphs
+  Level : Primary 6 / Grade 6
+  Node  : SAMPLE_CUBE
+*/}
+
+import { useSignal } from "@preact/signals";
+import VolumeSimulator from "../../../islands/VolumeSimulator.tsx";
+
+{/* ── COMPONENT 1: FaceSelector — click a face to see its formula ── */}
+export function FaceSelector() {
+  const active = useSignal(null);
+  const S = 52;
+  const faces = [
+    { id: "top",    col: 1, row: 0, fill: "#5865f2", pair: "top & bottom" },
+    { id: "left",   col: 0, row: 1, fill: "#b5bac1", pair: "left & right" },
+    { id: "front",  col: 1, row: 1, fill: "#23a55a", pair: "front & back" },
+    { id: "right",  col: 2, row: 1, fill: "#b5bac1", pair: "left & right" },
+    { id: "back",   col: 3, row: 1, fill: "#23a55a", pair: "front & back" },
+    { id: "bottom", col: 1, row: 2, fill: "#5865f2", pair: "top & bottom" },
+  ];
+  const sel = active.value ? faces.find((f) => f.id === active.value) : null;
+  return (
+    <div style={{ textAlign: "center" }}>
+      <svg
+        viewBox={`0 0 ${4 * S} ${3 * S}`}
+        style={{ maxWidth: "280px", display: "block", margin: "0 auto", cursor: "pointer" }}
+      >
+        {faces.map((f) => {
+          const on = active.value === f.id;
+          return (
+            <g key={f.id} onClick={() => (active.value = on ? null : f.id)}>
+              <rect
+                x={f.col * S + 2} y={f.row * S + 2}
+                width={S - 4} height={S - 4}
+                fill={f.fill} opacity={on ? 1 : 0.45} rx="4"
+                stroke={on ? "#f2f3f5" : "transparent"} stroke-width="2.5"
+              />
+              <text
+                x={f.col * S + S / 2} y={f.row * S + S / 2}
+                text-anchor="middle" dominant-baseline="central"
+                fill="#f2f3f5" font-size="11" font-family="sans-serif"
+                font-weight={on ? "700" : "400"}
+              >{f.id}</text>
+            </g>
+          );
+        })}
+      </svg>
+      <div style={{
+        minHeight: "52px", margin: "10px auto", maxWidth: "340px",
+        padding: sel ? "10px 14px" : "0",
+        background: sel ? "#2b2d31" : "transparent",
+        borderRadius: "8px", border: sel ? "1px solid #3f4147" : "none",
+        fontSize: "14px", color: "#f2f3f5", transition: "background 0.2s",
+      }}>
+        {sel
+          ? <><strong style={{ color: sel.fill }}>{sel.id}</strong> belongs to the <strong>{sel.pair}</strong> pair.<br />Area = <code style={{ background: "#383a40", padding: "1px 5px", borderRadius: "3px" }}>s × s = s²</code>{" → "} contributes <strong>2 × s²</strong> to total SA.</>
+          : <span style={{ color: "#949ba4" }}>👆 Click any face to see its formula.</span>}
+      </div>
+    </div>
+  );
+}
+
+{/* ── COMPONENT 2: LiveCalc — slider + live SA/V display ───────────── */}
+export function LiveCalc() {
+  const s = useSignal(4);
+  function update(val) {
+    s.value = Math.max(1, Math.min(20, Number(val) || 1));
+  }
+  const sa = s.value * s.value * 6;
+  const v  = s.value ** 3;
+  return (
+    <div style={{ background: "#2b2d31", borderRadius: "10px", padding: "20px 24px", margin: "16px 0", border: "1px solid #3f4147" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "18px" }}>
+        <label style={{ color: "#b5bac1", fontSize: "14px", minWidth: "100px" }}>Side length s:</label>
+        <input type="range" min="1" max="20" value={s.value}
+          onInput={(e) => update(e.target.value)}
+          style={{ flex: 1, accentColor: "#5865f2" }} />
+        <input type="number" min="1" max="20" value={s.value}
+          onInput={(e) => update(e.target.value)}
+          style={{ width: "52px", background: "#383a40", border: "1px solid #4e5058", borderRadius: "4px", color: "#f2f3f5", fontSize: "16px", fontWeight: "700", padding: "4px 6px", textAlign: "center" }} />
+      </div>
+      <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+        <div style={{ flex: 1, minWidth: "200px" }}>
+          <div style={{ color: "#949ba4", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "5px" }}>Surface Area</div>
+          <div style={{ fontFamily: "monospace", fontSize: "13px", color: "#b5bac1", marginBottom: "5px" }}>6 × {s.value}² = 6 × {s.value * s.value}</div>
+          <div style={{ fontFamily: "monospace", fontSize: "24px", fontWeight: "700", color: "#5865f2", padding: "8px 12px", background: "#313338", borderRadius: "6px", borderLeft: "4px solid #5865f2" }}>{sa} units²</div>
+        </div>
+        <div style={{ flex: 1, minWidth: "200px" }}>
+          <div style={{ color: "#949ba4", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "5px" }}>Volume</div>
+          <div style={{ fontFamily: "monospace", fontSize: "13px", color: "#b5bac1", marginBottom: "5px" }}>{s.value} × {s.value} × {s.value}</div>
+          <div style={{ fontFamily: "monospace", fontSize: "24px", fontWeight: "700", color: "#23a55a", padding: "8px 12px", background: "#313338", borderRadius: "6px", borderLeft: "4px solid #23a55a" }}>{v} units³</div>
+        </div>
+      </div>
+      <div style={{ marginTop: "12px", padding: "8px 12px", background: sa === v ? "#1e3a2a" : "#313338", borderRadius: "6px", border: `1px solid ${sa === v ? "#23a55a" : "#3f4147"}`, fontSize: "13px", color: "#b5bac1", transition: "all 0.3s" }}>
+        {sa === v ? "🎯 SA = V right now! This is the special crossover at s = 6."
+          : sa > v ? `📐 SA (${sa}) > V (${v}) — surface dominates.`
+          : `📦 V (${v}) > SA (${sa}) — volume dominates. The cube is very "full".`}
+      </div>
+    </div>
+  );
+}
+
+{/* ── COMPONENT 3: Quiz — 3 MCQs with submit + retry ──────────────── */}
+export function Quiz() {
+  const qs = [
+    { q: "A cube has s = 3. What is its surface area?",       choices: ["27 units²","54 units²","18 units²","36 units²"], correct: 1, hint: "SA = 6 × 3² = 6 × 9 = 54" },
+    { q: "Which formula gives the VOLUME of a cube?",          choices: ["6s²","4s²","s³","s²"],                         correct: 2, hint: "V = s × s × s = s³" },
+    { q: "At what value of s does SA equal V for a cube?",     choices: ["s = 4","s = 5","s = 7","s = 6"],              correct: 3, hint: "6s² = s³ → s = 6" },
+  ];
+  const answers = useSignal(Array(qs.length).fill(null));
+  const done = useSignal(false);
+  const score = answers.value.filter((a, i) => a === qs[i].correct).length;
+  function pick(qi, ci) { if (done.value) return; const n = [...answers.value]; n[qi] = ci; answers.value = n; }
+  return (
+    <div style={{ margin: "20px 0" }}>
+      {qs.map((q, qi) => {
+        const chosen = answers.value[qi];
+        const ok = chosen === q.correct;
+        return (
+          <div key={qi} style={{ background: "#2b2d31", borderRadius: "10px", padding: "16px 20px", marginBottom: "10px", border: done.value ? `1px solid ${ok ? "#23a55a" : "#f23f43"}` : "1px solid #3f4147", transition: "border-color 0.2s" }}>
+            <p style={{ margin: "0 0 10px", fontWeight: "600", color: "#f2f3f5", fontSize: "14px" }}>Q{qi + 1}. {q.q}</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+              {q.choices.map((c, ci) => {
+                let bg = "#383a40", border = "#4e5058", color = "#b5bac1";
+                if (chosen === ci && !done.value) { bg = "#3c3f75"; border = "#5865f2"; color = "#f2f3f5"; }
+                if (done.value && ci === q.correct) { bg = "#1e3a2a"; border = "#23a55a"; color = "#23a55a"; }
+                if (done.value && chosen === ci && ci !== q.correct) { bg = "#3a1e1e"; border = "#f23f43"; color = "#f23f43"; }
+                return <button key={ci} onClick={() => pick(qi, ci)} style={{ background: bg, border: `1px solid ${border}`, borderRadius: "6px", padding: "8px 12px", color, fontSize: "13px", textAlign: "left", cursor: done.value ? "default" : "pointer", transition: "all 0.15s" }}>{["A","B","C","D"][ci]}. {c}</button>;
+              })}
+            </div>
+            {done.value && <p style={{ margin: "8px 0 0", fontSize: "12px", color: ok ? "#23a55a" : "#f23f43" }}>{ok ? "✓ Correct! " : "✗ "}<span style={{ color: "#b5bac1" }}>{q.hint}</span></p>}
+          </div>
+        );
+      })}
+      {!done.value
+        ? <button onClick={() => (done.value = true)} disabled={answers.value.includes(null)} style={{ background: answers.value.includes(null) ? "#3f4147" : "#5865f2", border: "none", borderRadius: "6px", padding: "10px 24px", color: answers.value.includes(null) ? "#949ba4" : "#fff", fontSize: "14px", fontWeight: "600", cursor: answers.value.includes(null) ? "not-allowed" : "pointer" }}>Submit Answers</button>
+        : <div style={{ padding: "12px 16px", borderRadius: "8px", fontSize: "15px", fontWeight: "700", background: score === 3 ? "#1e3a2a" : score >= 2 ? "#2a2d1e" : "#3a1e1e", color: score === 3 ? "#23a55a" : score >= 2 ? "#f0b232" : "#f23f43", border: `1px solid ${score === 3 ? "#23a55a" : score >= 2 ? "#f0b232" : "#f23f43"}` }}>
+            {score === 3 ? "🎉 Perfect 3/3!" : score === 2 ? "⭐ 2/3 — Almost!" : `📖 ${score}/3 — Review the lesson and retry.`}
+            <button onClick={() => { answers.value = Array(qs.length).fill(null); done.value = false; }} style={{ marginLeft: "12px", background: "transparent", border: "1px solid currentColor", borderRadius: "4px", padding: "2px 10px", color: "inherit", cursor: "pointer", fontSize: "12px" }}>Retry</button>
+          </div>}
+    </div>
+  );
+}
+
+{/* ── COMPONENT 4: ScaleGraph — inline SVG, static ─────────────────── */}
+export function ScaleGraph() {
+  const points = [1, 2, 3, 4, 5, 6, 7, 8];
+  const W = 380, H = 260;
+  const PAD = { t: 20, r: 20, b: 40, l: 52 };
+  const cw = W - PAD.l - PAD.r;
+  const ch = H - PAD.t - PAD.b;
+  const MAX_Y = 550;
+  const xOf = (s) => PAD.l + ((s - 1) / 7) * cw;
+  const yOf = (val) => PAD.t + ch - (val / MAX_Y) * ch;
+  const saPoints = points.map((s) => `${xOf(s).toFixed(1)},${yOf(6*s*s).toFixed(1)}`).join(" ");
+  const vPoints  = points.map((s) => `${xOf(s).toFixed(1)},${yOf(s**3).toFixed(1)}`).join(" ");
+  const cx6 = xOf(6).toFixed(1), cy6 = yOf(216).toFixed(1);
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", maxWidth: "480px", display: "block", margin: "16px auto", background: "#2b2d31", borderRadius: "8px" }}>
+      <line x1={PAD.l} y1={PAD.t} x2={PAD.l} y2={PAD.t+ch} stroke="#4e5058" stroke-width="1.5" />
+      <line x1={PAD.l} y1={PAD.t+ch} x2={PAD.l+cw} y2={PAD.t+ch} stroke="#4e5058" stroke-width="1.5" />
+      {points.map((s) => (
+        <g key={s}>
+          <line x1={xOf(s)} y1={PAD.t} x2={xOf(s)} y2={PAD.t+ch} stroke="#3f4147" stroke-width="0.8" stroke-dasharray="4 3" />
+          <text x={xOf(s)} y={PAD.t+ch+16} text-anchor="middle" fill="#b5bac1" font-size="11" font-family="sans-serif">{s}</text>
+        </g>
+      ))}
+      {[0,100,200,300,400,500].map((val) => (
+        <g key={val}>
+          <text x={PAD.l-8} y={yOf(val)} text-anchor="end" dominant-baseline="central" fill="#b5bac1" font-size="11" font-family="sans-serif">{val}</text>
+          <line x1={PAD.l-3} y1={yOf(val)} x2={PAD.l} y2={yOf(val)} stroke="#4e5058" stroke-width="1" />
+        </g>
+      ))}
+      <polyline points={saPoints} fill="none" stroke="#5865f2" stroke-width="2.5" stroke-linejoin="round" />
+      <polyline points={vPoints}  fill="none" stroke="#23a55a" stroke-width="2.5" stroke-linejoin="round" />
+      {points.map((s) => (
+        <g key={s}>
+          <circle cx={xOf(s)} cy={yOf(6*s*s)} r="4" fill="#5865f2" />
+          <circle cx={xOf(s)} cy={yOf(s**3)}  r="4" fill="#23a55a" />
+        </g>
+      ))}
+      <circle cx={cx6} cy={cy6} r="8" fill="none" stroke="#f0b232" stroke-width="2" />
+      <line x1={cx6} y1={Number(cy6)-12} x2={cx6} y2={Number(cy6)-30} stroke="#f0b232" stroke-width="1.5" />
+      <text x={cx6} y={Number(cy6)-36} text-anchor="middle" fill="#f0b232" font-size="11" font-family="sans-serif">SA = V = 216</text>
+      <text x={PAD.l+cw/2} y={H-4} text-anchor="middle" fill="#949ba4" font-size="12" font-family="sans-serif">side length s</text>
+      <text x={14} y={PAD.t+ch/2} text-anchor="middle" fill="#949ba4" font-size="12" font-family="sans-serif" transform={`rotate(-90,14,${PAD.t+ch/2})`}>value</text>
+      <rect x={PAD.l+cw-106} y={PAD.t+8}  width={12} height={12} fill="#5865f2" rx="2" />
+      <text x={PAD.l+cw-90}  y={PAD.t+18} fill="#b5bac1" font-size="11" font-family="sans-serif">SA = 6s²</text>
+      <rect x={PAD.l+cw-106} y={PAD.t+26} width={12} height={12} fill="#23a55a" rx="2" />
+      <text x={PAD.l+cw-90}  y={PAD.t+36} fill="#b5bac1" font-size="11" font-family="sans-serif">V = s³</text>
+    </svg>
+  );
+}
+
+---
+
+# 📦 The Cube: Where 2D Meets 3D
+
+A **cube** is the simplest 3D solid — every edge has the same length $s$.
+Its beauty is that it shows exactly how **surface area** and **volume**
+behave differently as a shape scales.
+
+---
+
+## Part 1 — The 2D Face
+
+A cube has **6 identical square faces**. Each face is a flat 2D square
+with side length $s$, so each face has area:
+
+$$
+A_{\text{face}} = s^2
+$$
+
+Unfold all 6 faces flat to get the **net**. Click any face below to see
+which pair it belongs to and what it contributes to total surface area:
+
+<FaceSelector />
+
+---
+
+## Part 2 — Surface Area
+
+**Surface area** is the total area of all 6 faces added together.
+Since every face is identical:
+
+$$
+\text{SA} = 6 \times A_{\text{face}} = 6s^2
+$$
+
+| $s$ (units) | One face $s^2$ | SA $= 6s^2$ |
+|:-----------:|:--------------:|:-----------:|
+| 1 | 1 | **6** |
+| 2 | 4 | **24** |
+| 3 | 9 | **54** |
+| 4 | 16 | **96** |
+
+Notice SA grows as $s^2$ — **quadratic** growth. Double the side length,
+and the surface area **quadruples**.
+
+---
+
+## Part 3 — Volume
+
+**Volume** is how much 3D space the cube fills. Imagine stacking $s$ layers
+of $s \times s$ squares:
+
+$$
+V = s \times s \times s = s^3
+$$
+
+This is **cubic** growth. Double the side length, and volume grows by a
+factor of $2^3 = 8$.
+
+---
+
+## Part 4 — Try It Live
+
+Pick any side length $s$ from 1 to 20. The formulas fill in automatically
+and a callout tells you which quantity is currently larger:
+
+<LiveCalc />
+
+---
+
+## Part 5 — Interactive 3D Model
+
+Set **Length = Width = Height** equal to build a true cube, or mix them
+for a rectangular prism:
+
+<div style={{ borderRadius: "8px", overflow: "hidden", margin: "20px 0", border: "1px solid #3f4147" }}>
+  <VolumeSimulator />
+</div>
+
+---
+
+## Part 6 — Scaling Graph
+
+$SA = 6s^2$ grows quadratically; $V = s^3$ grows cubically. There is
+exactly one crossover:
+
+$$
+6s^2 = s^3 \implies 6 = s \implies s = 6
+$$
+
+<ScaleGraph />
+
+At $s = 6$:
+
+$$
+\text{SA} = 6(6)^2 = 216 \qquad V = 6^3 = 216
+$$
+
+For $s < 6$: **surface area is larger** than volume (the shape has a lot of
+outer skin relative to its interior).
+
+For $s > 6$: **volume grows faster** — the cube becomes more "full" relative
+to its surface. This fact appears in biology too: large animals lose heat more
+slowly than small ones because their volume-to-surface-area ratio is bigger.
+
+---
+
+## Summary
+
+| Property | Formula | Growth type |
+|----------|---------|-------------|
+| One face | $A = s^2$ | quadratic |
+| Surface area | $\text{SA} = 6s^2$ | quadratic |
+| Volume | $V = s^3$ | cubic |
+| Crossover | $\text{SA} = V$ when $s = 6$ | — |
+
+$$
+\boxed{\text{SA} = 6s^2 \qquad V = s^3 \qquad \text{equal when } s = 6}
+$$
+
+---
+
+## ✏️ Check Your Understanding
+
+Answer all three questions, then hit **Submit Answers**:
+
+<Quiz />
+
+---
+
+*Next lesson: rectangular prisms where $l \neq w \neq h$ — formulas generalise to $\text{SA} = 2(lw + lh + wh)$ and $V = l \times w \times h$.*

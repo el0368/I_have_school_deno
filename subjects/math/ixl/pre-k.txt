@@ -1,0 +1,219 @@
+A. Numbers to 3
+1. Identify numbers - up to 3
+2. Choose the number that you hear - up to 3
+
+B. Counting to 3
+1. Learn to count - up to 3
+2. Count pictures - up to 3
+3. Count dots - up to 3
+4. Count shapes - up to 3
+5. Count cubes - up to 3
+6. Count on frames - up to 3
+7. Count out stickers - up to 3
+8. Show numbers with cubes - up to 3
+9. Show numbers on frames - up to 3
+10. Represent numbers with pictures - up to 3
+11. Represent numbers with shapes - up to 3
+
+C. Numbers to 5
+1. Identify numbers - up to 5
+2. Choose the number that you hear - up to 5
+
+D. Counting to 5
+1. Learn to count - up to 5
+2. Count pictures - up to 5
+3. Count dots - up to 5
+4. Count shapes in rows - up to 5
+5. Count cubes - up to 5
+6. Count on frames - up to 5
+7. Count scattered shapes - up to 5
+8. Count out stickers - up to 5
+9. Show numbers with cubes - up to 5
+10. Show numbers on frames - up to 5
+11. Represent numbers with pictures - up to 5
+12. Represent numbers with shapes - up to 5
+13. Put numbers up to 5 in counting order
+14. What number comes next? - up to 5
+15. Ordinal numbers - up to fifth
+
+E. Numbers and counting to 7
+1. Choose the number that you hear - up to 7
+2. Learn to count - up to 7
+3. Count pictures - up to 7
+4. Count cubes - up to 7
+5. Count on ten frames - up to 7
+6. Count out stickers - up to 7
+7. Show numbers with cubes - up to 7
+8. Show numbers on ten frames - up to 7
+9. Represent numbers - up to 7
+
+F. Numbers and counting to 9
+1. Choose the number that you hear - up to 9
+2. Learn to count - up to 9
+3. Count pictures - up to 9
+4. Count cubes - up to 9
+5. Count on ten frames - up to 9
+6. Count out stickers - up to 9
+7. Show numbers with cubes - up to 9
+8. Show numbers on ten frames - up to 9
+9. Represent numbers - up to 9
+
+G. Numbers to 10
+1. Identify numbers - up to 10
+2. Choose the number that you hear - up to 10
+
+H. Counting to 10
+1. Learn to count - up to 10
+2. Count pictures - up to 10
+3. Count cubes - up to 10
+4. Count dots - up to 10
+5. Count shapes in rows - up to 10
+6. Count on ten frames - up to 10
+7. Count scattered shapes - up to 10
+8. Count shapes in rings - up to 10
+9. Count out stickers - up to 10
+10. Show numbers with cubes - up to 10
+11. Show numbers on ten frames - up to 10
+12. Represent numbers - up to 10
+13. What number comes next? - up to 10
+14. Ordinal numbers - up to tenth
+
+I. One more and one less
+1. One more with pictures - up to 5
+2. One less with pictures - up to 5
+3. One more with pictures - up to 10
+4. One less with pictures - up to 10
+
+J. Numbers and counting to 20
+1. Identify numbers - up to 20
+2. Count pictures - up to 20
+3. Count dots - up to 20
+4. Count shapes - up to 20
+5. Count on ten frames - up to 20
+6. Show numbers on ten frames - up to 20
+7. Represent numbers - up to 20
+8. Count up - up to 20
+
+K. Compare groups
+1. More
+2. Fewer
+3. Fewer and more - compare by matching
+4. Fewer and more - compare by counting
+5. Fewer and more - compare in a mixed group
+6. Fewer, more, and same
+7. Are there enough?
+8. Are there the same number?
+9. Count pictures and show a number that is equal - up to 5
+
+L. Compare numbers
+1. Which number is larger?
+2. Which number is largest?
+3. Which number is smaller?
+4. Which number is smallest?
+
+M. Patterns
+1. Color patterns
+2. Size patterns
+3. Shape patterns
+4. What comes next?
+
+N. Positions
+1. In front of and behind
+2. Inside and outside
+3. Left and right
+4. Left, middle, and right
+5. Top and bottom
+6. Top, middle, and bottom
+7. Above and below
+8. Beside and next to
+
+O. Classify
+1. Different
+2. Same
+3. Same and different
+4. Classify shapes by color
+5. Classify and sort by color
+6. Classify and sort by shape
+
+P. Flat shapes
+1. Circles
+2. Triangles
+3. Rectangles
+4. Squares
+5. Circles, squares, and triangles
+6. Circles, squares, triangles, and rectangles
+7. Name the shape
+8. Sort flat shapes
+
+Q. Describe flat shapes
+1. Count sides
+2. Count corners
+3. Count sides and corners
+
+R. Solid shapes
+1. Flat and solid shapes
+2. Describe solid shapes
+3. Spheres
+4. Cubes
+5. Cones
+6. Cylinders
+7. Select solid shapes
+8. Name the solid shape
+9. Identify shapes traced from solids
+
+S. Shapes in the real world
+1. Flat shapes in the real world
+2. Solid shapes in the real world I
+3. Solid shapes in the real world II
+
+T. Size
+1. Long and short
+2. Tall and short
+3. Wide and narrow
+4. Light and heavy
+5. Holds more or less
+6. Compare size, weight, and capacity
+
+U. Money
+1. Pennies and nickels
+2. Dimes and quarters
+3. Pennies, nickels, dimes, and quarters
+4. Count pennies
+
+V. Addition up to 5
+1. Put together numbers using cubes - sums up to 5
+2. Build cube trains to add up to 5 - words
+3. Add with cubes - sums up to 5
+4. Build cube trains to add up to 5 - addition sentences
+5. Add with pictures - sums up to 5
+6. Addition sentences up to 5 - which model matches?
+7. Addition sentences up to 5 - what does the model show?
+8. Addition word problems with pictures - sums up to 5
+
+W. Addition up to 10
+1. Put together numbers using cubes - sums up to 10
+2. Build cube trains to add up to 10 - words
+3. Add with cubes - sums up to 10
+4. Build cube trains to add up to 10 - addition sentences
+5. Add with pictures - sums up to 10
+6. Addition sentences up to 10 - which model matches?
+7. Addition sentences up to 10 - what does the model show?
+8. Addition word problems with pictures - sums up to 10
+
+X. Subtraction up to 5
+1. Take away cubes - numbers up to 5
+2. Subtract with cubes - numbers up to 5
+3. Subtract with pictures - numbers up to 5
+4. Subtraction sentences up to 5 - which model matches?
+5. Subtraction sentences up to 5 - what does the model show?
+6. Subtraction sentences up to 5 - what does the cube train show?
+7. Subtraction word problems with pictures - numbers up to 5
+
+Y. Subtraction up to 10
+1. Take away cubes - numbers up to 10
+2. Subtract with cubes - numbers up to 10
+3. Subtract with pictures - numbers up to 10
+4. Subtraction sentences up to 10 - which model matches?
+5. Subtraction sentences up to 10 - what does the model show?
+6. Subtraction sentences up to 10 - what does the cube train show?
+7. Subtraction word problems with pictures - numbers up to 10

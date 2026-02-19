@@ -1,0 +1,141 @@
+A. Introduction to limits
+1. Find limits using graphs
+2. Find one-sided limits using graphs
+3. Determine if a limit exists
+
+B. Calculate limits
+1. Find limits using addition, subtraction, and multiplication laws
+2. Find limits using the division law
+3. Find limits using power and root laws
+4. Find limits using limit laws
+5. Find limits of polynomials and rational functions
+6. Find limits involving factorization and rationalization
+7. Find limits involving absolute value functions
+8. Find limits involving trigonometric functions
+
+C. Infinite limits
+1. Find limits at vertical asymptotes using graphs
+2. Find the limit at a vertical asymptote of a rational function I
+3. Find the limit at a vertical asymptote of a rational function II
+
+D. Limits at infinity
+1. Determine end behavior using graphs
+2. Determine end behavior of polynomial and rational functions
+
+E. Continuity
+1. Identify graphs of continuous functions
+2. Determine continuity using graphs
+3. Determine one-sided continuity using graphs
+4. Find and analyze points of discontinuity using graphs
+5. Determine continuity on an interval using graphs
+6. Determine the continuity of a piecewise function at a point
+7. Make a piecewise function continuous
+8. Intermediate Value Theorem
+
+F. Introduction to derivatives
+1. Average rate of change I
+2. Average rate of change II
+3. Find instantaneous rates of change
+4. Velocity as a rate of change
+5. Find values of derivatives using limits
+6. Find the slope of a tangent line using limits
+7. Find equations of tangent lines using limits
+
+G. Derivative rules
+1. Sum and difference rules
+2. Product rule
+3. Quotient rule
+4. Power rule I
+5. Power rule II
+6. Chain rule
+7. Inverse function rule
+
+H. Calculate derivatives
+1. Find derivatives of polynomials
+2. Find derivatives of rational functions
+3. Find derivatives of sine and cosine functions
+4. Find derivatives of other trigonometric functions
+5. Find derivatives of exponential functions
+6. Find derivatives of logarithmic functions
+7. Find derivatives of inverse trigonometric functions
+8. Find derivatives of radical functions
+9. Find derivatives using the product rule I
+10. Find derivatives using the product rule II
+11. Find derivatives using the quotient rule I
+12. Find derivatives using the quotient rule II
+13. Find derivatives of trigonometric functions using the product and quotient rules
+14. Find derivatives using the chain rule I
+15. Find derivatives using the chain rule II
+
+I. Derivative strategies
+1. Find derivatives using implicit differentiation
+2. Find tangent lines using implicit differentiation
+3. Find derivatives using logarithmic differentiation
+
+J. Calculate higher derivatives
+1. Find higher derivatives of polynomials
+2. Find higher derivatives of rational and radical functions
+3. Find second derivatives of trigonometric, exponential, and logarithmic functions
+4. Find higher derivatives of exponential and trigonometric functions
+5. Find higher derivatives of logarithmic and power functions
+
+K. Rates of change
+1. Relate position, velocity, speed, and acceleration using derivatives
+2. Introduction to related rates
+
+L. L'Hospital's rule
+1. L'Hospital's rule: indeterminate forms involving quotients
+
+M. Analyze functions using the first derivative
+1. Mean Value Theorem
+2. Find critical points of functions
+3. Find local extrema using the first derivative test
+4. Find absolute extrema on a closed interval
+5. Identify the graph of the derivative from the graph of the function
+6. Identify the graph of a function from the graph of its derivative
+
+N. Analyze functions using the second derivative
+1. Identify the graph of the second derivative from the graph of the function
+
+O. Optimization
+1. Introduction to optimization
+
+P. Linear approximation
+1. Linear approximation
+
+Q. Introduction to integration
+1. Approximate the area under a curve: left and right endpoints
+2. Approximate the area under a curve: midpoints
+3. Approximate the area under a curve: trapezoids
+4. Definite integrals and net area
+5. Evaluate definite integrals using graphs
+6. Properties of definite integrals
+
+R. Fundamental Theorem of Calculus
+1. Fundamental Theorem of Calculus, Part 1
+2. Fundamental Theorem of Calculus, Part 2
+
+S. Antiderivatives and indefinite integrals
+1. Find antiderivatives
+2. Find indefinite integrals using the power rule
+3. Find indefinite integrals involving exponential and logarithmic functions
+4. Find indefinite integrals involving trigonometric functions
+5. Find indefinite integrals: mixed review
+
+T. Definite integrals
+1. Evaluate definite integrals using the power rule
+2. Evaluate definite integrals involving exponential and logarithmic functions
+3. Evaluate definite integrals involving trigonometric functions
+4. Evaluate definite integrals: mixed review
+
+U. Integration techniques
+1. Find indefinite integrals using substitution
+2. Integrals involving inverse trigonometric functions
+3. Integrate using long division
+
+V. Differential equations
+1. Solve first-order initial value problems
+
+W. Applications of integration
+1. Average value of a function
+2. Areas of regions bounded by graphs and the x-axis
