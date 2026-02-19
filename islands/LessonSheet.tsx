@@ -116,16 +116,11 @@ export default function LessonSheet({
 
   return (
     <aside class="lesson-toc">
-
       {/* ── Metadata card ─────────────────────────────────────────── */}
       {(nodeId || grade || langHref) && (
         <div class="sheet-meta">
-          {nodeId && (
-            <div class="sheet-node-id">{nodeId}</div>
-          )}
-          {grade && (
-            <div class="sheet-grade">{grade}</div>
-          )}
+          {nodeId && <div class="sheet-node-id">{nodeId}</div>}
+          {grade && <div class="sheet-grade">{grade}</div>}
           {langHref && (
             <div class="sheet-lang-row">
               <span class="sheet-lang-active">{lang ?? "EN"}</span>
@@ -173,7 +168,6 @@ export default function LessonSheet({
           </a>
         </div>
       )}
-
     </aside>
   );
 }

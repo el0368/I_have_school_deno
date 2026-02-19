@@ -3,8 +3,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   test: {
-    // Use jsdom for DOM APIs in component tests
-    environment: "jsdom",
+    // Pure logic tests — no DOM needed. jsdom 28 crashes Deno 2.6.9
+    // (Symbol(DONT_CONTEXTIFY) not supported in Deno's vm polyfill)
+    environment: "node",
     // Test file patterns
     include: [
       "lib/**/*.test.ts",

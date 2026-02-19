@@ -93,7 +93,7 @@ function resolvePath(from: string, relative: string): string {
 
 async function checkLayer(
   files: string[],
-  layerName: string,
+  _layerName: string,
   rules: Array<{ forbidden: string; message: string }>,
 ): Promise<Violation[]> {
   const violations: Violation[] = [];

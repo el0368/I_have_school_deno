@@ -72,7 +72,9 @@ function extractContracts(filename: string, src: string): ContractEntry[] {
     }
 
     // exported function — capture the declaration line only (name + param names)
-    const fnMatch = line.match(/^export\s+(?:async\s+)?function\s+(\w+)\s*\(([^)]*)\)(?:\s*:\s*(.+?))?(?:\s*\{|$)/);
+    const fnMatch = line.match(
+      /^export\s+(?:async\s+)?function\s+(\w+)\s*\(([^)]*)\)(?:\s*:\s*(.+?))?(?:\s*\{|$)/,
+    );
     if (fnMatch) {
       const params = fnMatch[2]
         .split(",")
