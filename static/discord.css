@@ -103,7 +103,10 @@ body {
   flex-direction: column;
   height: 100%;
   flex: 1;
-  overflow: hidden;
+  /* overflow:clip (not hidden) — blocks ALL programmatic scroll writes.
+     overflow:hidden still allows JS scrollIntoView/scrollTo to shift the
+     container, pushing the title bar off-screen. clip prevents that. */
+  overflow: clip;
 }
 
 /* Fresh <Partial> wrapper must fill the flex parent */
@@ -122,7 +125,11 @@ body.discord-app > div {
   overflow: hidden;
 }
 
-/* ─── Custom Title Bar ──────────────────────────────────────────── */
+/* ─── Custom Title Bar ─────────────────────────────────────────────
+   !! FROZEN — do not move, reorder, or change layout properties !!
+   flex-shrink:0 + position:sticky + top:0 + .app-shell{overflow:clip}
+   together guarantee the bar is ALWAYS visible.
+   ──────────────────────────────────────────────────────────────── */
 
 .title-bar {
   display: flex;
