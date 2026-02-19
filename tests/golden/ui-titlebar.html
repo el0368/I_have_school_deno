@@ -1,99 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>UI Snapshot: TitleBar</title>
-    <style>
-      body {
-        font-family: "gg sans", "Noto Sans", sans-serif;
-        background: #1e1f22;
-        color: #dbdee1;
-        padding: 24px;
-      }
-      h1 {
-        color: #f2f3f5;
-        border-bottom: 1px solid #3f4147;
-        padding-bottom: 8px;
-      }
-      h2 {
-        color: #b5bac1;
-        font-size: 14px;
-        text-transform: uppercase;
-        letter-spacing: 0.02em;
-      }
-      .section {
-        background: #2b2d31;
-        border-radius: 8px;
-        padding: 16px;
-        margin: 12px 0;
-      }
-      .item {
-        padding: 4px 0;
-        color: #dbdee1;
-        font-size: 14px;
-      }
-      .class-name {
-        color: #5865f2;
-        font-family: "Consolas", monospace;
-      }
-      .signal-name {
-        color: #23a559;
-        font-family: "Consolas", monospace;
-      }
-      .behavior {
-        color: #fee75c;
-      }
-      .tag {
-        display: inline-block;
-        padding: 2px 8px;
-        border-radius: 4px;
-        font-size: 12px;
-        margin-right: 4px;
-      }
-      .tag-class {
-        background: #5865f220;
-        color: #5865f2;
-      }
-      .tag-signal {
-        background: #23a55920;
-        color: #23a559;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>TitleBar</h1>
-    <p>Source: <code>islands/TitleBar.tsx</code></p>
+<head>
+  <meta charset="utf-8">
+  <title>UI Snapshot: TitleBar</title>
+  <style>
+    body { font-family: 'gg sans', 'Noto Sans', sans-serif; background: #1e1f22; color: #dbdee1; padding: 24px; }
+    h1 { color: #f2f3f5; border-bottom: 1px solid #3f4147; padding-bottom: 8px; }
+    h2 { color: #b5bac1; font-size: 14px; text-transform: uppercase; letter-spacing: 0.02em; }
+    .section { background: #2b2d31; border-radius: 8px; padding: 16px; margin: 12px 0; }
+    .item { padding: 4px 0; color: #dbdee1; font-size: 14px; }
+    .class-name { color: #5865f2; font-family: 'Consolas', monospace; }
+    .signal-name { color: #23a559; font-family: 'Consolas', monospace; }
+    .behavior { color: #fee75c; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px; }
+    .tag-class { background: #5865f220; color: #5865f2; }
+    .tag-signal { background: #23a55920; color: #23a559; }
+  </style>
+</head>
+<body>
+  <h1>TitleBar</h1>
+  <p>Source: <code>islands/TitleBar.tsx</code></p>
 
-    <div class="section">
-      <h2>Required CSS Classes</h2>
-      <div class="item"><span class="tag tag-class">.title-bar</span></div>
-      <div class="item"><span class="tag tag-class">.title-bar-drag</span></div>
-      <div class="item"><span class="tag tag-class">.title-bar-buttons</span></div>
-      <div class="item"><span class="tag tag-class">.title-btn</span></div>
-      <div class="item"><span class="tag tag-class">.title-btn-close</span></div>
-    </div>
+  <div class="section">
+    <h2>Required CSS Classes</h2>
+    <div class="item"><span class="tag tag-class">.title-bar</span></div>
+    <div class="item"><span class="tag tag-class">.title-bar-drag</span></div>
+    <div class="item"><span class="tag tag-class">.title-bar-buttons</span></div>
+    <div class="item"><span class="tag tag-class">.title-btn</span></div>
+    <div class="item"><span class="tag tag-class">.title-btn-close</span></div>
+  </div>
 
-    <div class="section">
-      <h2>Required Elements</h2>
-      <div class="item">• minimize button (SVG icon)</div>
-      <div class="item">• maximize/restore button (SVG icon)</div>
-      <div class="item">• close button (SVG icon)</div>
-      <div class="item">• drag region (full title bar width)</div>
-    </div>
+  <div class="section">
+    <h2>Required Elements</h2>
+    <div class="item">• minimize button (SVG icon)</div>
+    <div class="item">• maximize/restore button (SVG icon)</div>
+    <div class="item">• close button (SVG icon)</div>
+    <div class="item">• drag region (full title bar width)</div>
+  </div>
 
-    <div class="section">
-      <h2>Preact Signals</h2>
-      <div class="item"><span class="tag tag-signal">isMaximized (from lib/state.ts)</span></div>
-    </div>
+  <div class="section">
+    <h2>Preact Signals</h2>
+    <div class="item"><span class="tag tag-signal">isMaximized (from lib/state.ts)</span></div>
+  </div>
 
-    <div class="section">
-      <h2>Critical Behaviors</h2>
-      <div class="item behavior">⚡ -webkit-app-region: drag on drag zone</div>
-      <div class="item behavior">⚡ -webkit-app-region: no-drag on buttons</div>
-      <div class="item behavior">⚡ IPC: minimize → window.ipc.postMessage('minimize')</div>
-      <div class="item behavior">⚡ IPC: maximize → window.ipc.postMessage('maximize')</div>
-      <div class="item behavior">⚡ IPC: close → window.ipc.postMessage('close')</div>
-      <div class="item behavior">⚡ Close button hover: red background (#f23f43)</div>
-    </div>
-  </body>
+  <div class="section">
+    <h2>Critical Behaviors</h2>
+    <div class="item behavior">⚡ -webkit-app-region: drag on drag zone</div>
+    <div class="item behavior">⚡ -webkit-app-region: no-drag on buttons</div>
+    <div class="item behavior">⚡ IPC: minimize → window.ipc.postMessage('minimize')</div>
+    <div class="item behavior">⚡ IPC: maximize → window.ipc.postMessage('maximize')</div>
+    <div class="item behavior">⚡ IPC: close → window.ipc.postMessage('close')</div>
+    <div class="item behavior">⚡ Close button hover: red background (#f23f43)</div>
+  </div>
+</body>
 </html>
