@@ -57,13 +57,16 @@
 
 /* ─── Reset & Base ──────────────────────────────────────────────── */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow: hidden;
   background: var(--bg-content);
@@ -91,16 +94,31 @@ html, body {
   user-select: none;
 }
 
+.maximized .app-shell {
+  padding: 8px;
+}
+
 .app-shell {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Fresh <Partial> wrapper must fill the flex parent */
+body.discord-app > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
 }
 
 .app-body {
   display: flex;
   flex: 1;
-  min-height: 0; /* Allow flex children to shrink */
+  min-height: 0;
+  /* Allow flex children to shrink */
   overflow: hidden;
 }
 
@@ -116,6 +134,9 @@ html, body {
   padding: 0 4px 0 16px;
   -webkit-app-region: drag;
   z-index: 1000;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
 }
 
 .title-bar-left {
@@ -435,6 +456,7 @@ html, body {
   align-items: center;
   padding: 24px;
   overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 /* WASM Health Check Warning */
@@ -532,9 +554,11 @@ html, body {
 }
 
 @keyframes pulse-glow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 2px 8px rgba(240, 178, 50, 0.4);
   }
+
   50% {
     box-shadow: 0 2px 16px rgba(240, 178, 50, 0.7);
   }
@@ -697,10 +721,12 @@ html, body {
     transform: scale(0);
     opacity: 0;
   }
+
   60% {
     transform: scale(1.2);
     opacity: 1;
   }
+
   100% {
     transform: scale(1);
     opacity: 1;

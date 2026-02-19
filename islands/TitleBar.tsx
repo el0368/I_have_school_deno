@@ -3,7 +3,7 @@
 // Discord-style draggable title bar with window controls.
 // Communicates with Rust FFI to minimize/maximize/close the native window.
 
-import { useSignal } from "@preact/signals";
+import { useSignal, useSignalEffect } from "@preact/signals";
 import { isMaximized } from "../lib/state.ts";
 
 export default function TitleBar() {
@@ -14,6 +14,15 @@ export default function TitleBar() {
   // Window controls — try wry IPC first, then browser fallback
   // deno-lint-ignore no-explicit-any
   const ipc = () => (globalThis as any).ipc;
+
+  // Sync maximized state to body class for CSS adjustments
+  useSignalEffect(() => {
+    if (isMaximized.value) {
+      document.body.classList.add("maximized");
+    } else {
+      document.body.classList.remove("maximized");
+    }
+  });
 
   const handleMinimize = () => {
     if (ipc()) {

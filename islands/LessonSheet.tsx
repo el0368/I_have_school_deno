@@ -111,7 +111,16 @@ export default function LessonSheet({
   const scrollTo = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    // Scroll only the .mdx-lesson container — NOT ancestor containers.
+    // scrollIntoView() would scroll .app-shell too, hiding the title bar.
+    const container = document.querySelector(contentSelector);
+    if (!container) return;
+    const containerRect = container.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+    container.scrollTo({
+      top: container.scrollTop + (elRect.top - containerRect.top),
+      behavior: "smooth",
+    });
   };
 
   return (

@@ -57,8 +57,21 @@ export default function LessonToc() {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    const container = document.querySelector(".stage-content");
+
+    if (element && container) {
+      // Use offsetTop relative to the container to avoid viewport-relative
+      // getBoundingClientRect, which causes body scroll and hides the title bar.
+      let offsetTop = 0;
+      let node: HTMLElement | null = element;
+      while (node && node !== container) {
+        offsetTop += node.offsetTop;
+        node = node.offsetParent as HTMLElement | null;
+      }
+      container.scrollTo({
+        top: offsetTop - 24,
+        behavior: "smooth",
+      });
     }
   };
 
