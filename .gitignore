@@ -23,6 +23,9 @@ native/target/
 # Vite timestamp files
 vite.config.ts.timestamp-*.mjs
 
+# Vite dep-optimization cache (cacheDir: ".vite")
+.vite/
+
 # Deno cache
 .deno/
 

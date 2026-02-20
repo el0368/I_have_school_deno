@@ -53,6 +53,7 @@
   },
   "exclude": [
     "**/_fresh/*",
+    "**/.vite/*",
     "**/target/*",
     "**/node_modules/*",
     "static/wasm/*",
@@ -79,6 +80,7 @@
     "@mdx-js/rollup": "npm:@mdx-js/rollup@^3.1.0",
     "@mdx-js/react": "npm:@mdx-js/react@^3.1.0",
     "remark-math": "npm:remark-math@^6.0.0",
+    "remark-gfm": "npm:remark-gfm@^4.0.0",
     "rehype-katex": "npm:rehype-katex@^7.0.0",
     "katex": "npm:katex@^0.16.0"
   },

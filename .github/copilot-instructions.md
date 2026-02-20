@@ -13,6 +13,8 @@ desktop capabilities. Built with Fresh 2.2.0, Deno 2.6.9, Preact, and Rust
 - **Frontend**: Fresh 2.2.0 (SSR), Vite 7.3.1, Preact 10.27.2+, @preact/signals
   2.5.0+
 - **Runtime**: Deno 2.6.9 with FFI enabled
+- **Vite cache**: `cacheDir: ".vite"` (project root) — **DO NOT change to default**
+  (see Windows pitfalls below)
 - **Desktop Shell**: Rust tao 0.31 + wry 0.48 (frameless window with Win32 APIs)
   — **FROZEN CORE**
 - **Math Engine**: Rust → WASM (`math-engine/`)
@@ -26,6 +28,11 @@ desktop capabilities. Built with Fresh 2.2.0, Deno 2.6.9, Preact, and Rust
     subclass)
   - 8-direction native resize via JS IPC → ReleaseCapture + SendMessage
   - Only modify with explicit user approval and full regression testing
+- `vite.config.ts` — **FROZEN CONFIG** ❄️
+  - `denoJunctionFix` plugin: Critical for deduping Preact instances via Proxy
+  - `server: { watch: null }`: Critical to prevent `EISDIR` crash on Windows
+  - `cacheDir: ".vite"`: Critical for MIME types
+  - `remarkPlugins: [remarkGfm, remarkMath, remarkKatex]`: Critical order for math tables
 
 ### Key Directories
 
@@ -100,12 +107,27 @@ export default function MyIsland() {
 - Return JSON strings from WASM (not complex objects)
 - Tests required: `cargo test` must pass before PR
 
-### CSS
+### CSS Architecture
 
-- Discord theme variables in `:root` (see `static/discord.css`)
-- No inline styles unless absolutely necessary
-- Use `.desktop-mode` class for native window adjustments
-- Preserve `-webkit-app-region: drag` on title bar
+- **Single Entry Point**: `static/discord.css` (imported in `_app.tsx`)
+- **Modular Imports**: Component styles must be in `static/css/modules/` and `@import`ed by `discord.css`
+- **Global Variables**: Defined in `static/css/base.css` (`:root`)
+- **No Inline Styles**: Use `.class` names from `discord.css` utility classes
+- **Desktop Mode**: `.desktop-mode` class on `<body>` (injected via URL param)
+- **Title Bar Integration**: `-webkit-app-region: drag` must be preserved on headers
+
+### Window Controls & IPC (Frozen Logic)
+
+- **TitleBar Island**: Connects `isMaximized` signal to `document.body` class
+- **IPC Bridge**: Always check `window.ipc` (injected by `desktop/src/main.rs`) before browser fallback
+- **Drag Regions**: Controlled by `app-region: drag` CSS + `WM_NCHITTEST` in Rust
+
+### MDX & Math Content
+
+- **Plugin Order**: `remark-gfm` → `remark-math` → `remark-katex` (set in `vite.config.ts`)
+- **KaTeX Styling**: `katex.min.css` loaded in `_app.tsx` head
+- **Tables**: GFM tables enabled via `remark-gfm`
+
 
 ## Anti-Logic Drift Rules
 
@@ -134,7 +156,7 @@ All tests must be **100% reproducible**. Same input → same output, every time.
 ### Before Making Changes
 
 - [ ] Read `file.todo` for implementation status
-- [ ] Check if code is in FROZEN CORE (desktop/src/main.rs)
+- [ ] Check if code is in FROZEN CORE (desktop/src/main.rs) or FROZEN CONFIG (vite.config.ts)
 - [ ] Run `deno task check` (fmt, lint, type-check)
 - [ ] Run `cargo test` (math-engine tests)
 - [ ] If touching WASM: `deno task build:wasm` and test in UI
@@ -239,6 +261,45 @@ cargo test, vitest, snapshots) and exits with git-bisect-compatible codes:
 
 ## Common Pitfalls
 
+### Windows + Deno + Vite (CRITICAL)
+
+Two known Windows-specific bugs exist in this stack. Both are permanently fixed
+in `vite.config.ts` — **do not revert these settings**.
+
+**Bug 1 — OS Error 123 (illegal filename characters)**
+- Vite's dep optimizer appends `?v=<hash>` to import paths for cache-busting.
+  On Windows, `readfile` treats the full string (including `?`) as a filesystem
+  path, which is invalid → `500 Internal Server Error`.
+- **Fix already applied**: `denoJunctionFix()` plugin inside `vite.config.ts`.
+  It intercepts requests for `.deno` modules, strips query strings, and serves
+  file content directly with correct MIME types.
+
+**Bug 2 — Double Preact Instance (`__H` is undefined)**
+- Fresh JSR modules import Preact from raw `.deno/` paths. Islands import Preact
+  from optimized `/.vite/deps/` paths.
+- **Consequence**: Two distinct Preact instances load. Hooks register on one,
+  Signals read from the other → fatal crash (`__H` is undefined).
+- **Fix (FROZEN)**: `denoJunctionFix` middleware acts as a **Proxy**. It detects
+  requests for raw `preact`/`hooks`/`signals` modules and responds with:
+  `export * from "/.vite/deps/preact.js?v=..."`.
+  This forces ALL code to share the single optimized Preact instance.
+
+**Bug 3 — EISDIR: illegal operation on a directory**
+- Deno 2.6's `node:fs` compat layer throws fatal errors when chokidar (Vite's watcher)
+  attempts to `lstat` NTFS junction points inside `node_modules/.deno`.
+- **Fix (FROZEN)**: `server: { watch: null }` in `vite.config.ts`.
+  Disables file system watching. HMR still works for manual refreshes/re-requests,
+  but auto-reload on save is disabled to prevent crashing.
+
+**Recovery steps** (if either error reappears):
+```bash
+powershell -Command "Stop-Process -Name deno -Force -ErrorAction SilentlyContinue"
+powershell -Command "Remove-Item .vite -Recurse -Force -ErrorAction SilentlyContinue"
+deno task dev
+```
+
+---
+
 ❌ **DON'T**
 
 - Modify `desktop/src/main.rs` without permission
@@ -246,6 +307,8 @@ cargo test, vitest, snapshots) and exits with git-bisect-compatible codes:
 - Import from `@deno/std` (use `jsr:@std/...` instead)
 - Add timestamps to WASM outputs (breaks deterministic snapshots)
 - Use `style="..."` inline (use classes from discord.css)
+- Remove `cacheDir: ".vite"` from `vite.config.ts` (causes MIME-type errors)
+- Remove preact entries from `optimizeDeps.include` (causes OS error 123)
 
 ✅ **DO**
 
@@ -254,6 +317,7 @@ cargo test, vitest, snapshots) and exits with git-bisect-compatible codes:
 - Write tests for new WASM functions
 - Preserve Discord visual consistency
 - Ask before touching frozen core
+- Keep `cacheDir: ".vite"` and full `optimizeDeps.include` in `vite.config.ts`
 
 ## Discord UI Principles
 
