@@ -4,6 +4,46 @@
       "path": "static/css/layout.css",
       "sha256": "0d635924b8843f85e932a4e708392ba33309feb4630d55598bd172aed4dcd80f",
       "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "static/css/base.css",
+      "sha256": "fb8cbbead1caeb562e03bba2f89685e0bc6d71af365e1f6e76babff2e0810c41",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "static/css/components.css",
+      "sha256": "79275b547b27f4222c4c56a416b3a3650215005810ba35de52c57b3d907df816",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "lib/native.ts",
+      "sha256": "114f25add3f0c422d203d2ea7bad72d5c6e758d10f684c226ab67094ab860b46",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "desktop/src/main.rs",
+      "sha256": "23fb27487763fb795723bbd7d5ad44828c8c4d291f3a2bffcb97451937fab07b",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "scripts/verify-ledger.ts",
+      "sha256": "456a796ffb46b0135e82a97970c3700854ce85722ab326007622754584638e70",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "scripts/verify-boundaries.ts",
+      "sha256": "fe69fa162cd421b7bbf07d578ff748a5ccd74657542f8bc11562141f79c8ff98",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "static/css/modules/lesson.css",
+      "sha256": "51f2e95ff6aa3f50a692722847ce84544bbfbd0234e5fd1b99a8d0f45fb7b566",
+      "frozenAt": "2026-02-20"
+    },
+    {
+      "path": "static/css/modules/lesson-toc.css",
+      "sha256": "2b79fb11b54e7bf160a782cc614271b1bb6f637feb81e0efe2bbc4bb66a4cdf2",
+      "frozenAt": "2026-02-20"
     }
   ]
 }
