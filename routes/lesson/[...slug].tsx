@@ -22,20 +22,26 @@ export default define.page(async function LessonPage(ctx) {
     return (
       <div class="app-shell">
         <TitleBar />
-        <div class="app-body">
+        {/* app-body--lesson = 2-column grid; TOC lives inside .mdx-lesson */}
+        <div class="app-body app-body--lesson">
           <Sidebar />
           <article class="mdx-lesson">
-            <Content />
+            <div class="mdx-lesson-prose">
+              <Content />
+            </div>
+            <div class="mdx-lesson-sheet">
+              <LessonSheet
+                nodeId="T11_6_0"
+                grade="Grade 6"
+                lang={lang}
+                langLabel={altLangLabel}
+                langHref={`/lesson/${altSlug}`}
+                nextHref="/lesson/T11_6_1_EN"
+                nextLabel="Visualize Ratios"
+                contentSelector=".mdx-lesson-prose"
+              />
+            </div>
           </article>
-          <LessonSheet
-            nodeId="T11_6_0"
-            grade="Grade 6"
-            lang={lang}
-            langLabel={altLangLabel}
-            langHref={`/lesson/${altSlug}`}
-            nextHref="/lesson/T11_6_1_EN"
-            nextLabel="Visualize Ratios"
-          />
         </div>
       </div>
     );

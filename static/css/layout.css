@@ -151,6 +151,15 @@ body.discord-app>div {
   grid-template-columns: 72px 1fr 280px;
 }
 
+/* ─── Lesson page: TOC lives inside the article, not the shell ───── */
+.app-body--lesson {
+  grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+.app-body--lesson.collapsed-sidebar {
+  grid-template-columns: 72px 1fr;
+}
+
 .sidebar-header {
   display: flex;
   align-items: center;

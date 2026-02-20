@@ -2,7 +2,7 @@
   "frozen": [
     {
       "path": "static/css/layout.css",
-      "sha256": "0d635924b8843f85e932a4e708392ba33309feb4630d55598bd172aed4dcd80f",
+      "sha256": "a86f7fc7d6143e459f0558f99227ec02de74138b81c37681cc379edce7fd401c",
       "frozenAt": "2026-02-20"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "static/css/modules/lesson.css",
-      "sha256": "51f2e95ff6aa3f50a692722847ce84544bbfbd0234e5fd1b99a8d0f45fb7b566",
+      "sha256": "81b0003dbc969a9632e1578f87a00c55a5a8d72d2caf754c23718de32830900d",
       "frozenAt": "2026-02-20"
     },
     {
