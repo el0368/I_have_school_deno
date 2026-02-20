@@ -1,13 +1,12 @@
-import { useSignal } from "@preact/signals";
 import VolumeSimulator from "../islands/VolumeSimulator.tsx";
-import { Counter } from "../islands/Counter.tsx"; // Assuming a simpler component exists, or we use VolumeSim
+import KatexMath from "../islands/KatexMath.tsx";
 
 # 📐 Understanding 3D Space
 
 In traditional textbooks, you learn that **Volume** is the amount of space a 3D shape occupies.
 The formula for a rectangular prism is:
 
-$$ V = l \times w \times h $$
+<KatexMath expr="V = l \times w \times h" display />
 
 But what does that *feel* like?
 
@@ -33,10 +32,4 @@ With MDX, the line between "content" and "app" disappears. You can:
 2. **Live Code Editing**: Embed a code editor that executes live (like we do with WASM).
 3. **Data Visualization**: Render charts that update based on user input elsewhere in the lesson.
 
-For example, if we had a chart component, we could pass the volume data directly to it:
-
-```tsx
-<VolumeChart data={volumeSignal.value} />
-```
-
-*This file demonstrates the syntax of MDX. To render it, we would need to add an MDX plugin to our Fresh configuration.*
+For example, inline math also works: <KatexMath expr="a^2 + b^2 = c^2" />

@@ -9,6 +9,7 @@ export default defineConfig({
     mdx({
       jsxImportSource: "preact",
       remarkPlugins: [remarkMath],
+      // rehypeKatex disabled — causes hast-util-from-parse5 ESM conflict in Deno+Vite
       // rehypePlugins: [rehypeKatex],
     }),
     fresh(),
