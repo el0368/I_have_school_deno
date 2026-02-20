@@ -6,7 +6,7 @@
 
 import { useSignal } from "@preact/signals";
 import { useEffect } from "preact/hooks";
-import { marked } from "marked";
+import { ComponentChildren } from "preact";
 import {
   activeTopic,
   activeTopicData,
@@ -19,40 +19,62 @@ import {
 } from "../lib/state.ts";
 import { generateDemoExercise } from "../lib/exercise-loader.ts";
 import { healthStatus, initWasm, wasmModule, wasmReady } from "../lib/wasm-loader.ts";
+import VolumeSimulator from "./VolumeSimulator.tsx";
 import type { HealthCheck } from "../lib/wasm-health-check.ts";
 import { validateAnswer } from "../lib/validation.ts";
+import { LESSON_REGISTRY } from "../utils/lesson_registry.ts";
 
 export default function MathStage() {
   const showSuccess = useSignal(false);
   const streak = useSignal(0);
   const advanceTimer = useSignal<ReturnType<typeof setTimeout> | null>(null);
-  const mode = useSignal<"lesson" | "practice">("lesson");
+  const mode = useSignal<"lesson" | "practice" | "lab">("lesson");
   const lang = useSignal<"EN" | "TH">("EN");
-  const lessonHtml = useSignal("");
+  // Component to render (default null)
+  const LessonComponent = useSignal<(() => ComponentChildren) | null>(null);
   const lessonLoading = useSignal(false);
+  const lessonError = useSignal(false);
 
   // Load WASM module on mount
   useEffect(() => {
     initWasm();
   }, []);
 
-  // Load lesson markdown whenever activeTopic, mode, or lang changes
+  // Load lesson MDX whenever activeTopic, mode, or lang changes
   useEffect(() => {
     if (mode.value !== "lesson") return;
-    lessonLoading.value = true;
-    // For now we only have T11_6_0 — will expand when generator runs
+
+    // For now we assume Topic 11 (Grade 6) uses this specific ID framework
+    // In future, topics will have explicit 'nodeId' properties
     const nodeId = `T11_6_0`;
-    fetch(`/api/lesson/${nodeId}?lang=${lang.value}`)
-      .then((r) => r.json())
-      .then((data: { content: string }) => {
-        lessonHtml.value = marked.parse(data.content) as string;
-      })
-      .catch(() => {
-        lessonHtml.value = "<p>Lesson not found.</p>";
-      })
-      .finally(() => {
-        lessonLoading.value = false;
-      });
+    const key = `${nodeId}_${lang.value}`;
+
+    lessonLoading.value = true;
+    lessonError.value = false;
+    LessonComponent.value = null;
+
+    const loadRef = LESSON_REGISTRY[key];
+
+    if (loadRef) {
+      loadRef()
+        .then((mod) => {
+          // MDX modules export the component as default
+          // We need to cast it to any because Preact types for MDX are tricky
+          // deno-lint-ignore no-explicit-any
+          LessonComponent.value = mod.default as any;
+        })
+        .catch((err) => {
+          console.error("Failed to load lesson:", err);
+          lessonError.value = true;
+        })
+        .finally(() => {
+          lessonLoading.value = false;
+        });
+    } else {
+      console.warn(`No lesson found for key: ${key}`);
+      lessonError.value = true;
+      lessonLoading.value = false;
+    }
   }, [mode.value, lang.value, activeTopic.value]);
 
   // Load a new exercise when topic or index changes
@@ -125,6 +147,8 @@ export default function MathStage() {
 
   const topic = activeTopicData.value;
   const exercise = currentExercise.value;
+  // Render the loaded MDX component if available
+  const CurrentLesson = LessonComponent.value;
 
   return (
     <main class="math-stage">
@@ -150,6 +174,13 @@ export default function MathStage() {
               onClick={() => (mode.value = "practice")}
             >
               ✏️ Practice
+            </button>
+            <button
+              type="button"
+              class={`mode-btn ${mode.value === "lab" ? "mode-btn-active" : ""}`}
+              onClick={() => (mode.value = "lab")}
+            >
+              🧪 Lab
             </button>
           </div>
           {/* Language toggle — only in lesson mode */}
@@ -203,13 +234,18 @@ export default function MathStage() {
                   <p>Loading lesson...</p>
                 </div>
               )
-              : (
+              : lessonError.value
+              ? (
+                <div class="stage-empty">
+                  <p>⚠️ Lesson content not found.</p>
+                </div>
+              )
+              : CurrentLesson
+              ? (
                 <>
-                  <div
-                    class="lesson-markdown"
-                    // deno-lint-ignore react-no-danger
-                    dangerouslySetInnerHTML={{ __html: lessonHtml.value }}
-                  />
+                  <div class="lesson-markdown">
+                    <CurrentLesson />
+                  </div>
                   <div class="lesson-cta">
                     <button
                       type="button"
@@ -220,11 +256,13 @@ export default function MathStage() {
                     </button>
                   </div>
                 </>
-              )}
+              )
+              : null}
           </div>
         )}
 
         {/* ── PRACTICE MODE (original exercise flow) ── */}
+
         {mode.value === "practice" && (
           <>
             {/* Health Check Warning */}
@@ -337,6 +375,12 @@ export default function MathStage() {
                 </div>
               )}
           </>
+        )}
+        {/* ── LAB MODE ── */}
+        {mode.value === "lab" && (
+          <div class="lab-body">
+            <VolumeSimulator />
+          </div>
         )}
       </div>
     </main>

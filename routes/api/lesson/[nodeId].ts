@@ -10,7 +10,8 @@ export const handler = define.handlers({
     const url = new URL(ctx.req.url);
     const lang = url.searchParams.get("lang") === "TH" ? "TH" : "EN";
 
-    const path = `subjects/math/lessons/${nodeId}_${lang}.md`;
+    // Dynamic logic for T11_6_0 (Ratios)
+    const path = `curriculums/math/grade-6/unit-1-ratios/01-intro/${nodeId}_${lang}.mdx`;
 
     try {
       const content = await Deno.readTextFile(path);

@@ -1,0 +1,299 @@
+/* ─── Lesson Mode: Markdown Body ────────────────────────────────── */
+
+.lesson-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 32px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.lesson-markdown {
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.7;
+  user-select: text;
+}
+
+.lesson-markdown h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.lesson-markdown h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 6px;
+}
+
+.lesson-markdown h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+}
+
+.lesson-markdown p {
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.lesson-markdown strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.lesson-markdown em {
+  color: var(--text-secondary);
+}
+
+.lesson-markdown a {
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+.lesson-markdown a:hover {
+  text-decoration: underline;
+}
+
+.lesson-markdown ul,
+.lesson-markdown ol {
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+
+.lesson-markdown li {
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.lesson-markdown blockquote {
+  border-left: 4px solid var(--accent-brand);
+  margin: 12px 0;
+  padding: 8px 16px;
+  background: var(--bg-input);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--text-secondary);
+}
+
+.lesson-markdown blockquote p {
+  margin: 0;
+}
+
+.lesson-markdown code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: var(--bg-input);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #e3b5ff;
+}
+
+.lesson-markdown pre {
+  background: var(--bg-titlebar);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  overflow-x: auto;
+  margin-bottom: 12px;
+}
+
+.lesson-markdown pre code {
+  background: none;
+  padding: 0;
+}
+
+.lesson-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.lesson-markdown th {
+  background: var(--bg-active);
+  color: var(--text-primary);
+  font-weight: 700;
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid var(--border-subtle);
+}
+
+.lesson-markdown td {
+  padding: 8px 12px;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+
+.lesson-markdown tr:nth-child(even) td {
+  background: var(--bg-input);
+}
+
+.lesson-markdown hr {
+  border: none;
+  border-top: 1px solid var(--border-subtle);
+  margin: 20px 0;
+}
+
+/* <details> collapsible answers */
+.lesson-markdown details {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin: 8px 0;
+}
+
+.lesson-markdown summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent-brand);
+  user-select: none;
+}
+
+.lesson-markdown details[open] summary {
+  margin-bottom: 8px;
+}
+
+/* Start Practice CTA */
+.lesson-cta {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 8px;
+}
+
+.lesson-start-practice {
+  padding: 12px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--accent-brand);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.lesson-start-practice:hover {
+  background: #4752c4;
+  transform: translateY(-1px);
+}
+
+/* ─── MDX Lesson Prose ───────────────────────────────────────────── */
+
+.mdx-lesson {
+  flex: 1;
+  overflow-y: auto;
+  max-width: 100%;
+  padding: 32px 48px 64px;
+  color: var(--text-primary, #f2f3f5);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.mdx-lesson h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary, #f2f3f5);
+  margin: 0 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent-brand, #5865f2);
+}
+
+.mdx-lesson h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary, #f2f3f5);
+  margin: 40px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-subtle, #3f4147);
+}
+
+.mdx-lesson h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent-brand, #5865f2);
+  margin: 24px 0 8px;
+}
+
+.mdx-lesson p {
+  margin: 0 0 14px;
+}
+
+.mdx-lesson strong {
+  color: var(--text-primary, #f2f3f5);
+  font-weight: 700;
+}
+
+.mdx-lesson blockquote {
+  margin: 16px 0;
+  padding: 10px 16px;
+  border-left: 4px solid var(--accent-brand, #5865f2);
+  background: var(--bg-secondary, #2b2d31);
+  border-radius: 0 6px 6px 0;
+  color: var(--text-secondary, #b5bac1);
+  font-style: italic;
+}
+
+.mdx-lesson table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.mdx-lesson th {
+  background: var(--bg-input, #383a40);
+  color: var(--text-secondary, #b5bac1);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 2px solid var(--border-subtle, #3f4147);
+}
+
+.mdx-lesson td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border-subtle, #3f4147);
+  color: var(--text-primary, #f2f3f5);
+}
+
+.mdx-lesson tr:hover td {
+  background: var(--bg-secondary, #2b2d31);
+}
+
+/* KaTeX display blocks */
+.mdx-lesson .katex-display {
+  background: var(--bg-secondary, #2b2d31);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  overflow-x: auto;
+  border-left: 3px solid var(--accent-brand, #5865f2);
+}
+
+.mdx-lesson .katex {
+  color: var(--text-primary, #f2f3f5);
+  font-size: 1.05em;
+}
+
+/* Horizontal rule between sections */
+.mdx-lesson hr {
+  border: none;
+  border-top: 1px solid var(--border-subtle, #3f4147);
+  margin: 36px 0;
+}
+
+/* Italics as a tip/note */
+.mdx-lesson em {
+  color: var(--text-secondary, #b5bac1);
+}

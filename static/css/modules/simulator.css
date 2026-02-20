@@ -1,0 +1,226 @@
+/* ─── Volume & Surface Area Simulator ───────────────────────────── */
+
+.sim-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sim-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-subtle, #3f4147);
+  background: var(--bg-content, #313338);
+  flex-shrink: 0;
+}
+
+.sim-header-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sim-header-right {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sim-toggle-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--border-subtle, #3f4147);
+  border-radius: 4px;
+  background: var(--bg-input, #383a40);
+  color: var(--text-secondary, #b5bac1);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.sim-toggle-btn:hover {
+  background: var(--bg-active, #404249);
+  color: var(--text-primary, #f2f3f5);
+}
+
+.sim-toggle-btn.sim-toggle-active {
+  background: var(--accent-brand, #5865f2);
+  border-color: var(--accent-brand, #5865f2);
+  color: #fff;
+}
+
+/* ── Main body grid ── */
+.sim-body {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  flex: 1;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .sim-body {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
+}
+
+/* ── 3D Viewport ── */
+.sim-viewport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary, #2b2d31);
+  padding: 24px;
+  overflow: auto;
+  position: relative;
+}
+
+.sim-iso-svg {
+  width: 100%;
+  max-width: 520px;
+  max-height: 440px;
+}
+
+/* ── Legend ── */
+.sim-legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--text-secondary, #b5bac1);
+}
+
+.sim-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sim-legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* ── Net View ── */
+.sim-net-container {
+  text-align: center;
+  width: 100%;
+}
+
+.sim-net-svg {
+  width: 100%;
+  max-width: 480px;
+  max-height: 360px;
+}
+
+.sim-net-lshape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.sim-net-label {
+  font-size: 13px;
+  color: var(--text-secondary, #b5bac1);
+  margin: 4px 0 0;
+}
+
+/* ── Sidebar ── */
+.sim-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bg-content, #313338);
+  border-left: 1px solid var(--border-subtle, #3f4147);
+  overflow-y: auto;
+}
+
+.sim-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted, #949ba4);
+  letter-spacing: 0.04em;
+  margin: 0 0 8px;
+}
+
+/* ── Slider Rows ── */
+.sim-slider-group {
+  background: var(--bg-secondary, #2b2d31);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.sim-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.sim-slider-row:last-child {
+  margin-bottom: 0;
+}
+
+.sim-slider-label {
+  width: 90px;
+  font-size: 13px;
+  color: var(--text-secondary, #b5bac1);
+  flex-shrink: 0;
+}
+
+.sim-slider-input {
+  flex: 1;
+  accent-color: var(--accent-brand, #5865f2);
+  cursor: pointer;
+}
+
+.sim-slider-value {
+  width: 28px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary, #f2f3f5);
+  font-family: var(--font-mono, monospace);
+}
+
+/* ── Math Cards ── */
+.sim-math-card {
+  background: var(--bg-secondary, #2b2d31);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.sim-formula {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sim-formula-line {
+  font-size: 14px;
+  color: var(--text-secondary, #b5bac1);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono, monospace);
+}
+
+.sim-formula-result {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent-green, #23a55a);
+  margin: 6px 0 0;
+  padding-top: 6px;
+  border-top: 1px solid var(--border-subtle, #3f4147);
+  font-family: var(--font-mono, monospace);
+}

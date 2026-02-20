@@ -1,0 +1,345 @@
+/* ─── App Shell (Centered Container) ─────────────────────────────── */
+
+.discord-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+  background-color: var(--bg-content);
+  /* Fill outer edges */
+}
+
+.maximized .app-shell {
+  padding: 8px;
+  /* Native window maximize fix */
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  overflow: clip;
+}
+
+/* Fresh <Partial> wrapper must fill the flex parent */
+body.discord-app>div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+/* ─── Main Grid Layout ───────────────────────────────────────────── */
+
+.app-body {
+  display: grid;
+  /* Sidebar | Content | TOC */
+  grid-template-columns: var(--sidebar-width) 1fr 280px;
+  grid-template-rows: 1fr;
+  height: 100%;
+  width: 100%;
+  gap: var(--layout-gap);
+
+  /* Ensure children don't overflow grid cells */
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* If app-body is inside a flex parent, ensure it takes space but respects max-width */
+.app-shell>.app-body {
+  flex: 1;
+}
+
+/* ─── Custom Title Bar ─────────────────────────────────────────────
+   !! FROZEN — do not move, reorder, or change layout properties !!
+   flex-shrink:0 + position:sticky + top:0 + .app-shell{overflow:clip}
+   together guarantee the bar is ALWAYS visible.
+   ──────────────────────────────────────────────────────────────── */
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--titlebar-height);
+  min-height: var(--titlebar-height);
+  background: var(--bg-titlebar);
+  padding: 0 4px 0 16px;
+  -webkit-app-region: drag;
+  z-index: 1000;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+}
+
+.title-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title-bar-icon {
+  font-size: 14px;
+}
+
+.title-bar-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+}
+
+.title-bar-controls {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  -webkit-app-region: no-drag;
+}
+
+.title-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 100%;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.title-btn:hover,
+.title-btn-hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.title-btn-close:hover,
+.title-btn-close-hover {
+  background: var(--accent-red) !important;
+  color: white !important;
+}
+
+/* ─── Desktop mode (inside native Rust shell) ─────────────────── */
+/* Title bar IS shown — it provides drag + window controls via IPC */
+.desktop-mode .title-bar {
+  /* Style tweaks for native frameless window */
+}
+
+/* ─── Sidebar (Grid Cell 1) ─────────────────────────────────────── */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* Width is controlled by Grid parent, but we ensure it fills the cell */
+  width: 100%;
+  min-width: 0;
+  background: var(--bg-sidebar);
+  border-radius: var(--radius-md);
+  /* Floating look */
+  overflow: hidden;
+  /* transition: width ... removed, we animate grid-template-columns instead (via JS) or just snap */
+}
+
+/* Collapsed state is handled by JS toggling a class on .app-body 
+   which changes grid-template-columns. 
+   Here we just ensure content adapts. */
+.app-body.collapsed-sidebar {
+  grid-template-columns: 72px 1fr 280px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  min-height: 48px;
+}
+
+.sidebar-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar-subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Progress bar */
+.sidebar-progress {
+  height: 3px;
+  background: var(--bg-input);
+  margin: 0;
+}
+
+.sidebar-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-brand), var(--accent-green));
+  transition: width var(--transition-normal);
+  min-width: 0;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Category header */
+.sidebar-category {
+  padding: 18px 8px 4px 18px;
+}
+
+.sidebar-category-text {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Channel list */
+.sidebar-channels {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 8px 8px 8px;
+  list-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-active) transparent;
+}
+
+.sidebar-channels::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-channels::-webkit-scrollbar-thumb {
+  background: var(--bg-active);
+  border-radius: 3px;
+}
+
+.sidebar-channels::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.channel-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 1px 0;
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+  text-align: left;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.channel-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-secondary);
+}
+
+.channel-active {
+  background: var(--bg-active) !important;
+  color: var(--text-primary) !important;
+}
+
+.channel-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.channel-name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.channel-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-primary);
+  background: var(--accent-brand);
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+}
+
+/* User area at bottom */
+.sidebar-footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: 8px;
+  background: var(--bg-titlebar);
+}
+
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.sidebar-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--accent-brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.sidebar-user-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.sidebar-username {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.sidebar-status {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+
+/* ─── Responsive (for browser testing) ──────────────────────────── */
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    left: 0;
+    top: var(--titlebar-height);
+    bottom: 0;
+    z-index: 100;
+    box-shadow: 4px 0 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .sidebar-collapsed {
+    transform: translateX(-100%);
+  }
+}

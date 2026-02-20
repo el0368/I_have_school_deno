@@ -13,13 +13,17 @@
  */
 
 const CHECK_MODE = Deno.args.includes("--check");
-const CSS_PATH = "static/discord.css";
+const CSS_PATH = "static/css/base.css";
 const GOLDEN_PATH = "tests/golden/css-tokens.txt";
 
 function extractTokens(css: string): string {
   // Capture everything inside :root { ... } including multiline
+  // Debug: Print what we are verifying
+  console.log(`Contract: Parsing ${css.length} bytes from CSS...`);
+  console.log(`Preview: ${css.slice(0, 100).replace(/\n/g, "\\n")}`);
+
   const rootMatch = css.match(/:root\s*\{([\s\S]*?)\}/);
-  if (!rootMatch) throw new Error("No :root block found in discord.css");
+  if (!rootMatch) throw new Error("No :root block found in static/css/base.css");
 
   const rootBlock = rootMatch[1];
   const lines = rootBlock.split("\n");

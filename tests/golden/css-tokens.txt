@@ -13,11 +13,14 @@
 --border-subtle: #3f4147
 --font-mono: "Consolas", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
 --font-primary: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+--layout-gap: 16px
+--layout-max-width: 1600px
 --radius-full: 9999px
 --radius-lg: 12px
 --radius-md: 8px
 --radius-sm: 4px
 --sidebar-width: 240px
+--space-container-padding: 24px
 --text-link: #00a8fc
 --text-muted: #949ba4
 --text-primary: #f2f3f5

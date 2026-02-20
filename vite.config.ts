@@ -9,7 +9,7 @@ export default defineConfig({
     mdx({
       jsxImportSource: "preact",
       remarkPlugins: [remarkMath],
-      rehypePlugins: [rehypeKatex],
+      // rehypePlugins: [rehypeKatex],
     }),
     fresh(),
   ],

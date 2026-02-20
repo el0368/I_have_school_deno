@@ -1,0 +1,109 @@
+================================================================================
+  THE LAWS OF SOVEREIGN ACADEMY
+  Machine-Enforced Rules for Architectural Integrity
+================================================================================
+
+  Version:  February 2026
+  Status:   ACTIVE ENFORCEMENT
+  Enforcer: deno task verify
+
+
+  In this project, "Laws" are not just suggestions. They are rules written into 
+  the code that the system automatically checks every time you save. If you 
+  break a law, the build fails and you cannot push your code.
+
+
+================================================================================
+  THE 5 ARCHITECTURAL LAWS (Import Boundaries)
+================================================================================
+
+  These laws are enforced by: scripts/verify-boundaries.ts
+  They ensure the project doesn't turn into "spaghetti code."
+
+  LAW 1: THE CORE IS RADIATIONAL
+    Inner layers (Logic/Lib) must NEVER depend on outer layers (UI/Routes).
+    Logic flows OUTWARDS; dependencies never flow INWARDS.
+
+  LAW 2: THE LIB IS PURE
+    Files in lib/ must be pure TypeScript. 
+    They may NOT import from islands/ (UI) or routes/ (Pages).
+    Violation: "A calculation function shouldn't care what a button looks like."
+
+  LAW 3: THE ISLANDS ARE INDEPENDENT
+    islands/ (interactive UI) may import from lib/ (Logic).
+    islands/ may NOT import from routes/ (Pages).
+    Violation: "A component should be reusable on any page, so it can't depend
+                on one specific route's logic."
+
+  LAW 4: THE ROUTES ARE VERTICAL
+    routes/ (Pages) may import from islands/ and lib/.
+    routes/ may NOT import from other routes sideways (except for layouts).
+    Violation: "Importing another page directly creates secret dependencies 
+                that make the app impossible to refactor."
+
+  LAW 5: THE CORE IS FROZEN
+    The desktop/ (Shell) and math-engine/ (WASM) are restricted.
+    No TypeScript code is allowed to enter these folders. They are written in
+    Rust and are sealed for stability.
+
+
+================================================================================
+  THE 3 STATE & CODE LAWS
+================================================================================
+
+  LAW 6: THE ZERO USESTATE LAW
+    You are forbidden from using React/Preact's `useState` for global state.
+    ALL application state must live in lib/state.ts using @preact/signals.
+    Why: Signals are deterministic, performant, and exist outside the UI tree.
+    Enforced by: GEMINI.md and AI Agent oversight.
+
+  LAW 7: THE 800-LINE LAW
+    No single file in this project should exceed 800 lines of code.
+    Any file that crosses this limit must be split into logical modules.
+    Why: Large files hide bugs and prevent AI agents from "seeing" the whole logic.
+    Enforced by: skills/coding-standards/SKILL.md.
+
+  LAW 8: THE DETERMINISM LAW
+    Critical math functions must be pure. 
+    Same Input → Bit-identical Output. 
+    Forbidden: Timestamps, random numbers, or hidden global variables inside
+               the math engine.
+    Enforced by: math-engine/tests/purity_test.rs (Runs 100x per scenario).
+
+
+================================================================================
+  THE 4 QUALITY GUARDIAN LAWS
+================================================================================
+
+  LAW 9: THE GOLDEN SNAPSHOT LAW
+    If you change the behavior of a function or component, you MUST update its
+    Golden Snapshot in tests/golden/*.txt.
+    If the code behavior changes without a snapshot update, the build FAILS.
+    Enforced by: scripts/snapshot-*.ts.
+
+  LAW 10: THE STARTUP HEALTH CHECK LAW
+    The application must verify its own math engine every time it starts.
+    If 1+1 does not equal 2 within the WASM engine, the app must halt and
+    display a red error gate.
+    Enforced by: lib/wasm-health-check.ts.
+
+  LAW 11: THE PRE-PUSH GATE LAW
+    No developer is allowed to push code that hasn't passed all laws.
+    Enforced by: .git/hooks/pre-push (automatically runs `deno task verify`).
+
+  LAW 12: THE AI ALIGNMENT LAW
+    AI coding agents (like Antigravity) must read and follow the project's
+    Knowledge Items and Workflows before making changes.
+    Enforced by: .agent/workflows/ and .gemini/ configuration.
+
+
+================================================================================
+  HOW TO CHECK THE LAWS
+================================================================================
+
+  Run this command to see if your code is "Law Abiding":
+  
+  deno task verify
+
+  If it outputs "✅ All laws respected", your code is ready for production.
+================================================================================

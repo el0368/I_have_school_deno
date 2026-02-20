@@ -66,37 +66,7 @@ export default function Sidebar() {
         })}
       </ul>
 
-      {/* Category label — Labs */}
-      <div class="sidebar-category">
-        <span class="sidebar-category-text">INTERACTIVE LABS</span>
-      </div>
 
-      <ul class="sidebar-channels">
-        <li>
-          <a href="/lesson/cube-scaling" class="channel-btn">
-            <span class="channel-icon">📦</span>
-            <span class="channel-name">The Cube (MDX)</span>
-          </a>
-        </li>
-        <li>
-          <a href="/geometry" class="channel-btn">
-            <span class="channel-icon">📐</span>
-            <span class="channel-name">Volume Simulator</span>
-          </a>
-        </li>
-        <li>
-          <a href="/lesson/T11_6_0_EN" class="channel-btn">
-            <span class="channel-icon">📏</span>
-            <span class="channel-name">Ratios (EN)</span>
-          </a>
-        </li>
-        <li>
-          <a href="/lesson/T11_6_0_TH" class="channel-btn">
-            <span class="channel-icon">📏</span>
-            <span class="channel-name">อัตราส่วน (TH)</span>
-          </a>
-        </li>
-      </ul>
 
       {/* Bottom user area */}
       <div class="sidebar-footer">

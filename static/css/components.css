@@ -1,0 +1,66 @@
+/* ─── Mode & Language Toggle Buttons ────────────────────────────── */
+
+.mode-toggle,
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--bg-titlebar);
+  border-radius: var(--radius-sm);
+  padding: 2px;
+}
+
+.mode-btn,
+.lang-btn {
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.mode-btn:hover,
+.lang-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.mode-btn-active,
+.lang-btn-active {
+  color: var(--text-primary) !important;
+  background: var(--bg-active) !important;
+}
+
+/* ─── 404 Page ──────────────────────────────────────────────────── */
+
+.error-404 {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.error-404-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.error-404-text {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.error-404-link {
+  color: var(--accent-brand);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error-404-link:hover {
+  text-decoration: underline;
+}

@@ -7,6 +7,7 @@ import TitleBar from "@/islands/TitleBar.tsx";
 import Sidebar from "@/islands/Sidebar.tsx";
 import MathStage from "@/islands/MathStage.tsx";
 import LessonToc from "@/islands/LessonToc.tsx";
+import { sidebarCollapsed } from "@/lib/state.ts";
 
 export default define.page(function Home() {
   return (
@@ -14,8 +15,10 @@ export default define.page(function Home() {
       {/* Custom frameless title bar */}
       <TitleBar />
 
-      {/* Main content area */}
-      <div class="app-body">
+      {/* Main content area (CSS Grid) */}
+      <div
+        class={`app-body ${sidebarCollapsed.value ? "collapsed-sidebar" : ""}`}
+      >
         {/* Discord-style channel sidebar */}
         <Sidebar />
 

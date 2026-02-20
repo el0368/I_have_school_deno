@@ -1,0 +1,377 @@
+/* ─── Math Stage (Main Content) ─────────────────────────────────── */
+
+.math-stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-content);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* ─── Lab Mode ──────────────────────────────────────────────────── */
+/* Fills the stage-content area so VolumeSimulator can fill it */
+.lab-body {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.lab-body > * {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Stage header (like Discord channel header) */
+.stage-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  min-height: 48px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-content);
+}
+
+.stage-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stage-hash {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.stage-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.stage-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stage-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.stage-wasm-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-yellow);
+  background: rgba(240, 178, 50, 0.15);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+/* Stage content area */
+.stage-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* ─── Scrollbar Styling ─────────────────────────────────────────── */
+
+.stage-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.stage-content::-webkit-scrollbar-thumb {
+  background: var(--bg-active);
+  border-radius: 4px;
+}
+
+.stage-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* WASM Health Check Warning */
+.health-check-warning {
+  background: rgba(250, 166, 26, 0.1);
+  border: 1px solid #faa61a;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  max-width: 600px;
+  width: 100%;
+  color: #faa61a;
+  font-size: 14px;
+}
+
+.health-check-warning strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.health-check-warning p {
+  margin: 0 0 8px;
+  color: var(--text-normal);
+}
+
+.health-check-warning ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.health-check-warning li {
+  color: var(--text-muted);
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* Loading state */
+.stage-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+}
+
+.loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border-subtle);
+  border-top-color: var(--accent-brand);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Empty state */
+.stage-empty {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+/* ─── Exercise Card ─────────────────────────────────────────────── */
+
+.exercise-card {
+  width: 100%;
+  max-width: 640px;
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  position: relative;
+}
+
+/* Streak badge */
+.streak-badge {
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #f0b232, #f23f43);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 8px rgba(240, 178, 50, 0.4);
+  animation: pulse-glow 2s ease infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 2px 8px rgba(240, 178, 50, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 2px 16px rgba(240, 178, 50, 0.7);
+  }
+}
+
+/* Problem display */
+.exercise-problem {
+  margin-bottom: 24px;
+}
+
+.exercise-type-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent-brand);
+  background: rgba(88, 101, 242, 0.15);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.exercise-question {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+/* Answer form */
+.exercise-form {
+  margin-bottom: 16px;
+}
+
+.exercise-input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.exercise-input {
+  flex: 1;
+  padding: 10px 14px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 16px;
+  font-family: var(--font-mono);
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.exercise-input::placeholder {
+  color: var(--text-muted);
+}
+
+.exercise-input:focus {
+  border-color: var(--accent-brand);
+}
+
+.exercise-input.input-correct {
+  border-color: var(--accent-green);
+  background: rgba(35, 165, 90, 0.1);
+}
+
+.exercise-input.input-incorrect {
+  border-color: var(--accent-red);
+  background: rgba(242, 63, 67, 0.1);
+}
+
+.exercise-submit {
+  padding: 10px 20px;
+  background: var(--accent-brand);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), opacity var(--transition-fast);
+}
+
+.exercise-submit:hover:not(:disabled) {
+  background: #4752c4;
+}
+
+.exercise-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.exercise-skip {
+  padding: 10px 16px;
+  background: var(--bg-active);
+  color: var(--text-secondary);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.exercise-skip:hover {
+  background: var(--border-strong);
+  color: var(--text-primary);
+}
+
+/* Result feedback */
+.exercise-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.result-correct {
+  background: rgba(35, 165, 90, 0.15);
+  color: var(--accent-green);
+  border: 1px solid rgba(35, 165, 90, 0.3);
+}
+
+.result-incorrect {
+  background: rgba(242, 63, 67, 0.15);
+  color: var(--accent-red);
+  border: 1px solid rgba(242, 63, 67, 0.3);
+}
+
+.result-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.result-text {
+  flex: 1;
+}
+
+/* Success animation overlay */
+.success-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.success-emoji {
+  font-size: 64px;
+  animation: success-pop 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@keyframes success-pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

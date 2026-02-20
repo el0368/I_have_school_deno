@@ -1,0 +1,525 @@
+================================================================================
+  SOVEREIGN ACADEMY — HOW THE PROJECT WORKS
+  A Comprehensive Guide for Developers and AI Agents
+================================================================================
+
+  Version:  February 2026
+  Stack:    Deno + Fresh 2.2.0 + Preact + Rust WASM + Rust Desktop Shell
+
+
+================================================================================
+  SECTION 1: THE BIG PICTURE
+================================================================================
+
+  Sovereign Academy is a math learning application built in a very unusual way.
+  It has THREE layers, each written in a different technology:
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │         LAYER 1: NATIVE SHELL (Rust)                           │
+  │   desktop/src/main.rs  →  sovereign.exe                        │
+  │   Draws the frameless window. Thinks it's a web browser.       │
+  └─────────────────────────────────────────────────────────────────┘
+                │  Opens a WebView pointing to:
+                ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │         LAYER 2: WEB APPLICATION (Deno + Fresh)                │
+  │   main.ts → routes/ → islands/ → lib/                          │
+  │   Serves the UI. Handles logic. Handles navigation.            │
+  └─────────────────────────────────────────────────────────────────┘
+                │  Loads and calls:
+                ▼
+  ┌─────────────────────────────────────────────────────────────────┐
+  │         LAYER 3: MATH ENGINE (Rust compiled to WASM)           │
+  │   math-engine/src/lib.rs → static/wasm/math_validator.wasm     │
+  │   Validates student answers. Pure math. No UI.                 │
+  └─────────────────────────────────────────────────────────────────┘
+
+  The three layers are INDEPENDENT. You can develop each one separately.
+  In browser mode, you only need Layer 2 + Layer 3.
+  In full desktop mode, all three layers run together.
+
+
+================================================================================
+  SECTION 2: THE NATIVE SHELL (Rust Desktop — desktop/)
+================================================================================
+
+  FILE: desktop/src/main.rs
+  STATUS: FROZEN CORE — Do NOT modify without a formal review plan.
+
+  What it does:
+    - Creates a native, FRAMELESS window (no OS title bar).
+    - Uses the "tao" crate for cross-platform window management.
+    - Uses the "wry" crate to embed a WebView (like a mini Chrome) inside.
+    - The WebView loads http://localhost:5173 (the Deno app).
+    - Handles native OS events (resize, drag, close).
+
+  Key Win32 techniques used (Windows):
+    - WM_NCHITTEST: Tells Windows which area of the window to drag/resize.
+    - DwmExtendFrameIntoClientArea: Removes the OS title bar chrome.
+    - WM_NCCALCSIZE: Removes the standard window border.
+    - 8-direction resize handles injected via JavaScript.
+
+  IPC Bridge:
+    The WebView can send messages to the Rust shell via a JavaScript API.
+    The shell responds by performing native window operations.
+
+  How to run:
+    deno task launch:desktop   ← Starts BOTH the Deno server and the Rust shell
+    deno task build:desktop    ← Compiles to desktop/target/release/sovereign.exe
+
+
+================================================================================
+  SECTION 3: THE WEB APPLICATION (Deno + Fresh 2.2.0)
+================================================================================
+
+  This is the heart of the application. It runs as a web server using Deno
+  and the Fresh framework. The UI is built with Preact (a tiny React clone).
+
+  ── 3.1 STARTUP FLOW ─────────────────────────────────────────────────────────
+
+    1. main.ts starts the Deno HTTP server (`deno serve`).
+    2. Fresh reads fresh.gen.ts to know all routes and islands.
+    3. Browser requests http://localhost:5173 (or :8000 in production).
+    4. Fresh renders routes/_app.tsx as the HTML shell:
+         - Adds <link> to static/discord.css (the theme).
+         - Adds the <body class="discord-app"> class.
+    5. Fresh renders routes/index.tsx as the page layout (see below).
+    6. Vite (inside Fresh) handles hot module reloading in dev mode.
+
+  ── 3.2 THE PAGE LAYOUT (routes/index.tsx) ───────────────────────────────────
+
+    The main page is assembled like a Discord window:
+
+    ┌───────────────────────────────────────────────────────────────┐
+    │  TitleBar.tsx (custom drag + min/max/close buttons)          │
+    ├──────────┬───────────────────────────────────┬───────────────┤
+    │          │                                   │               │
+    │ Sidebar  │      MathStage.tsx                │  LessonToc    │
+    │ .tsx     │  (main learning area)             │  .tsx         │
+    │          │                                   │  (right TOC)  │
+    │  Topic   │  Exercise Card / Lesson View /    │               │
+    │  List    │  Simulator                        │  Links to     │
+    │          │                                   │  sections     │
+    └──────────┴───────────────────────────────────┴───────────────┘
+
+  ── 3.3 ISLANDS (islands/) ───────────────────────────────────────────────────
+
+    In Fresh, "Islands" are the interactive parts of the page.
+    Everything NOT in an island is server-rendered HTML (static and fast).
+    Islands are hydrated in the browser (they become interactive).
+
+    islands/TitleBar.tsx:
+      - Shows the app name and window controls (minimize/maximize/close).
+      - Buttons POST to /api/window/[action] which calls the Rust IPC bridge.
+      - Uses useSignalEffect to add/remove the "maximized" CSS class on <body>,
+        which adds 8px padding to compensate for OS-level window expansion.
+      - The title bar is position:sticky so it is ALWAYS visible.
+
+    islands/Sidebar.tsx:
+      - Shows the 19 math topics as Discord-style "channels".
+      - Reads the TOPICS list from lib/state.ts.
+      - When a topic is clicked, calls selectTopic(id) to update global state.
+      - Shows a progress bar at the top and per-topic completion badges.
+
+    islands/MathStage.tsx:
+      - The main learning area. Shows either:
+          a) An exercise card (a math problem to solve).
+          b) Lesson view (markdown text explaining a concept).
+          c) Volume Simulator (an interactive 3D shape simulator).
+      - Loads WASM on startup and runs a health check (3 validation tests).
+      - Loads exercises from the binary file server via lib/exercise-loader.ts.
+      - On answer submit, calls the WASM engine to validate the answer.
+      - On correct answer, auto-advances after 1.5 seconds.
+
+    islands/LessonToc.tsx:
+      - Right sidebar showing a table of contents for the current lesson.
+      - When a TOC link is clicked, smoothly scrolls the .stage-content div
+        to that section (using manual offsetTop calculation — NOT scrollIntoView,
+        because scrollIntoView could scroll the entire page and hide the TitleBar).
+      - Also shows "Related Topics" links.
+
+    islands/VolumeSimulator.tsx:
+      - A fully interactive 3D geometry simulator.
+      - Renders isometric 3D shapes (Cube, Rectangular Prism, Pyramid) as SVGs.
+      - Users can adjust sliders (length, width, height) in real time.
+      - Calculates and displays volume and surface area formulas live.
+      - Has a "net view" that shows the unfolded shape.
+
+  ── 3.4 ROUTES (routes/) ─────────────────────────────────────────────────────
+
+    routes/_app.tsx:
+      Wraps every page with the HTML skeleton:
+      <html>, <head>, <link rel="stylesheet">, <body class="discord-app">.
+
+    routes/index.tsx:
+      The main "/" page. Assembles TitleBar + Sidebar + MathStage + LessonToc.
+
+    routes/lesson/[...slug].tsx:
+      Serves MDX lesson content. The [slug] matches any file path under content/.
+      Example: /lesson/lesson-demo → content/lesson-demo.mdx
+
+    routes/api/window/[action].ts:
+      REST API called by TitleBar buttons. Forwards to native Rust shell via IPC.
+      Actions: minimize, maximize, close, resize.
+
+    routes/api/manifest.ts:
+      Returns JSON of all 19 topics and their 1,814 exercise file paths.
+
+    routes/_middleware.ts:
+      Intercepts requests to /exercises/*.bin and streams the binary files
+      efficiently (zero-copy). Sets proper caching headers.
+
+  ── 3.5 LIB (lib/) ───────────────────────────────────────────────────────────
+
+    These are pure TypeScript utility files. They have no UI code.
+    They are tested directly with Vitest.
+
+    lib/state.ts:
+      The global application state. Uses Preact Signals (NOT useState).
+      Signals are reactive — when a signal changes, any island that reads it
+      automatically re-renders. Zero boilerplate.
+
+      Key signals:
+        activeTopic     → Which topic (1-19) is selected.
+        activeTopicData → The Topic object for the selected topic (computed).
+        currentExercise → The exercise being shown.
+        studentAnswer   → What the student typed.
+        lastResult      → The result from the last WASM validation.
+        progress        → Map(topicId → exercisesCompleted).
+        totalCompleted  → Sum of all progress (computed).
+        isMaximized     → Whether the window is maximized.
+
+      Key actions:
+        selectTopic(id)      → Change topic and reset exercise state.
+        markCompleted(id)    → Increment progress counter for that topic.
+
+    lib/exercise-loader.ts:
+      Fetches exercise binary files (.bin) from the server.
+      Parses the binary format:
+        Byte 0: Type (1=arithmetic, 2=fraction, 3=equation)
+        Bytes 1-2: Problem string length (uint16)
+        Bytes 3+: Problem string (UTF-8)
+        ...same pattern for answer string
+      Uses an in-memory Map<string, Uint8Array> cache to avoid re-fetching.
+
+    lib/validation.ts:
+      Client-side TypeScript validation helpers (type checks, input sanitization).
+      Does NOT do math — that is the WASM engine's job.
+
+    lib/wasm-health-check.ts:
+      Runs 3 sanity tests against the WASM engine at startup:
+        1+1 = 2?  2*3 = 6?  4/2 = 2?
+      If any fail, displays a red warning banner in MathStage.
+
+
+================================================================================
+  SECTION 4: THE MATH ENGINE (Rust WASM — math-engine/)
+================================================================================
+
+  FILE: math-engine/src/lib.rs
+  OUTPUT: static/wasm/math_validator_bg.wasm + math_validator.js
+
+  This is the brain of the validation system. All math checking happens here.
+  It is a PURE RUST LIBRARY compiled to WebAssembly.
+
+  What it does:
+    - Parses and evaluates math expressions using a hand-written evaluator.
+    - Compares the student's answer to the expected answer.
+    - Returns detailed feedback (is it correct? what's the hint?).
+
+  Key exported functions (callable from JavaScript):
+    validate_arithmetic(expression, expected_answer) → bool
+      Example: validate_arithmetic("2+2", 4) → true
+
+    validate_equation(expression, expected_answer) → bool
+      Substitutes a variable and checks both sides balance.
+
+    validate_fraction(student_fraction, correct_fraction) → bool
+      Cross-multiplication comparison (no floating point drift).
+
+    simplify_fraction(numerator, denominator) → string
+      Returns the lowest-terms representation as "N/D".
+
+    check_answer(type, problem, student_answer) → JSON string
+      Master function — routes to the correct validator and returns:
+      { correct: bool, hint: string, problem: string, answer: string }
+
+    batch_validate(expressions[], answers[]) → bool[]
+      Validates multiple answers at once (for lesson completion checks).
+
+  Why Rust (not JavaScript)?
+    - Determinism. JavaScript floats can behave oddly (0.1 + 0.2 ≠ 0.3).
+    - Rust evaluates fractions using integer arithmetic — no rounding errors.
+    - Performance. WASM runs at near-native speed.
+    - Frozen Core principle — the math logic is sealed and tested separately.
+
+  Purity Tests (math-engine/tests/purity_test.rs):
+    22 property tests that each run 100 times.
+    They verify the WASM functions are DETERMINISTIC:
+      "validate_arithmetic('2+2', 4) must ALWAYS return true, never sometimes."
+    This catches hidden state bugs (e.g., a random seed leaking in).
+
+  How to compile:
+    deno task build:wasm
+    → Output written to static/wasm/
+
+
+================================================================================
+  SECTION 5: THE CSS THEME (static/)
+================================================================================
+
+  The visual theme is a faithful Discord dark-mode recreation.
+  The CSS is split into modular files:
+
+  static/discord.css         ← Entry point. Imports all modules below.
+
+  static/css/base.css        ← CSS variables (color palette, fonts, sizes).
+                                The :root block. All other files use var(--...).
+  static/css/layout.css      ← App shell, title bar, sidebar layout.
+  static/css/components.css  ← Toggle buttons, error pages.
+  static/css/modules/
+    math-stage.css           ← Exercise cards, WASM badge, loading states.
+    lesson.css               ← Lesson markdown, MDX prose styles, KaTeX math.
+    lesson-toc.css           ← Right sidebar TOC, related topics.
+    simulator.css            ← Volume simulator layout and sliders.
+
+  Key Design Decisions:
+    .app-shell { overflow: clip }
+      Uses "clip" not "hidden". This prevents JavaScript's scrollIntoView()
+      from accidentally scrolling the title bar off-screen.
+
+    .title-bar { position: sticky; top: 0 }
+      Keeps the title bar visible at all times, even if content is long.
+
+    body.maximized .app-shell { padding: 8px }
+      On Windows, maximizing a frameless window expands it 8px past the
+      screen edge. This 8px padding compensates so nothing is clipped.
+
+
+================================================================================
+  SECTION 6: THE ANTI-LOGIC DRIFT SYSTEM
+================================================================================
+
+  "Logic Drift" is the silent killer of projects. It happens when code still
+  compiles and tests pass, but the actual behavior has subtly changed.
+  Sovereign Academy uses a "Defense in Depth" strategy with 7 distinct pillars.
+
+  Full details in: docs/anti_logic_drift_principles.txt
+
+  ── PILLAR 1: LAWS OVER OPINIONS (Enforcement) ────────────────────────────────
+
+    Rules that aren't machine-enforced don't exist.
+    • scripts/verify-boundaries.ts: Prevents "spaghetti code" by blocking
+      illegal imports between layers (e.g., UI islands cannot import Routes).
+    • deno task check: Blocks the build if there are any type errors or lint
+      violations. This is the "Zero-Tolerance" policy.
+
+  ── PILLAR 2: DETERMINISM (Pure Math Engine) ──────────────────────────────────
+
+    The same input must ALWAYS produce the same bit-identical output.
+    • math-engine/tests/purity_test.rs: Runs 21 math scenarios 100 times each.
+      If a validator returns "true" for 2+2=4 once, but "false" the next time
+      due to hidden state or floating-point drift, the project SCREAMS.
+    • Deterministic Rust: Fractions are validated using integer cross-
+      multiplication, bypassing JavaScript's unreliable floating-point math.
+
+  ── PILLAR 3: ZERO TRUST (Multiple Verification Layers) ───────────────────────
+
+    We don't trust the code, and we don't even trust the tests.
+    • lib/wasm-health-check.ts: Even if the code passes unit tests, the APP
+      itself verifies the WASM engine's health on Every. Single. Startup.
+    • Double Verification: Many features are tested both by Rust unit tests
+      and TypeScript Vitest unit tests to ensure no single-point-of-failure.
+
+  ── PILLAR 4: OBSERVABILITY (Golden Snapshots) ────────────────────────────────
+
+    Silent failures are impossible because we snapshot the "perfect" state.
+    • Layer 1 (Static): tests/golden/lib-contracts.txt (API signatures)
+    • Layer 2 (State): tests/golden/state-flow.log (Logic sequences)
+    • Layer 3 (UI): tests/golden/ui-*.html (HTML structure)
+    • Layer 4 (Design): tests/golden/css-tokens.txt (Color/token variables)
+    • Layer 5 (Engine): tests/golden/physics.txt (Math results)
+
+    Any change to the code that alters one of these snapshots triggers a
+    "DRIFT DETECTED" error in CI, forcing a conscious architectural review.
+
+  ── PILLAR 5: QUANTIFIED RISK (FMEA) ──────────────────────────────────────────
+
+    We don't guess where bugs might be. We calculate it.
+    • docs/file.todo & docs/anti_logic_drift_principles.txt:
+      Critical systems (like the native shell and math engine) are identified
+      as "Frozen Cores". They have the highest RPN (Risk Priority Number)
+      and require the most verification steps to modify.
+
+  ── PILLAR 6: TIERED CRITICALITY (Frozen Core) ────────────────────────────────
+
+    Not all code is equal.
+    • desktop/src/main.rs (Shell) and math-engine/ (Logic) are protected.
+    • They are "Frozen" — they rarely change, and when they do, they require
+      running the full `deno task verify` suite multiple times.
+    • UI styles and content are "Soft" — they can iterate quickly as long as
+      they don't break the "Hard" logic below them.
+
+  ── PILLAR 7: TESTED RECOVERY (Git Bisect) ────────────────────────────────────
+
+    If the system drifts, we find the culprit in minutes, not hours.
+    • scripts/bisect-verify.ts: A specialized tool that automates the
+      "Git Bisect" process.
+    • If a bug is found today that wasn't there last week, you run:
+      `git bisect run deno task bisect:verify`
+      and the computer mathematically narrows down the exact line of code that
+      caused the logic drift.
+
+
+  ── THE MASTER VERIFICATION GATE (deno task verify) ──────────────────────────
+
+    This command runs EVERY guard in order. If one fails, the project is considered
+    "Unstable" and cannot be pushed to production.
+
+    1. deno lint / fmt / check  (Code Quality)
+    2. verify-boundaries.ts      (Architecture Guard)
+    3. cargo test                (Math Engine Unit + Purity Tests)
+    4. vitest                    (TypeScript Unit Tests)
+    5. snapshot verify           (Snapshot Drift Detection)
+
+  Pre-push hook (.git/hooks/pre-push):
+    Blocks `git push` if `deno task verify` fails. The code on GitHub is
+    guaranteed to be bit-perfect and regression-free.
+
+
+================================================================================
+  SECTION 7: HOW DATA FLOWS — EXAMPLE WALKTHROUGH
+================================================================================
+
+  Scenario: Student selects "Fractions" topic and answers a math problem.
+
+  Step 1 — Topic Selection
+    → User clicks "🥧 Fractions" in Sidebar.tsx
+    → Sidebar calls selectTopic(6) from lib/state.ts
+    → The activeTopic signal changes to 6.
+
+  Step 2 — Exercise Loading
+    → MathStage.tsx is subscribed to activeTopic. It re-renders.
+    → MathStage calls lib/exercise-loader.ts:
+        loadExercise("/exercises/fractions/topic-6-001.bin")
+    → The loader fetches the .bin file (or uses the in-memory cache).
+    → The binary is parsed: type=fraction, problem="1/2 + ?= 3/4", answer="1/4"
+    → The currentExercise signal is updated.
+
+  Step 3 — User Interaction
+    → MathStage renders the exercise card with the problem.
+    → Student types "1/4" in the input box.
+    → studentAnswer signal updates on every keystroke.
+
+  Step 4 — Answer Validation
+    → Student clicks "Check Answer".
+    → MathStage calls the WASM engine:
+        wasmModule.check_answer("fraction", "1/2 + ?= 3/4", "1/4")
+    → Rust evaluates: cross-multiplies, compares. Returns:
+        { correct: true, hint: "Correct!", problem: "...", answer: "1/4" }
+    → lastResult signal is updated.
+
+  Step 5 — Feedback + Advance
+    → MathStage shows the green "Correct! ✓" result card.
+    → markCompleted(6) is called → progress signal updates.
+    → 1.5 seconds later, MathStage auto-loads the next exercise.
+    → Sidebar re-renders because progress changed → badge updates to show +1.
+
+
+================================================================================
+  SECTION 8: DEVELOPMENT COMMANDS REFERENCE
+================================================================================
+
+  Start development server (browser mode):
+    deno task dev              → http://localhost:5173
+
+  Start full desktop app:
+    deno task launch:desktop   → Compiles Rust + starts server + opens window
+
+  Run ALL verification (before pushing):
+    deno task verify
+
+  Run only unit tests:
+    deno task test:unit        → 70 TypeScript tests (Vitest)
+    deno task test:rust        → 31 Rust tests (cargo test)
+
+  Update golden snapshots (after intentional changes):
+    deno task snapshot:all
+
+  Compile WASM math engine:
+    deno task build:wasm
+
+  Format code:
+    deno fmt
+
+
+================================================================================
+  SECTION 9: THE FILE TREE (Where Is Everything?)
+================================================================================
+
+  Ihaveschool_deno/
+  │
+  ├── desktop/               ← Rust native window shell (FROZEN CORE)
+  │   └── src/main.rs        ← The frameless window — DO NOT TOUCH
+  │
+  ├── math-engine/           ← Rust math validation (FROZEN CORE)
+  │   ├── src/lib.rs         ← WASM functions
+  │   └── tests/purity_test.rs ← 22 purity/determinism tests
+  │
+  ├── static/                ← Built assets served to browser
+  │   ├── discord.css        ← CSS manifest (imports modules below)
+  │   ├── css/               ← Modular CSS
+  │   │   ├── base.css       ← Color variables
+  │   │   ├── layout.css     ← Shell + sidebar + title bar
+  │   │   ├── components.css ← Toggle buttons, error pages
+  │   │   └── modules/       ← Feature-specific CSS
+  │   └── wasm/              ← Compiled .wasm + .js glue
+  │
+  ├── routes/                ← Server-rendered pages (Fresh)
+  │   ├── _app.tsx           ← HTML shell template
+  │   ├── index.tsx          ← Main page layout
+  │   ├── lesson/[...slug].tsx ← MDX lesson page
+  │   └── api/               ← REST API endpoints
+  │
+  ├── islands/               ← Interactive Preact components
+  │   ├── TitleBar.tsx       ← Window controls + drag region
+  │   ├── Sidebar.tsx        ← Topic channel list
+  │   ├── MathStage.tsx      ← Main learning area
+  │   ├── LessonToc.tsx      ← Right TOC sidebar
+  │   └── VolumeSimulator.tsx ← 3D geometry explorer
+  │
+  ├── lib/                   ← Pure TypeScript utilities
+  │   ├── state.ts           ← Global signals (Preact Signals)
+  │   ├── exercise-loader.ts ← Binary .bin file parser + cache
+  │   ├── validation.ts      ← Input helpers
+  │   └── wasm-health-check.ts ← Startup WASM verification
+  │
+  ├── content/               ← MDX lesson files
+  │   └── lesson-demo.mdx    ← Example KaTeX + markdown lesson
+  │
+  ├── tests/
+  │   ├── golden/            ← Snapshot baselines (tracked in git)
+  │   └── e2e/               ← Playwright end-to-end tests
+  │
+  ├── scripts/               ← Maintenance and verification scripts
+  │   ├── snapshot-*.ts      ← Generate golden snapshot files
+  │   ├── verify-*.ts        ← Compare snapshots (drift detection)
+  │   └── bisect-verify.ts   ← Git bisect helper
+  │
+  ├── docs/                  ← Documentation
+  │   ├── project_overview.txt       ← THIS FILE
+  │   └── anti_logic_drift_principles.txt ← Quality philosophy
+  │
+  ├── skills/                ← AI agent instruction files
+  │   ├── sovereign-core/    ← Core dev patterns
+  │   ├── fresh-v2/          ← Fresh 2.x technical reference
+  │   └── coding-standards/  ← 800 LOC rule + naming conventions
+  │
+  ├── deno.json              ← Config + all task commands
+  ├── GEMINI.md              ← AI agent context (project rules)
+  └── file.todo              ← Project roadmap (source of truth)
+
+
+================================================================================
+  END OF DOCUMENT
+================================================================================
