@@ -24,7 +24,7 @@
 }
 
 /* Fresh <Partial> wrapper must fill the flex parent */
-body.discord-app>div {
+body.discord-app > div {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -49,7 +49,7 @@ body.discord-app>div {
 }
 
 /* If app-body is inside a flex parent, ensure it takes space but respects max-width */
-.app-shell>.app-body {
+.app-shell > .app-body {
   flex: 1;
 }
 

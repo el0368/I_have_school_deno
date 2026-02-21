@@ -31,9 +31,15 @@ function denoJunctionFix() {
         [/\/\.deno\/preact@[^/]+\/node_modules\/preact\/hooks\//, "preact_hooks"],
         [/\/\.deno\/preact@[^/]+\/node_modules\/preact\/compat\//, "preact_compat"],
         [/\/\.deno\/preact@[^/]+\/node_modules\/preact\/jsx-runtime\//, "preact_jsx-runtime"],
-        [/\/\.deno\/preact@[^/]+\/node_modules\/preact\/jsx-dev-runtime\//, "preact_jsx-dev-runtime"],
+        [
+          /\/\.deno\/preact@[^/]+\/node_modules\/preact\/jsx-dev-runtime\//,
+          "preact_jsx-dev-runtime",
+        ],
         [/\/\.deno\/@preact\+signals@[^/]+\/.*\/signals\.module\.js/, "@preact_signals"],
-        [/\/\.deno\/preact-render-to-string@[^/]+\/.*\/index\.module\.js/, "preact-render-to-string"],
+        [
+          /\/\.deno\/preact-render-to-string@[^/]+\/.*\/index\.module\.js/,
+          "preact-render-to-string",
+        ],
       ];
 
       server.middlewares.use(
@@ -116,7 +122,6 @@ function readBrowserHash(server: any): string {
   } catch { /* file not ready yet */ }
   return "";
 }
-
 
 // ─── Custom remark plugin ────────────────────────────────────────────
 // Converts `math` / `inlineMath` mdast nodes (from remark-math) into

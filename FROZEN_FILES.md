@@ -6,11 +6,11 @@ Any accidental edit immediately fails the build.
 
 ## Commands
 
-| Action | Command |
-|---|---|
+| Action                                             | Command                        |
+| -------------------------------------------------- | ------------------------------ |
 | Seal a file (first time or after intentional edit) | `deno task ledger:seal <path>` |
-| Verify all frozen files | `deno task ledger:verify` |
-| Full quality gate (includes ledger check) | `deno task verify` |
+| Verify all frozen files                            | `deno task ledger:verify`      |
+| Full quality gate (includes ledger check)          | `deno task verify`             |
 
 ## How to Seal a File
 
@@ -37,6 +37,7 @@ See [`ledger.json`](./ledger.json) for the live list and hashes.
 ## Freeze Criteria
 
 A file is ready to be frozen when:
+
 - [ ] It passes `deno task verify`
 - [ ] It has been visually confirmed in `deno task desktop`
 - [ ] No TODOs or open issues reference it

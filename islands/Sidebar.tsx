@@ -66,8 +66,6 @@ export default function Sidebar() {
         })}
       </ul>
 
-
-
       {/* Bottom user area */}
       <div class="sidebar-footer">
         <div class="sidebar-user">

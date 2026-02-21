@@ -128,7 +128,6 @@ export default function MyIsland() {
 - **KaTeX Styling**: `katex.min.css` loaded in `_app.tsx` head
 - **Tables**: GFM tables enabled via `remark-gfm`
 
-
 ## Anti-Logic Drift Rules
 
 **Pillar 2 & 3 Integration:**
@@ -267,6 +266,7 @@ Two known Windows-specific bugs exist in this stack. Both are permanently fixed
 in `vite.config.ts` — **do not revert these settings**.
 
 **Bug 1 — OS Error 123 (illegal filename characters)**
+
 - Vite's dep optimizer appends `?v=<hash>` to import paths for cache-busting.
   On Windows, `readfile` treats the full string (including `?`) as a filesystem
   path, which is invalid → `500 Internal Server Error`.
@@ -275,6 +275,7 @@ in `vite.config.ts` — **do not revert these settings**.
   file content directly with correct MIME types.
 
 **Bug 2 — Double Preact Instance (`__H` is undefined)**
+
 - Fresh JSR modules import Preact from raw `.deno/` paths. Islands import Preact
   from optimized `/.vite/deps/` paths.
 - **Consequence**: Two distinct Preact instances load. Hooks register on one,
@@ -285,6 +286,7 @@ in `vite.config.ts` — **do not revert these settings**.
   This forces ALL code to share the single optimized Preact instance.
 
 **Bug 3 — EISDIR: illegal operation on a directory**
+
 - Deno 2.6's `node:fs` compat layer throws fatal errors when chokidar (Vite's watcher)
   attempts to `lstat` NTFS junction points inside `node_modules/.deno`.
 - **Fix (FROZEN)**: `server: { watch: null }` in `vite.config.ts`.
@@ -292,6 +294,7 @@ in `vite.config.ts` — **do not revert these settings**.
   but auto-reload on save is disabled to prevent crashing.
 
 **Recovery steps** (if either error reappears):
+
 ```bash
 powershell -Command "Stop-Process -Name deno -Force -ErrorAction SilentlyContinue"
 powershell -Command "Remove-Item .vite -Recurse -Force -ErrorAction SilentlyContinue"
